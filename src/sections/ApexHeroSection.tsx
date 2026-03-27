@@ -2,9 +2,9 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, Phone, Shield, Clock, Users } from 'lucide-react';
 
 const stats = [
-  { icon: Users, label: 'Board-Certified Physician Experts', value: '50+' },
+  { icon: Shield, label: 'Clean Malpractice Record', value: '100%' },
   { icon: Clock, label: 'Avg. Case Review Turnaround', value: '7 Days' },
-  { icon: Shield, label: 'Zero Malpractice History', value: '100%' },
+  { icon: Users, label: 'Duke-Trained Physician Leadership', value: 'MD' },
 ];
 
 export function ApexHeroSection() {
