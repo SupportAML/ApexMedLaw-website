@@ -99,21 +99,21 @@ export function ContactSection() {
   return (
     <section
       id="contact"
-      className="relative w-full py-20 lg:py-28 bg-navy overflow-hidden z-[90]"
+      className="relative w-full py-12 lg:py-28 bg-navy overflow-hidden z-[90]"
     >
       {/* Background pattern */}
       <div className="absolute inset-0 neural-bg opacity-[0.05]" />
 
-      <div className="relative z-10 w-full px-6 lg:px-12">
+      <div className="relative z-10 w-full px-5 lg:px-12">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-16">
             {/* Content */}
-            <div className="space-y-8">
+            <div className="space-y-5 lg:space-y-8">
               <div>
-                <span className="inline-block px-4 py-2 bg-electric/20 text-electric rounded-full text-sm font-medium mb-4">
+                <span className="inline-block px-3 py-1.5 lg:px-4 lg:py-2 bg-electric/20 text-electric rounded-full text-xs lg:text-sm font-medium mb-3 lg:mb-4">
                   Retain an Expert
                 </span>
-                <h2 className="display-heading text-display-lg text-white mb-4">
+                <h2 className="display-heading text-display-lg text-white mb-3 lg:mb-4">
                   SUBMIT A
                   <br />
                   <span className="text-electric">CASE INQUIRY</span>
@@ -150,8 +150,8 @@ export function ContactSection() {
                 </div>
               </div>
 
-              {/* Social Links */}
-              <div className="flex items-center gap-4">
+              {/* Social Links — hidden on mobile to save space */}
+              <div className="hidden lg:flex items-center gap-4">
                 <a
                   href="https://linkedin.com"
                   target="_blank"
@@ -173,7 +173,7 @@ export function ContactSection() {
 
             {/* Form */}
             <div>
-              <div className="bg-white rounded-3xl shadow-2xl p-6 lg:p-10">
+              <div className="bg-white rounded-2xl lg:rounded-3xl shadow-2xl p-5 lg:p-10">
                 {submitted ? (
                   <div className="h-full flex flex-col items-center justify-center text-center py-12">
                     <div className="w-20 h-20 rounded-full bg-electric/10 flex items-center justify-center mb-6">
@@ -394,7 +394,7 @@ export function ContactSection() {
           </div>
 
           {/* Footer */}
-          <footer className="mt-20 pt-8 border-t border-white/10">
+          <footer className="mt-10 lg:mt-20 pt-6 lg:pt-8 border-t border-white/10">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
               <p className="text-white/50 text-sm">
                 © 2026 ApexMedLaw. All Rights Reserved.

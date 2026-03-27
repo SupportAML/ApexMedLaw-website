@@ -21,9 +21,9 @@ const leaders = [
 
 export function ApexTeamSection() {
   return (
-    <section id="team" className="relative w-full py-20 lg:py-32 px-6 lg:px-12 bg-white">
+    <section id="team" className="relative w-full py-12 lg:py-32 px-5 lg:px-12 bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="max-w-2xl mb-16">
+        <div className="max-w-2xl mb-8 lg:mb-16">
           <span className="text-sm font-semibold text-electric uppercase tracking-widest">
             Leadership
           </span>
@@ -35,26 +35,26 @@ export function ApexTeamSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 mb-16">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-12 mb-10 lg:mb-16">
           {leaders.map((leader, index) => (
             <div key={index} className="group">
-              {/* Headshot */}
-              <div className="relative mb-6 overflow-hidden rounded-2xl">
-                <div className="aspect-[4/5] relative">
+              {/* Headshot — square on mobile, taller on desktop */}
+              <div className="relative mb-4 lg:mb-6 overflow-hidden rounded-xl lg:rounded-2xl">
+                <div className="aspect-square md:aspect-[4/5] relative">
                   <img
                     src={leader.photo}
                     alt={leader.name}
                     className="w-full h-full object-cover object-top"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-navy/60 via-transparent to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <p className="text-electric font-semibold text-sm mb-1">
+                  <div className="absolute bottom-0 left-0 right-0 p-4 lg:p-6">
+                    <p className="text-electric font-semibold text-xs lg:text-sm mb-0.5 lg:mb-1">
                       {leader.title}
                     </p>
-                    <h3 className="text-2xl lg:text-3xl font-bold text-white">
+                    <h3 className="text-xl lg:text-3xl font-bold text-white">
                       {leader.name}
                     </h3>
-                    <p className="text-white/80 text-sm mt-1">
+                    <p className="text-white/80 text-xs lg:text-sm mt-0.5 lg:mt-1">
                       {leader.specialty}
                     </p>
                   </div>
@@ -82,11 +82,11 @@ export function ApexTeamSection() {
         </div>
 
         {/* Why This Matters */}
-        <div className="bg-clinical rounded-xl p-8 lg:p-12 border border-slate-200">
-          <h3 className="text-xl font-bold text-navy mb-6">
+        <div className="bg-clinical rounded-xl p-5 lg:p-12 border border-slate-200">
+          <h3 className="text-lg lg:text-xl font-bold text-navy mb-4 lg:mb-6">
             What Sets Our Experts Apart
           </h3>
-          <div className="grid sm:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-3 gap-5 lg:gap-8">
             <div className="flex flex-col items-start gap-3">
               <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-electric/10">
                 <GraduationCap className="h-6 w-6 text-electric" />

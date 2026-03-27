@@ -35,33 +35,33 @@ const steps = [
 
 export function ApexApproachSection() {
   return (
-    <section id="approach" className="relative w-full py-20 lg:py-32 px-6 lg:px-12 bg-clinical">
+    <section id="approach" className="relative w-full py-12 lg:py-32 px-5 lg:px-12 bg-clinical">
       <div className="max-w-7xl mx-auto">
-        <div className="max-w-2xl mb-16">
+        <div className="max-w-2xl mb-8 lg:mb-16">
           <span className="text-sm font-semibold text-electric uppercase tracking-widest">
             How We Work
           </span>
-          <h2 className="text-display-lg font-bold text-navy mt-3 mb-4">
+          <h2 className="text-display-lg font-bold text-navy mt-3 mb-3 lg:mb-4">
             Efficient Process. Thorough Results.
           </h2>
-          <p className="text-lg text-slate-600">
+          <p className="text-base lg:text-lg text-slate-600">
             From first inquiry to courtroom testimony, we move with urgency and precision — because your deadlines don't wait.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-4 lg:gap-12">
           {steps.map((step, index) => (
-            <div key={index} className="flex gap-6">
+            <div key={index} className="flex gap-3 lg:gap-6">
               <div className="flex-shrink-0">
-                <div className="flex items-center justify-center h-14 w-14 rounded-full bg-electric text-white font-bold text-lg">
+                <div className="flex items-center justify-center h-10 w-10 lg:h-14 lg:w-14 rounded-full bg-electric text-white font-bold text-sm lg:text-lg">
                   {step.number}
                 </div>
               </div>
               <div className="flex-grow">
-                <h3 className="text-lg font-semibold text-navy mb-2">
+                <h3 className="text-sm lg:text-lg font-semibold text-navy mb-1 lg:mb-2">
                   {step.title}
                 </h3>
-                <p className="text-slate-600 leading-relaxed">
+                <p className="text-slate-600 text-xs lg:text-base leading-relaxed">
                   {step.description}
                 </p>
               </div>
@@ -69,12 +69,12 @@ export function ApexApproachSection() {
           ))}
         </div>
 
-        <div className="mt-16 bg-white rounded-xl p-8 lg:p-12 border-2 border-electric/20">
-          <h3 className="text-2xl font-bold text-navy mb-4 flex items-center gap-2">
-            <CheckCircle2 className="h-6 w-6 text-electric" />
+        <div className="mt-8 lg:mt-16 bg-white rounded-xl p-5 lg:p-12 border-2 border-electric/20">
+          <h3 className="text-lg lg:text-2xl font-bold text-navy mb-3 lg:mb-4 flex items-center gap-2">
+            <CheckCircle2 className="h-5 w-5 lg:h-6 lg:w-6 text-electric" />
             Why Attorneys Trust ApexMedLaw
           </h3>
-          <div className="space-y-3 text-slate-700">
+          <div className="space-y-2 lg:space-y-3 text-slate-700 text-sm lg:text-base">
             <p>
               <span className="font-semibold">Subspecialty alignment</span> — Your expert's qualifications match your specific case, not just a general specialty.
             </p>

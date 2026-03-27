@@ -52,24 +52,24 @@ export function FAQSection() {
   };
 
   return (
-    <section className="relative w-full py-20 lg:py-28 professional-bg overflow-hidden z-[80]">
-      <div className="w-full px-6 lg:px-12">
+    <section className="relative w-full py-12 lg:py-28 professional-bg overflow-hidden z-[80]">
+      <div className="w-full px-5 lg:px-12">
         <div className="max-w-4xl mx-auto">
           {/* Heading */}
-          <div className="text-center mb-12">
-            <span className="inline-block px-4 py-2 bg-electric/10 text-electric rounded-full text-sm font-medium mb-4">
+          <div className="text-center mb-8 lg:mb-12">
+            <span className="inline-block px-3 py-1.5 lg:px-4 lg:py-2 bg-electric/10 text-electric rounded-full text-xs lg:text-sm font-medium mb-3 lg:mb-4">
               FAQ
             </span>
-            <h2 className="display-heading text-display-lg text-foreground mb-4">
+            <h2 className="display-heading text-display-lg text-foreground mb-3 lg:mb-4">
               COMMON QUESTIONS
             </h2>
-            <p className="text-lg text-text-secondary">
+            <p className="text-base lg:text-lg text-text-secondary">
               What attorneys ask us before retaining an expert.
             </p>
           </div>
 
           {/* FAQ Accordion */}
-          <div className="space-y-3 mb-12">
+          <div className="space-y-2 lg:space-y-3 mb-8 lg:mb-12">
             {faqs.map((faq, index) => (
               <div
                 key={index}
@@ -77,9 +77,9 @@ export function FAQSection() {
               >
                 <button
                   onClick={() => toggleFaq(index)}
-                  className="w-full flex items-center justify-between p-5 text-left hover:bg-clinical/50 transition-colors"
+                  className="w-full flex items-center justify-between p-3 lg:p-5 text-left hover:bg-clinical/50 transition-colors"
                 >
-                  <span className="font-semibold text-foreground pr-4">
+                  <span className="font-semibold text-foreground pr-4 text-sm lg:text-base">
                     {faq.question}
                   </span>
                   <ChevronDown
@@ -94,7 +94,7 @@ export function FAQSection() {
                     openIndex === index ? 'max-h-48' : 'max-h-0'
                   }`}
                 >
-                  <p className="px-5 pb-5 text-text-secondary leading-relaxed">
+                  <p className="px-3 pb-3 lg:px-5 lg:pb-5 text-text-secondary text-sm lg:text-base leading-relaxed">
                     {faq.answer}
                   </p>
                 </div>
@@ -103,22 +103,22 @@ export function FAQSection() {
           </div>
 
           {/* CTA */}
-          <div className="bg-white rounded-3xl shadow-lg p-8 text-center">
-            <div className="w-16 h-16 rounded-full bg-electric/10 flex items-center justify-center mx-auto mb-4">
-              <MessageCircle size={32} className="text-electric" />
+          <div className="bg-white rounded-2xl lg:rounded-3xl shadow-lg p-5 lg:p-8 text-center">
+            <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-electric/10 flex items-center justify-center mx-auto mb-3 lg:mb-4">
+              <MessageCircle size={24} className="text-electric lg:w-8 lg:h-8" />
             </div>
-            <h3 className="font-display font-bold text-xl text-foreground mb-2">
+            <h3 className="font-display font-bold text-lg lg:text-xl text-foreground mb-2">
               Still have questions?
             </h3>
-            <p className="text-text-secondary mb-6">
+            <p className="text-text-secondary text-sm lg:text-base mb-4 lg:mb-6">
               Our team is here to help. Reach out and we'll respond within one business day.
             </p>
             <Button
               onClick={scrollToContact}
-              className="bg-electric hover:bg-electric/90 text-white font-medium px-8 py-6 rounded-full transition-all hover:-translate-y-1 hover:shadow-lg inline-flex items-center gap-2"
+              className="bg-electric hover:bg-electric/90 text-white font-medium px-6 py-4 lg:px-8 lg:py-6 text-sm lg:text-base rounded-full transition-all hover:-translate-y-1 hover:shadow-lg inline-flex items-center gap-2"
             >
               Contact Us
-              <ArrowRight size={20} />
+              <ArrowRight size={18} />
             </Button>
           </div>
         </div>
