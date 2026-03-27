@@ -45,8 +45,7 @@ export function TestimonialsSection() {
               WHAT ATTORNEYS SAY
             </h2>
             <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-              Trusted by law firms across the nation for expert neurology consultation
-              and testimony.
+              Trusted by law firms across the nation for thorough, efficient medical-legal consulting.
             </p>
           </div>
 
@@ -91,7 +90,7 @@ export function TestimonialsSection() {
               onClick={scrollToContact}
               className="bg-electric hover:bg-electric/90 text-white font-medium px-8 py-6 rounded-full transition-all hover:-translate-y-1 hover:shadow-lg inline-flex items-center gap-2"
             >
-              Read More Testimonials
+              Work With Our Experts
               <ArrowRight size={20} />
             </Button>
           </div>

@@ -16,7 +16,7 @@ const faqs = [
   {
     question: 'Will your experts withstand a Daubert or Frye challenge?',
     answer:
-      'Every physician on our team is board-certified, clinically active, and practicing in the subspecialty relevant to your case. We proactively align expert credentials to the specific neurological condition at issue, ensuring qualification holds up under the strictest scrutiny.',
+      'Every physician on our team is board-certified, clinically active, and practicing in the subspecialty relevant to your case. We proactively align expert credentials to the specific medical condition at issue, ensuring qualification holds up under the strictest scrutiny.',
   },
   {
     question: 'What are your fees and how does billing work?',

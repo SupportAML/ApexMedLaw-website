@@ -1,9 +1,9 @@
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Phone, Shield, Award, Users } from 'lucide-react';
+import { ArrowRight, Phone, Shield, Clock, Users } from 'lucide-react';
 
 const stats = [
-  { icon: Users, label: 'Expert Physicians', value: '50+' },
-  { icon: Award, label: 'Medical Specialties', value: '20+' },
+  { icon: Users, label: 'Board-Certified Physician Experts', value: '50+' },
+  { icon: Clock, label: 'Avg. Case Review Turnaround', value: '7 Days' },
   { icon: Shield, label: 'Zero Malpractice History', value: '100%' },
 ];
 
@@ -29,14 +29,14 @@ export function ApexHeroSection() {
               </div>
 
               <h1 className="display-heading text-display-xl text-white">
-                EXPERT MEDICAL-LEGAL
-                <span className="text-electric"> CONSULTING</span>
+                PHYSICIAN-LED
+                <span className="text-electric"> MEDICAL-LEGAL</span>
                 <br />
-                ACROSS EVERY SPECIALTY
+                CONSULTING
               </h1>
 
               <p className="text-lg text-slate-300 leading-relaxed max-w-lg">
-                Board-certified physicians providing litigation support, expert testimony, and case analysis for attorneys nationwide. Subspecialty-matched experts, active clinical practice, multi-state coverage.
+                Board-certified, trial-ready physicians delivering thorough case reviews and authoritative expert testimony. Every expert is subspecialty-matched, clinically active, and trained for deposition and courtroom performance.
               </p>
 
               <div className="flex flex-wrap gap-4">

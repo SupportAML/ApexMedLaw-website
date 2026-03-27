@@ -42,10 +42,10 @@ export function ApexApproachSection() {
             How We Work
           </span>
           <h2 className="text-display-lg font-bold text-navy mt-3 mb-4">
-            Our Approach to Expert Witness Consulting
+            Efficient Process. Thorough Results.
           </h2>
           <p className="text-lg text-slate-600">
-            A structured, collaborative process designed to provide you with the expert support your case requires.
+            From first inquiry to courtroom testimony, we move with urgency and precision — because your deadlines don't wait.
           </p>
         </div>
 

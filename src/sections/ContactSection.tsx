@@ -397,7 +397,7 @@ export function ContactSection() {
           <footer className="mt-20 pt-8 border-t border-white/10">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
               <p className="text-white/50 text-sm">
-                © 2026 Neurology Legal Consulting. All Rights Reserved.
+                © 2026 ApexMedLaw. All Rights Reserved.
               </p>
               <div className="flex items-center gap-6">
                 <a

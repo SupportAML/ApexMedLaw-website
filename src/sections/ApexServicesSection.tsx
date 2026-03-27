@@ -4,23 +4,23 @@ import { ArrowRight, FileCheck, Users, Briefcase, ClipboardList } from 'lucide-r
 const services = [
   {
     icon: FileCheck,
-    title: 'Case Review',
-    description: 'Comprehensive review of medical records, identification of deviations from standard of care, and detailed written analysis to support your litigation strategy.',
+    title: 'Case Merit Review',
+    description: 'Thorough review of medical records with detailed written analysis — identifying deviations from standard of care, causation, and damages. Most reviews completed within 7–10 business days.',
   },
   {
     icon: Users,
     title: 'Expert Testimony',
-    description: 'Board-certified physician testimony prepared for depositions and trial. We ensure Daubert-ready expert qualification across all jurisdictions.',
+    description: 'Daubert-qualified physicians prepared for deposition and trial. Our experts translate complex medicine into clear, compelling testimony that resonates with juries.',
   },
   {
     icon: Briefcase,
-    title: 'Independent Medical Examination (IME)',
-    description: 'Objective medical evaluation with detailed reporting. Our physicians are experienced in IME procedures and produce compelling, defensible assessments.',
+    title: 'Independent Medical Examination',
+    description: 'Objective, well-documented evaluations by clinically active physicians. Defensible reports that withstand cross-examination and challenge.',
   },
   {
     icon: ClipboardList,
-    title: 'Standards of Care Review',
-    description: 'In-depth analysis of medical decision-making against applicable standards of care. Tailored to specific medical specialty and jurisdiction.',
+    title: 'Subspecialty-Matched Consulting',
+    description: 'Your expert\'s training pathway matches the defendant\'s specialty — not just the clinical area. We match on subspecialty, not just department.',
   },
 ];
 
@@ -37,10 +37,10 @@ export function ApexServicesSection() {
             Our Services
           </span>
           <h2 className="text-display-lg font-bold text-navy mt-3 mb-4">
-            Comprehensive Expert Witness Services
+            End-to-End Litigation Support
           </h2>
           <p className="text-lg text-slate-600">
-            From case review to courtroom testimony, ApexMedLaw provides end-to-end expert witness support tailored to your litigation needs.
+            From initial case merit review to courtroom testimony — fast turnaround, meticulous analysis, and experts who communicate with clarity and conviction.
           </p>
         </div>
 

@@ -19,10 +19,10 @@ export function DivisionsSection() {
             Our Divisions
           </span>
           <h2 className="text-display-lg font-bold text-navy mt-3 mb-4">
-            Expert Witness Services Across Medical Specialties
+            Four Focused Divisions. One Standard of Excellence.
           </h2>
           <p className="text-lg text-slate-600">
-            ApexMedLaw coordinates a network of board-certified physicians across multiple medical specialties. Each division is staffed with experts who maintain active clinical practices.
+            ApexMedLaw organizes its expert network into dedicated divisions, each led by physicians who practice in that specialty daily. Deep focus means more thorough reviews and stronger testimony.
           </p>
         </div>
 
