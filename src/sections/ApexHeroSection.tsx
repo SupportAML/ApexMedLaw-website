@@ -94,7 +94,7 @@ export function ApexHeroSection() {
                   <Button
                     size="lg"
                     variant="outline"
-                    className="border-white/20 text-white hover:bg-white/10 font-medium px-8 py-6 rounded-full flex items-center gap-2"
+                    className="border-white/30 bg-white/10 text-white hover:bg-white/20 font-medium px-8 py-6 rounded-full flex items-center gap-2"
                   >
                     <Phone size={20} />
                     Call (919) 307-7949
