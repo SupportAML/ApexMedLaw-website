@@ -35,9 +35,9 @@ const steps = [
 
 export function ApexApproachSection() {
   return (
-    <section id="approach" className="relative w-full py-20 lg:py-32 px-6 lg:px-12 bg-clinical">
+    <section id="approach" className="relative w-full py-16 lg:py-24 px-6 lg:px-12 bg-clinical">
       <div className="max-w-7xl mx-auto">
-        <div className="max-w-2xl mb-16">
+        <div className="max-w-2xl mb-12">
           <span className="text-sm font-semibold text-electric uppercase tracking-widest">
             How We Work
           </span>

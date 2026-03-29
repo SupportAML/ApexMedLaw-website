@@ -29,7 +29,7 @@ export function TestimonialsSection() {
 
   return (
     <section
-      className="relative w-full pt-12 pb-20 lg:pt-16 lg:pb-28 professional-bg overflow-hidden z-[70]"
+      className="relative w-full py-16 lg:py-20 professional-bg overflow-hidden z-[70]"
     >
       {/* Background pattern */}
       <div className="absolute inset-0 neural-bg opacity-10" />

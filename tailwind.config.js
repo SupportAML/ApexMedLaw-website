@@ -24,6 +24,11 @@ module.exports = {
           50: "#e8f1ff",
           100: "#2563EB",
         },
+        teal: {
+          DEFAULT: "#006872",
+          50: "#e6f4f5",
+          100: "#006872",
+        },
         clinical: {
           DEFAULT: "#F8FAFC",
           50: "#FFFFFF",
@@ -74,9 +79,10 @@ module.exports = {
         'card-hover': "0 32px 80px rgba(11, 26, 47, 0.18)",
       },
       fontSize: {
-        'display-xl': ['clamp(44px, 5.2vw, 84px)', { lineHeight: '0.95', letterSpacing: '-0.02em' }],
-        'display-lg': ['clamp(36px, 4vw, 64px)', { lineHeight: '0.98', letterSpacing: '-0.02em' }],
-        'display-md': ['clamp(28px, 3vw, 48px)', { lineHeight: '1.0', letterSpacing: '-0.01em' }],
+        'display-xl': ['clamp(40px, 4.5vw, 68px)', { lineHeight: '0.95', letterSpacing: '-0.02em' }],
+        'display-lg': ['clamp(32px, 3.5vw, 52px)', { lineHeight: '0.98', letterSpacing: '-0.02em' }],
+        'display-md': ['clamp(26px, 2.5vw, 40px)', { lineHeight: '1.05', letterSpacing: '-0.01em' }],
+        'display-sm': ['clamp(22px, 2vw, 32px)', { lineHeight: '1.1', letterSpacing: '-0.005em' }],
       },
       keyframes: {
         "accordion-down": {

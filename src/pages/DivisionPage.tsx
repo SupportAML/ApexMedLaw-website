@@ -44,7 +44,7 @@ export function DivisionPage() {
           <div className="absolute inset-0 neural-bg opacity-20" aria-hidden />
 
           <div className="relative z-10 h-full flex items-center min-h-screen">
-            <div className="w-full px-6 lg:px-12 pb-32">
+            <div className="w-full px-6 lg:px-12 pb-20">
               <div className="max-w-3xl mx-auto space-y-6">
                 <div>
                   <span className="inline-flex items-center gap-2 px-4 py-2 bg-electric/20 text-white rounded-full text-sm font-medium">
@@ -92,7 +92,7 @@ export function DivisionPage() {
         </section>
 
         {/* Practice Areas Section */}
-        <section id="practice-areas" className="relative w-full py-20 lg:py-32 px-6 lg:px-12 bg-white">
+        <section id="practice-areas" className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-white">
           <div className="max-w-7xl mx-auto">
             <div className="max-w-2xl mb-16">
               <h2 className="text-display-lg font-bold text-navy mb-4">
@@ -128,7 +128,7 @@ export function DivisionPage() {
         </section>
 
         {/* Why ApexMedLaw Section */}
-        <section className="relative w-full py-20 lg:py-32 px-6 lg:px-12 bg-clinical">
+        <section className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-clinical">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-display-lg font-bold text-navy mb-6">
               Why Choose ApexMedLaw for {division.name}?
@@ -177,7 +177,7 @@ export function DivisionPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="relative w-full py-20 lg:py-32 px-6 lg:px-12 bg-navy text-white">
+        <section className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-navy text-white">
           <div className="max-w-3xl mx-auto text-center space-y-6">
             <h2 className="text-display-lg font-bold">
               Ready to Discuss Your Case?

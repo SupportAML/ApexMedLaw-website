@@ -21,9 +21,9 @@ const leaders = [
 
 export function ApexTeamSection() {
   return (
-    <section id="team" className="relative w-full py-20 lg:py-32 px-6 lg:px-12 bg-white">
+    <section id="team" className="relative w-full py-16 lg:py-24 px-6 lg:px-12 bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="max-w-2xl mb-16">
+        <div className="max-w-2xl mb-12">
           <span className="text-sm font-semibold text-electric uppercase tracking-widest">
             Leadership
           </span>
@@ -35,7 +35,7 @@ export function ApexTeamSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 mb-16">
+        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 mb-12">
           {leaders.map((leader, index) => (
             <div key={index} className="group">
               {/* Headshot */}

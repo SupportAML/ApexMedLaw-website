@@ -17,7 +17,7 @@ export function ApexHeroSection() {
       <div className="absolute inset-0 neural-bg opacity-20" aria-hidden />
 
       <div className="relative z-10 h-full flex items-center min-h-screen">
-        <div className="w-full px-6 lg:px-12 pt-20 pb-32">
+        <div className="w-full px-6 lg:px-12 pt-20 pb-20">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-7xl mx-auto">
             {/* Content */}
             <div className="space-y-6">

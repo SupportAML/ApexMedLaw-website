@@ -99,7 +99,7 @@ export function ContactSection() {
   return (
     <section
       id="contact"
-      className="relative w-full py-20 lg:py-28 bg-navy overflow-hidden z-[90]"
+      className="relative w-full py-16 lg:py-24 bg-navy overflow-hidden z-[90]"
     >
       {/* Background pattern */}
       <div className="absolute inset-0 neural-bg opacity-[0.05]" />
@@ -393,36 +393,6 @@ export function ContactSection() {
             </div>
           </div>
 
-          {/* Footer */}
-          <footer className="mt-20 pt-8 border-t border-white/10">
-            <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
-              <p className="text-white/50 text-sm">
-                © 2026 ApexMedLaw. All Rights Reserved.
-              </p>
-              <div className="flex items-center gap-6">
-                <a
-                  href="#"
-                  className="text-white/50 hover:text-white text-sm transition-colors"
-                >
-                  Terms
-                </a>
-                <a
-                  href="#"
-                  className="text-white/50 hover:text-white text-sm transition-colors"
-                >
-                  Privacy
-                </a>
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/50 hover:text-white text-sm transition-colors"
-                >
-                  LinkedIn
-                </a>
-              </div>
-            </div>
-          </footer>
         </div>
       </div>
     </section>
