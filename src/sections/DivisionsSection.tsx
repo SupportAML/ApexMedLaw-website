@@ -3,11 +3,11 @@ import { divisions } from '@/data/divisions';
 import { ArrowRight, Stethoscope, Heart, Utensils, Activity } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-const divisionIcons = {
-  neurology: Stethoscope,
-  'critical-care': Heart,
-  gastroenterology: Utensils,
-  'pain-medicine': Activity,
+const divisionMeta: Record<string, { icon: typeof Stethoscope; accent: string }> = {
+  neurology: { icon: Stethoscope, accent: '#2563EB' },
+  'critical-care': { icon: Heart, accent: '#006872' },
+  gastroenterology: { icon: Utensils, accent: '#7C3AED' },
+  'pain-medicine': { icon: Activity, accent: '#D97706' },
 };
 
 export function DivisionsSection() {
@@ -26,36 +26,48 @@ export function DivisionsSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-10">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
           {divisions.map((division) => {
-            const Icon = divisionIcons[division.slug as keyof typeof divisionIcons] || Stethoscope;
+            const meta = divisionMeta[division.slug] || { icon: Stethoscope, accent: '#2563EB' };
+            const Icon = meta.icon;
             return (
               <Link
                 key={division.slug}
                 to={`/divisions/${division.slug}`}
                 className="group relative"
               >
-                <div className="absolute inset-0 bg-gradient-to-br from-electric/5 to-electric/10 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <div className="relative bg-clinical border border-slate-200 rounded-2xl p-8 lg:p-10 hover:border-electric/30 transition-all duration-300 hover:shadow-lg h-full flex flex-col">
-                  <div className="flex items-start justify-between mb-6">
+                <div className="relative bg-clinical border border-slate-200 rounded-2xl p-7 lg:p-8 hover:border-slate-300 transition-all duration-300 hover:shadow-lg h-full flex flex-col overflow-hidden">
+                  {/* Colored accent bar */}
+                  <div
+                    className="absolute top-0 left-0 w-full h-1 rounded-t-2xl"
+                    style={{ backgroundColor: meta.accent }}
+                  />
+
+                  <div className="flex items-start justify-between mb-4">
                     <div>
-                      <h3 className="text-2xl lg:text-3xl font-bold text-navy mb-2">
+                      <h3 className="text-xl lg:text-2xl font-bold text-navy mb-1">
                         {division.name}
                       </h3>
-                      <p className="text-slate-600 text-sm lg:text-base">
+                      <p className="text-slate-500 text-sm">
                         {division.tagline}
                       </p>
                     </div>
-                    <Icon className="h-10 w-10 text-electric flex-shrink-0" />
+                    <div
+                      className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center"
+                      style={{ backgroundColor: `${meta.accent}15` }}
+                    >
+                      <Icon className="h-5 w-5" style={{ color: meta.accent }} />
+                    </div>
                   </div>
 
-                  <p className="text-slate-700 leading-relaxed mb-6 flex-grow">
+                  {/* Truncated description — 2 lines max */}
+                  <p className="text-slate-600 leading-relaxed mb-5 line-clamp-2 flex-grow">
                     {division.description}
                   </p>
 
-                  <div className="flex items-center gap-2 text-electric font-semibold group-hover:gap-4 transition-all duration-300">
+                  <div className="flex items-center gap-2 font-semibold group-hover:gap-4 transition-all duration-300" style={{ color: meta.accent }}>
                     <span>View Specialties</span>
-                    <ArrowRight size={18} />
+                    <ArrowRight size={16} />
                   </div>
                 </div>
               </Link>
@@ -63,11 +75,11 @@ export function DivisionsSection() {
           })}
         </div>
 
-        <div className="mt-16 p-8 lg:p-12 bg-electric/5 border border-electric/20 rounded-2xl text-center">
-          <h3 className="text-2xl font-bold text-navy mb-4">
+        <div className="mt-12 p-6 lg:p-8 bg-clinical border border-slate-200 rounded-2xl text-center">
+          <h3 className="text-xl font-bold text-navy mb-3">
             Need a Different Specialty?
           </h3>
-          <p className="text-slate-700 mb-6 max-w-2xl mx-auto">
+          <p className="text-slate-600 mb-5 max-w-2xl mx-auto text-sm">
             ApexMedLaw continues to expand our specialist network. Contact us to discuss your case and learn about available experts in your required specialty.
           </p>
           <Button
