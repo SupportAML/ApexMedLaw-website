@@ -6,6 +6,7 @@ import { Navigation } from '@/components/Navigation';
 import { ApexHeroSection } from '@/sections/ApexHeroSection';
 import { DivisionsSection } from '@/sections/DivisionsSection';
 import { ApexServicesSection } from '@/sections/ApexServicesSection';
+import { ByTheNumbersSection } from '@/sections/ByTheNumbersSection';
 import { ApexTeamSection } from '@/sections/ApexTeamSection';
 import { ApexApproachSection } from '@/sections/ApexApproachSection';
 import { TestimonialsSection } from '@/sections/TestimonialsSection';
@@ -29,6 +30,7 @@ export function HomePage() {
       <ApexHeroSection />
       <DivisionsSection />
       <ApexServicesSection />
+      <ByTheNumbersSection />
       <ApexTeamSection />
       <ApexApproachSection />
       <TestimonialsSection />
