@@ -1,5 +1,3 @@
-import { CheckCircle2 } from 'lucide-react';
-
 const steps = [
   {
     number: '01',
@@ -35,9 +33,9 @@ const steps = [
 
 export function ApexApproachSection() {
   return (
-    <section id="approach" className="relative w-full py-20 lg:py-32 px-6 lg:px-12 bg-clinical">
+    <section id="approach" className="relative w-full py-16 lg:py-24 px-6 lg:px-12 bg-clinical">
       <div className="max-w-7xl mx-auto">
-        <div className="max-w-2xl mb-16">
+        <div className="max-w-2xl mb-12">
           <span className="text-sm font-semibold text-electric uppercase tracking-widest">
             How We Work
           </span>
@@ -49,47 +47,32 @@ export function ApexApproachSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
-          {steps.map((step, index) => (
-            <div key={index} className="flex gap-6">
-              <div className="flex-shrink-0">
-                <div className="flex items-center justify-center h-14 w-14 rounded-full bg-electric text-white font-bold text-lg">
-                  {step.number}
+        {/* Visual timeline */}
+        <div className="relative">
+          {/* Vertical connecting line — desktop only */}
+          <div className="hidden lg:block absolute left-7 top-8 bottom-8 w-px bg-slate-300" />
+
+          <div className="space-y-6 lg:space-y-0 lg:grid lg:grid-cols-1 lg:gap-0">
+            {steps.map((step, index) => (
+              <div key={index} className="relative flex gap-5 lg:gap-8 lg:py-5">
+                {/* Timeline node */}
+                <div className="flex-shrink-0 relative z-10">
+                  <div className="flex items-center justify-center h-14 w-14 rounded-full bg-electric text-white font-bold text-sm border-4 border-clinical">
+                    {step.number}
+                  </div>
+                </div>
+
+                {/* Content */}
+                <div className="flex-grow pb-2">
+                  <h3 className="text-lg font-semibold text-navy mb-1">
+                    {step.title}
+                  </h3>
+                  <p className="text-slate-600 leading-relaxed text-[15px]">
+                    {step.description}
+                  </p>
                 </div>
               </div>
-              <div className="flex-grow">
-                <h3 className="text-lg font-semibold text-navy mb-2">
-                  {step.title}
-                </h3>
-                <p className="text-slate-600 leading-relaxed">
-                  {step.description}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <div className="mt-16 bg-white rounded-xl p-8 lg:p-12 border-2 border-electric/20">
-          <h3 className="text-2xl font-bold text-navy mb-4 flex items-center gap-2">
-            <CheckCircle2 className="h-6 w-6 text-electric" />
-            Why Attorneys Trust ApexMedLaw
-          </h3>
-          <div className="space-y-3 text-slate-700">
-            <p>
-              <span className="font-semibold">Subspecialty alignment</span> — Your expert's qualifications match your specific case, not just a general specialty.
-            </p>
-            <p>
-              <span className="font-semibold">Active clinical practice</span> — All experts maintain current patient care, ensuring knowledge of modern standards and decision-making.
-            </p>
-            <p>
-              <span className="font-semibold">Litigation experience</span> — Trained in depositions and trial testimony with clear communication skills that resonate with juries.
-            </p>
-            <p>
-              <span className="font-semibold">Rapid response</span> — Quick turnaround on case reviews and expert availability across multiple jurisdictions.
-            </p>
-            <p>
-              <span className="font-semibold">Daubert-ready</span> — Experts are prepared to withstand qualification challenges in any court.
-            </p>
+            ))}
           </div>
         </div>
       </div>

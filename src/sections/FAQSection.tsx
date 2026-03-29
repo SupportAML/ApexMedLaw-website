@@ -52,7 +52,7 @@ export function FAQSection() {
   };
 
   return (
-    <section className="relative w-full py-20 lg:py-28 professional-bg overflow-hidden z-[80]">
+    <section className="relative w-full py-16 lg:py-20 professional-bg overflow-hidden z-[80]">
       <div className="w-full px-6 lg:px-12">
         <div className="max-w-4xl mx-auto">
           {/* Heading */}

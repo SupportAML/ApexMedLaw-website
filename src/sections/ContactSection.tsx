@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Phone, MapPin, Send, Linkedin, Twitter, CheckCircle, AlertTriangle } from 'lucide-react';
+import { Phone, MapPin, Send, Linkedin, Twitter, CheckCircle, AlertTriangle, Shield, FileCheck, Clock } from 'lucide-react';
 
 const CONTACT_EMAIL = 'support@apexmedlaw.com';
 
@@ -25,6 +25,12 @@ const PHYSICIAN_SPECIALTIES = [
   'Pharmacotherapy',
   'Internal Medicine & Gastroenterology',
   'Critical Care Medicine',
+];
+
+const NEXT_STEPS = [
+  { icon: FileCheck, text: 'We review your case details' },
+  { icon: Clock, text: 'Match you with an expert within 24 hours' },
+  { icon: Send, text: 'Provide CV, fee schedule, and availability' },
 ];
 
 export function ContactSection() {
@@ -99,9 +105,8 @@ export function ContactSection() {
   return (
     <section
       id="contact"
-      className="relative w-full py-20 lg:py-28 bg-navy overflow-hidden z-[90]"
+      className="relative w-full py-16 lg:py-24 bg-navy overflow-hidden z-[90]"
     >
-      {/* Background pattern */}
       <div className="absolute inset-0 neural-bg opacity-[0.05]" />
 
       <div className="relative z-10 w-full px-6 lg:px-12">
@@ -124,6 +129,29 @@ export function ContactSection() {
                 </p>
               </div>
 
+              {/* What Happens Next */}
+              <div className="bg-white/5 border border-white/10 rounded-xl p-5">
+                <p className="text-white/90 font-semibold text-sm mb-4 uppercase tracking-wider">
+                  What Happens Next
+                </p>
+                <div className="space-y-3">
+                  {NEXT_STEPS.map((step, i) => {
+                    const Icon = step.icon;
+                    return (
+                      <div key={i} className="flex items-center gap-3">
+                        <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-electric/20 flex-shrink-0">
+                          <Icon size={16} className="text-electric" />
+                        </div>
+                        <span className="text-white/70 text-sm">
+                          <span className="text-white/40 font-mono text-xs mr-2">{i + 1}.</span>
+                          {step.text}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
               {/* Contact Info */}
               <div className="space-y-4">
                 <a
@@ -135,7 +163,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <p className="text-sm text-white/50">Phone</p>
-                    <p className="font-medium">(919) 307-7949</p>
+                    <p className="font-medium text-lg">(919) 307-7949</p>
                   </div>
                 </a>
 
@@ -189,7 +217,6 @@ export function ContactSection() {
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-5">
-                    {/* Name */}
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
                         Name *
@@ -204,7 +231,6 @@ export function ContactSection() {
                       />
                     </div>
 
-                    {/* Law Firm (mandatory) */}
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
                         Law Firm or Organization *
@@ -219,7 +245,6 @@ export function ContactSection() {
                       />
                     </div>
 
-                    {/* Email + Phone Row */}
                     <div className="grid sm:grid-cols-2 gap-5">
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
@@ -250,7 +275,6 @@ export function ContactSection() {
                       </div>
                     </div>
 
-                    {/* Case Type (dropdown) */}
                     <div className="grid sm:grid-cols-2 gap-5">
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
@@ -269,8 +293,6 @@ export function ContactSection() {
                           ))}
                         </select>
                       </div>
-
-                      {/* Physician Specialty (dropdown) */}
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
                           Specialty Needed
@@ -290,7 +312,7 @@ export function ContactSection() {
                       </div>
                     </div>
 
-                    {/* Urgent Deadline (mandatory) */}
+                    {/* Urgent Deadline — with amber glow when active */}
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-3">
                         Urgent Deadline? *
@@ -301,7 +323,7 @@ export function ContactSection() {
                           onClick={() => setFormData((prev) => ({ ...prev, urgentDeadline: 'yes' }))}
                           className={`flex items-center gap-2 px-5 py-3 rounded-xl text-sm font-medium border transition-all ${
                             formData.urgentDeadline === 'yes'
-                              ? 'bg-amber-50 text-amber-800 border-amber-400'
+                              ? 'bg-amber-50 text-amber-800 border-amber-400 shadow-[0_0_12px_rgba(217,119,6,0.3)]'
                               : 'bg-white text-foreground border-border hover:border-electric/50'
                           }`}
                         >
@@ -337,7 +359,6 @@ export function ContactSection() {
                           </p>
                         </div>
                       )}
-                      {/* Hidden required input for form validation */}
                       <input
                         type="text"
                         required
@@ -349,7 +370,6 @@ export function ContactSection() {
                       />
                     </div>
 
-                    {/* Case Details */}
                     <div>
                       <label className="block text-sm font-medium text-foreground mb-2">
                         Case Details *
@@ -358,9 +378,9 @@ export function ContactSection() {
                         name="caseDetails"
                         value={formData.caseDetails}
                         onChange={handleChange}
-                        placeholder="Briefly describe the matter, the neurological issues involved, and what you need from an expert (e.g., case merit review, IME, deposition, trial testimony)..."
+                        placeholder="Briefly describe the matter, the medical issues involved, and what you need from an expert (e.g., case merit review, IME, deposition, trial testimony)..."
                         required
-                        rows={8}
+                        rows={6}
                         className="w-full px-4 py-3 rounded-xl border-border focus:border-electric focus:ring-electric resize-none"
                       />
                     </div>
@@ -370,6 +390,7 @@ export function ContactSection() {
                         {submitError}
                       </p>
                     )}
+
                     <Button
                       type="submit"
                       disabled={isSubmitting}
@@ -387,42 +408,28 @@ export function ContactSection() {
                         </>
                       )}
                     </Button>
+
+                    {/* Trust badges */}
+                    <div className="flex items-center justify-center gap-6 pt-2 text-xs text-text-secondary">
+                      <span className="flex items-center gap-1.5">
+                        <Shield size={14} className="text-teal" />
+                        HIPAA Compliant
+                      </span>
+                      <span className="flex items-center gap-1.5">
+                        <CheckCircle size={14} className="text-teal" />
+                        Conflict Check
+                      </span>
+                      <span className="flex items-center gap-1.5">
+                        <Shield size={14} className="text-teal" />
+                        Secure
+                      </span>
+                    </div>
                   </form>
                 )}
               </div>
             </div>
           </div>
 
-          {/* Footer */}
-          <footer className="mt-20 pt-8 border-t border-white/10">
-            <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
-              <p className="text-white/50 text-sm">
-                © 2026 ApexMedLaw. All Rights Reserved.
-              </p>
-              <div className="flex items-center gap-6">
-                <a
-                  href="#"
-                  className="text-white/50 hover:text-white text-sm transition-colors"
-                >
-                  Terms
-                </a>
-                <a
-                  href="#"
-                  className="text-white/50 hover:text-white text-sm transition-colors"
-                >
-                  Privacy
-                </a>
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/50 hover:text-white text-sm transition-colors"
-                >
-                  LinkedIn
-                </a>
-              </div>
-            </div>
-          </footer>
         </div>
       </div>
     </section>

@@ -15,46 +15,45 @@ const navLinks = [
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [scrollProgress, setScrollProgress] = useState(0);
   const navigate = useNavigate();
   const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
+
+      // Calculate scroll progress
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      if (docHeight > 0) {
+        setScrollProgress(Math.min(scrollTop / docHeight, 1));
+      }
     };
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const scrollToSection = (href: string) => {
-    // If we're not on the home page, navigate there first
     if (location.pathname !== '/') {
       navigate('/' + href);
       return;
     }
 
-    // Get the target element
     const element = document.querySelector(href);
     if (!element) return;
 
-    // Disable all ScrollTrigger snapping temporarily
     const allTriggers = ScrollTrigger.getAll();
     const snapTriggers = allTriggers.filter(st => st.vars.snap);
-
-    // Kill snap triggers
     snapTriggers.forEach(st => st.kill());
 
-    // Get element position
     const elementPosition = element.getBoundingClientRect().top + window.scrollY;
 
-    // Use GSAP for smooth scrolling
     gsap.to(window, {
       duration: 1,
       scrollTo: { y: elementPosition, offsetY: 80 },
       ease: 'power2.inOut',
       onComplete: () => {
-        // Re-enable snap after navigation completes
-        // This will be handled by App.tsx useEffect
         ScrollTrigger.refresh();
       }
     });
@@ -69,6 +68,12 @@ export function Navigation() {
             : 'bg-white/80 backdrop-blur-sm'
         }`}
       >
+        {/* Scroll progress bar */}
+        <div
+          className="absolute top-0 left-0 h-[2px] bg-electric transition-none z-10"
+          style={{ width: `${scrollProgress * 100}%` }}
+        />
+
         <div className="w-full px-6 lg:px-12">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
@@ -79,7 +84,7 @@ export function Navigation() {
               Apex<span className="text-electric">Med</span>Law
             </Link>
 
-            {/* Navigation links + CTA – expanded and visible on all screen sizes */}
+            {/* Navigation links + CTA */}
             <div className="flex items-center gap-2 sm:gap-4 lg:gap-6 min-w-0 flex-1 justify-end">
               <div className="flex items-center gap-2 sm:gap-3 lg:gap-6 flex-wrap justify-end">
                 {navLinks.map((link) =>
