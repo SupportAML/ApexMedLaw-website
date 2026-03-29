@@ -4,6 +4,7 @@ import { ArrowLeft, Calendar, Tag } from 'lucide-react';
 import { blogPosts } from '@/blog/posts';
 import { Navigation } from '@/components/Navigation';
 import { Button } from '@/components/ui/button';
+import { SEO, ArticleSchema } from '@/components/SEO';
 
 function renderMarkdown(content: string) {
   // Simple markdown renderer for blog posts
@@ -84,6 +85,19 @@ export function BlogPostPage() {
 
   return (
     <div className="relative">
+      <SEO
+        title={post.title}
+        description={post.metaDescription}
+        path={`/blog/${post.slug}`}
+        type="article"
+        publishedTime={post.date}
+      />
+      <ArticleSchema
+        title={post.title}
+        description={post.metaDescription}
+        date={post.date}
+        slug={post.slug}
+      />
       <Navigation />
       <main className="relative pt-24 pb-20 min-h-screen bg-clinical">
         <article className="max-w-3xl mx-auto px-6 lg:px-12">

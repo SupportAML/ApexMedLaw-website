@@ -6,6 +6,7 @@ import { Navigation } from '@/components/Navigation';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, ExternalLink, Award } from 'lucide-react';
 import { getDivisionBySlug } from '@/data/divisions';
+import { SEO } from '@/components/SEO';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -37,6 +38,11 @@ export function DivisionPage() {
 
   return (
     <>
+      <SEO
+        title={`${division.name} Expert Witness Services`}
+        description={division.description}
+        path={`/divisions/${division.slug}`}
+      />
       <Navigation />
       <main className="relative">
         {/* Hero Section */}

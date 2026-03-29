@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Calendar, Clock, Tag } from 'lucide-react';
 import { blogPosts } from '@/blog/posts';
 import { Navigation } from '@/components/Navigation';
+import { SEO } from '@/components/SEO';
 
 // Division-keyed gradient palettes for blog card headers
 const categoryGradients: Record<string, string> = {
@@ -50,6 +51,11 @@ export function BlogPage() {
 
   return (
     <div className="relative">
+      <SEO
+        title="Insights & Resources"
+        description="Expert perspectives on medical-legal litigation, expert witness standards, and consulting insights for attorneys."
+        path="/blog"
+      />
       <Navigation />
       <main className="relative pt-24 pb-20 min-h-screen bg-clinical">
         <div className="max-w-6xl mx-auto px-6 lg:px-12">
