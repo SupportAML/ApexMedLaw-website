@@ -148,10 +148,10 @@ export function BlogPostPage() {
           {/* CTA */}
           <div className="mt-16 bg-navy rounded-2xl p-8 lg:p-12 text-center">
             <h3 className="font-display text-2xl font-bold text-white mb-3">
-              Need a Neurology Expert for Your Case?
+              Need a Medical Expert for Your Case?
             </h3>
             <p className="text-slate-300 mb-6 max-w-lg mx-auto">
-              Our board-certified neurologists are available for case review,
+              Our board-certified physician experts are available for case review,
               expert testimony, and independent medical examinations nationwide.
             </p>
             <Link to="/#contact">
