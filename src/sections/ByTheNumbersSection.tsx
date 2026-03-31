@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const metrics = [
   { value: '4', label: 'Medical Divisions', suffix: '' },
-  { value: '50', label: 'States Covered', suffix: '+' },
+  { value: '50', label: 'States Covered', suffix: '' },
   { value: '7', label: 'Day Avg. Turnaround', suffix: '' },
   { value: '100', label: 'Clean Malpractice Record', suffix: '%' },
 ];
