@@ -707,4 +707,67 @@ Contact ApexMedLaw to discuss your status epilepticus or seizure disorder malpra
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'crps-complex-regional-pain-syndrome-malpractice-expert-witness',
+    title: 'CRPS and Medical Malpractice: What Attorneys Need to Know About Complex Regional Pain Syndrome Litigation',
+    metaDescription: 'A litigation guide for attorneys handling CRPS medical malpractice cases. Learn how complex regional pain syndrome develops, standard of care benchmarks, causation analysis, and how pain medicine expert witnesses support these cases.',
+    date: '2026-04-05',
+    author: 'AML Editorial',
+    keywords: ['CRPS expert witness', 'complex regional pain syndrome litigation', 'pain medicine malpractice', 'RSD malpractice attorney', 'pain management expert witness', 'CRPS causation', 'sympathetically maintained pain litigation'],
+    content: `Complex Regional Pain Syndrome (CRPS) is among the most litigated and most misunderstood conditions in pain medicine malpractice. Attorneys encounter CRPS in two recurring contexts: cases where a provider's negligence allegedly caused or precipitated CRPS, and cases where an existing CRPS diagnosis was undertreated, mismanaged, or dismissed — resulting in avoidable disease progression. Both contexts require expert testimony that can explain an often-skeptical condition to judges, juries, and opposing counsel with clinical precision.
+
+## What CRPS Is — and Why It Matters in Court
+
+CRPS is a chronic pain condition characterized by disproportionate pain, autonomic dysfunction, trophic changes, and motor abnormalities that arise following an initiating event — typically trauma, surgery, or nerve injury. It is classified into two subtypes: CRPS Type I (formerly called Reflex Sympathetic Dystrophy or RSD), which occurs without confirmed nerve lesion, and CRPS Type II (formerly called causalgia), which follows a documented peripheral nerve injury.
+
+The Budapest Criteria, published in 2007 and validated in subsequent research, represent the current standard for clinical diagnosis. A provider who applies outdated diagnostic frameworks — or who dismisses CRPS outright because no "objective" abnormality is visible on standard imaging — is deviating from the modern standard of care. Attorneys must understand these criteria because they form the evidentiary backbone of both causation arguments and standard of care opinions.
+
+The condition disproportionately affects women, typically develops in the weeks following an inciting event, and can result in lifelong disability if not diagnosed and treated promptly. The sequelae of untreated or undertreated CRPS — fixed contractures, dystonia, osteoporosis secondary to disuse, and psychological devastation — carry substantial economic and non-economic damages that experienced pain medicine experts can quantify.
+
+## The Most Common Liability Theories in CRPS Cases
+
+CRPS litigation arises from several recurring patterns of alleged negligence.
+
+**Failure to diagnose.** The hallmark of CRPS is that it does not appear on X-ray, standard MRI, or routine lab work. Providers who anchor diagnosis exclusively to conventional imaging may miss or dismiss CRPS for months or years. A provider is expected to recognize the clinical constellation — allodynia, hyperalgesia, edema, vasomotor changes, sudomotor changes, and motor dysfunction — and apply the Budapest Criteria. Failure to do so may constitute a departure from the standard of care.
+
+**Failure to refer.** Primary care physicians and general orthopedists are expected to recognize when a post-procedural pain syndrome has characteristics of CRPS and refer appropriately to a pain management specialist or neurologist with experience in sympathetically maintained pain. Delays in referral allow the condition to progress through stages and become increasingly treatment-resistant.
+
+**Precipitating negligence.** In cases where a surgical complication, poorly placed cast, inadvertent nerve injury during a procedure, or post-operative compartment syndrome precedes the development of CRPS, the underlying negligent act becomes the but-for cause of the entire CRPS trajectory. Expert testimony must establish both that the procedural deviation occurred and that CRPS was a known and foreseeable consequence.
+
+**Inadequate treatment after diagnosis.** Even when CRPS is correctly identified, inadequate treatment planning creates additional liability. The current standard of care involves an interdisciplinary approach: pharmacological management (including neuromodulating agents, anti-inflammatory regimens, and in some cases low-dose naltrexone), physical and occupational therapy with graded motor imagery, psychological intervention for the central sensitization component, and procedural options including sympathetic nerve blocks, spinal cord stimulation, or ketamine infusion in appropriate refractory cases. A provider who fails to offer or coordinate any of these modalities — particularly in a patient whose CRPS is progressing — may be departing from the standard of care.
+
+## Standard of Care Analysis in CRPS Cases
+
+The standard of care for CRPS is defined by the Budapest Criteria for diagnosis and by multi-society consensus guidelines for treatment. These include publications from the International Association for the Study of Pain (IASP), the American Academy of Neurology, and specialty pain societies.
+
+Attorneys should understand that the standard of care does not require cure — CRPS is difficult and sometimes impossible to reverse completely — but it does require that providers apply recognized diagnostic frameworks, initiate evidence-based treatment without unreasonable delay, and coordinate care across disciplines when the condition warrants it.
+
+A key evidentiary issue in CRPS cases is the provider's contemporaneous documentation. A physician who writes "the patient's pain complaints are out of proportion to the injury" or who uses language suggesting fabrication or drug-seeking without conducting a structured diagnostic evaluation may be applying a subjective framework that contradicts the Budapest Criteria standard. This documentation, preserved in the medical record, becomes powerful evidence of a diagnostic failure.
+
+## Causation Challenges and How to Address Them
+
+Causation is often the central battleground in CRPS litigation. Defense experts frequently argue that CRPS arises spontaneously, that the initiating event would have produced the condition regardless of the provider's conduct, or that the condition is not well-defined enough to support a reliable causation opinion. Plaintiffs' experts face the burden of demonstrating that but for the specific negligent act — the delayed diagnosis, the inappropriate procedural technique, the failure to refer — the CRPS would not have developed, or would not have progressed to its current severity.
+
+The temporal relationship between the inciting event and symptom onset is critical. CRPS typically develops within days to weeks of the precipitating injury. A documented record showing classic CRPS symptoms beginning immediately after a surgical complication or procedural error strengthens the causal chain considerably. Conversely, a long latency between the alleged negligence and symptom onset requires more complex causation analysis and a stronger expert narrative.
+
+Medical literature supports the concept that early diagnosis and treatment substantially improves outcomes. This means that in failure-to-diagnose cases, the damages model does not merely capture existing pain — it captures the additional disability that arose because the window for effective early intervention was missed.
+
+## Selecting a Pain Medicine Expert for CRPS Cases
+
+CRPS expert selection is nuanced. The ideal expert is a board-certified pain medicine physician with active clinical experience treating CRPS patients across the spectrum of severity. They should be conversant with the Budapest Criteria, familiar with sympathetic nerve block techniques and spinal cord stimulation decision criteria, and able to explain the neurophysiological basis of CRPS — including central and peripheral sensitization mechanisms — to a non-medical audience.
+
+An expert who treats CRPS only occasionally, or who approaches the diagnosis with skepticism, will not be able to effectively advocate for the clinical reality of the condition in litigation. Attorneys should specifically inquire about an expert's approach to the diagnosis before engagement — an expert who requires "objective proof" beyond the Budapest Criteria clinical examination may undermine a legitimate CRPS case.
+
+## How Apex Medical Law Approaches CRPS Cases
+
+Apex Medical Law maintains a panel of board-certified pain medicine specialists with dedicated experience in CRPS diagnosis and management. Our experts apply the Budapest Criteria as the diagnostic standard, are fluent in the multi-society treatment guidelines, and can offer opinions across the full range of CRPS litigation — including causation analysis when CRPS followed an identifiable procedural injury, standard of care analysis when a diagnosis was delayed or mishandled, and damages analysis describing the long-term functional and quality-of-life consequences of undertreated CRPS.
+
+We provide detailed medical record review, comprehensive written reports, deposition preparation, and trial testimony. Our experts understand the skepticism that CRPS faces in the courtroom and are experienced at presenting these cases with the clinical rigor and credibility that withstands Daubert challenges.
+
+Contact ApexMedLaw to discuss your complex regional pain syndrome malpractice case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
