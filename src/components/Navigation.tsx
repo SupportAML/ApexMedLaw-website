@@ -8,7 +8,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 const navLinks = [
   { label: 'Divisions', href: '#divisions' },
   { label: 'Services', href: '#services' },
-  { label: 'Registry', href: '/registry', isRoute: true },
+  { label: 'Our Experts', href: '/experts', isRoute: true },
   { label: 'Team', href: '#team' },
   { label: 'Blog', href: '/blog', isRoute: true },
   { label: 'Contact', href: '#contact' },

@@ -1,94 +1,31 @@
-import { Link } from 'react-router-dom';
 import { Navigation } from '@/components/Navigation';
 import { SEO } from '@/components/SEO';
 import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
 import {
-  MapPin,
-  Shield,
-  ChevronRight,
   Phone,
   Mail,
+  Shield,
+  MapPin,
 } from 'lucide-react';
-import { physicians, type Physician } from '@/data/physicians';
 
-function availabilityColor(a: Physician['availability']) {
-  if (a === 'available') return 'bg-emerald-100 text-emerald-700';
-  if (a === 'limited') return 'bg-amber-100 text-amber-700';
-  return 'bg-gray-100 text-gray-500';
-}
-
-function availabilityLabel(a: Physician['availability']) {
-  if (a === 'available') return 'Available';
-  if (a === 'limited') return 'Limited';
-  return 'Unavailable';
-}
-
-function FounderCard({ physician }: { physician: Physician }) {
-  return (
-    <Link
-      to={`/registry/${physician.slug}`}
-      className="group bg-white rounded-2xl border border-border hover:border-electric/30 hover:shadow-card transition-all duration-300 overflow-hidden"
-    >
-      <div className="p-6">
-        <div className="flex items-start justify-between mb-4">
-          <div className="flex items-center gap-3">
-            <div className="w-14 h-14 rounded-xl bg-electric/10 flex items-center justify-center text-electric font-display font-bold text-lg">
-              {physician.name.split(' ').map(n => n[0]).slice(0, 2).join('')}
-            </div>
-            <div>
-              <h3 className="font-display font-bold text-foreground group-hover:text-electric transition-colors">
-                {physician.name}
-              </h3>
-              <p className="text-sm text-muted-foreground">{physician.specialty}</p>
-            </div>
-          </div>
-          <Badge className="bg-electric/10 text-electric border-0 text-xs">Founder</Badge>
-        </div>
-
-        <div className="flex flex-wrap gap-1.5 mb-4">
-          {physician.boardCertifications.slice(0, 2).map((cert) => (
-            <span key={cert} className="inline-flex items-center gap-1 text-xs text-muted-foreground bg-clinical-100 px-2 py-1 rounded-md">
-              <Shield size={10} className="text-teal" />
-              {cert.length > 45 ? cert.slice(0, 42) + '...' : cert}
-            </span>
-          ))}
-        </div>
-
-        <div className="grid grid-cols-2 gap-3 mb-4 text-sm">
-          <div className="flex items-center gap-2 text-muted-foreground">
-            <MapPin size={14} />
-            {physician.location.city}, {physician.location.state}
-          </div>
-          <div className="text-muted-foreground">
-            {physician.yearsExperience}+ years experience
-          </div>
-          <div className="text-muted-foreground">
-            {physician.caseCount}+ cases reviewed
-          </div>
-          <div>
-            <span className={`inline-flex items-center gap-1.5 text-xs font-medium px-2 py-0.5 rounded-full ${availabilityColor(physician.availability)}`}>
-              <span className="w-1.5 h-1.5 rounded-full bg-current" />
-              {availabilityLabel(physician.availability)}
-            </span>
-          </div>
-        </div>
-
-        <div className="flex flex-wrap gap-1 mb-4">
-          {physician.subspecialties.slice(0, 3).map((sub) => (
-            <Badge key={sub} variant="secondary" className="text-xs font-normal">
-              {sub}
-            </Badge>
-          ))}
-        </div>
-
-        <div className="flex items-center text-sm font-medium text-electric group-hover:gap-2 transition-all">
-          View full profile <ChevronRight size={16} className="ml-1" />
-        </div>
-      </div>
-    </Link>
-  );
-}
+const founders = [
+  {
+    name: 'Abhi Kapuria, MD',
+    role: 'Founder & CEO',
+    specialty: 'Board-Certified Neurologist',
+    location: 'Raleigh, NC',
+    certifications: ['American Board of Psychiatry and Neurology — Neurology'],
+    areas: ['TBI', 'Stroke', 'Seizure Disorders', 'Neuromuscular Disease'],
+  },
+  {
+    name: 'Ovais Inamullah, MD',
+    role: 'Co-Founder & CMO',
+    specialty: 'Board-Certified in Critical Care & Internal Medicine',
+    location: 'Dallas, TX',
+    certifications: ['ABIM — Critical Care Medicine', 'ABIM — Internal Medicine'],
+    areas: ['Ventilator Management', 'Sepsis Protocols', 'ICU Standard of Care', 'Wrongful Death'],
+  },
+];
 
 export function RegistryPage() {
   return (
@@ -103,16 +40,16 @@ export function RegistryPage() {
         <section className="relative w-full py-16 lg:py-24 bg-navy overflow-hidden">
           <div className="absolute inset-0 neural-bg opacity-[0.05]" />
           <div className="relative z-10 w-full px-6 lg:px-12">
-            <div className="max-w-5xl mx-auto text-center">
+            <div className="max-w-4xl mx-auto text-center">
               <span className="inline-block px-4 py-2 bg-electric/20 text-electric rounded-full text-sm font-medium mb-6">
-                Our Expert Witnesses
+                Our Leadership
               </span>
               <h1 className="display-heading text-display-lg text-white mb-6">
                 Board-Certified <span className="text-electric">Medical Experts</span>
               </h1>
               <p className="text-lg lg:text-xl text-white/70 max-w-2xl mx-auto">
-                ApexMedLaw's founding physicians bring deep clinical expertise to every case.
-                Contact us to discuss how we can support your litigation needs.
+                ApexMedLaw is led by physicians who combine deep clinical expertise with
+                medical-legal experience. Contact us to discuss your case.
               </p>
             </div>
           </div>
@@ -120,10 +57,46 @@ export function RegistryPage() {
 
         {/* Founders */}
         <section className="w-full px-6 lg:px-12 py-12 lg:py-16">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-6">
-              {physicians.map((p) => (
-                <FounderCard key={p.id} physician={p} />
+              {founders.map((doc) => (
+                <div
+                  key={doc.name}
+                  className="bg-white rounded-2xl border border-border p-6"
+                >
+                  <div className="flex items-center gap-3 mb-4">
+                    <div className="w-14 h-14 rounded-xl bg-electric/10 flex items-center justify-center text-electric font-display font-bold text-lg">
+                      {doc.name.split(' ').map(n => n[0]).slice(0, 2).join('')}
+                    </div>
+                    <div>
+                      <h3 className="font-display font-bold text-foreground">{doc.name}</h3>
+                      <p className="text-sm text-electric font-medium">{doc.role}</p>
+                      <p className="text-sm text-muted-foreground">{doc.specialty}</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                    <MapPin size={14} />
+                    {doc.location}
+                  </div>
+
+                  <div className="space-y-1.5 mb-4">
+                    {doc.certifications.map((cert) => (
+                      <span key={cert} className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                        <Shield size={10} className="text-teal shrink-0" />
+                        {cert}
+                      </span>
+                    ))}
+                  </div>
+
+                  <div className="flex flex-wrap gap-1.5">
+                    {doc.areas.map((area) => (
+                      <span key={area} className="text-xs bg-clinical-100 text-muted-foreground px-2 py-1 rounded-md">
+                        {area}
+                      </span>
+                    ))}
+                  </div>
+                </div>
               ))}
             </div>
           </div>
@@ -131,7 +104,7 @@ export function RegistryPage() {
 
         {/* Contact CTA */}
         <section className="w-full px-6 lg:px-12 pb-16 lg:pb-24">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <div className="bg-navy rounded-3xl p-8 lg:p-12 text-center relative overflow-hidden">
               <div className="absolute inset-0 neural-bg opacity-[0.05]" />
               <div className="relative z-10">
@@ -139,7 +112,7 @@ export function RegistryPage() {
                   Have a Case? Let's Talk.
                 </h2>
                 <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">
-                  Whether you need a neurology, critical care, or other medical expert witness,
+                  Whether you need a neurology, critical care, gastroenterology, or pain medicine expert witness,
                   our team will match you with the right physician for your case. Response within 24 hours.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
