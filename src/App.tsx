@@ -3,6 +3,9 @@ import { HomePage } from '@/pages/HomePage';
 import { DivisionPage } from '@/pages/DivisionPage';
 import { BlogPage } from '@/pages/BlogPage';
 import { BlogPostPage } from '@/pages/BlogPostPage';
+import { RegistryPage } from '@/pages/RegistryPage';
+import { PhysicianProfilePage } from '@/pages/PhysicianProfilePage';
+import { JoinPage } from '@/pages/JoinPage';
 import { Footer } from '@/components/Footer';
 import './App.css';
 
@@ -15,6 +18,9 @@ function App() {
           <Route path="/divisions/:slug" element={<DivisionPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:slug" element={<BlogPostPage />} />
+          <Route path="/registry" element={<RegistryPage />} />
+          <Route path="/registry/:slug" element={<PhysicianProfilePage />} />
+          <Route path="/join" element={<JoinPage />} />
         </Routes>
         <Footer />
       </div>
