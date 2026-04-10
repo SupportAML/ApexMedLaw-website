@@ -770,4 +770,58 @@ Contact ApexMedLaw to discuss your complex regional pain syndrome malpractice ca
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'post-ercp-pancreatitis-perforation-gi-expert-witness',
+    title: 'Post-ERCP Pancreatitis and Duodenal Perforation: What Attorneys Need to Know About ERCP Malpractice Litigation',
+    metaDescription: 'A litigation-focused guide to post-ERCP pancreatitis and duodenal perforation — indications, informed consent, standard of care, and how AML supports attorneys handling ERCP malpractice cases.',
+    date: '2026-04-10',
+    author: 'AML Editorial',
+    keywords: [
+      'ERCP malpractice expert witness',
+      'post-ERCP pancreatitis litigation',
+      'duodenal perforation malpractice',
+      'gastroenterology expert witness',
+      'endoscopy standard of care',
+      'informed consent ERCP',
+      'medical malpractice attorney GI',
+      'ERCP complications liability',
+    ],
+    content: `Endoscopic retrograde cholangiopancreatography (ERCP) is one of the highest-risk procedures in gastroenterology. Unlike diagnostic colonoscopy or upper endoscopy, ERCP carries a meaningful baseline risk of serious complications — even when performed flawlessly by an experienced endoscopist. For attorneys evaluating potential ERCP malpractice cases, the central questions are rarely whether a complication occurred, but whether the procedure was appropriately indicated, whether informed consent adequately described the risks, whether the operator recognized and managed the complication in a timely fashion, and whether the patient's outcome was caused by a deviation from the standard of care.
+
+This post outlines the clinical and legal landscape of the two most litigated ERCP complications: post-ERCP pancreatitis (PEP) and duodenal perforation.
+
+## The Procedure and Its Appropriate Use
+
+ERCP combines endoscopy with fluoroscopy to access the biliary and pancreatic ducts through the major papilla in the duodenum. Modern guidelines from the American Society for Gastrointestinal Endoscopy (ASGE) have progressively narrowed the indications for ERCP as less-invasive alternatives — magnetic resonance cholangiopancreatography (MRCP) and endoscopic ultrasound (EUS) — have become widely available. ERCP is now considered a primarily therapeutic procedure rather than a diagnostic one.
+
+Appropriate indications include choledocholithiasis with cholangitis or obstruction, biliary stricture management, pancreatic duct intervention in chronic pancreatitis, and stent placement for malignant biliary obstruction. Performing ERCP for vague abdominal pain, normal liver enzymes, or nonspecific findings on imaging is increasingly difficult to defend. A significant subset of ERCP malpractice cases turn on whether the procedure should have been done at all.
+
+## Post-ERCP Pancreatitis: The Most Common Complication
+
+Post-ERCP pancreatitis occurs in approximately 3–10% of unselected patients and in up to 15% or more of high-risk patients. It is defined by new or worsening abdominal pain consistent with pancreatitis, a serum amylase or lipase at least three times the upper limit of normal at 24 hours post-procedure, and hospitalization (or prolongation of planned admission) of at least two nights.
+
+Several patient-related risk factors are well established: suspected sphincter of Oddi dysfunction, younger age, female sex, a history of prior PEP, and normal serum bilirubin. Procedure-related risk factors include difficult cannulation, pancreatic duct injection, precut sphincterotomy, and pancreatic sphincterotomy. When multiple risk factors are present, the risk of PEP can rise substantially.
+
+The standard of care for patients at elevated risk of PEP includes documented risk stratification, consideration of prophylactic measures, and a frank informed consent discussion that quantifies the risk. Evidence-based prophylaxis — including rectal indomethacin and prophylactic pancreatic duct stenting in selected patients — is now recommended by ASGE and European Society of Gastrointestinal Endoscopy (ESGE) guidelines. Failure to use rectal NSAID prophylaxis in a high-risk patient, without a documented contraindication, is an increasingly common standard-of-care issue in litigation.
+
+## Duodenal Perforation: Rare but Often Catastrophic
+
+Duodenal perforation occurs in roughly 0.3–1% of ERCP procedures but carries a mortality rate that has historically ranged from 8% to 23%, particularly when recognition is delayed. Perforations fall into several categories — free wall duodenal perforation from the endoscope, periampullary perforation from sphincterotomy, common bile duct or pancreatic duct perforation from wire or instrument manipulation, and retroperitoneal perforation — and each carries different management implications.
+
+The critical liability question in most perforation cases is not whether the perforation occurred, but whether it was recognized promptly. Endoscopists should have a low threshold for cross-sectional imaging in any patient with unexpected post-procedure pain, tachycardia, fever, or subcutaneous emphysema. Delayed recognition — sending a patient home after an ERCP despite unexplained symptoms, or attributing early signs of perforation to expected post-procedure discomfort — is a recurring fact pattern in catastrophic ERCP cases.
+
+## Informed Consent: Frequently Litigated, Frequently Inadequate
+
+Courts increasingly scrutinize informed consent in ERCP cases because the risks are substantial, the alternatives are often reasonable, and the procedure is elective in many circumstances. A defensible consent discussion should specifically identify the patient's risk factors for PEP, quantify the baseline and patient-specific risk of pancreatitis, disclose the risk of perforation and bleeding, acknowledge the risk of death, and discuss alternatives including MRCP, EUS, and conservative management. Boilerplate consent forms that fail to document a meaningful risk conversation create significant exposure when a serious complication follows.
+
+## How Apex Medical Law Approaches ERCP Cases
+
+Apex Medical Law's gastroenterology panel includes board-certified gastroenterologists with advanced endoscopy training and active ERCP practice. Our experts review the appropriateness of the indication, analyze the informed consent documentation against the patient's risk profile, evaluate technical performance of the procedure against published standards, and assess post-procedure management — including the timeliness of complication recognition and the adequacy of rescue interventions. We provide detailed written reports, deposition preparation, and trial testimony in both plaintiff and defense cases.
+
+Because ERCP litigation often turns on nuanced questions of procedural judgment and timing, we emphasize experts who perform ERCP regularly themselves rather than generalist gastroenterologists. Contact ApexMedLaw to discuss your post-ERCP pancreatitis or duodenal perforation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
