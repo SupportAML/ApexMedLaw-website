@@ -824,4 +824,60 @@ Because ERCP litigation often turns on nuanced questions of procedural judgment 
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'ards-mismanagement-critical-care-expert-witness',
+    title: 'ARDS Mismanagement in the ICU: What Attorneys Need to Know About Lung-Protective Ventilation Failures',
+    metaDescription: 'A guide for medical malpractice attorneys on ARDS litigation — recognition, lung-protective ventilation, prone positioning, and how critical care expert witnesses evaluate standard of care failures.',
+    date: '2026-04-11',
+    author: 'AML Editorial',
+    keywords: [
+      'ARDS malpractice expert witness',
+      'acute respiratory distress syndrome litigation',
+      'lung protective ventilation standard of care',
+      'ICU ventilator management malpractice',
+      'critical care expert witness',
+      'Berlin criteria ARDS',
+      'prone positioning failure litigation',
+      'ventilator induced lung injury',
+    ],
+    content: `Acute respiratory distress syndrome (ARDS) remains one of the most lethal and most frequently mismanaged conditions in the intensive care unit. With mortality still ranging from 35% to 46% depending on severity, ARDS sits at the intersection of recognition, ventilator management, and adjunctive therapy — each of which can fail in ways that generate substantial malpractice exposure. For attorneys evaluating ICU death or catastrophic lung injury cases, understanding how critical care physicians are expected to manage ARDS is essential to identifying where standards were breached and where liability attaches.
+
+## The Scope of the Problem
+
+ARDS affects approximately 200,000 patients annually in the United States and accounts for roughly 10% of all ICU admissions and nearly a quarter of all patients requiring mechanical ventilation. Despite more than two decades of high-quality randomized trial evidence demonstrating that specific ventilator and management strategies reduce mortality, observational studies repeatedly show that evidence-based care is delivered inconsistently. The landmark LUNG SAFE study found that clinicians failed to recognize ARDS in nearly 40% of cases, and even when recognized, lung-protective ventilation was not reliably applied.
+
+This recognition gap is central to many malpractice cases. A patient with worsening hypoxemia on a ventilator is not simply "sick" — if the clinical picture meets the Berlin criteria for ARDS, a specific management pathway is triggered, and deviation from that pathway becomes the basis for expert critique.
+
+## The Berlin Criteria and Recognition Standard
+
+Under the Berlin definition, ARDS is diagnosed when four criteria are met: onset within one week of a known clinical insult, bilateral opacities on chest imaging not fully explained by effusions or collapse, respiratory failure not fully explained by cardiac failure or fluid overload, and a PaO2/FiO2 ratio of 300 or less with at least 5 cm H2O of PEEP. Severity is graded as mild, moderate, or severe based on the oxygenation ratio.
+
+Expert witnesses evaluating a potential ARDS case will look carefully at the timeline of hypoxemia, the serial chest imaging, the fluid balance, and whether an echocardiogram was obtained to exclude cardiogenic pulmonary edema. A failure to recognize ARDS when the criteria are plainly met — and a corresponding failure to implement the management bundle — is a recurring liability pattern, particularly in community hospitals and in ICUs without dedicated intensivists.
+
+## Lung-Protective Ventilation: The Non-Negotiable Standard
+
+The ARMA trial published in 2000 established that low tidal volume ventilation (6 mL/kg predicted body weight) reduces mortality compared to traditional tidal volumes (12 mL/kg). More than twenty years later, this remains the clearest evidence-based standard in critical care medicine. Tidal volumes should be calculated from predicted body weight — not actual body weight — and plateau pressures should be maintained at or below 30 cm H2O. Driving pressure (plateau minus PEEP) below 15 cm H2O has emerged as an additional prognostic target.
+
+Deviations from these targets are common and, when documented in the ventilator flowsheet, provide some of the most concrete evidence of breach that an attorney will find in a critical care case. A patient ventilated at 10 mL/kg predicted body weight with plateau pressures consistently above 35 cm H2O for days is not receiving standard-of-care management, and the biologic mechanism — ventilator-induced lung injury — is well understood and defensible to a jury.
+
+## PEEP Titration, Prone Positioning, and Neuromuscular Blockade
+
+Beyond tidal volume, three additional interventions have strong supporting evidence in moderate-to-severe ARDS: appropriate PEEP titration (often guided by FiO2/PEEP tables), prone positioning for at least 16 hours per day in patients with PaO2/FiO2 below 150 (PROSEVA trial), and short-course neuromuscular blockade in severe cases. Failure to consider prone positioning in a severely hypoxemic patient is increasingly flagged by experts as a significant deviation from current practice, particularly after the broad adoption of proning during the COVID-19 pandemic demonstrated its feasibility in virtually any ICU.
+
+Conservative fluid management — avoiding net positive fluid balance once resuscitation is complete — is another evidence-based element, supported by the FACTT trial. ICU records showing aggressive ongoing fluid administration to a hypoxemic ARDS patient with rising plateau pressures are a frequent source of expert criticism.
+
+## How Failures Create Liability
+
+ARDS malpractice cases typically cluster around a few recurring fact patterns. Delayed recognition — the clinician documenting "pneumonia" or "fluid overload" on a patient whose chart plainly meets Berlin criteria — delays the application of lung-protective ventilation. Ventilator mismanagement — tidal volumes above 8 mL/kg predicted body weight, plateau pressures above 30, or inadequate PEEP — drives ventilator-induced injury and worsens outcomes. Failure to escalate — not considering prone positioning, ECMO referral, or neuromuscular blockade in a severely hypoxemic patient — closes off interventions that have meaningful mortality benefit. Each of these is documentable in the medical record and each can be tied to a specific published standard that the expert can point to in deposition.
+
+## How Apex Medical Law Approaches ARDS Cases
+
+Apex Medical Law's critical care panel includes board-certified pulmonary and critical care physicians who manage ARDS patients in active ICU practice. Our experts review the full ventilator flowsheet, serial arterial blood gases, imaging, fluid balance, and sedation and paralytic records to reconstruct whether lung-protective ventilation was actually delivered — not merely ordered. We evaluate the timeliness of ARDS recognition against the Berlin criteria, assess PEEP and driving pressure management, and determine whether escalation to proning, neuromuscular blockade, or ECMO referral was appropriately considered.
+
+Because ARDS litigation often turns on ventilator settings that are meticulously documented but rarely read closely by non-specialists, we place particular emphasis on hour-by-hour reconstruction of the ventilator course. We provide written reports, deposition testimony, and trial support in both plaintiff and defense cases. Contact ApexMedLaw to discuss your ARDS or ICU respiratory failure case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
