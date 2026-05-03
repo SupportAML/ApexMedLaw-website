@@ -26,6 +26,7 @@ const PHYSICIAN_SPECIALTIES = [
   'Radiology',
   'Physical Medicine and Rehabilitation',
   'Pharmacy',
+  'Other',
 ];
 
 const NEXT_STEPS = [

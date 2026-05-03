@@ -1,4 +1,4 @@
-import { Award, GraduationCap, Scale, ShieldCheck, Mic, Gavel } from 'lucide-react';
+import { Award, GraduationCap, Scale, ShieldCheck, Mic, Gavel, Mail } from 'lucide-react';
 
 const leaders = [
   {
@@ -6,6 +6,7 @@ const leaders = [
     title: 'CEO',
     specialty: 'Neurologist | Double Board Certified',
     photo: '/team_kapuria.jpg',
+    email: 'abhi@apexmedlaw.com',
     description: 'Board-certified in general neurology and clinical neurophysiology/epilepsy. Residency and fellowship training at Duke University. Active clinical practice combined with extensive litigation consulting experience across hundreds of cases.',
     highlights: ['Duke University Trained', 'Double Board Certified', 'Deposition & Trial Veteran'],
   },
@@ -14,6 +15,7 @@ const leaders = [
     title: 'CMO',
     specialty: 'Neurologist | Vascular Neurology',
     photo: '/team_inamullah.jpg',
+    email: 'ovi@apexmedlaw.com',
     description: 'Double board-certified vascular neuro-hospitalist with extensive litigation experience. Duke University post-graduate training. Expert in acute neurological emergencies and clinical decision-making analysis.',
     highlights: ['Duke University Trained', 'Vascular Neurology', 'Neuro-Hospitalist'],
   },
@@ -93,9 +95,16 @@ export function ApexTeamSection() {
                 <h3 className="text-2xl font-bold text-navy mb-1">
                   {leader.name}
                 </h3>
-                <p className="text-slate-500 text-sm mb-4">
+                <p className="text-slate-500 text-sm mb-2">
                   {leader.specialty}
                 </p>
+                <a
+                  href={`mailto:${leader.email}`}
+                  className="inline-flex items-center gap-2 text-sm text-electric hover:text-electric/80 font-medium mb-4"
+                >
+                  <Mail className="h-4 w-4" />
+                  {leader.email}
+                </a>
                 <p className="text-slate-700 leading-relaxed mb-4">
                   {leader.description}
                 </p>
