@@ -43,36 +43,100 @@ export const divisions: Division[] = [
     externalUrl: 'https://www.neurolegalconsulting.com'
   },
   {
-    slug: 'critical-care',
-    name: 'Critical Care Medicine',
-    tagline: 'ICU standard of care expertise for sepsis, ventilator management, and intensive care litigation',
-    description: 'Our critical care division features intensivists with extensive ICU experience providing expert testimony on acute respiratory distress syndrome, sepsis management, organ failure, and end-of-life care decisions. We combine active ICU practice with litigation expertise.',
+    slug: 'neurosurgery',
+    name: 'Neurosurgery',
+    tagline: 'Surgical expertise for cranial, spinal, and neurosurgical malpractice litigation',
+    description: 'Our neurosurgery division features board-certified neurosurgeons with deep experience in cranial and spinal surgery. Our experts provide expert testimony on traumatic brain injury, spine procedures, surgical complications, and standard of care issues across the full spectrum of neurosurgical practice.',
     practiceAreas: [
       {
-        title: 'ICU Standard of Care',
-        description: 'General critical care management, ICU admission decisions, and appropriate level of care determinations.'
+        title: 'Traumatic Brain Injury',
+        description: 'Neurosurgical management of acute TBI, decompressive craniectomy decisions, and ICP monitoring standard of care.'
       },
       {
-        title: 'Sepsis Management',
-        description: 'Sepsis recognition, early goal-directed therapy, antibiotic selection, and source control timing.'
+        title: 'Spine Surgery',
+        description: 'Cervical (ACDF), lumbar fusion (TLIF, XLIF), and thoracic procedures — surgical indications, technique, and complication analysis.'
       },
       {
-        title: 'Ventilator Management',
-        description: 'Mechanical ventilation modes, weaning protocols, ventilator-associated pneumonia prevention, and barotrauma risk.'
+        title: 'Spinal Cord Injury',
+        description: 'Acute spinal cord injury surgical management, timing decisions, and post-operative care standards.'
       },
       {
-        title: 'Wrongful Death in ICU',
-        description: 'Cause of death analysis, preventability assessments, and damages causation in critical care mortality cases.'
+        title: 'Craniotomy & Tumor Resection',
+        description: 'Cranial procedures for tumor, aneurysm, and intracranial hemorrhage with focus on surgical decision-making.'
+      },
+      {
+        title: 'Disc Herniation & Nerve Compression',
+        description: 'Conservative vs. surgical management decisions, indications for intervention, and outcomes analysis.'
+      },
+      {
+        title: 'Spinal Trauma & Abscess',
+        description: 'Emergency surgical management of spinal trauma, infection, and post-operative complications.'
+      }
+    ],
+  },
+  {
+    slug: 'pediatric-neurology',
+    name: 'Pediatric Neurology',
+    tagline: 'Child neurology expertise for pediatric brain injury, epilepsy, and developmental cases',
+    description: 'Our pediatric neurology division features ABPN-certified child neurologists with specialized fellowship training in neurocritical care and epilepsy. Our experts provide testimony on neonatal neurologic injury, pediatric epilepsy, developmental delay, and child neurological emergencies.',
+    practiceAreas: [
+      {
+        title: 'Neonatal Brain Injury',
+        description: 'Hypoxic-ischemic encephalopathy (HIE), neonatal stroke, and birth-related neurologic injury standard of care.'
+      },
+      {
+        title: 'Pediatric Epilepsy',
+        description: 'Childhood seizure disorders, epileptic encephalopathies, antiseizure medication management, and surgical evaluation.'
+      },
+      {
+        title: 'Pediatric Stroke',
+        description: 'Arterial ischemic stroke, sinus venous thrombosis, and pediatric cerebrovascular disease management.'
+      },
+      {
+        title: 'Developmental Delay',
+        description: 'Diagnostic work-up for developmental delay, autism spectrum, and neurodevelopmental disorders.'
+      },
+      {
+        title: 'Pediatric Neurocritical Care',
+        description: 'PICU neurologic management, status epilepticus, intracranial pressure, and acute encephalopathy.'
+      },
+      {
+        title: 'Concussion in Children',
+        description: 'Pediatric mild TBI assessment, return-to-play decisions, and post-concussive management standards.'
+      }
+    ],
+  },
+  {
+    slug: 'internal-medicine',
+    name: 'Internal Medicine',
+    tagline: 'Hospitalist and IM expertise for inpatient care, diagnostic delay, and standard of care litigation',
+    description: 'Our internal medicine division features board-certified internists and hospitalists with extensive inpatient and outpatient experience. Our experts provide testimony on diagnostic delay, hospital-based negligence, medication errors, and complex medical decision-making across multi-system disease.',
+    practiceAreas: [
+      {
+        title: 'Diagnostic Delay',
+        description: 'Failure to diagnose and timely workup of common and complex internal medicine conditions.'
+      },
+      {
+        title: 'Inpatient Standard of Care',
+        description: 'Hospital protocols, admission decisions, escalation of care, and hospitalist standard of care.'
       },
       {
         title: 'Medication Errors',
-        description: 'Drug administration errors, dosing mistakes, adverse drug interactions, and monitoring failures in ICU.'
+        description: 'Drug administration errors, polypharmacy management, and adverse drug interaction analysis.'
       },
       {
-        title: 'Post-Surgical Complications',
-        description: 'Postoperative infection, anastomotic failure, complication recognition, and rescue management.'
+        title: 'Wrongful Death',
+        description: 'Cause of death analysis, preventability assessments, and clinical decision-making review.'
+      },
+      {
+        title: 'Hospital-Based Negligence',
+        description: 'Failure to monitor, communication failures between care teams, and discharge planning issues.'
+      },
+      {
+        title: 'Complex Medical Disease',
+        description: 'Management of multi-organ disease, chronic illness exacerbations, and complex care coordination.'
       }
-    ]
+    ],
   },
   {
     slug: 'gastroenterology',
@@ -107,6 +171,38 @@ export const divisions: Division[] = [
     ]
   },
   {
+    slug: 'critical-care',
+    name: 'Critical Care',
+    tagline: 'ICU standard of care expertise for sepsis, ventilator management, and intensive care litigation',
+    description: 'Our critical care division features intensivists and neurocritical care specialists with extensive ICU experience providing expert testimony on acute respiratory distress syndrome, sepsis management, organ failure, and end-of-life care decisions. We combine active ICU practice with litigation expertise.',
+    practiceAreas: [
+      {
+        title: 'ICU Standard of Care',
+        description: 'General critical care management, ICU admission decisions, and appropriate level of care determinations.'
+      },
+      {
+        title: 'Sepsis Management',
+        description: 'Sepsis recognition, early goal-directed therapy, antibiotic selection, and source control timing.'
+      },
+      {
+        title: 'Ventilator Management',
+        description: 'Mechanical ventilation modes, weaning protocols, ventilator-associated pneumonia prevention, and barotrauma risk.'
+      },
+      {
+        title: 'Wrongful Death in ICU',
+        description: 'Cause of death analysis, preventability assessments, and damages causation in critical care mortality cases.'
+      },
+      {
+        title: 'Medication Errors',
+        description: 'Drug administration errors, dosing mistakes, adverse drug interactions, and monitoring failures in ICU.'
+      },
+      {
+        title: 'Post-Surgical Complications',
+        description: 'Postoperative infection, anastomotic failure, complication recognition, and rescue management.'
+      }
+    ]
+  },
+  {
     slug: 'pain-medicine',
     name: 'Pain Medicine',
     tagline: 'Chronic pain management expertise for opioid litigation, interventional procedures, and worker compensation',
@@ -135,6 +231,70 @@ export const divisions: Division[] = [
       {
         title: 'Medication Management',
         description: 'Pain medication selection, polypharmacy risks, drug interaction management, and monitoring adequacy.'
+      }
+    ]
+  },
+  {
+    slug: 'radiology',
+    name: 'Radiology',
+    tagline: 'Diagnostic radiology and neuroradiology expertise for imaging interpretation litigation',
+    description: 'Our radiology division features double board-certified diagnostic radiologists and neuroradiologists with expertise across CT, MRI, and advanced imaging modalities. Our experts provide testimony on missed findings, imaging interpretation accuracy, and radiologic standard of care.',
+    practiceAreas: [
+      {
+        title: 'Missed Diagnosis on Imaging',
+        description: 'Failure to identify findings on CT, MRI, X-ray, and ultrasound — including stroke, hemorrhage, fracture, and tumor.'
+      },
+      {
+        title: 'Stroke & Hemorrhage Imaging',
+        description: 'Acute stroke imaging, intracranial hemorrhage detection, and time-sensitive neuroimaging interpretation.'
+      },
+      {
+        title: 'Spine Imaging',
+        description: 'Cervical, thoracic, and lumbar spine imaging interpretation including degenerative disease and trauma.'
+      },
+      {
+        title: 'Cancer Detection',
+        description: 'Failure to detect malignancy on screening and diagnostic imaging across body systems.'
+      },
+      {
+        title: 'CSF Leaks',
+        description: 'Diagnosis and characterization of cerebrospinal fluid leaks and intracranial hypotension.'
+      },
+      {
+        title: 'Trauma Imaging',
+        description: 'Acute trauma imaging interpretation including TBI, spine, and polytrauma evaluation.'
+      }
+    ]
+  },
+  {
+    slug: 'physical-medicine-rehabilitation',
+    name: 'Physical Medicine and Rehabilitation',
+    tagline: 'PM&R expertise for spinal cord injury, brain injury, and rehabilitation outcomes',
+    description: 'Our PM&R division features triple board-certified physiatrists with expertise in spinal cord injury medicine and brain injury medicine. Our experts provide testimony on rehabilitation standards of care, life-care planning, and long-term outcomes after catastrophic injury.',
+    practiceAreas: [
+      {
+        title: 'Spinal Cord Injury',
+        description: 'Acute and chronic SCI management, complications of injury, and long-term functional outcomes.'
+      },
+      {
+        title: 'Brain Injury Rehabilitation',
+        description: 'TBI rehabilitation standards, post-acute care, and recovery trajectory evaluation.'
+      },
+      {
+        title: 'Stroke Rehabilitation',
+        description: 'Post-stroke functional recovery, rehabilitation intensity, and discharge planning standards.'
+      },
+      {
+        title: 'Life-Care Planning',
+        description: 'Anticipated quality of life, future care needs, and rehabilitation cost projections after catastrophic injury.'
+      },
+      {
+        title: 'Functional Capacity Evaluation',
+        description: 'Disability evaluation, return-to-work assessment, and impairment ratings using AMA Guides.'
+      },
+      {
+        title: 'Complications of Immobility',
+        description: 'Pressure injury, contractures, autonomic dysreflexia, and other secondary complications of disability.'
       }
     ]
   }

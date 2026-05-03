@@ -42,13 +42,15 @@ const practiceAreas = [
 ];
 
 const specialties = [
-  'Neurology – Adult & Pediatric',
+  'Neurology',
   'Neurosurgery',
-  'Anesthesiology & Pain Medicine',
-  'Radiology & Neuroradiology',
-  'Pharmacy',
+  'Pediatric Neurology',
   'Internal Medicine',
   'Gastroenterology',
+  'Critical Care',
+  'Pain Medicine',
+  'Radiology',
+  'Physical Medicine and Rehabilitation',
 ];
 
 export function PracticeAreasSection() {

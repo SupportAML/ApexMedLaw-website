@@ -1,13 +1,31 @@
 import { Link } from 'react-router-dom';
 import { divisions } from '@/data/divisions';
-import { ArrowRight, Stethoscope, Heart, Utensils, Activity } from 'lucide-react';
+import { getPhysiciansBySpecialty } from '@/data/physicians';
+import {
+  ArrowRight,
+  Stethoscope,
+  Heart,
+  Utensils,
+  Activity,
+  Brain,
+  Baby,
+  Hospital,
+  Scan,
+  Accessibility,
+  Slice,
+} from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const divisionMeta: Record<string, { icon: typeof Stethoscope; accent: string }> = {
-  neurology: { icon: Stethoscope, accent: '#2563EB' },
+  'neurology': { icon: Brain, accent: '#2563EB' },
+  'neurosurgery': { icon: Slice, accent: '#0E7490' },
+  'pediatric-neurology': { icon: Baby, accent: '#DB2777' },
+  'internal-medicine': { icon: Hospital, accent: '#0F766E' },
+  'gastroenterology': { icon: Utensils, accent: '#7C3AED' },
   'critical-care': { icon: Heart, accent: '#006872' },
-  gastroenterology: { icon: Utensils, accent: '#7C3AED' },
   'pain-medicine': { icon: Activity, accent: '#D97706' },
+  'radiology': { icon: Scan, accent: '#4338CA' },
+  'physical-medicine-rehabilitation': { icon: Accessibility, accent: '#059669' },
 };
 
 export function DivisionsSection() {
@@ -16,20 +34,21 @@ export function DivisionsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="max-w-2xl mb-12">
           <span className="text-sm font-semibold text-electric uppercase tracking-widest">
-            Our Divisions
+            Specialties Covered
           </span>
           <h2 className="text-display-lg font-bold text-navy mt-3 mb-4">
-            Four Focused Divisions. One Standard of Excellence.
+            Nine Specialties. One Standard of Excellence.
           </h2>
           <p className="text-lg text-slate-600">
-            ApexMedLaw organizes its expert network into dedicated divisions, each led by physicians who practice in that specialty daily. Deep focus means more thorough reviews and stronger testimony.
+            ApexMedLaw organizes its expert network across nine focused specialties, each led by physicians who practice in that specialty daily. Click a specialty to see our experts.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {divisions.map((division) => {
             const meta = divisionMeta[division.slug] || { icon: Stethoscope, accent: '#2563EB' };
             const Icon = meta.icon;
+            const physicianCount = getPhysiciansBySpecialty(division.slug).length;
             return (
               <Link
                 key={division.slug}
@@ -37,7 +56,6 @@ export function DivisionsSection() {
                 className="group relative"
               >
                 <div className="relative bg-clinical border border-slate-200 rounded-2xl p-7 lg:p-8 hover:border-slate-300 transition-all duration-300 hover:shadow-lg h-full flex flex-col overflow-hidden">
-                  {/* Colored accent bar */}
                   <div
                     className="absolute top-0 left-0 w-full h-1 rounded-t-2xl"
                     style={{ backgroundColor: meta.accent }}
@@ -49,7 +67,9 @@ export function DivisionsSection() {
                         {division.name}
                       </h3>
                       <p className="text-slate-500 text-sm">
-                        {division.tagline}
+                        {physicianCount > 0
+                          ? `${physicianCount} expert${physicianCount === 1 ? '' : 's'} available`
+                          : 'Network expanding'}
                       </p>
                     </div>
                     <div
@@ -60,13 +80,12 @@ export function DivisionsSection() {
                     </div>
                   </div>
 
-                  {/* Truncated description — 2 lines max */}
-                  <p className="text-slate-600 leading-relaxed mb-5 line-clamp-2 flex-grow">
-                    {division.description}
+                  <p className="text-slate-600 leading-relaxed mb-5 line-clamp-3 flex-grow text-sm">
+                    {division.tagline}
                   </p>
 
                   <div className="flex items-center gap-2 font-semibold group-hover:gap-4 transition-all duration-300" style={{ color: meta.accent }}>
-                    <span>View Specialties</span>
+                    <span>View Experts</span>
                     <ArrowRight size={16} />
                   </div>
                 </div>

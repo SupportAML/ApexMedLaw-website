@@ -6,7 +6,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const navLinks = [
-  { label: 'Divisions', href: '#divisions' },
+  { label: 'Specialties', href: '#divisions' },
   { label: 'Services', href: '#services' },
   { label: 'Our Experts', href: '/experts', isRoute: true },
   { label: 'Team', href: '#team' },

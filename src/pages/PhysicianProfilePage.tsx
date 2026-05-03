@@ -5,33 +5,19 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import {
   ArrowLeft,
+  ArrowRight,
   MapPin,
   Shield,
   CheckCircle,
   Phone,
-  Briefcase,
-  GraduationCap,
   Clock,
-  FileText,
-  Scale,
+  Mail,
 } from 'lucide-react';
-import { physicians } from '@/data/physicians';
-
-function availabilityColor(a: string) {
-  if (a === 'available') return 'bg-emerald-100 text-emerald-700';
-  if (a === 'limited') return 'bg-amber-100 text-amber-700';
-  return 'bg-gray-100 text-gray-500';
-}
-
-function availabilityLabel(a: string) {
-  if (a === 'available') return 'Available Now';
-  if (a === 'limited') return 'Limited Availability';
-  return 'Unavailable';
-}
+import { getPhysicianBySlug, getSpecialtyName } from '@/data/physicians';
 
 export function PhysicianProfilePage() {
   const { slug } = useParams<{ slug: string }>();
-  const physician = physicians.find((p) => p.slug === slug);
+  const physician = slug ? getPhysicianBySlug(slug) : undefined;
 
   if (!physician) {
     return (
@@ -41,9 +27,9 @@ export function PhysicianProfilePage() {
           <div className="max-w-3xl mx-auto text-center py-20">
             <h1 className="font-display font-bold text-2xl text-foreground mb-4">Expert Not Found</h1>
             <p className="text-muted-foreground mb-6">The physician profile you're looking for doesn't exist.</p>
-            <Link to="/registry">
+            <Link to="/experts">
               <Button variant="outline" className="rounded-full">
-                <ArrowLeft size={16} className="mr-2" /> Back to Registry
+                <ArrowLeft size={16} className="mr-2" /> Back to Experts
               </Button>
             </Link>
           </div>
@@ -52,13 +38,12 @@ export function PhysicianProfilePage() {
     );
   }
 
-  const initials = physician.name.split(' ').map((n) => n[0]).filter((c) => /[A-Z]/.test(c)).slice(0, 2).join('');
-
   return (
     <>
       <SEO
         title={`${physician.name} — Expert Witness`}
-        description={`${physician.name} is a ${physician.credentials} providing expert witness services in ${physician.specialty}. ${physician.yearsExperience}+ years of experience.`}
+        description={`${physician.name} is a ${physician.role} providing expert witness services with ApexMedLaw.`}
+        path={`/experts/${physician.slug}`}
       />
       <Navigation />
       <main className="pt-20 lg:pt-24">
@@ -68,15 +53,19 @@ export function PhysicianProfilePage() {
           <div className="relative z-10 w-full px-6 lg:px-12">
             <div className="max-w-5xl mx-auto">
               <Link
-                to="/registry"
+                to="/experts"
                 className="inline-flex items-center gap-2 text-white/60 hover:text-electric transition-colors text-sm mb-8"
               >
-                <ArrowLeft size={16} /> Back to Registry
+                <ArrowLeft size={16} /> Back to Experts
               </Link>
 
               <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-8">
-                <div className="w-20 h-20 lg:w-24 lg:h-24 rounded-2xl bg-electric/20 flex items-center justify-center text-electric font-display font-bold text-2xl lg:text-3xl shrink-0">
-                  {initials}
+                <div className="w-32 h-40 lg:w-44 lg:h-56 rounded-2xl overflow-hidden shrink-0 bg-electric/10">
+                  <img
+                    src={physician.photo}
+                    alt={physician.name}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="flex-1">
                   <div className="flex flex-wrap items-center gap-3 mb-2">
@@ -84,27 +73,30 @@ export function PhysicianProfilePage() {
                       {physician.name}
                     </h1>
                     {physician.featured && (
-                      <Badge className="bg-electric/20 text-electric border-0">Featured Expert</Badge>
+                      <Badge className="bg-electric/20 text-electric border-0">{physician.title}</Badge>
                     )}
                   </div>
-                  <p className="text-lg text-white/70 mb-4">{physician.credentials}</p>
-                  <div className="flex flex-wrap items-center gap-4 text-sm text-white/60">
+                  <p className="text-lg text-white/70 mb-4">{physician.role}</p>
+                  <div className="flex flex-wrap items-center gap-4 text-sm text-white/60 mb-4">
                     <span className="flex items-center gap-1.5">
                       <MapPin size={14} />
-                      {physician.location.city}, {physician.location.state}
+                      {physician.location}
                     </span>
-                    <span className="flex items-center gap-1.5">
-                      <Briefcase size={14} />
-                      {physician.yearsExperience}+ years
-                    </span>
-                    <span className="flex items-center gap-1.5">
-                      <FileText size={14} />
-                      {physician.caseCount}+ cases
-                    </span>
-                    <span className={`inline-flex items-center gap-1.5 text-xs font-medium px-2.5 py-1 rounded-full ${availabilityColor(physician.availability)}`}>
-                      <span className="w-1.5 h-1.5 rounded-full bg-current" />
-                      {availabilityLabel(physician.availability)}
-                    </span>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {physician.categories.map((cat) => {
+                      const name = getSpecialtyName(cat);
+                      if (!name) return null;
+                      return (
+                        <Link
+                          key={cat}
+                          to={`/divisions/${cat}`}
+                          className="inline-flex items-center gap-1 text-xs bg-electric/15 text-electric hover:bg-electric/25 px-3 py-1.5 rounded-full transition-colors"
+                        >
+                          {name}
+                        </Link>
+                      );
+                    })}
                   </div>
                 </div>
               </div>
@@ -121,64 +113,39 @@ export function PhysicianProfilePage() {
                 {/* Bio */}
                 <div>
                   <h2 className="font-display font-bold text-xl text-foreground mb-4">About</h2>
-                  <p className="text-muted-foreground leading-relaxed">{physician.bio}</p>
+                  <p className="text-muted-foreground leading-relaxed whitespace-pre-line">{physician.bio}</p>
                 </div>
 
-                {/* Board Certifications */}
+                {/* Credentials */}
                 <div>
-                  <h2 className="font-display font-bold text-xl text-foreground mb-4 flex items-center gap-2">
-                    <GraduationCap size={20} className="text-electric" />
-                    Board Certifications
+                  <h2 className="font-display font-bold text-xl text-foreground mb-4">
+                    Training & Credentials
                   </h2>
                   <div className="space-y-3">
-                    {physician.boardCertifications.map((cert) => (
-                      <div key={cert} className="flex items-start gap-3 p-3 bg-clinical-100 rounded-xl">
+                    {physician.credentials.map((cred) => (
+                      <div key={cred} className="flex items-start gap-3 p-3 bg-clinical-100 rounded-xl">
                         <Shield size={16} className="text-teal mt-0.5 shrink-0" />
-                        <span className="text-sm text-foreground">{cert}</span>
+                        <span className="text-sm text-foreground">{cred}</span>
                       </div>
                     ))}
                   </div>
                 </div>
 
-                {/* Subspecialties */}
+                {/* Specialties */}
                 <div>
-                  <h2 className="font-display font-bold text-xl text-foreground mb-4">Subspecialties</h2>
+                  <h2 className="font-display font-bold text-xl text-foreground mb-4">Specialties Covered</h2>
                   <div className="flex flex-wrap gap-2">
-                    {physician.subspecialties.map((sub) => (
-                      <Badge key={sub} variant="secondary" className="text-sm py-1.5 px-3">
-                        {sub}
-                      </Badge>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Case Types */}
-                <div>
-                  <h2 className="font-display font-bold text-xl text-foreground mb-4 flex items-center gap-2">
-                    <Scale size={20} className="text-electric" />
-                    Case Types
-                  </h2>
-                  <div className="flex flex-wrap gap-2">
-                    {physician.caseTypes.map((ct) => (
-                      <Badge key={ct} className="bg-electric/10 text-electric border-0 text-sm py-1.5 px-3">
-                        {ct}
-                      </Badge>
-                    ))}
-                  </div>
-                </div>
-
-                {/* States Licensed */}
-                <div>
-                  <h2 className="font-display font-bold text-xl text-foreground mb-4 flex items-center gap-2">
-                    <MapPin size={20} className="text-electric" />
-                    States Licensed
-                  </h2>
-                  <div className="flex flex-wrap gap-2">
-                    {physician.statesLicensed.map((st) => (
-                      <span key={st} className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-clinical-100 text-sm font-medium text-foreground">
-                        {st}
-                      </span>
-                    ))}
+                    {physician.categories.map((cat) => {
+                      const name = getSpecialtyName(cat);
+                      if (!name) return null;
+                      return (
+                        <Link key={cat} to={`/divisions/${cat}`}>
+                          <Badge variant="secondary" className="text-sm py-1.5 px-3 hover:bg-secondary/80 cursor-pointer">
+                            {name} <ArrowRight size={12} className="ml-1" />
+                          </Badge>
+                        </Link>
+                      );
+                    })}
                   </div>
                 </div>
               </div>
@@ -194,7 +161,7 @@ export function PhysicianProfilePage() {
                   </p>
                   <Link to="/#contact">
                     <Button className="w-full bg-electric hover:bg-electric/90 text-white font-medium py-3 rounded-full flex items-center justify-center gap-2 mb-3">
-                      <Phone size={16} />
+                      <Mail size={16} />
                       Request a Consult
                     </Button>
                   </Link>
