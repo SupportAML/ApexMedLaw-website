@@ -48,9 +48,10 @@ const specialties = [
   'Internal Medicine',
   'Gastroenterology',
   'Critical Care',
-  'Pain Medicine',
+  'Anesthesiology',
   'Radiology',
   'Physical Medicine and Rehabilitation',
+  'Pharmacy',
 ];
 
 export function PracticeAreasSection() {

@@ -13,6 +13,7 @@ import {
   Scan,
   Accessibility,
   Slice,
+  Pill,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -23,9 +24,10 @@ const divisionMeta: Record<string, { icon: typeof Stethoscope; accent: string }>
   'internal-medicine': { icon: Hospital, accent: '#0F766E' },
   'gastroenterology': { icon: Utensils, accent: '#7C3AED' },
   'critical-care': { icon: Heart, accent: '#006872' },
-  'pain-medicine': { icon: Activity, accent: '#D97706' },
+  'anesthesiology': { icon: Activity, accent: '#D97706' },
   'radiology': { icon: Scan, accent: '#4338CA' },
   'physical-medicine-rehabilitation': { icon: Accessibility, accent: '#059669' },
+  'pharmacy': { icon: Pill, accent: '#BE185D' },
 };
 
 export function DivisionsSection() {
@@ -37,10 +39,10 @@ export function DivisionsSection() {
             Specialties Covered
           </span>
           <h2 className="text-display-lg font-bold text-navy mt-3 mb-4">
-            Nine Specialties. One Standard of Excellence.
+            Ten Specialties. One Standard of Excellence.
           </h2>
           <p className="text-lg text-slate-600">
-            ApexMedLaw organizes its expert network across nine focused specialties, each led by physicians who practice in that specialty daily. Click a specialty to see our experts.
+            ApexMedLaw organizes its expert network across ten focused specialties, each led by clinicians who practice in that specialty daily. Click a specialty to see our experts.
           </p>
         </div>
 

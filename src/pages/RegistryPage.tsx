@@ -19,7 +19,7 @@ export function RegistryPage() {
     <>
       <SEO
         title="Our Expert Witnesses"
-        description="ApexMedLaw's network of board-certified physician expert witnesses. Browse by specialty: Neurology, Neurosurgery, Pediatric Neurology, Internal Medicine, Gastroenterology, Critical Care, Pain Medicine, Radiology, and Physical Medicine and Rehabilitation."
+        description="ApexMedLaw's network of board-certified expert witnesses. Browse by specialty: Neurology, Neurosurgery, Pediatric Neurology, Internal Medicine, Gastroenterology, Critical Care, Anesthesiology, Radiology, Physical Medicine and Rehabilitation, and Pharmacy."
       />
       <Navigation />
       <main className="pt-20 lg:pt-24">
@@ -35,7 +35,7 @@ export function RegistryPage() {
                 Board-Certified <span className="text-electric">Medical Experts</span>
               </h1>
               <p className="text-lg lg:text-xl text-white/70 max-w-2xl mx-auto">
-                ApexMedLaw provides expert witnesses across nine medical specialties. Browse our network by specialty below.
+                ApexMedLaw provides expert witnesses across ten medical specialties. Browse our network by specialty below.
               </p>
             </div>
           </div>
@@ -137,8 +137,8 @@ export function RegistryPage() {
                   Have a Case? Let's Talk.
                 </h2>
                 <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">
-                  Whether you need a neurology, neurosurgery, pediatric neurology, internal medicine, gastroenterology, critical care, pain medicine, radiology, or PM&R expert witness,
-                  our team will match you with the right physician for your case. Response within 24 hours.
+                  Whether you need a neurology, neurosurgery, pediatric neurology, internal medicine, gastroenterology, critical care, anesthesiology, radiology, PM&R, or pharmacy expert witness,
+                  our team will match you with the right specialist for your case. Response within 24 hours.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                   <a href="/#contact">

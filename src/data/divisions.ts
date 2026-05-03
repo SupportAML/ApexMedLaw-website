@@ -203,18 +203,22 @@ export const divisions: Division[] = [
     ]
   },
   {
-    slug: 'pain-medicine',
-    name: 'Pain Medicine',
-    tagline: 'Chronic pain management expertise for opioid litigation, interventional procedures, and worker compensation',
-    description: 'Our pain medicine division features board-certified pain specialists providing expert testimony on opioid prescribing, chronic pain assessment, interventional procedures, and medication management in complex cases.',
+    slug: 'anesthesiology',
+    name: 'Anesthesiology',
+    tagline: 'Anesthesiology and pain medicine expertise for perioperative, interventional, and chronic pain litigation',
+    description: 'Our anesthesiology division features board-certified anesthesiologists and pain medicine physicians providing expert testimony on perioperative care, interventional procedures, opioid prescribing, and chronic pain management in complex cases.',
     practiceAreas: [
       {
-        title: 'Opioid Management',
-        description: 'Opioid prescribing decisions, addiction risk assessment, dose escalation decisions, and overdose causation.'
+        title: 'Perioperative Anesthesia',
+        description: 'General and regional anesthesia administration, intraoperative monitoring, and perioperative complication analysis.'
       },
       {
         title: 'Interventional Procedure Complications',
         description: 'Epidural steroid injection complications, facet joint injection adverse events, spinal cord stimulator infections, and nerve injury.'
+      },
+      {
+        title: 'Opioid Management',
+        description: 'Opioid prescribing decisions, addiction risk assessment, dose escalation decisions, and overdose causation.'
       },
       {
         title: 'Chronic Pain Assessment',
@@ -227,10 +231,6 @@ export const divisions: Division[] = [
       {
         title: 'Spinal Injections',
         description: 'Epidural steroid injection technique, frequency and safety protocols, image guidance requirements, and complication rates.'
-      },
-      {
-        title: 'Medication Management',
-        description: 'Pain medication selection, polypharmacy risks, drug interaction management, and monitoring adequacy.'
       }
     ]
   },
@@ -295,6 +295,38 @@ export const divisions: Division[] = [
       {
         title: 'Complications of Immobility',
         description: 'Pressure injury, contractures, autonomic dysreflexia, and other secondary complications of disability.'
+      }
+    ]
+  },
+  {
+    slug: 'pharmacy',
+    name: 'Pharmacy',
+    tagline: 'Pharmacotherapy and critical care pharmacy expertise for medication error and pharmacy malpractice litigation',
+    description: 'Our pharmacy division features board-certified pharmacotherapy and critical care pharmacy specialists providing expert testimony on medication errors, drug overdoses, adverse drug reactions, improper dosing, and breaches in pharmacy standard of care.',
+    practiceAreas: [
+      {
+        title: 'Medication Errors',
+        description: 'Drug administration errors, dosing mistakes, dispensing errors, and order-entry failures across inpatient and outpatient settings.'
+      },
+      {
+        title: 'Drug Overdose & Adverse Reactions',
+        description: 'Insulin overdose, anticoagulant errors, opioid-related events, and adverse drug reaction recognition and management.'
+      },
+      {
+        title: 'Opioid Prescribing & Dispensing',
+        description: 'Pharmacist responsibilities in opioid dispensing, corresponding-responsibility analysis, and red-flag identification.'
+      },
+      {
+        title: 'Anticoagulation Management',
+        description: 'Warfarin and DOAC dosing, monitoring, drug-drug interactions, and bleeding-risk assessment.'
+      },
+      {
+        title: 'Pharmacy Standard of Care',
+        description: 'Compounding, sterile preparation, drug-information consultation, and counseling standards.'
+      },
+      {
+        title: 'ICU & Emergency Pharmacotherapy',
+        description: 'Critical care medication selection, rapid-sequence intubation drug protocols, and emergency-department pharmacy practice.'
       }
     ]
   }

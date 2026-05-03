@@ -22,9 +22,10 @@ const PHYSICIAN_SPECIALTIES = [
   'Internal Medicine',
   'Gastroenterology',
   'Critical Care',
-  'Pain Medicine',
+  'Anesthesiology',
   'Radiology',
   'Physical Medicine and Rehabilitation',
+  'Pharmacy',
 ];
 
 const NEXT_STEPS = [

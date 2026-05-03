@@ -19,9 +19,10 @@ export const SPECIALTIES = [
   { slug: 'internal-medicine', name: 'Internal Medicine' },
   { slug: 'gastroenterology', name: 'Gastroenterology' },
   { slug: 'critical-care', name: 'Critical Care' },
-  { slug: 'pain-medicine', name: 'Pain Medicine' },
+  { slug: 'anesthesiology', name: 'Anesthesiology' },
   { slug: 'radiology', name: 'Radiology' },
   { slug: 'physical-medicine-rehabilitation', name: 'Physical Medicine and Rehabilitation' },
+  { slug: 'pharmacy', name: 'Pharmacy' },
 ] as const;
 
 export type SpecialtySlug = (typeof SPECIALTIES)[number]['slug'];
@@ -75,7 +76,7 @@ He has extensive experience in managing patients with acute neurological emergen
 His legal expertise allows him to better understand patients' rights and ensure that they are fully informed about their treatment options. His research and writing awards demonstrate his commitment to advancing the field of neurology.`,
     credentials: ['Duke University Training', 'Double Board Certified', 'Vascular Neurology'],
     location: 'North Carolina',
-    categories: ['neurology', 'critical-care'],
+    categories: ['neurology'],
     featured: true,
   },
   {
@@ -90,7 +91,7 @@ His legal expertise allows him to better understand patients' rights and ensure 
 Dr. Newmark received his MD from Temple University (Katz) School of Medicine, completed an internal medicine internship at Drexel, anesthesiology residency at Harvard Medical School/Massachusetts General Hospital, and pain medicine fellowship at Stanford University where he served as Chief Fellow. He performs qualified medical evaluations (QME) and independent medical evaluations (IME) within California, utilizing the AMA Guides 5th edition.`,
     credentials: ['QME Certified', 'Stanford Fellowship', 'Harvard/MGH Residency'],
     location: 'California',
-    categories: ['pain-medicine'],
+    categories: ['anesthesiology'],
   },
   {
     id: '4',
@@ -138,7 +139,7 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     bio: `Dr. Ramesh is a board-certified physician specializing in anesthesiology and pain medicine. He trained at Rush University Medical Center in Chicago for anesthesiology and completed his pain medicine fellowship at the Cleveland Clinic in Ohio. His education began at the University of Virginia for both medical school and undergraduate studies. He offers expert witness testimony and consultation in anesthesiology and pain medicine and has authored several papers in peer-reviewed journals and book chapters.`,
     credentials: ['Cleveland Clinic Fellowship', 'Rush University Residency', 'UVA Medical School'],
     location: 'Illinois',
-    categories: ['pain-medicine'],
+    categories: ['anesthesiology'],
   },
   {
     id: '8',
@@ -234,7 +235,7 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     bio: `Dr. Jhanvi Shah is a board-certified pharmacotherapy specialist and board-certified critical care pharmacist with over eight years of clinical experience in hospital, ICU, and emergency medicine settings. She currently serves as a Critical Care Pharmacist at Northwestern Palos Hospital. Her expertise spans pharmacy malpractice, medication error, drug overdose, adverse drug reactions, improper dosing, and delayed administration of critical medications. She regularly provides expert reviews for cases involving opioid prescribing, anticoagulant errors, insulin overdoses, and breaches in pharmacy standard of care. She is licensed in Illinois and maintains ACLS and PALS certifications.`,
     credentials: ['BCPS', 'BCCCP', 'Critical Care Pharmacy'],
     location: 'Illinois',
-    categories: ['critical-care'],
+    categories: ['pharmacy'],
   },
   {
     id: '16',
@@ -270,7 +271,7 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     bio: `Dr. Jay Yasen is a board-certified vascular neurologist and neurocritical care specialist with more than 25 years of experience. He currently serves as Assistant Attending in Neurology and Director of Neurology Education at New York-Presbyterian Queens, and is an Assistant Professor of Clinical Neurology at Weill Cornell Medical College. He completed his neurology residency at Albert Einstein College of Medicine and a fellowship in Stroke and Neurocritical Care at Beth Israel Medical Center in New York City. He is board certified in Neurology, Vascular Neurology, and Neurocritical Care. He has been named a New York Magazine "Top Doctor" and has contributed to numerous NIH- and industry-funded multicenter stroke trials.`,
     credentials: ['Vascular Neurology', 'Neurocritical Care', 'Weill Cornell Faculty'],
     location: 'New York',
-    categories: ['neurology', 'critical-care'],
+    categories: ['neurology'],
   },
   {
     id: '19',
