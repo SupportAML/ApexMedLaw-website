@@ -16,15 +16,16 @@ const CASE_TYPES = [
 ];
 
 const PHYSICIAN_SPECIALTIES = [
-  'Neurology – Adult',
-  'Neurology – Pediatric',
+  'Neurology',
   'Neurosurgery',
-  'Anesthesiology & Pain Medicine',
-  'Radiology & Neuroradiology',
-  'Physical Medicine & Rehabilitation',
-  'Pharmacotherapy',
-  'Internal Medicine & Gastroenterology',
-  'Critical Care Medicine',
+  'Pediatric Neurology',
+  'Internal Medicine',
+  'Gastroenterology',
+  'Critical Care',
+  'Anesthesiology',
+  'Radiology',
+  'Physical Medicine and Rehabilitation',
+  'Pharmacy',
 ];
 
 const NEXT_STEPS = [

@@ -1,12 +1,8 @@
 import { Link } from 'react-router-dom';
 import { Linkedin, Twitter, Phone, Mail } from 'lucide-react';
+import { SPECIALTIES } from '@/data/physicians';
 
-const divisions = [
-  { name: 'Neurology', slug: 'neurology' },
-  { name: 'Critical Care', slug: 'critical-care' },
-  { name: 'Gastroenterology', slug: 'gastroenterology' },
-  { name: 'Pain Medicine', slug: 'pain-medicine' },
-];
+const divisions = SPECIALTIES.map((s) => ({ name: s.name, slug: s.slug }));
 
 const quickLinks = [
   { name: 'Divisions', href: '/#divisions' },
@@ -66,10 +62,10 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Divisions */}
+          {/* Specialties */}
           <div>
             <h4 className="font-display font-semibold text-sm uppercase tracking-widest text-white/40 mb-4">
-              Divisions
+              Specialties
             </h4>
             <ul className="space-y-2.5">
               {divisions.map((div) => (

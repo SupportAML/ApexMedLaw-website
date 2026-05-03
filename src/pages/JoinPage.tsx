@@ -243,7 +243,7 @@ export function JoinPage() {
                           <label className="block text-sm font-medium text-foreground mb-2">Primary Specialty *</label>
                           <select name="specialty" value={formData.specialty} onChange={handleSelectChange} required className={selectClass} style={selectArrow}>
                             <option value="">Select specialty...</option>
-                            {SPECIALTIES.map((s) => <option key={s} value={s}>{s}</option>)}
+                            {SPECIALTIES.map((s) => <option key={s.slug} value={s.name}>{s.name}</option>)}
                             <option value="Other">Other</option>
                           </select>
                         </div>

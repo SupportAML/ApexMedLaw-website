@@ -4,6 +4,7 @@ import { DivisionPage } from '@/pages/DivisionPage';
 import { BlogPage } from '@/pages/BlogPage';
 import { BlogPostPage } from '@/pages/BlogPostPage';
 import { RegistryPage } from '@/pages/RegistryPage';
+import { PhysicianProfilePage } from '@/pages/PhysicianProfilePage';
 import { Footer } from '@/components/Footer';
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:slug" element={<BlogPostPage />} />
           <Route path="/experts" element={<RegistryPage />} />
+          <Route path="/experts/:slug" element={<PhysicianProfilePage />} />
           <Route path="/registry" element={<Navigate to="/experts" replace />} />
           <Route path="/registry/*" element={<Navigate to="/experts" replace />} />
         </Routes>

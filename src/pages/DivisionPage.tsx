@@ -6,6 +6,7 @@ import { Navigation } from '@/components/Navigation';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, ExternalLink, Award } from 'lucide-react';
 import { getDivisionBySlug } from '@/data/divisions';
+import { getPhysiciansBySpecialty } from '@/data/physicians';
 import { SEO } from '@/components/SEO';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -14,6 +15,7 @@ export function DivisionPage() {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
   const division = slug ? getDivisionBySlug(slug) : undefined;
+  const specialtyPhysicians = slug ? getPhysiciansBySpecialty(slug) : [];
 
   useEffect(() => {
     if (!division) {
@@ -79,6 +81,18 @@ export function DivisionPage() {
                     Submit a Case Inquiry
                     <ArrowRight size={20} />
                   </Button>
+                  {specialtyPhysicians.length > 0 && (
+                    <a href="#our-experts">
+                      <Button
+                        size="lg"
+                        variant="outline"
+                        className="border-white/20 text-white hover:bg-white/10 font-medium px-8 py-6 rounded-full flex items-center gap-2"
+                      >
+                        Meet Our {division.name} Experts
+                        <ArrowRight size={20} />
+                      </Button>
+                    </a>
+                  )}
                   {division.externalUrl && (
                     <a href={division.externalUrl} target="_blank" rel="noopener noreferrer">
                       <Button
@@ -96,6 +110,52 @@ export function DivisionPage() {
             </div>
           </div>
         </section>
+
+        {/* Our Experts Section */}
+        {specialtyPhysicians.length > 0 && (
+          <section id="our-experts" className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-clinical">
+            <div className="max-w-7xl mx-auto">
+              <div className="max-w-2xl mb-12">
+                <span className="text-sm font-semibold text-electric uppercase tracking-widest">
+                  Our Experts
+                </span>
+                <h2 className="text-display-lg font-bold text-navy mt-3 mb-4">
+                  {division.name} Experts
+                </h2>
+                <p className="text-lg text-slate-600">
+                  Board-certified physicians available to review cases and provide expert testimony in {division.name.toLowerCase()}.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8">
+                {specialtyPhysicians.map((doc) => (
+                  <Link
+                    key={doc.slug}
+                    to={`/experts/${doc.slug}`}
+                    className="group bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+                  >
+                    <div className="aspect-[3/4] overflow-hidden bg-clinical-100">
+                      <img
+                        src={doc.photo}
+                        alt={doc.name}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                    <div className="p-4">
+                      <h3 className="font-display font-bold text-base text-navy mb-1 line-clamp-1">
+                        {doc.name}
+                      </h3>
+                      <p className="text-xs text-slate-500 mb-3 line-clamp-1">{doc.role}</p>
+                      <span className="inline-flex items-center gap-1 text-xs font-medium text-electric group-hover:gap-2 transition-all">
+                        View Profile <ArrowRight size={12} />
+                      </span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* Practice Areas Section */}
         <section id="practice-areas" className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-white">
