@@ -1,4 +1,4 @@
-import { Award, GraduationCap, Scale } from 'lucide-react';
+import { Award, GraduationCap, Scale, ShieldCheck, Mic, Gavel } from 'lucide-react';
 
 const leaders = [
   {
@@ -21,9 +21,24 @@ const leaders = [
 
 const traits = [
   {
+    icon: ShieldCheck,
+    title: 'Hand-Selected for Quality',
+    description: 'Every expert in our network is personally vetted by our Duke-trained leadership. We accept only the highest-caliber physicians — top-tier training, board certification, and a clean professional record.',
+  },
+  {
+    icon: Mic,
+    title: 'Polished Communicators',
+    description: 'We screen for the ability to teach, persuade, and stay composed under cross-examination. Our experts translate complex medicine into clear, confident testimony a jury can follow.',
+  },
+  {
+    icon: Gavel,
+    title: 'Proven in Legal Review',
+    description: 'Each expert brings substantive experience with medical-legal case reviews, depositions, and trial testimony — Daubert-tested and prepared for the toughest scrutiny.',
+  },
+  {
     icon: GraduationCap,
     title: 'Academically Rigorous',
-    description: 'Every physician on our team trained at top-tier residency and fellowship programs. Board certified in their practicing specialty.',
+    description: 'Every physician trained at top-tier residency and fellowship programs and is board certified in their practicing specialty.',
   },
   {
     icon: Award,
@@ -43,13 +58,13 @@ export function ApexTeamSection() {
       <div className="max-w-7xl mx-auto">
         <div className="max-w-2xl mb-12">
           <span className="text-sm font-semibold text-electric uppercase tracking-widest">
-            Leadership
+            Founders & Leadership
           </span>
           <h2 className="text-display-lg font-bold text-navy mt-3 mb-4">
-            Physician-Led From the Top
+            Founded & Led by Duke-Trained, Double Board-Certified Physicians
           </h2>
           <p className="text-lg text-slate-600">
-            Founded and operated by Duke-trained neurologists who practice medicine and consult on litigation every day. Our leadership doesn't just manage experts — they are experts.
+            ApexMedLaw was founded — and is run day-to-day — by Duke University-trained, double board-certified neurologists who still practice medicine and consult on litigation every week. Our leadership doesn't just manage experts; they are experts, and they personally vet every physician who joins the network.
           </p>
         </div>
 
@@ -99,8 +114,21 @@ export function ApexTeamSection() {
           ))}
         </div>
 
+        {/* How We Select Our Experts */}
+        <div className="max-w-2xl mb-8">
+          <span className="text-sm font-semibold text-electric uppercase tracking-widest">
+            How We Select Our Experts
+          </span>
+          <h3 className="text-2xl lg:text-3xl font-bold text-navy mt-3 mb-3">
+            A Carefully Curated Network — Not a Directory
+          </h3>
+          <p className="text-slate-600 leading-relaxed">
+            We don't accept every physician who applies. Each expert is hand-selected by our Duke-trained leadership for elite credentials, courtroom-grade communication skills, and substantive experience with medical-legal reviews. The result is a small, deliberately curated bench of physicians who are equally credible in the clinic and on the witness stand.
+          </p>
+        </div>
+
         {/* Trait badges — visually connected */}
-        <div className="grid sm:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {traits.map((trait, index) => {
             const Icon = trait.icon;
             return (

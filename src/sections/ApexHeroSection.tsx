@@ -7,9 +7,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const stats = [
+  { icon: Users, label: 'Founded & Led by Duke-Trained, Double Board-Certified Physicians', value: 'Duke MD' },
   { icon: Shield, label: 'Clean Malpractice Record', value: '100%' },
   { icon: Clock, label: 'Avg. Case Review Turnaround', value: '7 Days' },
-  { icon: Users, label: 'Duke-Trained Physician Leadership', value: 'MD' },
 ];
 
 export function ApexHeroSection() {
@@ -72,7 +72,7 @@ export function ApexHeroSection() {
               </h1>
 
               <p className="text-lg text-slate-300 leading-relaxed max-w-lg">
-                Board-certified, trial-ready physicians delivering thorough case reviews and authoritative expert testimony. Every expert is subspecialty-matched, clinically active, and trained for deposition and courtroom performance.
+                <span className="text-white font-semibold">Founded and led by Duke-trained, double board-certified physicians.</span> Every expert in our network is hand-selected for top-tier credentials, courtroom-ready communication, and proven experience with legal reviews and testimony.
               </p>
 
               {/* Available Nationwide — inline with subtitle */}
