@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation, Link } from 'react-router-dom';
-import { Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -111,13 +110,6 @@ export function Navigation() {
                 )}
               </div>
               <div className="flex items-center gap-2 sm:gap-3 shrink-0">
-              <a
-                href="tel:9193077949"
-                className="hidden sm:flex items-center gap-2 text-sm font-medium text-foreground/80 hover:text-electric transition-colors"
-              >
-                <Phone size={16} />
-                (919) 307-7949
-              </a>
               <Button
                 onClick={() => scrollToSection('#contact')}
                 className="bg-electric hover:bg-electric/90 text-white font-medium px-3 py-1.5 sm:px-5 sm:py-2 text-xs sm:text-sm rounded-full transition-transform hover:-translate-y-0.5"
