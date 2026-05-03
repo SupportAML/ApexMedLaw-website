@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Phone, MapPin, Send, Linkedin, Twitter, CheckCircle, AlertTriangle, Shield, FileCheck, Clock } from 'lucide-react';
+import { Mail, MapPin, Send, Linkedin, Twitter, CheckCircle, AlertTriangle, Shield, FileCheck, Clock } from 'lucide-react';
 
 const CONTACT_EMAIL = 'support@apexmedlaw.com';
 
@@ -157,15 +157,15 @@ export function ContactSection() {
               {/* Contact Info */}
               <div className="space-y-4">
                 <a
-                  href="tel:9193077949"
+                  href={`mailto:${CONTACT_EMAIL}`}
                   className="flex items-center gap-4 text-white/80 hover:text-electric transition-colors group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-white/10 group-hover:bg-electric/20 flex items-center justify-center transition-colors">
-                    <Phone size={22} className="text-electric" />
+                    <Mail size={22} className="text-electric" />
                   </div>
                   <div>
-                    <p className="text-sm text-white/50">Phone</p>
-                    <p className="font-medium text-lg">(919) 307-7949</p>
+                    <p className="text-sm text-white/50">Email</p>
+                    <p className="font-medium text-lg">{CONTACT_EMAIL}</p>
                   </div>
                 </a>
 
