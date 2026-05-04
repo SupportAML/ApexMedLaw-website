@@ -297,6 +297,27 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     location: 'California',
     categories: ['neurology'],
   },
+  {
+    id: '21',
+    slug: 'eric-huh',
+    name: 'Eric Huh, MD',
+    role: 'Diagnostic Neuroradiologist',
+    title: 'Ancillary Physician Partner',
+    photo: '/team_huh.svg',
+    bio: `Dr. Eric Huh is a diagnostic radiologist with subspecialization in neuroradiology, currently practicing with Quantum Radiology in Atlanta, GA. He is certified by the American Board of Radiology and holds the ABR Certificate of Added Qualification in Neuroradiology.
+
+He completed his ACGME-accredited diagnostic neuroradiology fellowship at the Johns Hopkins Neuroradiology Fellowship Program and his four-year diagnostic radiology residency at the Johns Hopkins Radiology Residency Program in Baltimore, MD. Prior to that, he completed a preliminary internal medicine internship at the Morehouse Internal Medicine Residency Program in Atlanta, GA.
+
+Dr. Huh earned his medical degree from the Medical College of Georgia and his Bachelor of Arts in Neuroscience and Behavior from Columbia University. His expertise spans CT, MRI, and advanced neuroimaging, with particular focus on brain and spine pathology including stroke, hemorrhage, traumatic injury, tumor, and degenerative disease.`,
+    credentials: [
+      'Johns Hopkins Neuroradiology Fellowship',
+      'Johns Hopkins Radiology Residency',
+      'ABR Board Certified',
+      'ABR Neuroradiology CAQ',
+    ],
+    location: 'Georgia',
+    categories: ['radiology'],
+  },
 ];
 
 export function getPhysicianBySlug(slug: string): Physician | undefined {
