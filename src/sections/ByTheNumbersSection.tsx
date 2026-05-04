@@ -5,7 +5,6 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const metrics = [
-  { value: '4', label: 'Medical Divisions', suffix: '' },
   { value: '50', label: 'States Covered', suffix: '' },
   { value: '7', label: 'Day Avg. Turnaround', suffix: '' },
   { value: '100', label: 'Clean Malpractice Record', suffix: '%' },
@@ -61,7 +60,7 @@ export function ByTheNumbersSection() {
         </div>
 
         {/* Metric cards */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-6 mb-12">
           {metrics.map((metric, i) => (
             <div
               key={i}
