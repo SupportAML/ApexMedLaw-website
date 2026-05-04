@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { divisions } from '@/data/divisions';
-import { getPhysiciansBySpecialty } from '@/data/physicians';
 import {
   ArrowRight,
   Stethoscope,
@@ -39,10 +38,10 @@ export function DivisionsSection() {
             Specialties Covered
           </span>
           <h2 className="text-display-lg font-bold text-navy mt-3 mb-4">
-            Ten Specialties. One Standard of Excellence.
+            Specialized Expertise. One Standard of Excellence.
           </h2>
           <p className="text-lg text-slate-600">
-            ApexMedLaw organizes its expert network across ten focused specialties, each led by clinicians who practice in that specialty daily. Click a specialty to see our experts.
+            ApexMedLaw organizes its expert network across focused specialties, each led by clinicians who practice in that specialty daily. Click a specialty to see our experts.
           </p>
         </div>
 
@@ -50,7 +49,6 @@ export function DivisionsSection() {
           {divisions.map((division) => {
             const meta = divisionMeta[division.slug] || { icon: Stethoscope, accent: '#2563EB' };
             const Icon = meta.icon;
-            const physicianCount = getPhysiciansBySpecialty(division.slug).length;
             return (
               <Link
                 key={division.slug}
@@ -64,16 +62,9 @@ export function DivisionsSection() {
                   />
 
                   <div className="flex items-start justify-between mb-4">
-                    <div>
-                      <h3 className="text-xl lg:text-2xl font-bold text-navy mb-1">
-                        {division.name}
-                      </h3>
-                      <p className="text-slate-500 text-sm">
-                        {physicianCount > 0
-                          ? `${physicianCount} expert${physicianCount === 1 ? '' : 's'} available`
-                          : 'Network expanding'}
-                      </p>
-                    </div>
+                    <h3 className="text-xl lg:text-2xl font-bold text-navy mb-1">
+                      {division.name}
+                    </h3>
                     <div
                       className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center"
                       style={{ backgroundColor: `${meta.accent}15` }}
