@@ -4,7 +4,7 @@ const leaders = [
   {
     name: 'Abhi Kapuria, MD',
     title: 'CEO & Co-founder',
-    specialty: 'Neurologist | Double Board Certified',
+    specialty: 'Neurologist | Neurophysiology',
     photo: '/team_kapuria.jpg',
     email: 'abhi@apexmedlaw.com',
     description: 'Board-certified in general neurology and clinical neurophysiology/epilepsy. Residency and fellowship training at Duke University. Active clinical practice combined with extensive litigation consulting experience across hundreds of cases.',
