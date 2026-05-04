@@ -24,6 +24,7 @@ export function DivisionPage() {
   }, [division, navigate]);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     ScrollTrigger.refresh();
     return () => {
       ScrollTrigger.getAll().forEach((st) => st.kill());
