@@ -3,7 +3,7 @@ import { Award, GraduationCap, Scale, ShieldCheck, Mic, Gavel, Mail } from 'luci
 const leaders = [
   {
     name: 'Abhi Kapuria, MD',
-    title: 'CEO',
+    title: 'CEO & Co-founder',
     specialty: 'Neurologist | Double Board Certified',
     photo: '/team_kapuria.jpg',
     email: 'abhi@apexmedlaw.com',
@@ -11,8 +11,8 @@ const leaders = [
     highlights: ['Duke University Trained', 'Double Board Certified', 'Deposition & Trial Veteran'],
   },
   {
-    name: 'Ovais Inamullah, MD',
-    title: 'CMO',
+    name: 'Ovi Inamullah, MD',
+    title: 'CMO & Co-founder',
     specialty: 'Neurologist | Vascular Neurology',
     photo: '/team_inamullah.jpg',
     email: 'ovi@apexmedlaw.com',

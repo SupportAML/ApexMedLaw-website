@@ -50,7 +50,7 @@ export const physicians: Physician[] = [
     slug: 'abhi-kapuria',
     name: 'Abhi Kapuria, MD',
     role: 'Neurologist',
-    title: 'CEO',
+    title: 'CEO & Co-founder',
     photo: '/team_kapuria.png',
     bio: `Dr. Kapuria is a double board-certified neurologist in general neurology and clinical neurophysiology/epilepsy. He completed his residency and fellowship training at Duke University after completing medical school at Emory. His bachelor's degree is in Cognitive Neuroscience from Washington University in St. Louis.
 
@@ -65,9 +65,9 @@ His expertise ranges from emergency medicine to ICU-level care including advance
   {
     id: '2',
     slug: 'ovais-inamullah',
-    name: 'Ovais Inamullah, MD',
+    name: 'Ovi Inamullah, MD',
     role: 'Neurologist',
-    title: 'CMO',
+    title: 'CMO & Co-founder',
     photo: '/team_inamullah.png',
     bio: `Dr. Inamullah is a double board-certified vascular neuro-hospitalist with legal expertise and numerous grant, research, and writing awards. He completed his post-graduate training at Duke University.
 
