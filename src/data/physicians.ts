@@ -30,6 +30,7 @@ export const SPECIALTIES = [
   { slug: 'stroke-vascular-neurology', name: 'Stroke and Vascular Neurology' },
   { slug: 'neurocritical-care', name: 'Neurocritical Care' },
   { slug: 'neuroimmunology', name: 'Neuroimmunology' },
+  { slug: 'neuromuscular-medicine', name: 'Neuromuscular Medicine' },
   { slug: 'wilderness-medicine', name: 'Wilderness Medicine' },
 ] as const;
 
@@ -346,6 +347,27 @@ Dr. Huh earned his medical degree from the Medical College of Georgia and his Ba
     ],
     location: 'Georgia',
     categories: ['radiology'],
+  },
+  {
+    id: '24',
+    slug: 'sommer-philips',
+    name: 'Sommer Ebdlahad Philips, MD',
+    role: 'Neurologist / Neuromuscular Medicine Specialist',
+    title: 'Ancillary Physician Partner',
+    photo: '/team_philips.png',
+    bio: `Dr. Sommer Ebdlahad Philips is a board-certified neurologist and neuromuscular medicine specialist with advanced training from Duke Health, including residency in neurology and fellowship in neuromuscular medicine. She currently practices at Raleigh Neurology Associates, where she performs a high volume of EMG, nerve conduction studies, and neuromuscular ultrasound, along with therapeutic procedures including botulinum toxin injections and nerve blocks.
+
+Her clinical expertise is in the evaluation and management of complex nerve and muscle disorders, with particular focus on peripheral nerve injury related to chronic disease, environmental and chemical exposure, autoimmune conditions, trauma, chemotherapeutic toxicity, and hereditary syndromes.
+
+Dr. Philips earned her M.D. from the University of Pittsburgh School of Medicine and her B.S. summa cum laude from the University of Pittsburgh with majors in Neuroscience and Psychology and a minor in Chemistry. She completed her internal medicine internship, neurology residency, and neuromuscular medicine fellowship at Duke Health. She is a Diplomate of the American Board of Psychiatry and Neurology, the American Board of Electrodiagnostic Medicine, and holds ABPN certification in Neuromuscular Medicine.`,
+    credentials: [
+      'Duke Health Residency & Fellowship',
+      'ABPN Board Certified',
+      'ABPN Neuromuscular Medicine Certified',
+      'American Board of Electrodiagnostic Medicine',
+    ],
+    location: 'North Carolina',
+    categories: ['neurology', 'neuromuscular-medicine'],
   },
   {
     id: '23',
