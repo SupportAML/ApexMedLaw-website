@@ -19,6 +19,7 @@ export const SPECIALTIES = [
   { slug: 'internal-medicine', name: 'Internal Medicine' },
   { slug: 'gastroenterology', name: 'Gastroenterology' },
   { slug: 'critical-care', name: 'Critical Care' },
+  { slug: 'emergency-medicine', name: 'Emergency Medicine' },
   { slug: 'anesthesiology', name: 'Anesthesiology' },
   { slug: 'radiology', name: 'Radiology' },
   { slug: 'physical-medicine-rehabilitation', name: 'Physical Medicine and Rehabilitation' },
@@ -296,6 +297,27 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     credentials: ['UC Irvine Fellowship', 'Double Board Certified', 'Clinical Neurophysiology'],
     location: 'California',
     categories: ['neurology'],
+  },
+  {
+    id: '22',
+    slug: 'terrell-swanson',
+    name: 'Terrell E. J. Swanson, MD, FAWM',
+    role: 'Emergency Medicine Physician',
+    title: 'Ancillary Physician Partner',
+    photo: '/team_swanson.png',
+    bio: `Dr. Terrell Swanson is a board-certified Emergency Medicine physician with nearly 18 years of continuous full-time active clinical practice. His clinical experience spans trauma centers, academic institutions, community settings, freestanding emergency departments, and rural hospitals.
+
+He serves as Assistant Director of Litigation Support and was an initial SWAT case reviewer for TeamHealth, the largest national physician staffing agency in the country. He is fellowship trained by the Academy of Wilderness Medicine (FAWM), with expertise in hypothermia, drowning, frostbite, heat stroke, altitude illness, and venomous animal bites. Dr. Swanson is currently a candidate for the Diploma in Dive & Marine Medicine (DiDMM), with a further focus on dive injuries such as decompression sickness ("the bends").
+
+Dr. Swanson is a co-inventor of a novel endotracheal device (RSI Prime, LLC; patent pending) that incorporates an adapted carbon dioxide detector with a modified bougie as an adjunct for difficult airways. He is an experienced expert witness at both deposition and trial, and currently practices at HCA Florida Orange Park Hospital (Level 2 trauma center) and HCA Florida Capital Hospital in Tallahassee.`,
+    credentials: [
+      'Board-Certified Emergency Medicine',
+      'FAWM — Academy of Wilderness Medicine',
+      'TeamHealth Litigation Support',
+      'Co-Inventor, RSI Prime (Patent Pending)',
+    ],
+    location: 'Florida',
+    categories: ['emergency-medicine'],
   },
   {
     id: '21',
