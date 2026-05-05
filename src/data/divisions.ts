@@ -523,6 +523,38 @@ export const divisions: Division[] = [
     ]
   },
   {
+    slug: 'neuromuscular-medicine',
+    name: 'Neuromuscular Medicine',
+    tagline: 'Neuromuscular medicine expertise for peripheral nerve injury, EMG, and complex nerve and muscle disorder litigation',
+    description: 'Our neuromuscular medicine division features fellowship-trained, board-certified neuromuscular specialists with active high-volume EMG, nerve conduction study, and neuromuscular ultrasound practice. Our experts provide testimony on peripheral nerve injury, toxic and chemotherapy-induced neuropathy, autoimmune neuromuscular disease, hereditary syndromes, and the standard of care across electrodiagnostic and therapeutic neuromuscular practice.',
+    practiceAreas: [
+      {
+        title: 'Peripheral Nerve Injury',
+        description: 'Traumatic, compressive, and chronic-disease-related peripheral nerve injury — diagnosis, prognosis, and standard of care for evaluation and management.'
+      },
+      {
+        title: 'EMG & Nerve Conduction Studies',
+        description: 'Electrodiagnostic testing technique, interpretation, and standard of care, including identification of radiculopathy, neuropathy, and myopathy.'
+      },
+      {
+        title: 'Neuromuscular Ultrasound',
+        description: 'Diagnostic ultrasound of nerve and muscle, identification of entrapment and structural pathology, and ultrasound-guided procedural standards.'
+      },
+      {
+        title: 'Toxic & Chemotherapy-Induced Neuropathy',
+        description: 'Peripheral nerve injury from chemical exposure, environmental toxins, and chemotherapeutic agents — causation analysis and standard of care.'
+      },
+      {
+        title: 'Autoimmune Neuromuscular Disease',
+        description: 'Myasthenia gravis, CIDP, Guillain-Barré syndrome, and other immune-mediated neuromuscular conditions — diagnostic accuracy and treatment standards.'
+      },
+      {
+        title: 'Hereditary Neuromuscular Syndromes',
+        description: 'Charcot-Marie-Tooth disease, muscular dystrophies, and other hereditary nerve and muscle disorders — diagnostic workup and management standards.'
+      }
+    ],
+  },
+  {
     slug: 'wilderness-medicine',
     name: 'Wilderness Medicine',
     tagline: 'Wilderness and environmental medicine expertise for austere, dive, and remote-care emergency litigation',
