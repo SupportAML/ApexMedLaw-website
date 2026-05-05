@@ -65,10 +65,10 @@ export function ApexHeroSection() {
             {/* Content */}
             <div className="space-y-6">
               <h1 className="display-heading text-display-xl text-white">
-                PHYSICIAN-LED
-                <span className="text-electric"> MEDICAL-LEGAL</span>
+                Physician-Led
+                <span className="text-electric"> Medical-Legal</span>
                 <br />
-                CONSULTING
+                Consulting
               </h1>
 
               <p className="text-lg text-slate-300 leading-relaxed max-w-lg">
