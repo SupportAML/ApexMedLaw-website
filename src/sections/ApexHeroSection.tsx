@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Phone, Shield, Clock, Users } from 'lucide-react';
+import { ArrowRight, Shield, Clock, Users } from 'lucide-react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -90,16 +90,6 @@ export function ApexHeroSection() {
                   Submit a Case Inquiry
                   <ArrowRight size={20} />
                 </Button>
-                <a href="tel:9193077949" className="flex items-center">
-                  <Button
-                    size="lg"
-                    variant="outline"
-                    className="border-white/30 bg-white/10 text-white hover:bg-white/20 font-medium px-8 py-6 rounded-full flex items-center gap-2"
-                  >
-                    <Phone size={20} />
-                    Call (919) 307-7949
-                  </Button>
-                </a>
               </div>
             </div>
 
