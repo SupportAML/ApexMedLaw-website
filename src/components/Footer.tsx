@@ -23,7 +23,7 @@ export function Footer() {
               <img
                 src="/logo.png"
                 alt="ApexMedLaw"
-                className="h-32 w-auto object-contain bg-white rounded-md p-3"
+                className="h-20 w-auto object-contain bg-white rounded-md p-3"
               />
             </Link>
             <p className="text-white/60 text-sm leading-relaxed">
