@@ -16,6 +16,11 @@ import {
   Spline,
   Pill,
   Ambulance,
+  Zap,
+  Waves,
+  Mountain,
+  ShieldPlus,
+  HeartPulse,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -33,6 +38,11 @@ const divisionMeta: Record<string, { icon: typeof Stethoscope; accent: string }>
   'radiology': { icon: Scan, accent: '#4338CA' },
   'physical-medicine-rehabilitation': { icon: Accessibility, accent: '#059669' },
   'pharmacy': { icon: Pill, accent: '#BE185D' },
+  'epilepsy': { icon: Zap, accent: '#CA8A04' },
+  'stroke-vascular-neurology': { icon: Waves, accent: '#0369A1' },
+  'neurocritical-care': { icon: HeartPulse, accent: '#B91C1C' },
+  'neuroimmunology': { icon: ShieldPlus, accent: '#7E22CE' },
+  'wilderness-medicine': { icon: Mountain, accent: '#15803D' },
 };
 
 export function DivisionsSection() {

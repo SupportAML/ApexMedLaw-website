@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Navigation } from '@/components/Navigation';
 import { SEO } from '@/components/SEO';
@@ -18,6 +19,10 @@ import { getPhysicianBySlug, getSpecialtyName } from '@/data/physicians';
 export function PhysicianProfilePage() {
   const { slug } = useParams<{ slug: string }>();
   const physician = slug ? getPhysicianBySlug(slug) : undefined;
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [slug]);
 
   if (!physician) {
     return (

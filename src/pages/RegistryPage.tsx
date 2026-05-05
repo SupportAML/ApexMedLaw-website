@@ -19,7 +19,7 @@ export function RegistryPage() {
     <>
       <SEO
         title="Our Expert Witnesses"
-        description="ApexMedLaw's network of board-certified expert witnesses. Browse by specialty: Neurology, Neurosurgery, Pediatric Neurology, Internal Medicine, Gastroenterology, Critical Care, Emergency Medicine, Anesthesiology, Radiology, Physical Medicine and Rehabilitation, and Pharmacy."
+        description="ApexMedLaw's network of board-certified expert witnesses. Browse by specialty: Neurology, Neurosurgery, Pediatric Neurology, Internal Medicine, Gastroenterology, Critical Care, Emergency Medicine, Anesthesiology, Radiology, Physical Medicine and Rehabilitation, Pharmacy, Epilepsy, Stroke and Vascular Neurology, Neurocritical Care, Neuroimmunology, and Wilderness Medicine."
       />
       <Navigation />
       <main className="pt-20 lg:pt-24">
@@ -35,7 +35,7 @@ export function RegistryPage() {
                 Board-Certified <span className="text-electric">Medical Experts</span>
               </h1>
               <p className="text-lg lg:text-xl text-white/70 max-w-2xl mx-auto">
-                ApexMedLaw provides expert witnesses across eleven medical specialties. Browse our network by specialty below.
+                ApexMedLaw provides expert witnesses across a growing range of medical specialties. Browse our network by specialty below.
               </p>
             </div>
           </div>

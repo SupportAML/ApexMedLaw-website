@@ -26,6 +26,11 @@ export const SPECIALTIES = [
   { slug: 'radiology', name: 'Radiology' },
   { slug: 'physical-medicine-rehabilitation', name: 'Physical Medicine and Rehabilitation' },
   { slug: 'pharmacy', name: 'Pharmacy' },
+  { slug: 'epilepsy', name: 'Epilepsy' },
+  { slug: 'stroke-vascular-neurology', name: 'Stroke and Vascular Neurology' },
+  { slug: 'neurocritical-care', name: 'Neurocritical Care' },
+  { slug: 'neuroimmunology', name: 'Neuroimmunology' },
+  { slug: 'wilderness-medicine', name: 'Wilderness Medicine' },
 ] as const;
 
 export type SpecialtySlug = (typeof SPECIALTIES)[number]['slug'];
@@ -62,7 +67,7 @@ He is uniquely qualified to provide expert witness testimony and consultations o
 His expertise ranges from emergency medicine to ICU-level care including advanced techniques used for diagnosis, treatment, and prognostication.`,
     credentials: ['Duke University Fellowship', 'Emory Medical School', 'Double Board Certified'],
     location: 'North Carolina',
-    categories: ['neurology'],
+    categories: ['neurology', 'epilepsy'],
     featured: true,
   },
   {
@@ -79,7 +84,7 @@ He has extensive experience in managing patients with acute neurological emergen
 His legal expertise allows him to better understand patients' rights and ensure that they are fully informed about their treatment options. His research and writing awards demonstrate his commitment to advancing the field of neurology.`,
     credentials: ['Duke University Training', 'Double Board Certified', 'Vascular Neurology'],
     location: 'North Carolina',
-    categories: ['neurology'],
+    categories: ['neurology', 'stroke-vascular-neurology'],
     featured: true,
   },
   {
@@ -166,7 +171,7 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     bio: `Dr. Jung Hyun Ko is a board-certified neurologist currently practicing at ECU Health in Greenville, North Carolina. He holds both an MD and an MPH from the University of North Carolina at Chapel Hill and completed his residency and fellowship training in neurology and clinical neurophysiology at Duke University. Specializing in epilepsy, Dr. Ko is deeply committed to utilizing machine learning and advanced technology to improve epilepsy care. He is fluent in both English and Korean and has contributed to clinical trials and research in neurology.`,
     credentials: ['Duke Fellowship', 'UNC Chapel Hill', 'MPH'],
     location: 'North Carolina',
-    categories: ['neurology'],
+    categories: ['neurology', 'epilepsy'],
   },
   {
     id: '10',
@@ -178,7 +183,7 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     bio: `Dr. Torres is a Harvard-trained, board-certified neurologist and leader in clinical neurology and advanced therapeutic development. He has dual fellowship training in the Harvard Multiple Sclerosis and Neuroimmunology Fellowship at MGH and Brigham and Women's Hospital. He was awarded the Sylvia Lawry Fellowship from the National MS Society and the AAN Minority Scholar of the Year Award. He earned his medical degree from UCLA and completed his neurology residency in the combined MGH/BWH/Harvard Medical School program. He has served as an investigator for numerous NIH and industry-sponsored clinical trials and actively practices across multiple states.`,
     credentials: ['Harvard Trained', 'MGH Fellowship', 'MS Specialist'],
     location: 'Massachusetts',
-    categories: ['neurology'],
+    categories: ['neurology', 'neuroimmunology'],
   },
   {
     id: '11',
@@ -214,7 +219,7 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     bio: `Dr. Sima Patel is double board-certified in Neurology and Epilepsy by the American Board of Psychiatry and Neurology. She earned her medical degree from Rush Medical College, completed her neurology residency at the Medical College of Wisconsin, and pursued fellowship training in Clinical Neurophysiology and Epilepsy at the Cleveland Clinic. With over fifteen years of experience in epilepsy care, she developed the ROAR Seizure Behavioral Testing Protocol. She serves on the Board of Directors for the Epilepsy Foundation of Minnesota and is a Fellow of the American Epilepsy Society and the American Neurological Association.`,
     credentials: ['Cleveland Clinic', 'Double Board Certified', 'FAES, FANA'],
     location: 'Minnesota',
-    categories: ['neurology'],
+    categories: ['neurology', 'epilepsy'],
   },
   {
     id: '14',
@@ -250,7 +255,7 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     bio: `Dr. Colleen Marie Stack is a board-certified neurologist and clinical neurophysiologist. She serves as a Neurohospitalist at Cone Health System in Greensboro, NC, managing inpatient neurologic emergencies, neurocritical care, and telestroke services. She earned her MD from Duke University School of Medicine, followed by internship, residency in neurology, and fellowship in clinical neurophysiology (epilepsy and EEG) at Duke University Medical Center. She also holds an MBA in Health Sector Management from Duke's Fuqua School of Business. She has presented at national and international conferences and serves as a consultant and expert witness in neurology-related cases.`,
     credentials: ['Duke Medical School', 'Clinical Neurophysiology', 'ACN, AES'],
     location: 'North Carolina',
-    categories: ['neurology'],
+    categories: ['neurology', 'epilepsy'],
   },
   {
     id: '17',
@@ -274,7 +279,7 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     bio: `Dr. Jay Yasen is a board-certified vascular neurologist and neurocritical care specialist with more than 25 years of experience. He currently serves as Assistant Attending in Neurology and Director of Neurology Education at New York-Presbyterian Queens, and is an Assistant Professor of Clinical Neurology at Weill Cornell Medical College. He completed his neurology residency at Albert Einstein College of Medicine and a fellowship in Stroke and Neurocritical Care at Beth Israel Medical Center in New York City. He is board certified in Neurology, Vascular Neurology, and Neurocritical Care. He has been named a New York Magazine "Top Doctor" and has contributed to numerous NIH- and industry-funded multicenter stroke trials.`,
     credentials: ['Vascular Neurology', 'Neurocritical Care', 'Weill Cornell Faculty'],
     location: 'New York',
-    categories: ['neurology'],
+    categories: ['neurology', 'stroke-vascular-neurology', 'neurocritical-care', 'critical-care'],
   },
   {
     id: '19',
@@ -286,7 +291,7 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     bio: `Dr. Santoshi Billakota is a board-certified neurologist with expertise in epilepsy, traumatic brain injury, post-traumatic epilepsy, stroke, and complex neurological disorders. She is experienced in EEG interpretation and the evaluation of neurological injury and disease. She currently serves as an attending neurologist and epileptologist at Wyckoff Hospital Center and Queens Hospital Center in New York, and as a neurohospitalist and tele-neurologist with Vituity Healthcare in California. She has held appointments at NYU Langone's Comprehensive Epilepsy Center, Columbia University, and Bellevue Medical Center. She conducts IMEs and disability reviews and is board certified in Neurology, Clinical Neurophysiology, and Epilepsy.`,
     credentials: ['Epilepsy Certified', 'NYU Langone', 'Multiple State Licenses'],
     location: 'New York / California',
-    categories: ['neurology'],
+    categories: ['neurology', 'epilepsy'],
   },
   {
     id: '20',
@@ -298,7 +303,7 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     bio: `Dr. Franklyn Rocha-Cabrero is a board-certified neurologist with subspecialty training in clinical neurophysiology. He completed his Adult Neurology residency at the University of Miami/Jackson Memorial Hospital and a Clinical Neurophysiology fellowship at the University of California, Irvine. He is board certified by the American Board of Psychiatry and Neurology in both Neurology and Clinical Neurophysiology. He has extensive experience in epilepsy, seizure disorders, EEG interpretation, and neurodiagnostic testing. He has authored peer-reviewed publications and medical reference texts and provides objective, evidence-based medical record review and expert opinions for neurologic litigation.`,
     credentials: ['UC Irvine Fellowship', 'Double Board Certified', 'Clinical Neurophysiology'],
     location: 'California',
-    categories: ['neurology'],
+    categories: ['neurology', 'epilepsy'],
   },
   {
     id: '22',
@@ -319,7 +324,7 @@ Dr. Swanson is a co-inventor of a novel endotracheal device (RSI Prime, LLC; pat
       'Co-Inventor, RSI Prime (Patent Pending)',
     ],
     location: 'Florida',
-    categories: ['emergency-medicine'],
+    categories: ['emergency-medicine', 'wilderness-medicine'],
   },
   {
     id: '21',
