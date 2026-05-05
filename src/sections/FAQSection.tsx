@@ -26,7 +26,7 @@ const faqs = [
   {
     question: 'What specialties and subspecialties do you cover?',
     answer:
-      'Our team covers neurology, neurosurgery, pediatric neurology, internal medicine, gastroenterology, critical care, emergency medicine, anesthesiology, radiology, physical medicine and rehabilitation, and pharmacy.',
+      'Our team covers neurology, neurosurgery, orthopedic surgery, spine surgery, pediatric neurology, internal medicine, gastroenterology, critical care, emergency medicine, anesthesiology, radiology, physical medicine and rehabilitation, and pharmacy.',
   },
   {
     question: 'Do you run conflict checks before engagement?',

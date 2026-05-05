@@ -8,10 +8,12 @@ import {
   Activity,
   Brain,
   Baby,
+  Bone,
   Hospital,
   Scan,
   Accessibility,
   Slice,
+  Spline,
   Pill,
   Ambulance,
 } from 'lucide-react';
@@ -20,6 +22,8 @@ import { Button } from '@/components/ui/button';
 const divisionMeta: Record<string, { icon: typeof Stethoscope; accent: string }> = {
   'neurology': { icon: Brain, accent: '#2563EB' },
   'neurosurgery': { icon: Slice, accent: '#0E7490' },
+  'orthopedic-surgery': { icon: Bone, accent: '#9A3412' },
+  'spine-surgery': { icon: Spline, accent: '#1D4ED8' },
   'pediatric-neurology': { icon: Baby, accent: '#DB2777' },
   'internal-medicine': { icon: Hospital, accent: '#0F766E' },
   'gastroenterology': { icon: Utensils, accent: '#7C3AED' },
