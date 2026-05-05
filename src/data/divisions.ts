@@ -395,6 +395,166 @@ export const divisions: Division[] = [
     ]
   },
   {
+    slug: 'epilepsy',
+    name: 'Epilepsy',
+    tagline: 'Epileptology and clinical neurophysiology expertise for seizure disorder, EEG, and status epilepticus litigation',
+    description: 'Our epilepsy division features fellowship-trained, board-certified epileptologists and clinical neurophysiologists with active experience in epilepsy monitoring units, EEG interpretation, and complex seizure management. Our experts provide testimony on diagnostic accuracy, antiseizure medication selection, status epilepticus, and standard of care across the full spectrum of epilepsy practice.',
+    practiceAreas: [
+      {
+        title: 'Seizure Diagnosis & Classification',
+        description: 'Differentiating epileptic from non-epileptic events, seizure semiology, and ILAE classification standards.'
+      },
+      {
+        title: 'EEG Interpretation',
+        description: 'Routine and continuous EEG, long-term monitoring, and identification of epileptiform abnormalities.'
+      },
+      {
+        title: 'Antiseizure Medication Management',
+        description: 'AED selection, dosing, drug-drug interactions, monitoring, and pregnancy-related considerations.'
+      },
+      {
+        title: 'Status Epilepticus',
+        description: 'Recognition and treatment of convulsive and nonconvulsive status epilepticus, escalation pathways, and refractory care.'
+      },
+      {
+        title: 'Post-Traumatic Epilepsy',
+        description: 'Evaluation of post-TBI seizures, prophylaxis decisions, and causation analysis in injury-related epilepsy.'
+      },
+      {
+        title: 'Surgical & Device Evaluation',
+        description: 'Pre-surgical workup, candidacy for resection or neurostimulation, and management of drug-resistant epilepsy.'
+      }
+    ]
+  },
+  {
+    slug: 'stroke-vascular-neurology',
+    name: 'Stroke and Vascular Neurology',
+    tagline: 'Vascular neurology expertise for acute stroke, thrombolytics, and cerebrovascular disease litigation',
+    description: 'Our stroke and vascular neurology division features board-certified vascular neurologists with active stroke center practice. Our experts provide testimony on acute ischemic and hemorrhagic stroke management, thrombolytic and thrombectomy decisions, telestroke standards, and the full spectrum of cerebrovascular disease.',
+    practiceAreas: [
+      {
+        title: 'Acute Ischemic Stroke',
+        description: 'Stroke recognition, last known well determination, imaging triage, and time-sensitive treatment decisions.'
+      },
+      {
+        title: 'Thrombolytics & Thrombectomy',
+        description: 'IV alteplase/tenecteplase eligibility, mechanical thrombectomy referral, and contraindication analysis.'
+      },
+      {
+        title: 'Intracerebral & Subarachnoid Hemorrhage',
+        description: 'Hemorrhagic stroke diagnosis, blood pressure management, anticoagulation reversal, and neurosurgical coordination.'
+      },
+      {
+        title: 'Posterior Circulation Stroke',
+        description: 'Vertebrobasilar stroke recognition, atypical presentations, and delayed diagnosis cases.'
+      },
+      {
+        title: 'Telestroke & Transfer Standards',
+        description: 'Telestroke decision-making, hub-and-spoke standards, and inter-facility transfer for advanced intervention.'
+      },
+      {
+        title: 'Secondary Stroke Prevention',
+        description: 'Antiplatelet and anticoagulation selection, atrial fibrillation management, and risk-factor modification.'
+      }
+    ]
+  },
+  {
+    slug: 'neurocritical-care',
+    name: 'Neurocritical Care',
+    tagline: 'Neurocritical care expertise for ICU-level neurologic injury, ICP, and acute brain injury litigation',
+    description: 'Our neurocritical care division features fellowship-trained neurointensivists with active practice managing acute neurologic emergencies in the ICU. Our experts provide testimony on intracranial pressure management, severe TBI, status epilepticus, neuromonitoring, and the standard of care across complex neurocritical conditions.',
+    practiceAreas: [
+      {
+        title: 'Severe TBI Management',
+        description: 'ICP monitoring, osmotic therapy, decompressive interventions, and tiered escalation of neurocritical care.'
+      },
+      {
+        title: 'Hemorrhagic & Ischemic Stroke ICU Care',
+        description: 'Neurocritical management of large hemispheric stroke, ICH, and SAH, including rebleeding and vasospasm risk.'
+      },
+      {
+        title: 'Status Epilepticus',
+        description: 'Refractory and super-refractory status epilepticus management, continuous EEG, and anesthetic infusion strategies.'
+      },
+      {
+        title: 'Neuromonitoring',
+        description: 'ICP, brain tissue oxygenation, multimodal monitoring, and cerebral perfusion pressure goals.'
+      },
+      {
+        title: 'Brain Death & Prognostication',
+        description: 'Brain death determination protocols, neuroprognostication after cardiac arrest, and end-of-life decision-making.'
+      },
+      {
+        title: 'Spinal Cord Injury ICU Care',
+        description: 'Acute SCI hemodynamic management, autonomic dysfunction, and pulmonary support in cervical injuries.'
+      }
+    ]
+  },
+  {
+    slug: 'neuroimmunology',
+    name: 'Neuroimmunology',
+    tagline: 'Neuroimmunology and MS expertise for demyelinating disease, autoimmune neurologic, and disease-modifying therapy litigation',
+    description: 'Our neuroimmunology division features fellowship-trained neuroimmunologists with deep expertise in multiple sclerosis, neuromyelitis optica, autoimmune encephalitis, and other immune-mediated neurologic conditions. Our experts provide testimony on diagnostic accuracy, disease-modifying therapy selection, and standard of care for complex autoimmune neurologic disease.',
+    practiceAreas: [
+      {
+        title: 'Multiple Sclerosis',
+        description: 'MS diagnosis under McDonald criteria, MRI interpretation, and disease-modifying therapy selection and escalation.'
+      },
+      {
+        title: 'Neuromyelitis Optica & MOGAD',
+        description: 'NMOSD and MOG-antibody disease diagnosis, antibody testing, and immunotherapy decisions.'
+      },
+      {
+        title: 'Autoimmune Encephalitis',
+        description: 'Recognition and treatment of autoimmune and paraneoplastic encephalitis, including NMDA-receptor and LGI1 syndromes.'
+      },
+      {
+        title: 'Disease-Modifying Therapy',
+        description: 'DMT risk-benefit analysis, monitoring requirements, PML risk, and adverse event recognition.'
+      },
+      {
+        title: 'Demyelinating Disease Differential',
+        description: 'Distinguishing MS from mimics including ADEM, vasculitis, and infectious or metabolic demyelination.'
+      },
+      {
+        title: 'Neuroinflammation in Trauma',
+        description: 'Post-traumatic and post-infectious neuroinflammatory syndromes and overlap with primary autoimmune disease.'
+      }
+    ]
+  },
+  {
+    slug: 'wilderness-medicine',
+    name: 'Wilderness Medicine',
+    tagline: 'Wilderness and environmental medicine expertise for austere, dive, and remote-care emergency litigation',
+    description: 'Our wilderness medicine division features fellowship-trained, FAWM-credentialed emergency physicians with expertise in environmental emergencies, austere and remote care, dive medicine, and search-and-rescue medical direction. Our experts provide testimony on standard of care for hypothermia, drowning, altitude illness, envenomation, and other wilderness presentations.',
+    practiceAreas: [
+      {
+        title: 'Hypothermia & Cold Injury',
+        description: 'Accidental hypothermia rewarming strategies, frostbite management, and cold-water immersion care.'
+      },
+      {
+        title: 'Drowning & Submersion',
+        description: 'Resuscitation in submersion injury, post-immersion pulmonary care, and prognostication.'
+      },
+      {
+        title: 'Heat Illness',
+        description: 'Heat exhaustion and heat stroke recognition, cooling strategies, and exertional heat injury management.'
+      },
+      {
+        title: 'Altitude Illness',
+        description: 'Acute mountain sickness, HACE, and HAPE recognition, prevention, and descent decisions.'
+      },
+      {
+        title: 'Envenomation & Animal Bites',
+        description: 'Snake, marine, and arthropod envenomation management and antivenom decisions.'
+      },
+      {
+        title: 'Dive & Marine Medicine',
+        description: 'Decompression sickness, arterial gas embolism, hyperbaric referral, and marine envenomation care.'
+      }
+    ]
+  },
+  {
     slug: 'pharmacy',
     name: 'Pharmacy',
     tagline: 'Pharmacotherapy and critical care pharmacy expertise for medication error and pharmacy malpractice litigation',
