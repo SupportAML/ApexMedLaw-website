@@ -79,9 +79,14 @@ export function Navigation() {
             {/* Logo */}
             <Link
               to="/"
-              className="font-display font-bold text-lg lg:text-xl text-foreground tracking-tight"
+              aria-label="ApexMedLaw home"
+              className="flex items-center shrink-0"
             >
-              Apex<span className="text-electric">Med</span>Law
+              <img
+                src="/logo.png"
+                alt="ApexMedLaw"
+                className="h-10 lg:h-12 w-auto object-contain"
+              />
             </Link>
 
             {/* Navigation links + CTA */}

@@ -19,9 +19,13 @@ export function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
           {/* Brand Column */}
           <div className="space-y-4">
-            <h3 className="font-display font-bold text-xl tracking-tight">
-              Apex<span className="text-electric">MedLaw</span>
-            </h3>
+            <Link to="/" aria-label="ApexMedLaw home" className="inline-block">
+              <img
+                src="/logo.png"
+                alt="ApexMedLaw"
+                className="h-14 w-auto object-contain bg-white rounded-md p-2"
+              />
+            </Link>
             <p className="text-white/60 text-sm leading-relaxed">
               Physician-led medical-legal consulting. Board-certified experts delivering authoritative case reviews and testimony nationwide.
             </p>
