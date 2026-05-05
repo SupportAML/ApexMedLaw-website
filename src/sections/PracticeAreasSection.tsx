@@ -48,6 +48,7 @@ const specialties = [
   'Internal Medicine',
   'Gastroenterology',
   'Critical Care',
+  'Emergency Medicine',
   'Anesthesiology',
   'Radiology',
   'Physical Medicine and Rehabilitation',

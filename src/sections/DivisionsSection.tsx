@@ -13,6 +13,7 @@ import {
   Accessibility,
   Slice,
   Pill,
+  Ambulance,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -23,6 +24,7 @@ const divisionMeta: Record<string, { icon: typeof Stethoscope; accent: string }>
   'internal-medicine': { icon: Hospital, accent: '#0F766E' },
   'gastroenterology': { icon: Utensils, accent: '#7C3AED' },
   'critical-care': { icon: Heart, accent: '#006872' },
+  'emergency-medicine': { icon: Ambulance, accent: '#DC2626' },
   'anesthesiology': { icon: Activity, accent: '#D97706' },
   'radiology': { icon: Scan, accent: '#4338CA' },
   'physical-medicine-rehabilitation': { icon: Accessibility, accent: '#059669' },

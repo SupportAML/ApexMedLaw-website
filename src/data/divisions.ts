@@ -203,6 +203,38 @@ export const divisions: Division[] = [
     ]
   },
   {
+    slug: 'emergency-medicine',
+    name: 'Emergency Medicine',
+    tagline: 'ED standard of care expertise for trauma, resuscitation, airway, and emergency department litigation',
+    description: 'Our emergency medicine division features board-certified emergency physicians with extensive experience across trauma centers, academic institutions, community emergency departments, freestanding EDs, and rural hospitals. Our experts provide testimony on triage decisions, missed diagnoses, resuscitation, airway management, and ED standard of care.',
+    practiceAreas: [
+      {
+        title: 'Missed & Delayed Diagnosis',
+        description: 'Failure to diagnose stroke, MI, sepsis, aortic dissection, pulmonary embolism, and other time-sensitive ED presentations.'
+      },
+      {
+        title: 'Triage & Disposition',
+        description: 'Triage decisions, EMTALA compliance, admission vs. discharge decisions, and appropriate level-of-care determinations.'
+      },
+      {
+        title: 'Trauma Resuscitation',
+        description: 'Trauma activation criteria, ATLS protocols, hemorrhage control, and resuscitation standard of care in the ED.'
+      },
+      {
+        title: 'Airway Management',
+        description: 'Rapid sequence intubation, difficult airway management, failed airway algorithms, and procedural complications.'
+      },
+      {
+        title: 'Wilderness & Environmental Emergencies',
+        description: 'Hypothermia, drowning, frostbite, heat stroke, altitude illness, decompression sickness, and venomous animal bites.'
+      },
+      {
+        title: 'Procedural Complications',
+        description: 'Central line placement, chest tube insertion, lumbar puncture, and other ED procedure-related adverse events.'
+      }
+    ]
+  },
+  {
     slug: 'anesthesiology',
     name: 'Anesthesiology',
     tagline: 'Anesthesiology and pain medicine expertise for perioperative, interventional, and chronic pain litigation',
