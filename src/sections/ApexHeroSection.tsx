@@ -1,15 +1,15 @@
 import { useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Shield, Clock, Users } from 'lucide-react';
+import { ArrowRight, FileText, Zap, FileCheck } from 'lucide-react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const stats = [
-  { icon: Users, label: 'Founded & Led by Duke-Trained, Double Board-Certified Physicians', value: 'Duke MD' },
-  { icon: Shield, label: 'Clean Malpractice Record', value: '100%' },
-  { icon: Clock, label: 'Avg. Case Review Turnaround', value: '7 Days' },
+const steps = [
+  { icon: FileText, label: 'Step 1 — Share your case details', value: 'Submit Case' },
+  { icon: Zap, label: 'Step 2 — Matched with the right expert', value: '< 24 Hours' },
+  { icon: FileCheck, label: 'Step 3 — Records reviewed and opinion provided in a timely fashion, with a full report if needed', value: 'Expert Review' },
 ];
 
 export function ApexHeroSection() {
@@ -21,7 +21,7 @@ export function ApexHeroSection() {
 
   useEffect(() => {
     if (!statsRef.current) return;
-    const cards = statsRef.current.querySelectorAll('.stat-card');
+    const cards = statsRef.current.querySelectorAll('.step-card');
 
     gsap.fromTo(
       cards,
@@ -65,10 +65,10 @@ export function ApexHeroSection() {
             {/* Content */}
             <div className="space-y-6">
               <h1 className="display-heading text-display-xl text-white">
-                PHYSICIAN-LED
-                <span className="text-electric"> MEDICAL-LEGAL</span>
+                Physician-Led
+                <span className="text-electric"> Medical-Legal</span>
                 <br />
-                CONSULTING
+                Consulting
               </h1>
 
               <p className="text-lg text-slate-300 leading-relaxed max-w-lg">
@@ -93,21 +93,21 @@ export function ApexHeroSection() {
               </div>
             </div>
 
-            {/* Stats Grid */}
+            {/* Process Steps */}
             <div ref={statsRef} className="grid gap-5">
-              {stats.map((stat) => {
-                const Icon = stat.icon;
+              {steps.map((step) => {
+                const Icon = step.icon;
                 return (
-                  <div key={stat.label} className="stat-card group relative opacity-0">
+                  <div key={step.label} className="step-card group relative opacity-0">
                     <div className="absolute inset-0 bg-gradient-to-r from-electric/20 to-electric/10 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                     <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-5 lg:p-6 hover:bg-white/20 transition-colors duration-300 flex items-center gap-5">
                       <Icon className="h-8 w-8 text-electric flex-shrink-0" />
                       <div>
                         <div className="text-2xl lg:text-3xl font-bold text-white">
-                          {stat.value}
+                          {step.value}
                         </div>
                         <div className="text-sm text-slate-300">
-                          {stat.label}
+                          {step.label}
                         </div>
                       </div>
                     </div>
