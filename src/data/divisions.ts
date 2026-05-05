@@ -75,6 +75,70 @@ export const divisions: Division[] = [
     ],
   },
   {
+    slug: 'orthopedic-surgery',
+    name: 'Orthopedic Surgery',
+    tagline: 'Orthopedic surgery expertise for musculoskeletal injury, joint replacement, and surgical complication litigation',
+    description: 'Our orthopedic surgery division features fellowship-trained, board-certified orthopedic surgeons with deep expertise in musculoskeletal trauma, joint reconstruction, sports medicine, and post-surgical complications. Our experts provide authoritative testimony on standard-of-care issues across the full spectrum of orthopedic practice.',
+    practiceAreas: [
+      {
+        title: 'Fracture Management',
+        description: 'Open and closed reduction, fixation technique, malunion and nonunion, and post-fracture complication analysis.'
+      },
+      {
+        title: 'Joint Replacement',
+        description: 'Total hip, knee, and shoulder arthroplasty — surgical indications, technique, infection, and revision surgery.'
+      },
+      {
+        title: 'Sports Medicine & Soft Tissue Injury',
+        description: 'Ligament, tendon, and meniscal injuries, arthroscopic procedures, and return-to-activity standards.'
+      },
+      {
+        title: 'Post-Surgical Complications',
+        description: 'Surgical site infection, nerve and vascular injury, compartment syndrome, and DVT prophylaxis adequacy.'
+      },
+      {
+        title: 'Orthopedic Trauma',
+        description: 'Polytrauma management, damage-control orthopedics, and timing of definitive fixation in complex cases.'
+      },
+      {
+        title: 'Workers\' Compensation & IME',
+        description: 'Work-related musculoskeletal injury causation, impairment ratings, and return-to-work evaluations.'
+      }
+    ],
+  },
+  {
+    slug: 'spine-surgery',
+    name: 'Spine Surgery',
+    tagline: 'Spine surgery expertise across orthopedic and neurosurgical approaches to cervical, thoracic, and lumbar pathology',
+    description: 'Our spine surgery division features fellowship-trained orthopedic spine surgeons and neurosurgeons with combined expertise across the cervical, thoracic, and lumbar spine. Our experts provide testimony on surgical indications, technique, complication management, and standard of care for both elective and trauma spine procedures.',
+    practiceAreas: [
+      {
+        title: 'Cervical Spine Surgery',
+        description: 'Anterior cervical discectomy and fusion (ACDF), cervical disc arthroplasty, posterior decompression, and cervical myelopathy management.'
+      },
+      {
+        title: 'Lumbar Fusion & Decompression',
+        description: 'TLIF, PLIF, XLIF, ALIF, laminectomy, and microdiscectomy — surgical indications, technique, and outcome analysis.'
+      },
+      {
+        title: 'Spinal Trauma',
+        description: 'Acute spinal column and spinal cord injury, surgical timing, instrumentation choice, and post-operative care.'
+      },
+      {
+        title: 'Disc Herniation & Nerve Compression',
+        description: 'Conservative versus surgical management decisions, indications for intervention, and recurrent disc herniation.'
+      },
+      {
+        title: 'Spinal Deformity',
+        description: 'Adult and adolescent scoliosis, kyphosis, and complex deformity correction surgery.'
+      },
+      {
+        title: 'Post-Operative Complications',
+        description: 'Hardware failure, adjacent segment disease, dural tear, infection, and nerve injury after spine surgery.'
+      }
+    ],
+  },
+  {
     slug: 'pediatric-neurology',
     name: 'Pediatric Neurology',
     tagline: 'Child neurology expertise for pediatric brain injury, epilepsy, and developmental cases',

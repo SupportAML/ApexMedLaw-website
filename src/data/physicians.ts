@@ -15,6 +15,8 @@ export interface Physician {
 export const SPECIALTIES = [
   { slug: 'neurology', name: 'Neurology' },
   { slug: 'neurosurgery', name: 'Neurosurgery' },
+  { slug: 'orthopedic-surgery', name: 'Orthopedic Surgery' },
+  { slug: 'spine-surgery', name: 'Spine Surgery' },
   { slug: 'pediatric-neurology', name: 'Pediatric Neurology' },
   { slug: 'internal-medicine', name: 'Internal Medicine' },
   { slug: 'gastroenterology', name: 'Gastroenterology' },
@@ -152,7 +154,7 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     bio: `Dr. Ahmad Elakil is the chief of the division of neurosurgery at Insight Hospital and Medical Center in Chicago, IL. He is a board-certified neurosurgeon who completed his neurosurgical residency at the University of Calgary and postgraduate training at the University of Miami. During his residency, he completed his MBA at Cornell University. He is expert in traumatic brain injury, spinal injury, spine surgery, cervical surgery, lumbar fusion, craniotomy, and spinal cord injury. Dr. Elakil has been cited in prestigious national and international neurosurgical journals and has received more than twenty awards at national and international neurosurgical meetings.`,
     credentials: ['Cornell MBA', 'University of Calgary Residency', 'Board Certified Neurosurgeon'],
     location: 'Illinois',
-    categories: ['neurosurgery'],
+    categories: ['neurosurgery', 'spine-surgery'],
   },
   {
     id: '9',
@@ -339,6 +341,27 @@ Dr. Huh earned his medical degree from the Medical College of Georgia and his Ba
     ],
     location: 'Georgia',
     categories: ['radiology'],
+  },
+  {
+    id: '23',
+    slug: 'nickul-jain',
+    name: 'Nickul S. Jain, MD',
+    role: 'Orthopedic Spine Surgeon',
+    title: 'Ancillary Physician Partner',
+    photo: '/team_jain.jpg',
+    bio: `Dr. Nickul (Nick) Jain is a fellowship-trained, board-certified orthopedic spine surgeon practicing in Newport Beach, California. He completed a Combined Orthopaedic and Neurosurgical Spine Surgery Fellowship at the University of Southern California Spine Center under Drs. Jeffrey Wang and John Liu, providing him with comprehensive expertise across the full spectrum of cervical, thoracic, and lumbar spine pathology.
+
+He completed his orthopedic surgery internship and residency at the University of California, Irvine Medical Center. He earned his Doctor of Medicine from the UC Irvine School of Medicine, conferred with Distinction in Research, and his Bachelor of Science in Biological Sciences from Stanford University, conferred with Departmental Honors.
+
+Dr. Jain provides expert witness testimony and case review on a wide range of orthopedic and spine surgery matters, including cervical and lumbar fusion, disc herniation and nerve compression, post-surgical complications, spinal trauma, and orthopedic standard of care.`,
+    credentials: [
+      'USC Combined Ortho/Neurosurgery Spine Fellowship',
+      'Board-Certified Orthopedic Surgeon',
+      'UC Irvine Residency',
+      'Stanford University',
+    ],
+    location: 'California',
+    categories: ['orthopedic-surgery', 'spine-surgery'],
   },
 ];
 

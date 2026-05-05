@@ -18,6 +18,8 @@ const CASE_TYPES = [
 const PHYSICIAN_SPECIALTIES = [
   'Neurology',
   'Neurosurgery',
+  'Orthopedic Surgery',
+  'Spine Surgery',
   'Pediatric Neurology',
   'Internal Medicine',
   'Gastroenterology',

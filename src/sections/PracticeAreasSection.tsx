@@ -44,6 +44,8 @@ const practiceAreas = [
 const specialties = [
   'Neurology',
   'Neurosurgery',
+  'Orthopedic Surgery',
+  'Spine Surgery',
   'Pediatric Neurology',
   'Internal Medicine',
   'Gastroenterology',

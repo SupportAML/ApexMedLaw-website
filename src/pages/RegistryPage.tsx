@@ -137,7 +137,7 @@ export function RegistryPage() {
                   Have a Case? Let's Talk.
                 </h2>
                 <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">
-                  Whether you need a neurology, neurosurgery, pediatric neurology, internal medicine, gastroenterology, critical care, emergency medicine, anesthesiology, radiology, PM&R, or pharmacy expert witness,
+                  Whether you need a neurology, neurosurgery, orthopedic surgery, spine surgery, pediatric neurology, internal medicine, gastroenterology, critical care, emergency medicine, anesthesiology, radiology, PM&R, or pharmacy expert witness,
                   our team will match you with the right specialist for your case. Response within 24 hours.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
