@@ -24,17 +24,16 @@ export function RegistryPage() {
       <Navigation />
       <main className="pt-20 lg:pt-24">
         {/* Hero */}
-        <section className="relative w-full py-16 lg:py-24 bg-navy overflow-hidden">
-          <div className="absolute inset-0 neural-bg opacity-[0.05]" />
+        <section className="relative w-full py-16 lg:py-24 light-sky-bg overflow-hidden">
           <div className="relative z-10 w-full px-6 lg:px-12">
             <div className="max-w-4xl mx-auto text-center">
-              <span className="inline-block px-4 py-2 bg-electric/20 text-electric rounded-full text-sm font-medium mb-6">
+              <span className="inline-block px-4 py-2 bg-electric/10 text-electric rounded-full text-sm font-medium mb-6">
                 Our Expert Network
               </span>
-              <h1 className="display-heading text-display-lg text-white mb-6">
+              <h1 className="display-heading text-display-lg text-navy mb-6">
                 Board-Certified <span className="text-electric">Medical Experts</span>
               </h1>
-              <p className="text-lg lg:text-xl text-white/70 max-w-2xl mx-auto">
+              <p className="text-lg lg:text-xl text-slate-600 max-w-2xl mx-auto">
                 ApexMedLaw provides expert witnesses across a growing range of medical specialties. Browse our network by specialty below.
               </p>
             </div>
@@ -130,13 +129,12 @@ export function RegistryPage() {
         {/* Contact CTA */}
         <section className="w-full px-6 lg:px-12 py-16 lg:py-24 bg-white">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-navy rounded-3xl p-8 lg:p-12 text-center relative overflow-hidden">
-              <div className="absolute inset-0 neural-bg opacity-[0.05]" />
+            <div className="light-sky-bg rounded-3xl p-8 lg:p-12 text-center relative overflow-hidden border border-slate-200 shadow-sm">
               <div className="relative z-10">
-                <h2 className="display-heading text-display-sm text-white mb-4">
+                <h2 className="display-heading text-display-sm text-navy mb-4">
                   Have a Case? Let's Talk.
                 </h2>
-                <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">
+                <p className="text-slate-600 text-lg mb-8 max-w-2xl mx-auto">
                   Whether you need a neurology, neurosurgery, orthopedic surgery, spine surgery, pediatric neurology, internal medicine, gastroenterology, critical care, emergency medicine, anesthesiology, radiology, PM&R, or pharmacy expert witness,
                   our team will match you with the right specialist for your case. Response within 24 hours.
                 </p>
@@ -148,7 +146,7 @@ export function RegistryPage() {
                     </Button>
                   </a>
                   <a href="tel:9193077949">
-                    <Button variant="outline" className="text-white border-white/20 hover:bg-white/10 font-medium px-8 py-3 rounded-full flex items-center gap-2">
+                    <Button variant="outline" className="text-navy border-slate-300 bg-white hover:bg-slate-50 font-medium px-8 py-3 rounded-full flex items-center gap-2">
                       <Phone size={18} />
                       (919) 307-7949
                     </Button>

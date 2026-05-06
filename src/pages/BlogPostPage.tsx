@@ -146,11 +146,11 @@ export function BlogPostPage() {
           <div className="prose-nlc">{renderMarkdown(post.content)}</div>
 
           {/* CTA */}
-          <div className="mt-16 bg-navy rounded-2xl p-8 lg:p-12 text-center">
-            <h3 className="font-display text-2xl font-bold text-white mb-3">
+          <div className="mt-16 light-sky-bg border border-slate-200 rounded-2xl p-8 lg:p-12 text-center">
+            <h3 className="font-display text-2xl font-bold text-navy mb-3">
               Need a Medical Expert for Your Case?
             </h3>
-            <p className="text-slate-300 mb-6 max-w-lg mx-auto">
+            <p className="text-slate-600 mb-6 max-w-lg mx-auto">
               Our board-certified physician experts are available for case review,
               expert testimony, and independent medical examinations nationwide.
             </p>

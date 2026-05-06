@@ -130,17 +130,16 @@ export function JoinPage() {
       <Navigation />
       <main className="pt-20 lg:pt-24">
         {/* Hero */}
-        <section className="relative w-full py-16 lg:py-24 bg-navy overflow-hidden">
-          <div className="absolute inset-0 neural-bg opacity-[0.05]" />
+        <section className="relative w-full py-16 lg:py-24 light-sky-bg overflow-hidden">
           <div className="relative z-10 w-full px-6 lg:px-12">
             <div className="max-w-5xl mx-auto text-center">
-              <span className="inline-block px-4 py-2 bg-electric/20 text-electric rounded-full text-sm font-medium mb-6">
+              <span className="inline-block px-4 py-2 bg-electric/10 text-electric rounded-full text-sm font-medium mb-6">
                 For Physicians
               </span>
-              <h1 className="display-heading text-display-lg text-white mb-6">
+              <h1 className="display-heading text-display-lg text-navy mb-6">
                 Join Our Expert <span className="text-electric">Witness Network</span>
               </h1>
-              <p className="text-lg lg:text-xl text-white/70 max-w-2xl mx-auto">
+              <p className="text-lg lg:text-xl text-slate-600 max-w-2xl mx-auto">
                 List your profile for free. Get matched with attorneys seeking your specialty.
                 No annual fees — ever.
               </p>

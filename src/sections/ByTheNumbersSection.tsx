@@ -47,14 +47,13 @@ export function ByTheNumbersSection() {
   }, []);
 
   return (
-    <section className="relative w-full py-16 lg:py-20 px-6 lg:px-12 bg-navy text-white overflow-hidden">
-      <div className="absolute inset-0 neural-bg opacity-[0.04]" />
+    <section className="relative w-full py-16 lg:py-20 px-6 lg:px-12 light-sky-bg overflow-hidden">
       <div ref={sectionRef} className="relative z-10 max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <span className="text-sm font-semibold text-electric uppercase tracking-widest">
             By The Numbers
           </span>
-          <h2 className="text-display-lg font-bold text-white mt-3">
+          <h2 className="text-display-lg font-bold text-navy mt-3">
             Proven Track Record
           </h2>
         </div>
@@ -64,26 +63,26 @@ export function ByTheNumbersSection() {
           {metrics.map((metric, i) => (
             <div
               key={i}
-              className="metric-card bg-white/5 border border-white/10 rounded-xl p-5 text-center opacity-0"
+              className="metric-card bg-white border border-slate-200 rounded-2xl p-7 text-center opacity-0 shadow-sm hover:shadow-md transition-shadow"
             >
-              <div className="text-3xl lg:text-4xl font-bold text-electric mb-1">
-                {metric.value}{metric.suffix}
+              <div className="text-4xl lg:text-5xl font-bold text-electric mb-2 leading-none">
+                {metric.value}<span className="text-3xl lg:text-4xl">{metric.suffix}</span>
               </div>
-              <div className="text-sm text-white/60">{metric.label}</div>
+              <div className="text-sm text-slate-600 font-medium">{metric.label}</div>
             </div>
           ))}
         </div>
 
         {/* Case types we handle */}
         <div className="text-center">
-          <p className="text-white/50 text-sm uppercase tracking-widest mb-4">
+          <p className="text-slate-500 text-sm uppercase tracking-widest mb-4 font-semibold">
             Case Types We Handle
           </p>
           <div className="flex flex-wrap justify-center gap-2">
             {caseTypes.map((type) => (
               <span
                 key={type}
-                className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-white/70"
+                className="px-4 py-2 bg-white border border-slate-200 rounded-full text-sm text-slate-700 shadow-xs"
               >
                 {type}
               </span>
