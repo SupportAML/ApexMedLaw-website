@@ -87,7 +87,7 @@ export function DivisionPage() {
                       <Button
                         size="lg"
                         variant="outline"
-                        className="border-white/20 text-white hover:bg-white/10 font-medium px-8 py-6 rounded-full flex items-center gap-2"
+                        className="bg-transparent border-white/20 text-white hover:bg-white/10 hover:text-white font-medium px-8 py-6 rounded-full flex items-center gap-2"
                       >
                         Meet Our {division.name} Experts
                         <ArrowRight size={20} />
@@ -99,7 +99,7 @@ export function DivisionPage() {
                       <Button
                         size="lg"
                         variant="outline"
-                        className="border-white/20 text-white hover:bg-white/10 font-medium px-8 py-6 rounded-full flex items-center gap-2"
+                        className="bg-transparent border-white/20 text-white hover:bg-white/10 hover:text-white font-medium px-8 py-6 rounded-full flex items-center gap-2"
                       >
                         Visit Specialized Site
                         <ExternalLink size={20} />
