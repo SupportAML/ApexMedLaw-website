@@ -370,6 +370,29 @@ Dr. Philips earned her M.D. from the University of Pittsburgh School of Medicine
     categories: ['neurology', 'neuromuscular-medicine'],
   },
   {
+    id: '25',
+    slug: 'casey-jeffries',
+    name: 'Casey F. Jeffries, MD',
+    role: 'Neurologist / Multiple Sclerosis and Neuroimmunology Specialist',
+    title: 'Ancillary Physician Partner',
+    photo: '/team_jeffries.png',
+    bio: `Dr. Casey Jeffries is a board-certified adult neurologist with fellowship training in Multiple Sclerosis and Neuroimmunology from Duke University Health System. She specializes in the management of patients with multiple sclerosis and other immune-mediated neurologic conditions.
+
+She currently practices at Raleigh Neurology Associates, P.A., one of the largest private neurology practices in North Carolina, where she serves as a Physician Owner and EHR Director, advising the Practice Operations Workgroup on workflow efficiency and EHR optimization.
+
+Dr. Jeffries also serves as Principal Investigator and sub-investigator at Velocity Clinical Research, leading multiple Phase II and Phase III clinical trials investigating new treatments for multiple sclerosis.
+
+She completed her neurology residency, internal medicine internship, and MS/Neuroimmunology fellowship at Duke University Health System. She earned her medical degree from the University of North Carolina School of Medicine and her B.S. Cum Laude with Honors in Neural Science from New York University College of Arts and Science.`,
+    credentials: [
+      'Duke MS & Neuroimmunology Fellowship',
+      'Duke Neurology Residency',
+      'UNC School of Medicine',
+      'Principal Investigator — MS Clinical Trials',
+    ],
+    location: 'North Carolina',
+    categories: ['neurology', 'neuroimmunology'],
+  },
+  {
     id: '23',
     slug: 'nickul-jain',
     name: 'Nickul S. Jain, MD',
