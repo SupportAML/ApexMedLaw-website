@@ -211,18 +211,6 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     categories: ['physical-medicine-rehabilitation'],
   },
   {
-    id: '13',
-    slug: 'sima-patel',
-    name: 'Sima Patel, MD',
-    role: 'Neurologist',
-    title: 'Ancillary Physician Partner',
-    photo: '/team_patel.png',
-    bio: `Dr. Sima Patel is double board-certified in Neurology and Epilepsy by the American Board of Psychiatry and Neurology. She earned her medical degree from Rush Medical College, completed her neurology residency at the Medical College of Wisconsin, and pursued fellowship training in Clinical Neurophysiology and Epilepsy at the Cleveland Clinic. With over fifteen years of experience in epilepsy care, she developed the ROAR Seizure Behavioral Testing Protocol. She serves on the Board of Directors for the Epilepsy Foundation of Minnesota and is a Fellow of the American Epilepsy Society and the American Neurological Association.`,
-    credentials: ['Cleveland Clinic', 'Double Board Certified', 'FAES, FANA'],
-    location: 'Minnesota',
-    categories: ['neurology', 'epilepsy'],
-  },
-  {
     id: '14',
     slug: 'ravi-shah',
     name: 'Ravi Shah, MD',
