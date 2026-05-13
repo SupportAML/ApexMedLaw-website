@@ -19,7 +19,7 @@ export function RegistryPage() {
     <>
       <SEO
         title="Our Expert Witnesses"
-        description="ApexMedLaw's network of board-certified expert witnesses. Browse by specialty: Neurology, Neurosurgery, Pediatric Neurology, Internal Medicine, Gastroenterology, Critical Care, Emergency Medicine, Anesthesiology, Radiology, Physical Medicine and Rehabilitation, Pharmacy, Epilepsy, Stroke and Vascular Neurology, Neurocritical Care, Neuroimmunology, and Wilderness Medicine."
+        description="ApexMedLaw's network of board-certified expert witnesses. Browse by specialty: Anesthesiology, Critical Care, Emergency Medicine, Epilepsy, Family Medicine, Gastroenterology, Internal Medicine, Neurocritical Care, Neuroimmunology, Neurology, Neuromuscular Medicine, Neurosurgery, Orthopedic Surgery, Pediatric Neurology, Pharmacy, Physical Medicine and Rehabilitation, Radiology, Spine Surgery, Stroke and Vascular Neurology, and Wilderness Medicine."
       />
       <Navigation />
       <main className="pt-20 lg:pt-24">
@@ -137,7 +137,7 @@ export function RegistryPage() {
                   Have a Case? Let's Talk.
                 </h2>
                 <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">
-                  Whether you need a neurology, neurosurgery, orthopedic surgery, spine surgery, pediatric neurology, internal medicine, gastroenterology, critical care, emergency medicine, anesthesiology, radiology, PM&R, or pharmacy expert witness,
+                  Whether you need a neurology, neurosurgery, orthopedic surgery, spine surgery, pediatric neurology, internal medicine, family medicine, gastroenterology, critical care, emergency medicine, anesthesiology, radiology, PM&R, or pharmacy expert witness,
                   our team will match you with the right specialist for your case. Response within 24 hours.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

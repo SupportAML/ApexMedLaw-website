@@ -10,227 +10,34 @@ export interface Division {
 
 export const divisions: Division[] = [
   {
-    slug: 'neurology',
-    name: 'Neurology',
-    tagline: 'Expert witness testimony for traumatic brain injury, stroke, seizures, and neurological conditions',
-    description: 'Our neurology division provides board-certified neurologists with specialized expertise in TBI litigation, stroke cases, spinal cord injuries, seizure disorders, and neuromuscular disease. We maintain active clinical practices while delivering authoritative expert testimony and case reviews.',
+    slug: 'anesthesiology',
+    name: 'Anesthesiology',
+    tagline: 'Anesthesiology and pain medicine expertise for perioperative, interventional, and chronic pain litigation',
+    description: 'Our anesthesiology division features board-certified anesthesiologists and pain medicine physicians providing expert testimony on perioperative care, interventional procedures, opioid prescribing, and chronic pain management in complex cases.',
     practiceAreas: [
       {
-        title: 'TBI & Concussion',
-        description: 'Traumatic brain injury assessment, chronic traumatic encephalopathy (CTE) evaluation, and post-concussive syndrome standard of care analysis.'
+        title: 'Perioperative Anesthesia',
+        description: 'General and regional anesthesia administration, intraoperative monitoring, and perioperative complication analysis.'
       },
       {
-        title: 'Stroke & Cerebrovascular',
-        description: 'Acute stroke management, thrombolytic therapy decisions, posterior circulation stroke diagnosis, and delayed presentation claims.'
+        title: 'Interventional Procedure Complications',
+        description: 'Epidural steroid injection complications, facet joint injection adverse events, spinal cord stimulator infections, and nerve injury.'
       },
       {
-        title: 'Spinal Cord Injury',
-        description: 'Acute and chronic spinal cord injury management, surgical timing decisions, and rehabilitation standard of care.'
+        title: 'Opioid Management',
+        description: 'Opioid prescribing decisions, addiction risk assessment, dose escalation decisions, and overdose causation.'
       },
       {
-        title: 'Seizure Disorders',
-        description: 'Epilepsy diagnosis and management, seizure classification, antiepileptic drug selection, and status epilepticus standard of care.'
+        title: 'Chronic Pain Assessment',
+        description: 'Chronic pain syndrome diagnosis, functional capacity evaluation appropriateness, and pain severity assessment.'
       },
       {
-        title: 'Neuromuscular Disease',
-        description: 'Diagnosis of myasthenia gravis, muscular dystrophy, ALS, and other neuromuscular conditions with focus on diagnostic delay.'
+        title: 'Workers\' Compensation Cases',
+        description: 'Work-related injury causation, impairment rating standards, permanent total disability determinations, and return-to-work capability.'
       },
       {
-        title: 'Chronic Pain & Neuropathy',
-        description: 'Peripheral neuropathy diagnosis, chronic pain management standards, and medication management in complex cases.'
-      }
-    ],
-    externalUrl: 'https://www.neurolegalconsulting.com'
-  },
-  {
-    slug: 'neurosurgery',
-    name: 'Neurosurgery',
-    tagline: 'Surgical expertise for cranial, spinal, and neurosurgical malpractice litigation',
-    description: 'Our neurosurgery division features board-certified neurosurgeons with deep experience in cranial and spinal surgery. Our experts provide expert testimony on traumatic brain injury, spine procedures, surgical complications, and standard of care issues across the full spectrum of neurosurgical practice.',
-    practiceAreas: [
-      {
-        title: 'Traumatic Brain Injury',
-        description: 'Neurosurgical management of acute TBI, decompressive craniectomy decisions, and ICP monitoring standard of care.'
-      },
-      {
-        title: 'Spine Surgery',
-        description: 'Cervical (ACDF), lumbar fusion (TLIF, XLIF), and thoracic procedures — surgical indications, technique, and complication analysis.'
-      },
-      {
-        title: 'Spinal Cord Injury',
-        description: 'Acute spinal cord injury surgical management, timing decisions, and post-operative care standards.'
-      },
-      {
-        title: 'Craniotomy & Tumor Resection',
-        description: 'Cranial procedures for tumor, aneurysm, and intracranial hemorrhage with focus on surgical decision-making.'
-      },
-      {
-        title: 'Disc Herniation & Nerve Compression',
-        description: 'Conservative vs. surgical management decisions, indications for intervention, and outcomes analysis.'
-      },
-      {
-        title: 'Spinal Trauma & Abscess',
-        description: 'Emergency surgical management of spinal trauma, infection, and post-operative complications.'
-      }
-    ],
-  },
-  {
-    slug: 'orthopedic-surgery',
-    name: 'Orthopedic Surgery',
-    tagline: 'Orthopedic surgery expertise for musculoskeletal injury, joint replacement, and surgical complication litigation',
-    description: 'Our orthopedic surgery division features fellowship-trained, board-certified orthopedic surgeons with deep expertise in musculoskeletal trauma, joint reconstruction, sports medicine, and post-surgical complications. Our experts provide authoritative testimony on standard-of-care issues across the full spectrum of orthopedic practice.',
-    practiceAreas: [
-      {
-        title: 'Fracture Management',
-        description: 'Open and closed reduction, fixation technique, malunion and nonunion, and post-fracture complication analysis.'
-      },
-      {
-        title: 'Joint Replacement',
-        description: 'Total hip, knee, and shoulder arthroplasty — surgical indications, technique, infection, and revision surgery.'
-      },
-      {
-        title: 'Sports Medicine & Soft Tissue Injury',
-        description: 'Ligament, tendon, and meniscal injuries, arthroscopic procedures, and return-to-activity standards.'
-      },
-      {
-        title: 'Post-Surgical Complications',
-        description: 'Surgical site infection, nerve and vascular injury, compartment syndrome, and DVT prophylaxis adequacy.'
-      },
-      {
-        title: 'Orthopedic Trauma',
-        description: 'Polytrauma management, damage-control orthopedics, and timing of definitive fixation in complex cases.'
-      },
-      {
-        title: 'Workers\' Compensation & IME',
-        description: 'Work-related musculoskeletal injury causation, impairment ratings, and return-to-work evaluations.'
-      }
-    ],
-  },
-  {
-    slug: 'spine-surgery',
-    name: 'Spine Surgery',
-    tagline: 'Spine surgery expertise across orthopedic and neurosurgical approaches to cervical, thoracic, and lumbar pathology',
-    description: 'Our spine surgery division features fellowship-trained orthopedic spine surgeons and neurosurgeons with combined expertise across the cervical, thoracic, and lumbar spine. Our experts provide testimony on surgical indications, technique, complication management, and standard of care for both elective and trauma spine procedures.',
-    practiceAreas: [
-      {
-        title: 'Cervical Spine Surgery',
-        description: 'Anterior cervical discectomy and fusion (ACDF), cervical disc arthroplasty, posterior decompression, and cervical myelopathy management.'
-      },
-      {
-        title: 'Lumbar Fusion & Decompression',
-        description: 'TLIF, PLIF, XLIF, ALIF, laminectomy, and microdiscectomy — surgical indications, technique, and outcome analysis.'
-      },
-      {
-        title: 'Spinal Trauma',
-        description: 'Acute spinal column and spinal cord injury, surgical timing, instrumentation choice, and post-operative care.'
-      },
-      {
-        title: 'Disc Herniation & Nerve Compression',
-        description: 'Conservative versus surgical management decisions, indications for intervention, and recurrent disc herniation.'
-      },
-      {
-        title: 'Spinal Deformity',
-        description: 'Adult and adolescent scoliosis, kyphosis, and complex deformity correction surgery.'
-      },
-      {
-        title: 'Post-Operative Complications',
-        description: 'Hardware failure, adjacent segment disease, dural tear, infection, and nerve injury after spine surgery.'
-      }
-    ],
-  },
-  {
-    slug: 'pediatric-neurology',
-    name: 'Pediatric Neurology',
-    tagline: 'Child neurology expertise for pediatric brain injury, epilepsy, and developmental cases',
-    description: 'Our pediatric neurology division features ABPN-certified child neurologists with specialized fellowship training in neurocritical care and epilepsy. Our experts provide testimony on neonatal neurologic injury, pediatric epilepsy, developmental delay, and child neurological emergencies.',
-    practiceAreas: [
-      {
-        title: 'Neonatal Brain Injury',
-        description: 'Hypoxic-ischemic encephalopathy (HIE), neonatal stroke, and birth-related neurologic injury standard of care.'
-      },
-      {
-        title: 'Pediatric Epilepsy',
-        description: 'Childhood seizure disorders, epileptic encephalopathies, antiseizure medication management, and surgical evaluation.'
-      },
-      {
-        title: 'Pediatric Stroke',
-        description: 'Arterial ischemic stroke, sinus venous thrombosis, and pediatric cerebrovascular disease management.'
-      },
-      {
-        title: 'Developmental Delay',
-        description: 'Diagnostic work-up for developmental delay, autism spectrum, and neurodevelopmental disorders.'
-      },
-      {
-        title: 'Pediatric Neurocritical Care',
-        description: 'PICU neurologic management, status epilepticus, intracranial pressure, and acute encephalopathy.'
-      },
-      {
-        title: 'Concussion in Children',
-        description: 'Pediatric mild TBI assessment, return-to-play decisions, and post-concussive management standards.'
-      }
-    ],
-  },
-  {
-    slug: 'internal-medicine',
-    name: 'Internal Medicine',
-    tagline: 'Hospitalist and IM expertise for inpatient care, diagnostic delay, and standard of care litigation',
-    description: 'Our internal medicine division features board-certified internists and hospitalists with extensive inpatient and outpatient experience. Our experts provide testimony on diagnostic delay, hospital-based negligence, medication errors, and complex medical decision-making across multi-system disease.',
-    practiceAreas: [
-      {
-        title: 'Diagnostic Delay',
-        description: 'Failure to diagnose and timely workup of common and complex internal medicine conditions.'
-      },
-      {
-        title: 'Inpatient Standard of Care',
-        description: 'Hospital protocols, admission decisions, escalation of care, and hospitalist standard of care.'
-      },
-      {
-        title: 'Medication Errors',
-        description: 'Drug administration errors, polypharmacy management, and adverse drug interaction analysis.'
-      },
-      {
-        title: 'Wrongful Death',
-        description: 'Cause of death analysis, preventability assessments, and clinical decision-making review.'
-      },
-      {
-        title: 'Hospital-Based Negligence',
-        description: 'Failure to monitor, communication failures between care teams, and discharge planning issues.'
-      },
-      {
-        title: 'Complex Medical Disease',
-        description: 'Management of multi-organ disease, chronic illness exacerbations, and complex care coordination.'
-      }
-    ],
-  },
-  {
-    slug: 'gastroenterology',
-    name: 'Gastroenterology',
-    tagline: 'GI expertise in endoscopy complications, missed cancer, and digestive system malpractice',
-    description: 'Our gastroenterology division provides board-certified gastroenterologists expert testimony on endoscopic procedures, diagnostic accuracy, cancer screening standards, and management of GI bleeding and inflammatory bowel disease.',
-    practiceAreas: [
-      {
-        title: 'Endoscopy Complications',
-        description: 'Perforation during EGD or colonoscopy, post-ERCP pancreatitis, bleeding complications, and preventability analysis.'
-      },
-      {
-        title: 'Missed GI Cancer',
-        description: 'Missed or delayed cancer diagnosis, inadequate surveillance, colonoscopy screening failures, and polyp management.'
-      },
-      {
-        title: 'GI Bleeding Management',
-        description: 'Acute upper and lower GI bleeding management, endoscopic intervention decisions, transfusion strategies, and shock management.'
-      },
-      {
-        title: 'Inflammatory Bowel Disease',
-        description: 'Crohn\'s disease and ulcerative colitis management, surgical timing, medication selection, and complication recognition.'
-      },
-      {
-        title: 'Liver Disease',
-        description: 'Cirrhosis diagnosis and management, hepatic encephalopathy, varices treatment, and liver failure management.'
-      },
-      {
-        title: 'Medication-Related GI Injury',
-        description: 'NSAID-related GI injury, aspirin and anticoagulant complications, and prophylaxis adequacy assessment.'
+        title: 'Spinal Injections',
+        description: 'Epidural steroid injection technique, frequency and safety protocols, image guidance requirements, and complication rates.'
       }
     ]
   },
@@ -299,102 +106,6 @@ export const divisions: Division[] = [
     ]
   },
   {
-    slug: 'anesthesiology',
-    name: 'Anesthesiology',
-    tagline: 'Anesthesiology and pain medicine expertise for perioperative, interventional, and chronic pain litigation',
-    description: 'Our anesthesiology division features board-certified anesthesiologists and pain medicine physicians providing expert testimony on perioperative care, interventional procedures, opioid prescribing, and chronic pain management in complex cases.',
-    practiceAreas: [
-      {
-        title: 'Perioperative Anesthesia',
-        description: 'General and regional anesthesia administration, intraoperative monitoring, and perioperative complication analysis.'
-      },
-      {
-        title: 'Interventional Procedure Complications',
-        description: 'Epidural steroid injection complications, facet joint injection adverse events, spinal cord stimulator infections, and nerve injury.'
-      },
-      {
-        title: 'Opioid Management',
-        description: 'Opioid prescribing decisions, addiction risk assessment, dose escalation decisions, and overdose causation.'
-      },
-      {
-        title: 'Chronic Pain Assessment',
-        description: 'Chronic pain syndrome diagnosis, functional capacity evaluation appropriateness, and pain severity assessment.'
-      },
-      {
-        title: 'Workers\' Compensation Cases',
-        description: 'Work-related injury causation, impairment rating standards, permanent total disability determinations, and return-to-work capability.'
-      },
-      {
-        title: 'Spinal Injections',
-        description: 'Epidural steroid injection technique, frequency and safety protocols, image guidance requirements, and complication rates.'
-      }
-    ]
-  },
-  {
-    slug: 'radiology',
-    name: 'Radiology',
-    tagline: 'Diagnostic radiology and neuroradiology expertise for imaging interpretation litigation',
-    description: 'Our radiology division features double board-certified diagnostic radiologists and neuroradiologists with expertise across CT, MRI, and advanced imaging modalities. Our experts provide testimony on missed findings, imaging interpretation accuracy, and radiologic standard of care.',
-    practiceAreas: [
-      {
-        title: 'Missed Diagnosis on Imaging',
-        description: 'Failure to identify findings on CT, MRI, X-ray, and ultrasound — including stroke, hemorrhage, fracture, and tumor.'
-      },
-      {
-        title: 'Stroke & Hemorrhage Imaging',
-        description: 'Acute stroke imaging, intracranial hemorrhage detection, and time-sensitive neuroimaging interpretation.'
-      },
-      {
-        title: 'Spine Imaging',
-        description: 'Cervical, thoracic, and lumbar spine imaging interpretation including degenerative disease and trauma.'
-      },
-      {
-        title: 'Cancer Detection',
-        description: 'Failure to detect malignancy on screening and diagnostic imaging across body systems.'
-      },
-      {
-        title: 'CSF Leaks',
-        description: 'Diagnosis and characterization of cerebrospinal fluid leaks and intracranial hypotension.'
-      },
-      {
-        title: 'Trauma Imaging',
-        description: 'Acute trauma imaging interpretation including TBI, spine, and polytrauma evaluation.'
-      }
-    ]
-  },
-  {
-    slug: 'physical-medicine-rehabilitation',
-    name: 'Physical Medicine and Rehabilitation',
-    tagline: 'PM&R expertise for spinal cord injury, brain injury, and rehabilitation outcomes',
-    description: 'Our PM&R division features triple board-certified physiatrists with expertise in spinal cord injury medicine and brain injury medicine. Our experts provide testimony on rehabilitation standards of care, life-care planning, and long-term outcomes after catastrophic injury.',
-    practiceAreas: [
-      {
-        title: 'Spinal Cord Injury',
-        description: 'Acute and chronic SCI management, complications of injury, and long-term functional outcomes.'
-      },
-      {
-        title: 'Brain Injury Rehabilitation',
-        description: 'TBI rehabilitation standards, post-acute care, and recovery trajectory evaluation.'
-      },
-      {
-        title: 'Stroke Rehabilitation',
-        description: 'Post-stroke functional recovery, rehabilitation intensity, and discharge planning standards.'
-      },
-      {
-        title: 'Life-Care Planning',
-        description: 'Anticipated quality of life, future care needs, and rehabilitation cost projections after catastrophic injury.'
-      },
-      {
-        title: 'Functional Capacity Evaluation',
-        description: 'Disability evaluation, return-to-work assessment, and impairment ratings using AMA Guides.'
-      },
-      {
-        title: 'Complications of Immobility',
-        description: 'Pressure injury, contractures, autonomic dysreflexia, and other secondary complications of disability.'
-      }
-    ]
-  },
-  {
     slug: 'epilepsy',
     name: 'Epilepsy',
     tagline: 'Epileptology and clinical neurophysiology expertise for seizure disorder, EEG, and status epilepticus litigation',
@@ -427,34 +138,98 @@ export const divisions: Division[] = [
     ]
   },
   {
-    slug: 'stroke-vascular-neurology',
-    name: 'Stroke and Vascular Neurology',
-    tagline: 'Vascular neurology expertise for acute stroke, thrombolytics, and cerebrovascular disease litigation',
-    description: 'Our stroke and vascular neurology division features board-certified vascular neurologists with active stroke center practice. Our experts provide testimony on acute ischemic and hemorrhagic stroke management, thrombolytic and thrombectomy decisions, telestroke standards, and the full spectrum of cerebrovascular disease.',
+    slug: 'family-medicine',
+    name: 'Family Medicine',
+    tagline: 'Family medicine and hospital medicine expertise for primary care, urgent care, and inpatient standard of care litigation',
+    description: 'Our family medicine division features board-certified family physicians with active hospitalist, primary care, and urgent care practice across multiple states. Our experts provide testimony on diagnostic accuracy, chronic disease management, preventive care, urgent and emergent presentations in the outpatient setting, and the management of acutely ill adult patients across medical-surgical, step-down, and intensive care units.',
     practiceAreas: [
       {
-        title: 'Acute Ischemic Stroke',
-        description: 'Stroke recognition, last known well determination, imaging triage, and time-sensitive treatment decisions.'
+        title: 'Hospital Medicine & Hospitalist Care',
+        description: 'Admission, assessment, and management of acutely ill adult patients, including escalation of care, interfacility transfer, and discharge planning.'
       },
       {
-        title: 'Thrombolytics & Thrombectomy',
-        description: 'IV alteplase/tenecteplase eligibility, mechanical thrombectomy referral, and contraindication analysis.'
+        title: 'Primary Care Standard of Care',
+        description: 'Outpatient continuity care, chronic disease management, preventive screening, and longitudinal management of complex patients.'
       },
       {
-        title: 'Intracerebral & Subarachnoid Hemorrhage',
-        description: 'Hemorrhagic stroke diagnosis, blood pressure management, anticoagulation reversal, and neurosurgical coordination.'
+        title: 'Urgent Care Practice',
+        description: 'Evaluation and triage of acute presentations in the urgent care setting, including missed diagnosis and disposition decisions.'
       },
       {
-        title: 'Posterior Circulation Stroke',
-        description: 'Vertebrobasilar stroke recognition, atypical presentations, and delayed diagnosis cases.'
+        title: 'Diagnostic Delay',
+        description: 'Failure to diagnose and timely workup of common and complex conditions encountered in primary care and hospital medicine.'
       },
       {
-        title: 'Telestroke & Transfer Standards',
-        description: 'Telestroke decision-making, hub-and-spoke standards, and inter-facility transfer for advanced intervention.'
+        title: 'Medication Management',
+        description: 'Polypharmacy in adult and geriatric patients, anticoagulation, opioid prescribing, and adverse drug interaction analysis.'
       },
       {
-        title: 'Secondary Stroke Prevention',
-        description: 'Antiplatelet and anticoagulation selection, atrial fibrillation management, and risk-factor modification.'
+        title: 'Inpatient Escalation & Transfer',
+        description: 'Decisions related to ICU escalation, interfacility transfer, and end-of-life care planning based on patient status and facility resources.'
+      }
+    ]
+  },
+  {
+    slug: 'gastroenterology',
+    name: 'Gastroenterology',
+    tagline: 'GI expertise in endoscopy complications, missed cancer, and digestive system malpractice',
+    description: 'Our gastroenterology division provides board-certified gastroenterologists expert testimony on endoscopic procedures, diagnostic accuracy, cancer screening standards, and management of GI bleeding and inflammatory bowel disease.',
+    practiceAreas: [
+      {
+        title: 'Endoscopy Complications',
+        description: 'Perforation during EGD or colonoscopy, post-ERCP pancreatitis, bleeding complications, and preventability analysis.'
+      },
+      {
+        title: 'Missed GI Cancer',
+        description: 'Missed or delayed cancer diagnosis, inadequate surveillance, colonoscopy screening failures, and polyp management.'
+      },
+      {
+        title: 'GI Bleeding Management',
+        description: 'Acute upper and lower GI bleeding management, endoscopic intervention decisions, transfusion strategies, and shock management.'
+      },
+      {
+        title: 'Inflammatory Bowel Disease',
+        description: 'Crohn\'s disease and ulcerative colitis management, surgical timing, medication selection, and complication recognition.'
+      },
+      {
+        title: 'Liver Disease',
+        description: 'Cirrhosis diagnosis and management, hepatic encephalopathy, varices treatment, and liver failure management.'
+      },
+      {
+        title: 'Medication-Related GI Injury',
+        description: 'NSAID-related GI injury, aspirin and anticoagulant complications, and prophylaxis adequacy assessment.'
+      }
+    ]
+  },
+  {
+    slug: 'internal-medicine',
+    name: 'Internal Medicine',
+    tagline: 'Hospitalist and IM expertise for inpatient care, diagnostic delay, and standard of care litigation',
+    description: 'Our internal medicine division features board-certified internists and hospitalists with extensive inpatient and outpatient experience. Our experts provide testimony on diagnostic delay, hospital-based negligence, medication errors, and complex medical decision-making across multi-system disease.',
+    practiceAreas: [
+      {
+        title: 'Diagnostic Delay',
+        description: 'Failure to diagnose and timely workup of common and complex internal medicine conditions.'
+      },
+      {
+        title: 'Inpatient Standard of Care',
+        description: 'Hospital protocols, admission decisions, escalation of care, and hospitalist standard of care.'
+      },
+      {
+        title: 'Medication Errors',
+        description: 'Drug administration errors, polypharmacy management, and adverse drug interaction analysis.'
+      },
+      {
+        title: 'Wrongful Death',
+        description: 'Cause of death analysis, preventability assessments, and clinical decision-making review.'
+      },
+      {
+        title: 'Hospital-Based Negligence',
+        description: 'Failure to monitor, communication failures between care teams, and discharge planning issues.'
+      },
+      {
+        title: 'Complex Medical Disease',
+        description: 'Management of multi-organ disease, chronic illness exacerbations, and complex care coordination.'
       }
     ]
   },
@@ -523,6 +298,39 @@ export const divisions: Division[] = [
     ]
   },
   {
+    slug: 'neurology',
+    name: 'Neurology',
+    tagline: 'Expert witness testimony for traumatic brain injury, stroke, seizures, and neurological conditions',
+    description: 'Our neurology division provides board-certified neurologists with specialized expertise in TBI litigation, stroke cases, spinal cord injuries, seizure disorders, and neuromuscular disease. We maintain active clinical practices while delivering authoritative expert testimony and case reviews.',
+    practiceAreas: [
+      {
+        title: 'TBI & Concussion',
+        description: 'Traumatic brain injury assessment, chronic traumatic encephalopathy (CTE) evaluation, and post-concussive syndrome standard of care analysis.'
+      },
+      {
+        title: 'Stroke & Cerebrovascular',
+        description: 'Acute stroke management, thrombolytic therapy decisions, posterior circulation stroke diagnosis, and delayed presentation claims.'
+      },
+      {
+        title: 'Spinal Cord Injury',
+        description: 'Acute and chronic spinal cord injury management, surgical timing decisions, and rehabilitation standard of care.'
+      },
+      {
+        title: 'Seizure Disorders',
+        description: 'Epilepsy diagnosis and management, seizure classification, antiepileptic drug selection, and status epilepticus standard of care.'
+      },
+      {
+        title: 'Neuromuscular Disease',
+        description: 'Diagnosis of myasthenia gravis, muscular dystrophy, ALS, and other neuromuscular conditions with focus on diagnostic delay.'
+      },
+      {
+        title: 'Chronic Pain & Neuropathy',
+        description: 'Peripheral neuropathy diagnosis, chronic pain management standards, and medication management in complex cases.'
+      }
+    ],
+    externalUrl: 'https://www.neurolegalconsulting.com'
+  },
+  {
     slug: 'neuromuscular-medicine',
     name: 'Neuromuscular Medicine',
     tagline: 'Neuromuscular medicine expertise for peripheral nerve injury, EMG, and complex nerve and muscle disorder litigation',
@@ -555,36 +363,100 @@ export const divisions: Division[] = [
     ],
   },
   {
-    slug: 'wilderness-medicine',
-    name: 'Wilderness Medicine',
-    tagline: 'Wilderness and environmental medicine expertise for austere, dive, and remote-care emergency litigation',
-    description: 'Our wilderness medicine division features fellowship-trained, FAWM-credentialed emergency physicians with expertise in environmental emergencies, austere and remote care, dive medicine, and search-and-rescue medical direction. Our experts provide testimony on standard of care for hypothermia, drowning, altitude illness, envenomation, and other wilderness presentations.',
+    slug: 'neurosurgery',
+    name: 'Neurosurgery',
+    tagline: 'Surgical expertise for cranial, spinal, and neurosurgical malpractice litigation',
+    description: 'Our neurosurgery division features board-certified neurosurgeons with deep experience in cranial and spinal surgery. Our experts provide expert testimony on traumatic brain injury, spine procedures, surgical complications, and standard of care issues across the full spectrum of neurosurgical practice.',
     practiceAreas: [
       {
-        title: 'Hypothermia & Cold Injury',
-        description: 'Accidental hypothermia rewarming strategies, frostbite management, and cold-water immersion care.'
+        title: 'Traumatic Brain Injury',
+        description: 'Neurosurgical management of acute TBI, decompressive craniectomy decisions, and ICP monitoring standard of care.'
       },
       {
-        title: 'Drowning & Submersion',
-        description: 'Resuscitation in submersion injury, post-immersion pulmonary care, and prognostication.'
+        title: 'Spine Surgery',
+        description: 'Cervical (ACDF), lumbar fusion (TLIF, XLIF), and thoracic procedures — surgical indications, technique, and complication analysis.'
       },
       {
-        title: 'Heat Illness',
-        description: 'Heat exhaustion and heat stroke recognition, cooling strategies, and exertional heat injury management.'
+        title: 'Spinal Cord Injury',
+        description: 'Acute spinal cord injury surgical management, timing decisions, and post-operative care standards.'
       },
       {
-        title: 'Altitude Illness',
-        description: 'Acute mountain sickness, HACE, and HAPE recognition, prevention, and descent decisions.'
+        title: 'Craniotomy & Tumor Resection',
+        description: 'Cranial procedures for tumor, aneurysm, and intracranial hemorrhage with focus on surgical decision-making.'
       },
       {
-        title: 'Envenomation & Animal Bites',
-        description: 'Snake, marine, and arthropod envenomation management and antivenom decisions.'
+        title: 'Disc Herniation & Nerve Compression',
+        description: 'Conservative vs. surgical management decisions, indications for intervention, and outcomes analysis.'
       },
       {
-        title: 'Dive & Marine Medicine',
-        description: 'Decompression sickness, arterial gas embolism, hyperbaric referral, and marine envenomation care.'
+        title: 'Spinal Trauma & Abscess',
+        description: 'Emergency surgical management of spinal trauma, infection, and post-operative complications.'
       }
-    ]
+    ],
+  },
+  {
+    slug: 'orthopedic-surgery',
+    name: 'Orthopedic Surgery',
+    tagline: 'Orthopedic surgery expertise for musculoskeletal injury, joint replacement, and surgical complication litigation',
+    description: 'Our orthopedic surgery division features fellowship-trained, board-certified orthopedic surgeons with deep expertise in musculoskeletal trauma, joint reconstruction, sports medicine, and post-surgical complications. Our experts provide authoritative testimony on standard-of-care issues across the full spectrum of orthopedic practice.',
+    practiceAreas: [
+      {
+        title: 'Fracture Management',
+        description: 'Open and closed reduction, fixation technique, malunion and nonunion, and post-fracture complication analysis.'
+      },
+      {
+        title: 'Joint Replacement',
+        description: 'Total hip, knee, and shoulder arthroplasty — surgical indications, technique, infection, and revision surgery.'
+      },
+      {
+        title: 'Sports Medicine & Soft Tissue Injury',
+        description: 'Ligament, tendon, and meniscal injuries, arthroscopic procedures, and return-to-activity standards.'
+      },
+      {
+        title: 'Post-Surgical Complications',
+        description: 'Surgical site infection, nerve and vascular injury, compartment syndrome, and DVT prophylaxis adequacy.'
+      },
+      {
+        title: 'Orthopedic Trauma',
+        description: 'Polytrauma management, damage-control orthopedics, and timing of definitive fixation in complex cases.'
+      },
+      {
+        title: 'Workers\' Compensation & IME',
+        description: 'Work-related musculoskeletal injury causation, impairment ratings, and return-to-work evaluations.'
+      }
+    ],
+  },
+  {
+    slug: 'pediatric-neurology',
+    name: 'Pediatric Neurology',
+    tagline: 'Child neurology expertise for pediatric brain injury, epilepsy, and developmental cases',
+    description: 'Our pediatric neurology division features ABPN-certified child neurologists with specialized fellowship training in neurocritical care and epilepsy. Our experts provide testimony on neonatal neurologic injury, pediatric epilepsy, developmental delay, and child neurological emergencies.',
+    practiceAreas: [
+      {
+        title: 'Neonatal Brain Injury',
+        description: 'Hypoxic-ischemic encephalopathy (HIE), neonatal stroke, and birth-related neurologic injury standard of care.'
+      },
+      {
+        title: 'Pediatric Epilepsy',
+        description: 'Childhood seizure disorders, epileptic encephalopathies, antiseizure medication management, and surgical evaluation.'
+      },
+      {
+        title: 'Pediatric Stroke',
+        description: 'Arterial ischemic stroke, sinus venous thrombosis, and pediatric cerebrovascular disease management.'
+      },
+      {
+        title: 'Developmental Delay',
+        description: 'Diagnostic work-up for developmental delay, autism spectrum, and neurodevelopmental disorders.'
+      },
+      {
+        title: 'Pediatric Neurocritical Care',
+        description: 'PICU neurologic management, status epilepticus, intracranial pressure, and acute encephalopathy.'
+      },
+      {
+        title: 'Concussion in Children',
+        description: 'Pediatric mild TBI assessment, return-to-play decisions, and post-concussive management standards.'
+      }
+    ],
   },
   {
     slug: 'pharmacy',
@@ -615,6 +487,166 @@ export const divisions: Division[] = [
       {
         title: 'ICU & Emergency Pharmacotherapy',
         description: 'Critical care medication selection, rapid-sequence intubation drug protocols, and emergency-department pharmacy practice.'
+      }
+    ]
+  },
+  {
+    slug: 'physical-medicine-rehabilitation',
+    name: 'Physical Medicine and Rehabilitation',
+    tagline: 'PM&R expertise for spinal cord injury, brain injury, and rehabilitation outcomes',
+    description: 'Our PM&R division features triple board-certified physiatrists with expertise in spinal cord injury medicine and brain injury medicine. Our experts provide testimony on rehabilitation standards of care, life-care planning, and long-term outcomes after catastrophic injury.',
+    practiceAreas: [
+      {
+        title: 'Spinal Cord Injury',
+        description: 'Acute and chronic SCI management, complications of injury, and long-term functional outcomes.'
+      },
+      {
+        title: 'Brain Injury Rehabilitation',
+        description: 'TBI rehabilitation standards, post-acute care, and recovery trajectory evaluation.'
+      },
+      {
+        title: 'Stroke Rehabilitation',
+        description: 'Post-stroke functional recovery, rehabilitation intensity, and discharge planning standards.'
+      },
+      {
+        title: 'Life-Care Planning',
+        description: 'Anticipated quality of life, future care needs, and rehabilitation cost projections after catastrophic injury.'
+      },
+      {
+        title: 'Functional Capacity Evaluation',
+        description: 'Disability evaluation, return-to-work assessment, and impairment ratings using AMA Guides.'
+      },
+      {
+        title: 'Complications of Immobility',
+        description: 'Pressure injury, contractures, autonomic dysreflexia, and other secondary complications of disability.'
+      }
+    ]
+  },
+  {
+    slug: 'radiology',
+    name: 'Radiology',
+    tagline: 'Diagnostic radiology and neuroradiology expertise for imaging interpretation litigation',
+    description: 'Our radiology division features double board-certified diagnostic radiologists and neuroradiologists with expertise across CT, MRI, and advanced imaging modalities. Our experts provide testimony on missed findings, imaging interpretation accuracy, and radiologic standard of care.',
+    practiceAreas: [
+      {
+        title: 'Missed Diagnosis on Imaging',
+        description: 'Failure to identify findings on CT, MRI, X-ray, and ultrasound — including stroke, hemorrhage, fracture, and tumor.'
+      },
+      {
+        title: 'Stroke & Hemorrhage Imaging',
+        description: 'Acute stroke imaging, intracranial hemorrhage detection, and time-sensitive neuroimaging interpretation.'
+      },
+      {
+        title: 'Spine Imaging',
+        description: 'Cervical, thoracic, and lumbar spine imaging interpretation including degenerative disease and trauma.'
+      },
+      {
+        title: 'Cancer Detection',
+        description: 'Failure to detect malignancy on screening and diagnostic imaging across body systems.'
+      },
+      {
+        title: 'CSF Leaks',
+        description: 'Diagnosis and characterization of cerebrospinal fluid leaks and intracranial hypotension.'
+      },
+      {
+        title: 'Trauma Imaging',
+        description: 'Acute trauma imaging interpretation including TBI, spine, and polytrauma evaluation.'
+      }
+    ]
+  },
+  {
+    slug: 'spine-surgery',
+    name: 'Spine Surgery',
+    tagline: 'Spine surgery expertise across orthopedic and neurosurgical approaches to cervical, thoracic, and lumbar pathology',
+    description: 'Our spine surgery division features fellowship-trained orthopedic spine surgeons and neurosurgeons with combined expertise across the cervical, thoracic, and lumbar spine. Our experts provide testimony on surgical indications, technique, complication management, and standard of care for both elective and trauma spine procedures.',
+    practiceAreas: [
+      {
+        title: 'Cervical Spine Surgery',
+        description: 'Anterior cervical discectomy and fusion (ACDF), cervical disc arthroplasty, posterior decompression, and cervical myelopathy management.'
+      },
+      {
+        title: 'Lumbar Fusion & Decompression',
+        description: 'TLIF, PLIF, XLIF, ALIF, laminectomy, and microdiscectomy — surgical indications, technique, and outcome analysis.'
+      },
+      {
+        title: 'Spinal Trauma',
+        description: 'Acute spinal column and spinal cord injury, surgical timing, instrumentation choice, and post-operative care.'
+      },
+      {
+        title: 'Disc Herniation & Nerve Compression',
+        description: 'Conservative versus surgical management decisions, indications for intervention, and recurrent disc herniation.'
+      },
+      {
+        title: 'Spinal Deformity',
+        description: 'Adult and adolescent scoliosis, kyphosis, and complex deformity correction surgery.'
+      },
+      {
+        title: 'Post-Operative Complications',
+        description: 'Hardware failure, adjacent segment disease, dural tear, infection, and nerve injury after spine surgery.'
+      }
+    ],
+  },
+  {
+    slug: 'stroke-vascular-neurology',
+    name: 'Stroke and Vascular Neurology',
+    tagline: 'Vascular neurology expertise for acute stroke, thrombolytics, and cerebrovascular disease litigation',
+    description: 'Our stroke and vascular neurology division features board-certified vascular neurologists with active stroke center practice. Our experts provide testimony on acute ischemic and hemorrhagic stroke management, thrombolytic and thrombectomy decisions, telestroke standards, and the full spectrum of cerebrovascular disease.',
+    practiceAreas: [
+      {
+        title: 'Acute Ischemic Stroke',
+        description: 'Stroke recognition, last known well determination, imaging triage, and time-sensitive treatment decisions.'
+      },
+      {
+        title: 'Thrombolytics & Thrombectomy',
+        description: 'IV alteplase/tenecteplase eligibility, mechanical thrombectomy referral, and contraindication analysis.'
+      },
+      {
+        title: 'Intracerebral & Subarachnoid Hemorrhage',
+        description: 'Hemorrhagic stroke diagnosis, blood pressure management, anticoagulation reversal, and neurosurgical coordination.'
+      },
+      {
+        title: 'Posterior Circulation Stroke',
+        description: 'Vertebrobasilar stroke recognition, atypical presentations, and delayed diagnosis cases.'
+      },
+      {
+        title: 'Telestroke & Transfer Standards',
+        description: 'Telestroke decision-making, hub-and-spoke standards, and inter-facility transfer for advanced intervention.'
+      },
+      {
+        title: 'Secondary Stroke Prevention',
+        description: 'Antiplatelet and anticoagulation selection, atrial fibrillation management, and risk-factor modification.'
+      }
+    ]
+  },
+  {
+    slug: 'wilderness-medicine',
+    name: 'Wilderness Medicine',
+    tagline: 'Wilderness and environmental medicine expertise for austere, dive, and remote-care emergency litigation',
+    description: 'Our wilderness medicine division features fellowship-trained, FAWM-credentialed emergency physicians with expertise in environmental emergencies, austere and remote care, dive medicine, and search-and-rescue medical direction. Our experts provide testimony on standard of care for hypothermia, drowning, altitude illness, envenomation, and other wilderness presentations.',
+    practiceAreas: [
+      {
+        title: 'Hypothermia & Cold Injury',
+        description: 'Accidental hypothermia rewarming strategies, frostbite management, and cold-water immersion care.'
+      },
+      {
+        title: 'Drowning & Submersion',
+        description: 'Resuscitation in submersion injury, post-immersion pulmonary care, and prognostication.'
+      },
+      {
+        title: 'Heat Illness',
+        description: 'Heat exhaustion and heat stroke recognition, cooling strategies, and exertional heat injury management.'
+      },
+      {
+        title: 'Altitude Illness',
+        description: 'Acute mountain sickness, HACE, and HAPE recognition, prevention, and descent decisions.'
+      },
+      {
+        title: 'Envenomation & Animal Bites',
+        description: 'Snake, marine, and arthropod envenomation management and antivenom decisions.'
+      },
+      {
+        title: 'Dive & Marine Medicine',
+        description: 'Decompression sickness, arterial gas embolism, hyperbaric referral, and marine envenomation care.'
       }
     ]
   }
