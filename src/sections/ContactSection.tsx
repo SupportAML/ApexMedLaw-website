@@ -16,18 +16,26 @@ const CASE_TYPES = [
 ];
 
 const PHYSICIAN_SPECIALTIES = [
+  'Anesthesiology',
+  'Critical Care',
+  'Emergency Medicine',
+  'Epilepsy',
+  'Family Medicine',
+  'Gastroenterology',
+  'Internal Medicine',
+  'Neurocritical Care',
+  'Neuroimmunology',
   'Neurology',
+  'Neuromuscular Medicine',
   'Neurosurgery',
   'Orthopedic Surgery',
-  'Spine Surgery',
   'Pediatric Neurology',
-  'Internal Medicine',
-  'Gastroenterology',
-  'Critical Care',
-  'Anesthesiology',
-  'Radiology',
-  'Physical Medicine and Rehabilitation',
   'Pharmacy',
+  'Physical Medicine and Rehabilitation',
+  'Radiology',
+  'Spine Surgery',
+  'Stroke and Vascular Neurology',
+  'Wilderness Medicine',
   'Other',
 ];
 

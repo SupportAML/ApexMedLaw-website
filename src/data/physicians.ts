@@ -13,24 +13,25 @@ export interface Physician {
 }
 
 export const SPECIALTIES = [
-  { slug: 'neurology', name: 'Neurology' },
-  { slug: 'neurosurgery', name: 'Neurosurgery' },
-  { slug: 'orthopedic-surgery', name: 'Orthopedic Surgery' },
-  { slug: 'spine-surgery', name: 'Spine Surgery' },
-  { slug: 'pediatric-neurology', name: 'Pediatric Neurology' },
-  { slug: 'internal-medicine', name: 'Internal Medicine' },
-  { slug: 'gastroenterology', name: 'Gastroenterology' },
+  { slug: 'anesthesiology', name: 'Anesthesiology' },
   { slug: 'critical-care', name: 'Critical Care' },
   { slug: 'emergency-medicine', name: 'Emergency Medicine' },
-  { slug: 'anesthesiology', name: 'Anesthesiology' },
-  { slug: 'radiology', name: 'Radiology' },
-  { slug: 'physical-medicine-rehabilitation', name: 'Physical Medicine and Rehabilitation' },
-  { slug: 'pharmacy', name: 'Pharmacy' },
   { slug: 'epilepsy', name: 'Epilepsy' },
-  { slug: 'stroke-vascular-neurology', name: 'Stroke and Vascular Neurology' },
+  { slug: 'family-medicine', name: 'Family Medicine' },
+  { slug: 'gastroenterology', name: 'Gastroenterology' },
+  { slug: 'internal-medicine', name: 'Internal Medicine' },
   { slug: 'neurocritical-care', name: 'Neurocritical Care' },
   { slug: 'neuroimmunology', name: 'Neuroimmunology' },
+  { slug: 'neurology', name: 'Neurology' },
   { slug: 'neuromuscular-medicine', name: 'Neuromuscular Medicine' },
+  { slug: 'neurosurgery', name: 'Neurosurgery' },
+  { slug: 'orthopedic-surgery', name: 'Orthopedic Surgery' },
+  { slug: 'pediatric-neurology', name: 'Pediatric Neurology' },
+  { slug: 'pharmacy', name: 'Pharmacy' },
+  { slug: 'physical-medicine-rehabilitation', name: 'Physical Medicine and Rehabilitation' },
+  { slug: 'radiology', name: 'Radiology' },
+  { slug: 'spine-surgery', name: 'Spine Surgery' },
+  { slug: 'stroke-vascular-neurology', name: 'Stroke and Vascular Neurology' },
   { slug: 'wilderness-medicine', name: 'Wilderness Medicine' },
 ] as const;
 
@@ -379,6 +380,27 @@ She completed her neurology residency, internal medicine internship, and MS/Neur
     ],
     location: 'North Carolina',
     categories: ['neurology', 'neuroimmunology'],
+  },
+  {
+    id: '26',
+    slug: 'dominique-crain',
+    name: 'Dominique J. Crain, MD',
+    role: 'Family Medicine / Hospitalist',
+    title: 'Ancillary Physician Partner',
+    photo: '/team_crain.jpg',
+    bio: `Dr. Dominique Crain is a clinically active, board-certified Family Medicine physician and the Founder and CEO of Dominique Crain Locums and Medical Legal Consulting LLC. Her primary focus is high acuity hospital medicine as a hospitalist, with current experience across multiple hospital settings in multiple states.
+
+She currently serves as a Locums Attending Physician Hospitalist at CHI Georgia / Chattanooga Memorial Hospital, overseeing the admission, assessment, and management of acutely ill adult patients from the emergency department, referring facilities, and outpatient sources. She delivers evidence-based medical care across medical-surgical, intermediate/step-down, and intensive care units, making informed clinical decisions related to escalation of care, interfacility transfer, and discharge planning.
+
+Prior to her current role, Dr. Crain practiced in primary and urgent care settings across multiple states and was a former affiliated staff member of Stanford University. She was nominated as a Georgia Top Doc in 2021.`,
+    credentials: [
+      'Board-Certified Family Medicine',
+      'Hospital Medicine',
+      'Former Stanford University Affiliate',
+      'GA Top Doc Nominee 2021',
+    ],
+    location: 'Georgia / Tennessee',
+    categories: ['family-medicine'],
   },
   {
     id: '23',
