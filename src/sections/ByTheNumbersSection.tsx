@@ -2,8 +2,6 @@ import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-gsap.registerPlugin(ScrollTrigger);
-
 const metrics = [
   { value: '50', label: 'States Covered', suffix: '' },
   { value: '7', label: 'Day Avg. Turnaround', suffix: '' },
@@ -25,6 +23,7 @@ export function ByTheNumbersSection() {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
     if (!sectionRef.current) return;
     const items = sectionRef.current.querySelectorAll('.metric-card');
 

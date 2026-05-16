@@ -4,8 +4,6 @@ import { ArrowRight, FileText, Zap, FileCheck } from 'lucide-react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-gsap.registerPlugin(ScrollTrigger);
-
 const steps = [
   { icon: FileText, label: 'Step 1 — Share your case details', value: 'Submit Case' },
   { icon: Zap, label: 'Step 2 — Matched with the right expert', value: '< 24 Hours' },
@@ -20,6 +18,7 @@ export function ApexHeroSection() {
   };
 
   useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
     if (!statsRef.current) return;
     const cards = statsRef.current.querySelectorAll('.step-card');
 

@@ -9,8 +9,6 @@ import { getDivisionBySlug } from '@/data/divisions';
 import { getPhysiciansBySpecialty } from '@/data/physicians';
 import { SEO } from '@/components/SEO';
 
-gsap.registerPlugin(ScrollTrigger);
-
 export function DivisionPage() {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
@@ -24,6 +22,7 @@ export function DivisionPage() {
   }, [division, navigate]);
 
   useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
     window.scrollTo(0, 0);
     ScrollTrigger.refresh();
     return () => {

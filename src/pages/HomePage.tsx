@@ -15,14 +15,13 @@ const ApexApproachSection = lazy(() => import('@/sections/ApexApproachSection').
 const FAQSection = lazy(() => import('@/sections/FAQSection').then(m => ({ default: m.FAQSection })));
 const ContactSection = lazy(() => import('@/sections/ContactSection').then(m => ({ default: m.ContactSection })));
 
-gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
-
 function SectionFallback() {
   return <div className="w-full py-20" />;
 }
 
 export function HomePage() {
   useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
     ScrollTrigger.refresh();
     return () => {
       ScrollTrigger.getAll().forEach((st) => st.kill());
