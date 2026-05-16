@@ -9,6 +9,8 @@ import { getDivisionBySlug, getDivisionMetaDescription } from '@/data/divisions'
 import { getPhysiciansBySpecialty } from '@/data/physicians';
 import { SEO, DivisionSchema, BreadcrumbSchema } from '@/components/SEO';
 import { Breadcrumb } from '@/components/Breadcrumb';
+import { getPostsForDivision } from '@/lib/relations';
+import { Calendar } from 'lucide-react';
 
 export function DivisionPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -212,6 +214,53 @@ export function DivisionPage() {
             </div>
           </div>
         </section>
+
+        {/* Related Blog Posts */}
+        {(() => {
+          const relatedPosts = getPostsForDivision(division.slug, 3);
+          if (relatedPosts.length === 0) return null;
+          return (
+            <section className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-white">
+              <div className="max-w-6xl mx-auto">
+                <div className="flex items-baseline justify-between mb-8 gap-4 flex-wrap">
+                  <h2 className="text-display-lg font-bold text-navy">
+                    {division.name} Insights
+                  </h2>
+                  <Link
+                    to="/blog"
+                    className="text-sm font-medium text-electric hover:underline inline-flex items-center gap-1"
+                  >
+                    All articles <ArrowRight size={14} />
+                  </Link>
+                </div>
+                <div className="grid gap-6 md:grid-cols-3">
+                  {relatedPosts.map((post) => (
+                    <Link
+                      key={post.slug}
+                      to={`/blog/${post.slug}`}
+                      className="group block bg-clinical-100 border border-clinical-200 rounded-2xl p-6 hover:border-electric/40 hover:shadow-sm transition-all"
+                    >
+                      <div className="flex items-center gap-1.5 text-xs text-slate-500 mb-3">
+                        <Calendar size={12} />
+                        {new Date(post.date).toLocaleDateString('en-US', {
+                          year: 'numeric',
+                          month: 'short',
+                          day: 'numeric',
+                        })}
+                      </div>
+                      <h3 className="font-display text-base font-bold text-navy mb-2 group-hover:text-electric transition-colors leading-snug line-clamp-3">
+                        {post.title}
+                      </h3>
+                      <p className="text-sm text-slate-600 line-clamp-2">
+                        {post.metaDescription}
+                      </p>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </section>
+          );
+        })()}
 
         {/* Why ApexMedLaw Section */}
         <section className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-clinical">

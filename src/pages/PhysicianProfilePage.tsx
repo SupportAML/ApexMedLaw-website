@@ -16,6 +16,7 @@ import {
   Mail,
 } from 'lucide-react';
 import { getPhysicianBySlug, getSpecialtyName, getPhysicianMetaDescription } from '@/data/physicians';
+import { getPostsByPhysician, getPostsForDivision } from '@/lib/relations';
 
 export function PhysicianProfilePage() {
   const { slug } = useParams<{ slug: string }>();
@@ -182,6 +183,57 @@ export function PhysicianProfilePage() {
                     })}
                   </div>
                 </div>
+
+                {/* Authored / related articles */}
+                {(() => {
+                  const authored = getPostsByPhysician(physician);
+                  // If physician hasn't authored any posts, surface posts
+                  // from their primary specialty so the profile still has
+                  // outbound editorial links.
+                  const fallbackBySpecialty =
+                    authored.length === 0 && physician.categories[0]
+                      ? getPostsForDivision(physician.categories[0], 3)
+                      : [];
+                  const posts =
+                    authored.length > 0 ? authored.slice(0, 3) : fallbackBySpecialty;
+                  if (posts.length === 0) return null;
+                  const label =
+                    authored.length > 0 ? 'Articles by this expert' : 'Related insights';
+                  return (
+                    <div>
+                      <h2 className="font-display font-bold text-xl text-foreground mb-4">
+                        {label}
+                      </h2>
+                      <ul className="space-y-3">
+                        {posts.map((post) => (
+                          <li key={post.slug}>
+                            <Link
+                              to={`/blog/${post.slug}`}
+                              className="group flex items-start gap-3 p-3 bg-clinical-100 rounded-xl hover:bg-clinical-200 transition-colors"
+                            >
+                              <ArrowRight
+                                size={14}
+                                className="text-electric mt-1 shrink-0 group-hover:translate-x-0.5 transition-transform"
+                              />
+                              <div className="flex-1">
+                                <p className="text-sm font-medium text-foreground line-clamp-2 group-hover:text-electric transition-colors">
+                                  {post.title}
+                                </p>
+                                <p className="text-xs text-muted-foreground mt-0.5">
+                                  {new Date(post.date).toLocaleDateString('en-US', {
+                                    year: 'numeric',
+                                    month: 'long',
+                                    day: 'numeric',
+                                  })}
+                                </p>
+                              </div>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  );
+                })()}
               </div>
 
               {/* Sidebar */}
