@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { Navigation } from '@/components/Navigation';
-import { SEO } from '@/components/SEO';
+import { SEO, BreadcrumbSchema, JsonLd, BASE_URL } from '@/components/SEO';
+import { Breadcrumb } from '@/components/Breadcrumb';
+import { physicians } from '@/data/physicians';
 import { Button } from '@/components/ui/button';
 import {
   Phone,
@@ -18,8 +20,30 @@ export function RegistryPage() {
   return (
     <>
       <SEO
-        title="Our Expert Witnesses"
-        description="ApexMedLaw's network of board-certified expert witnesses. Browse by specialty: Anesthesiology, Critical Care, Emergency Medicine, Epilepsy, Family Medicine, Gastroenterology, Internal Medicine, Neurocritical Care, Neuroimmunology, Neurology, Neuromuscular Medicine, Neurosurgery, Orthopedic Surgery, Pediatric Neurology, Pharmacy, Physical Medicine and Rehabilitation, Radiology, Spine Surgery, Stroke and Vascular Neurology, and Wilderness Medicine."
+        title="Our Expert Witnesses — Board-Certified Physician Network"
+        description="ApexMedLaw's network of board-certified physician expert witnesses across 20 specialties. Browse by specialty and request a CV in 24 hours."
+        path="/experts"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', path: '/' },
+          { name: 'Experts', path: '/experts' },
+        ]}
+      />
+      <JsonLd
+        id="experts-itemlist"
+        data={{
+          '@context': 'https://schema.org',
+          '@type': 'ItemList',
+          name: 'ApexMedLaw Expert Witnesses',
+          numberOfItems: physicians.length,
+          itemListElement: physicians.map((p, idx) => ({
+            '@type': 'ListItem',
+            position: idx + 1,
+            url: `${BASE_URL}/experts/${p.slug}`,
+            name: p.name,
+          })),
+        }}
       />
       <Navigation />
       <main className="pt-20 lg:pt-24">
@@ -27,6 +51,15 @@ export function RegistryPage() {
         <section className="relative w-full py-16 lg:py-24 bg-navy overflow-hidden">
           <div className="absolute inset-0 neural-bg opacity-[0.05]" />
           <div className="relative z-10 w-full px-6 lg:px-12">
+            <div className="max-w-4xl mx-auto">
+              <Breadcrumb
+                items={[
+                  { name: 'Home', path: '/' },
+                  { name: 'Experts', path: '/experts' },
+                ]}
+                className="mb-6 text-white/60 justify-center flex"
+              />
+            </div>
             <div className="max-w-4xl mx-auto text-center">
               <span className="inline-block px-4 py-2 bg-electric/20 text-electric rounded-full text-sm font-medium mb-6">
                 Our Expert Network

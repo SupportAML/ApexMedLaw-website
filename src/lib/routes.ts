@@ -14,7 +14,7 @@ import { divisions } from '@/data/divisions';
 import { physicians } from '@/data/physicians';
 import { blogPosts } from '@/blog/posts';
 
-export type RoutePriority = 1.0 | 0.9 | 0.8 | 0.7 | 0.6 | 0.5 | 0.4 | 0.3;
+export type RoutePriority = 1.0 | 0.9 | 0.8 | 0.7 | 0.6 | 0.5 | 0.4 | 0.3 | 0.2 | 0.1;
 export type ChangeFreq =
   | 'always'
   | 'hourly'

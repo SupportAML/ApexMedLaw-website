@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Navigation } from '@/components/Navigation';
-import { SEO } from '@/components/SEO';
+import { SEO, PersonSchema, BreadcrumbSchema } from '@/components/SEO';
+import { Breadcrumb } from '@/components/Breadcrumb';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import {
@@ -14,7 +15,7 @@ import {
   Clock,
   Mail,
 } from 'lucide-react';
-import { getPhysicianBySlug, getSpecialtyName } from '@/data/physicians';
+import { getPhysicianBySlug, getSpecialtyName, getPhysicianMetaDescription } from '@/data/physicians';
 
 export function PhysicianProfilePage() {
   const { slug } = useParams<{ slug: string }>();
@@ -46,9 +47,27 @@ export function PhysicianProfilePage() {
   return (
     <>
       <SEO
-        title={`${physician.name} — Expert Witness`}
-        description={`${physician.name} is a ${physician.role} providing expert witness services with ApexMedLaw.`}
+        title={`${physician.name} — ${physician.role} Expert Witness`}
+        description={getPhysicianMetaDescription(physician)}
         path={`/experts/${physician.slug}`}
+        image={physician.photo.startsWith('http') ? physician.photo : `https://www.apexmedlaw.com${physician.photo}`}
+      />
+      <PersonSchema
+        slug={physician.slug}
+        name={physician.name}
+        role={physician.role}
+        title={physician.title}
+        bio={physician.bio}
+        credentials={physician.credentials}
+        categories={physician.categories.map((c) => getSpecialtyName(c) ?? c)}
+        photo={physician.photo}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', path: '/' },
+          { name: 'Experts', path: '/experts' },
+          { name: physician.name, path: `/experts/${physician.slug}` },
+        ]}
       />
       <Navigation />
       <main className="pt-20 lg:pt-24">
@@ -57,12 +76,22 @@ export function PhysicianProfilePage() {
           <div className="absolute inset-0 neural-bg opacity-[0.05]" />
           <div className="relative z-10 w-full px-6 lg:px-12">
             <div className="max-w-5xl mx-auto">
-              <Link
-                to="/experts"
-                className="inline-flex items-center gap-2 text-white/60 hover:text-electric transition-colors text-sm mb-8"
-              >
-                <ArrowLeft size={16} /> Back to Experts
-              </Link>
+              <div className="flex items-center justify-between gap-4 mb-8 flex-wrap">
+                <Breadcrumb
+                  items={[
+                    { name: 'Home', path: '/' },
+                    { name: 'Experts', path: '/experts' },
+                    { name: physician.name, path: `/experts/${physician.slug}` },
+                  ]}
+                  className="text-white/60"
+                />
+                <Link
+                  to="/experts"
+                  className="inline-flex items-center gap-2 text-white/60 hover:text-electric transition-colors text-sm"
+                >
+                  <ArrowLeft size={16} /> Back to Experts
+                </Link>
+              </div>
 
               <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-8">
                 <div className="w-32 h-40 lg:w-44 lg:h-56 rounded-2xl overflow-hidden shrink-0 bg-electric/10">

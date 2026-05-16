@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Calendar, Clock, Tag } from 'lucide-react';
 import { blogPosts } from '@/blog/posts';
 import { Navigation } from '@/components/Navigation';
-import { SEO } from '@/components/SEO';
+import { SEO, JsonLd, BreadcrumbSchema, BASE_URL } from '@/components/SEO';
+import { Breadcrumb } from '@/components/Breadcrumb';
 
 // Division-keyed gradient palettes for blog card headers
 const categoryGradients: Record<string, string> = {
@@ -52,13 +53,43 @@ export function BlogPage() {
   return (
     <div className="relative">
       <SEO
-        title="Insights & Resources"
-        description="Expert perspectives on medical-legal litigation, expert witness standards, and consulting insights for attorneys."
+        title="Medical-Legal Insights & Expert Witness Guides"
+        description="Expert witness guides for attorneys: TBI, stroke, sepsis, ARDS, opioid, ERCP, CRPS, and more — written by board-certified physicians."
         path="/blog"
+      />
+      <JsonLd
+        id="blog-itemlist"
+        data={{
+          '@context': 'https://schema.org',
+          '@type': 'Blog',
+          name: 'ApexMedLaw Insights',
+          url: `${BASE_URL}/blog`,
+          publisher: { '@id': `${BASE_URL}/#organization` },
+          blogPost: blogPosts.map((p) => ({
+            '@type': 'BlogPosting',
+            headline: p.title,
+            datePublished: p.date,
+            url: `${BASE_URL}/blog/${p.slug}`,
+            description: p.metaDescription,
+          })),
+        }}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', path: '/' },
+          { name: 'Blog', path: '/blog' },
+        ]}
       />
       <Navigation />
       <main className="relative pt-24 pb-20 min-h-screen bg-clinical">
         <div className="max-w-6xl mx-auto px-6 lg:px-12">
+          <Breadcrumb
+            items={[
+              { name: 'Home', path: '/' },
+              { name: 'Blog', path: '/blog' },
+            ]}
+            className="mb-6"
+          />
           {/* Header */}
           <div className="mb-10">
             <h1 className="font-display text-display-md text-foreground mb-3">

@@ -4,7 +4,8 @@ import { ArrowLeft, Calendar, Tag } from 'lucide-react';
 import { blogPosts } from '@/blog/posts';
 import { Navigation } from '@/components/Navigation';
 import { Button } from '@/components/ui/button';
-import { SEO, ArticleSchema } from '@/components/SEO';
+import { SEO, ArticleSchema, BreadcrumbSchema } from '@/components/SEO';
+import { Breadcrumb } from '@/components/Breadcrumb';
 
 function renderMarkdown(content: string) {
   // Simple markdown renderer for blog posts
@@ -97,18 +98,36 @@ export function BlogPostPage() {
         description={post.metaDescription}
         date={post.date}
         slug={post.slug}
+        author={{ name: post.author }}
+        keywords={post.keywords}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', path: '/' },
+          { name: 'Blog', path: '/blog' },
+          { name: post.title, path: `/blog/${post.slug}` },
+        ]}
       />
       <Navigation />
       <main className="relative pt-24 pb-20 min-h-screen bg-clinical">
         <article className="max-w-3xl mx-auto px-6 lg:px-12">
-          {/* Back link */}
-          <Link
-            to="/blog"
-            className="inline-flex items-center gap-2 text-sm text-text-secondary hover:text-electric transition-colors mb-8"
-          >
-            <ArrowLeft size={14} />
-            Back to all posts
-          </Link>
+          {/* Breadcrumb + back link */}
+          <div className="flex items-center justify-between mb-8 gap-4 flex-wrap">
+            <Breadcrumb
+              items={[
+                { name: 'Home', path: '/' },
+                { name: 'Blog', path: '/blog' },
+                { name: post.title, path: `/blog/${post.slug}` },
+              ]}
+            />
+            <Link
+              to="/blog"
+              className="inline-flex items-center gap-2 text-sm text-text-secondary hover:text-electric transition-colors"
+            >
+              <ArrowLeft size={14} />
+              Back to all posts
+            </Link>
+          </div>
 
           {/* Header */}
           <header className="mb-10">

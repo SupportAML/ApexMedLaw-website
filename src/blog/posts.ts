@@ -12,7 +12,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'tbi-litigation-neurology-expert-witness',
     title: 'Understanding TBI Litigation: When You Need a Neurology Expert Witness',
-    metaDescription: 'A guide for attorneys on traumatic brain injury (TBI) expert witnesses. Learn standard of care, causation analysis, and how to select the right neurology expert for your case.',
+    metaDescription: 'Attorney guide to TBI expert witnesses: standard of care, causation, Daubert-ready credentials, and how to pick the right neurology expert.',
     date: '2026-03-27',
     author: 'ApexMedLaw Team',
     keywords: ['TBI expert witness', 'traumatic brain injury litigation', 'neurology expert witness', 'concussion lawsuits', 'brain injury standard of care'],
@@ -149,7 +149,7 @@ Our gastroenterology experts are actively practicing physicians who understand t
   {
     slug: 'opioid-litigation-pain-medicine-expert',
     title: 'Opioid Litigation and Pain Medicine: Expert Witness Considerations',
-    metaDescription: 'Guide on pain medicine expert witnesses for opioid-related litigation. Learn about prescribing standards, addiction risk assessment, and pain management expert selection.',
+    metaDescription: 'Attorney guide to pain medicine experts in opioid litigation: prescribing standards, addiction risk, and selecting the right witness.',
     date: '2026-03-27',
     author: 'ApexMedLaw Team',
     keywords: ['opioid expert witness', 'pain medicine malpractice', 'opioid prescribing standards', 'chronic pain litigation', 'addiction risk assessment'],
@@ -390,7 +390,7 @@ Contact ApexMedLaw to discuss your delayed colon cancer diagnosis case.
   {
     slug: 'stroke-misdiagnosis-failure-to-treat-neurology-expert',
     title: 'Stroke Misdiagnosis and Failure to Treat: What Attorneys Must Understand About Time-Critical Neurology Cases',
-    metaDescription: 'Attorney guide to stroke misdiagnosis litigation. Learn about tPA windows, thrombectomy standards, posterior circulation strokes, and selecting a neurology expert witness.',
+    metaDescription: 'Attorney guide to stroke misdiagnosis cases: tPA windows, thrombectomy standards, posterior strokes, and how to choose a neurology expert.',
     date: '2026-03-28',
     author: 'AML Editorial',
     keywords: ['stroke misdiagnosis expert witness', 'failure to treat stroke lawsuit', 'tPA malpractice', 'thrombectomy standard of care', 'neurology expert witness', 'posterior stroke misdiagnosis', 'stroke litigation attorney', 'cerebrovascular malpractice'],
@@ -447,7 +447,7 @@ Contact ApexMedLaw to discuss your stroke misdiagnosis or delayed treatment case
   {
     slug: 'epidural-steroid-injection-complications-pain-medicine-expert',
     title: 'Epidural Steroid Injection Complications: What Attorneys Need to Know About Pain Medicine Malpractice',
-    metaDescription: 'Learn how epidural steroid injection complications create medical malpractice liability. Expert analysis of procedural failures, nerve damage, and standard of care for attorneys handling pain medicine cases.',
+    metaDescription: 'How epidural steroid injection complications create malpractice liability: procedural failures, nerve damage, and standard of care.',
     date: '2026-03-29',
     author: 'AML Editorial',
     keywords: ['epidural steroid injection complications', 'pain medicine expert witness', 'epidural malpractice', 'nerve damage injection', 'interventional pain procedures', 'spinal injection injury', 'pain management standard of care'],
@@ -509,7 +509,7 @@ Contact ApexMedLaw to discuss your epidural steroid injection complication case.
   {
     slug: 'ventilator-associated-pneumonia-icu-malpractice-critical-care-expert',
     title: 'Ventilator-Associated Pneumonia in the ICU: What Attorneys Need to Know About Prevention Failures and Liability',
-    metaDescription: 'A critical care expert witness guide for attorneys handling ventilator-associated pneumonia (VAP) malpractice cases, covering prevention bundles, standard of care, and liability analysis.',
+    metaDescription: 'Critical care expert witness guide to ventilator-associated pneumonia (VAP) malpractice: prevention bundles, standard of care, liability.',
     date: '2026-03-30',
     author: 'AML Editorial',
     keywords: ['ventilator-associated pneumonia expert witness', 'VAP malpractice', 'ICU infection liability', 'critical care expert witness', 'ventilator bundle standard of care', 'hospital-acquired infection lawsuit', 'ICU negligence attorney'],
@@ -576,7 +576,7 @@ Contact ApexMedLaw to discuss your ventilator-associated pneumonia case.
   {
     slug: 'gi-bleeding-mismanagement-gastroenterology-expert-witness',
     title: 'GI Bleeding Mismanagement: What Attorneys Need to Know About Failures in Gastrointestinal Hemorrhage Cases',
-    metaDescription: 'Learn how failures in diagnosing and managing gastrointestinal bleeding create medical malpractice liability. Expert witness guidance for attorneys handling GI hemorrhage cases.',
+    metaDescription: 'GI bleeding malpractice: diagnostic delays, transfusion timing, and endoscopy decisions that drive liability — expert witness guide for attorneys.',
     date: '2026-03-31',
     author: 'AML Editorial',
     keywords: ['GI bleeding malpractice', 'gastrointestinal hemorrhage expert witness', 'upper GI bleed litigation', 'delayed endoscopy malpractice', 'gastroenterology standard of care', 'GI bleeding misdiagnosis attorney', 'hemorrhagic shock medical negligence'],
@@ -635,7 +635,7 @@ Contact ApexMedLaw to discuss your gastrointestinal bleeding case.
   {
     slug: 'status-epilepticus-malpractice-neurology-expert-witness',
     title: 'Status Epilepticus and Medical Malpractice: What Attorneys Need to Know About Seizure Emergency Standards of Care',
-    metaDescription: 'A guide for attorneys on status epilepticus malpractice cases — covering standard of care benchmarks, common treatment failures, causation analysis, and how neurology expert witnesses support litigation.',
+    metaDescription: 'Status epilepticus malpractice for attorneys: standard-of-care benchmarks, common treatment failures, and how neurology experts support the case.',
     date: '2026-04-04',
     author: 'AML Editorial',
     keywords: [
@@ -710,7 +710,7 @@ Contact ApexMedLaw to discuss your status epilepticus or seizure disorder malpra
   {
     slug: 'crps-complex-regional-pain-syndrome-malpractice-expert-witness',
     title: 'CRPS and Medical Malpractice: What Attorneys Need to Know About Complex Regional Pain Syndrome Litigation',
-    metaDescription: 'A litigation guide for attorneys handling CRPS medical malpractice cases. Learn how complex regional pain syndrome develops, standard of care benchmarks, causation analysis, and how pain medicine expert witnesses support these cases.',
+    metaDescription: 'Attorney guide to CRPS malpractice cases: how complex regional pain syndrome develops, standard of care, and pain medicine expert testimony.',
     date: '2026-04-05',
     author: 'AML Editorial',
     keywords: ['CRPS expert witness', 'complex regional pain syndrome litigation', 'pain medicine malpractice', 'RSD malpractice attorney', 'pain management expert witness', 'CRPS causation', 'sympathetically maintained pain litigation'],
@@ -773,7 +773,7 @@ Contact ApexMedLaw to discuss your complex regional pain syndrome malpractice ca
   {
     slug: 'post-ercp-pancreatitis-perforation-gi-expert-witness',
     title: 'Post-ERCP Pancreatitis and Duodenal Perforation: What Attorneys Need to Know About ERCP Malpractice Litigation',
-    metaDescription: 'A litigation-focused guide to post-ERCP pancreatitis and duodenal perforation — indications, informed consent, standard of care, and how AML supports attorneys handling ERCP malpractice cases.',
+    metaDescription: 'Post-ERCP pancreatitis and duodenal perforation litigation: indications, informed consent, standard of care, and GI expert witness analysis.',
     date: '2026-04-10',
     author: 'AML Editorial',
     keywords: [
@@ -827,7 +827,7 @@ Because ERCP litigation often turns on nuanced questions of procedural judgment 
   {
     slug: 'ards-mismanagement-critical-care-expert-witness',
     title: 'ARDS Mismanagement in the ICU: What Attorneys Need to Know About Lung-Protective Ventilation Failures',
-    metaDescription: 'A guide for medical malpractice attorneys on ARDS litigation — recognition, lung-protective ventilation, prone positioning, and how critical care expert witnesses evaluate standard of care failures.',
+    metaDescription: 'Attorney guide to ARDS malpractice: recognition, lung-protective ventilation, proning, and how critical care experts evaluate failures.',
     date: '2026-04-11',
     author: 'AML Editorial',
     keywords: [
@@ -883,7 +883,7 @@ Because ARDS litigation often turns on ventilator settings that are meticulously
   {
     slug: 'delayed-meningitis-diagnosis-neurology-expert-witness',
     title: 'Delayed Meningitis Diagnosis: What Attorneys Need to Know About Missed Warning Signs and Neurology Malpractice',
-    metaDescription: 'Learn how delayed meningitis diagnosis leads to neurology malpractice claims. Expert analysis of missed symptoms, lumbar puncture delays, and standard of care failures for attorneys.',
+    metaDescription: 'Delayed meningitis diagnosis malpractice: missed symptoms, LP delays, antibiotic timing, and standard-of-care failures for attorneys.',
     date: '2026-04-12',
     author: 'AML Editorial',
     keywords: ['meningitis malpractice', 'delayed meningitis diagnosis', 'neurology expert witness', 'lumbar puncture standard of care', 'bacterial meningitis lawsuit', 'missed meningitis symptoms', 'infectious disease neurology litigation', 'meningitis medical malpractice attorney'],

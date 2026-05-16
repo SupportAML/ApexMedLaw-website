@@ -76,9 +76,12 @@ function checkPage(filePath, html) {
     if (!re.test(html)) errors.push(`missing ${og}`);
   }
 
+  // noindex pages don't need OG/JSON-LD (they're hidden from crawlers anyway)
+  const isNoindex = /<meta[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html);
+
   // JSON-LD
   const ldMatches = html.match(/<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi) ?? [];
-  if (ldMatches.length === 0) {
+  if (ldMatches.length === 0 && !isNoindex) {
     errors.push('no application/ld+json blocks');
   } else {
     for (const block of ldMatches) {

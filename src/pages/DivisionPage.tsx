@@ -5,9 +5,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Navigation } from '@/components/Navigation';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, ExternalLink, Award } from 'lucide-react';
-import { getDivisionBySlug } from '@/data/divisions';
+import { getDivisionBySlug, getDivisionMetaDescription } from '@/data/divisions';
 import { getPhysiciansBySpecialty } from '@/data/physicians';
-import { SEO } from '@/components/SEO';
+import { SEO, DivisionSchema, BreadcrumbSchema } from '@/components/SEO';
+import { Breadcrumb } from '@/components/Breadcrumb';
 
 export function DivisionPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -42,8 +43,21 @@ export function DivisionPage() {
     <>
       <SEO
         title={`${division.name} Expert Witness Services`}
-        description={division.description}
+        description={getDivisionMetaDescription(division)}
         path={`/divisions/${division.slug}`}
+      />
+      <DivisionSchema
+        name={division.name}
+        slug={division.slug}
+        description={getDivisionMetaDescription(division)}
+        practiceAreas={division.practiceAreas.map((pa) => pa.title)}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', path: '/' },
+          { name: 'Divisions', path: '/#divisions' },
+          { name: division.name, path: `/divisions/${division.slug}` },
+        ]}
       />
       <Navigation />
       <main className="relative">
@@ -54,6 +68,15 @@ export function DivisionPage() {
           <div className="relative z-10 h-full flex items-center min-h-screen">
             <div className="w-full px-6 lg:px-12 pb-20">
               <div className="max-w-3xl mx-auto space-y-6">
+                <Breadcrumb
+                  items={[
+                    { name: 'Home', path: '/' },
+                    { name: 'Divisions', path: '/#divisions' },
+                    { name: division.name, path: `/divisions/${division.slug}` },
+                  ]}
+                  className="text-white/60"
+                />
+
                 <div>
                   <span className="inline-flex items-center gap-2 px-4 py-2 bg-electric/20 text-white rounded-full text-sm font-medium">
                     <span className="w-2 h-2 bg-electric rounded-full animate-pulse" />
@@ -62,10 +85,7 @@ export function DivisionPage() {
                 </div>
 
                 <h1 className="display-heading text-display-xl text-white">
-                  {division.name}
-                  <span className="text-electric"> Expert Witness</span>
-                  <br />
-                  Services
+                  {division.name} <span className="text-electric">Expert Witness</span> Services
                 </h1>
 
                 <p className="text-lg text-slate-300 leading-relaxed max-w-2xl">
