@@ -23,11 +23,13 @@ interface SEOProps {
   noTitleSuffix?: boolean;
 }
 
-function ogImageUrl(title: string): string {
-  // Vercel serverless OG image endpoint at /api/og?title=...
-  // Defined in api/og.ts. Falls back to the static og-image.jpg if the
-  // serverless function isn't deployed.
-  return `${BASE_URL}/api/og?title=${encodeURIComponent(title)}`;
+function ogImageUrl(_title: string): string {
+  // Static fallback while dynamic per-page OG generation is offline. A
+  // Vercel Edge function at /api/og rendering 1200x630 PNGs per page
+  // title is planned for a follow-up — the previous attempt failed
+  // Vercel's deployment bundler (likely the JSX-in-Edge-Function
+  // configuration) and we need access to Vercel's build logs to debug.
+  return `${BASE_URL}/hero-medical-legal-bg.jpg`;
 }
 
 export function SEO({
