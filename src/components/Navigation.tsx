@@ -85,6 +85,10 @@ export function Navigation() {
               <img
                 src="/logo.png"
                 alt="ApexMedLaw"
+                width="192"
+                height="64"
+                decoding="async"
+                fetchPriority="high"
                 className="h-12 sm:h-14 lg:h-16 w-auto object-contain"
               />
             </Link>

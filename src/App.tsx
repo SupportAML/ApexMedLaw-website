@@ -1,31 +1,31 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { HomePage } from '@/pages/HomePage';
 import { DivisionPage } from '@/pages/DivisionPage';
 import { BlogPage } from '@/pages/BlogPage';
 import { BlogPostPage } from '@/pages/BlogPostPage';
 import { RegistryPage } from '@/pages/RegistryPage';
 import { PhysicianProfilePage } from '@/pages/PhysicianProfilePage';
+import { NotFoundPage } from '@/pages/NotFoundPage';
 import { Footer } from '@/components/Footer';
+import { RouteAnalytics } from '@/components/RouteAnalytics';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <BrowserRouter>
-      <div className="relative">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/divisions/:slug" element={<DivisionPage />} />
-          <Route path="/blog" element={<BlogPage />} />
-          <Route path="/blog/:slug" element={<BlogPostPage />} />
-          <Route path="/experts" element={<RegistryPage />} />
-          <Route path="/experts/:slug" element={<PhysicianProfilePage />} />
-          <Route path="/registry" element={<Navigate to="/experts" replace />} />
-          <Route path="/registry/*" element={<Navigate to="/experts" replace />} />
-        </Routes>
-        <Footer />
-      </div>
-    </BrowserRouter>
+    <div className="relative">
+      <RouteAnalytics />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/divisions/:slug" element={<DivisionPage />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:slug" element={<BlogPostPage />} />
+        <Route path="/experts" element={<RegistryPage />} />
+        <Route path="/experts/:slug" element={<PhysicianProfilePage />} />
+        <Route path="/registry" element={<Navigate to="/experts" replace />} />
+        <Route path="/registry/*" element={<Navigate to="/experts" replace />} />
+        <Route path="*" element={<NotFoundPage />} />
+      </Routes>
+      <Footer />
+    </div>
   );
 }
-
-export default App;

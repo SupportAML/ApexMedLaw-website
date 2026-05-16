@@ -10,6 +10,33 @@ export interface Physician {
   location: string;
   categories: string[];
   featured?: boolean;
+  /**
+   * Hand-tailored <meta name="description"> override (≤160 chars).
+   * Falls back to an auto-derived blurb built from name + role + top
+   * credential when unset.
+   */
+  metaDescription?: string;
+}
+
+/**
+ * Returns a SERP-safe meta description for a physician (≤160 chars).
+ * Each physician's name + role + top credential is unique, so the
+ * derived description is unique even without a hand-tailored override.
+ */
+export function getPhysicianMetaDescription(p: Physician): string {
+  if (p.metaDescription) return p.metaDescription;
+  const cred = p.credentials[0] ?? 'Board-certified';
+  // Cascade through progressively shorter templates until one fits ≤160.
+  const candidates = [
+    `${p.name} — ${p.role} expert witness with ApexMedLaw. ${cred}. Available for case review, IME, deposition, and trial testimony.`,
+    `${p.name} — ${p.role} expert witness with ApexMedLaw. ${cred}. Case review, IME, deposition, and trial.`,
+    `${p.name} — ${p.role} expert witness. ${cred}. Case review, IME, deposition, trial.`,
+    `${p.name} — ${p.role} expert witness with ApexMedLaw. Case review, IME, deposition, trial.`,
+  ];
+  for (const c of candidates) {
+    if (c.length <= 160) return c;
+  }
+  return `${candidates[candidates.length - 1].slice(0, 157)}...`;
 }
 
 export const SPECIALTIES = [

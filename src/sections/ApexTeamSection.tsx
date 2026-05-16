@@ -1,8 +1,10 @@
-import { Award, GraduationCap, Scale, ShieldCheck, Mic, Gavel, Mail } from 'lucide-react';
+import { Award, GraduationCap, Scale, ShieldCheck, Mic, Gavel, Mail, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const leaders = [
   {
     name: 'Abhi Kapuria, MD',
+    slug: 'abhi-kapuria',
     title: 'CEO & Co-founder',
     specialty: 'Neurologist | Neurophysiology',
     photo: '/team_kapuria.jpg',
@@ -12,6 +14,7 @@ const leaders = [
   },
   {
     name: 'Ovi Inamullah, MD',
+    slug: 'ovais-inamullah',
     title: 'CMO & Co-founder',
     specialty: 'Neurologist | Vascular Neurology',
     photo: '/team_inamullah.jpg',
@@ -81,6 +84,10 @@ export function ApexTeamSection() {
                     <img
                       src={leader.photo}
                       alt={leader.name}
+                      width="640"
+                      height="800"
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover object-top"
                     />
                   </div>
@@ -93,18 +100,32 @@ export function ApexTeamSection() {
                   {leader.title}
                 </p>
                 <h3 className="text-2xl font-bold text-navy mb-1">
-                  {leader.name}
+                  <Link
+                    to={`/experts/${leader.slug}`}
+                    className="hover:text-electric transition-colors"
+                  >
+                    {leader.name}
+                  </Link>
                 </h3>
                 <p className="text-slate-500 text-sm mb-2">
                   {leader.specialty}
                 </p>
-                <a
-                  href={`mailto:${leader.email}`}
-                  className="inline-flex items-center gap-2 text-sm text-electric hover:text-electric/80 font-medium mb-4"
-                >
-                  <Mail className="h-4 w-4" />
-                  {leader.email}
-                </a>
+                <div className="flex flex-wrap items-center gap-4 mb-4">
+                  <a
+                    href={`mailto:${leader.email}`}
+                    className="inline-flex items-center gap-2 text-sm text-electric hover:text-electric/80 font-medium"
+                  >
+                    <Mail className="h-4 w-4" />
+                    {leader.email}
+                  </a>
+                  <Link
+                    to={`/experts/${leader.slug}`}
+                    className="inline-flex items-center gap-1 text-sm text-electric hover:text-electric/80 font-medium"
+                  >
+                    View profile
+                    <ArrowRight className="h-3.5 w-3.5" />
+                  </Link>
+                </div>
                 <p className="text-slate-700 leading-relaxed mb-4">
                   {leader.description}
                 </p>

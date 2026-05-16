@@ -1,10 +1,17 @@
 import { type ReactNode } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Calendar, Tag } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Calendar, Tag } from 'lucide-react';
 import { blogPosts } from '@/blog/posts';
 import { Navigation } from '@/components/Navigation';
 import { Button } from '@/components/ui/button';
-import { SEO, ArticleSchema } from '@/components/SEO';
+import { SEO, ArticleSchema, BreadcrumbSchema } from '@/components/SEO';
+import { Breadcrumb } from '@/components/Breadcrumb';
+import { RelatedArticles } from '@/components/RelatedArticles';
+import {
+  getPrimaryDivisionForPost,
+  getRelatedPosts,
+  getFeaturedPhysicianForDivision,
+} from '@/lib/relations';
 
 function renderMarkdown(content: string) {
   // Simple markdown renderer for blog posts
@@ -97,18 +104,36 @@ export function BlogPostPage() {
         description={post.metaDescription}
         date={post.date}
         slug={post.slug}
+        author={{ name: post.author }}
+        keywords={post.keywords}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', path: '/' },
+          { name: 'Blog', path: '/blog' },
+          { name: post.title, path: `/blog/${post.slug}` },
+        ]}
       />
       <Navigation />
       <main className="relative pt-24 pb-20 min-h-screen bg-clinical">
         <article className="max-w-3xl mx-auto px-6 lg:px-12">
-          {/* Back link */}
-          <Link
-            to="/blog"
-            className="inline-flex items-center gap-2 text-sm text-text-secondary hover:text-electric transition-colors mb-8"
-          >
-            <ArrowLeft size={14} />
-            Back to all posts
-          </Link>
+          {/* Breadcrumb + back link */}
+          <div className="flex items-center justify-between mb-8 gap-4 flex-wrap">
+            <Breadcrumb
+              items={[
+                { name: 'Home', path: '/' },
+                { name: 'Blog', path: '/blog' },
+                { name: post.title, path: `/blog/${post.slug}` },
+              ]}
+            />
+            <Link
+              to="/blog"
+              className="inline-flex items-center gap-2 text-sm text-text-secondary hover:text-electric transition-colors"
+            >
+              <ArrowLeft size={14} />
+              Back to all posts
+            </Link>
+          </div>
 
           {/* Header */}
           <header className="mb-10">
@@ -144,6 +169,51 @@ export function BlogPostPage() {
 
           {/* Content */}
           <div className="prose-nlc">{renderMarkdown(post.content)}</div>
+
+          {/* Topic + expert callout */}
+          {(() => {
+            const division = getPrimaryDivisionForPost(post);
+            const expert = division
+              ? getFeaturedPhysicianForDivision(division.slug)
+              : undefined;
+            if (!division) return null;
+            return (
+              <aside
+                aria-label="Related practice area"
+                className="mt-12 bg-clinical-100 border border-clinical-200 rounded-2xl p-6 lg:p-8"
+              >
+                <p className="text-xs font-semibold uppercase tracking-widest text-electric mb-3">
+                  Related practice area
+                </p>
+                <h3 className="font-display text-lg font-bold text-foreground mb-3">
+                  Need a {division.name} expert witness?
+                </h3>
+                <p className="text-sm text-text-secondary mb-4">
+                  ApexMedLaw's {division.name} division covers the litigation
+                  topics in this article. Browse experts and case types or
+                  request a CV.
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  <Link
+                    to={`/divisions/${division.slug}`}
+                    className="inline-flex items-center gap-1.5 px-4 py-2 bg-electric text-white text-sm font-medium rounded-full hover:bg-electric/90 transition-colors"
+                  >
+                    {division.name} division <ArrowRight size={14} />
+                  </Link>
+                  {expert && (
+                    <Link
+                      to={`/experts/${expert.slug}`}
+                      className="inline-flex items-center gap-1.5 px-4 py-2 border border-electric/30 text-electric text-sm font-medium rounded-full hover:bg-electric/5 transition-colors"
+                    >
+                      Meet {expert.name.split(',')[0]} <ArrowRight size={14} />
+                    </Link>
+                  )}
+                </div>
+              </aside>
+            );
+          })()}
+
+          <RelatedArticles posts={getRelatedPosts(post, 3)} />
 
           {/* CTA */}
           <div className="mt-16 bg-navy rounded-2xl p-8 lg:p-12 text-center">

@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Mail, MapPin, Send, Linkedin, Twitter, CheckCircle, AlertTriangle, Shield, FileCheck, Clock } from 'lucide-react';
+import { trackEvent } from '@/lib/analytics';
 
 const CONTACT_EMAIL = 'support@apexmedlaw.com';
 
@@ -84,6 +85,11 @@ export function ContactSection() {
       });
       if (!res.ok) throw new Error('Submission failed');
       setSubmitted(true);
+      trackEvent('case_inquiry_submitted', {
+        case_type: formData.caseType,
+        specialty: formData.specialty,
+        urgent: formData.urgentDeadline === 'yes',
+      });
       setFormData({
         name: '', lawFirm: '', email: '', phone: '',
         caseType: '', specialty: '',
@@ -91,6 +97,7 @@ export function ContactSection() {
       });
     } catch {
       setSubmitError(`Something went wrong. Please email us directly at ${CONTACT_EMAIL}.`);
+      trackEvent('case_inquiry_failed');
     } finally {
       setIsSubmitting(false);
     }

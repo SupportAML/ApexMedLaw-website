@@ -5,7 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build:client": "vite build",
+    "build:ssr": "vite build --ssr src/entry-server.tsx --outDir dist-ssr",
+    "build:prerender": "node scripts/prerender.mjs",
+    "build:sitemap": "node scripts/generate-sitemap.mjs",
+    "build:seo-check": "node scripts/check-seo.mjs",
+    "build:structured-data": "node scripts/validate-structured-data.mjs",
+    "build": "tsc -b && npm run build:client && npm run build:ssr && npm run build:prerender && npm run build:sitemap && npm run build:seo-check && npm run build:structured-data",
     "lint": "eslint .",
     "preview": "vite preview"
   },

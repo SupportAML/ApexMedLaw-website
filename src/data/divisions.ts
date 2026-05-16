@@ -3,15 +3,33 @@ export interface Division {
   name: string;
   tagline: string;
   description: string;
+  /**
+   * Hand-tailored <meta name="description"> (≤160 chars).
+   * Falls back to the first sentence of `description` if unset.
+   */
+  metaDescription?: string;
   practiceAreas: { title: string; description: string }[];
   externalUrl?: string;
   comingSoon?: boolean;
+}
+
+/**
+ * Returns a SERP-safe meta description for a division (≤160 chars).
+ * Prefers an explicit `metaDescription`; otherwise truncates the first
+ * sentence of `description` and appends an attorney-targeted CTA.
+ */
+export function getDivisionMetaDescription(d: Division): string {
+  if (d.metaDescription) return d.metaDescription;
+  const firstSentence = d.description.split(/(?<=[.!?])\s+/)[0] ?? d.description;
+  const truncated = firstSentence.length <= 160 ? firstSentence : `${firstSentence.slice(0, 157)}...`;
+  return truncated;
 }
 
 export const divisions: Division[] = [
   {
     slug: 'anesthesiology',
     name: 'Anesthesiology',
+    metaDescription: 'Board-certified anesthesiology expert witnesses for perioperative, interventional pain, opioid prescribing, and workers\' comp litigation. Nationwide.',
     tagline: 'Anesthesiology and pain medicine expertise for perioperative, interventional, and chronic pain litigation',
     description: 'Our anesthesiology division features board-certified anesthesiologists and pain medicine physicians providing expert testimony on perioperative care, interventional procedures, opioid prescribing, and chronic pain management in complex cases.',
     practiceAreas: [
@@ -44,6 +62,7 @@ export const divisions: Division[] = [
   {
     slug: 'critical-care',
     name: 'Critical Care',
+    metaDescription: 'ICU expert witnesses for sepsis, ARDS, ventilator management, and end-of-life care malpractice cases. Active intensivists, trial-tested.',
     tagline: 'ICU standard of care expertise for sepsis, ventilator management, and intensive care litigation',
     description: 'Our critical care division features intensivists and neurocritical care specialists with extensive ICU experience providing expert testimony on acute respiratory distress syndrome, sepsis management, organ failure, and end-of-life care decisions. We combine active ICU practice with litigation expertise.',
     practiceAreas: [
@@ -76,6 +95,7 @@ export const divisions: Division[] = [
   {
     slug: 'emergency-medicine',
     name: 'Emergency Medicine',
+    metaDescription: 'Board-certified ED expert witnesses for missed diagnoses, triage delays, sepsis, stroke, MI, and pediatric emergency malpractice cases.',
     tagline: 'ED standard of care expertise for trauma, resuscitation, airway, and emergency department litigation',
     description: 'Our emergency medicine division features board-certified emergency physicians with extensive experience across trauma centers, academic institutions, community emergency departments, freestanding EDs, and rural hospitals. Our experts provide testimony on triage decisions, missed diagnoses, resuscitation, airway management, and ED standard of care.',
     practiceAreas: [
@@ -108,6 +128,7 @@ export const divisions: Division[] = [
   {
     slug: 'epilepsy',
     name: 'Epilepsy',
+    metaDescription: 'Fellowship-trained epilepsy expert witnesses for seizure misdiagnosis, status epilepticus, antiseizure medication errors, and EEG interpretation.',
     tagline: 'Epileptology and clinical neurophysiology expertise for seizure disorder, EEG, and status epilepticus litigation',
     description: 'Our epilepsy division features fellowship-trained, board-certified epileptologists and clinical neurophysiologists with active experience in epilepsy monitoring units, EEG interpretation, and complex seizure management. Our experts provide testimony on diagnostic accuracy, antiseizure medication selection, status epilepticus, and standard of care across the full spectrum of epilepsy practice.',
     practiceAreas: [
@@ -140,6 +161,7 @@ export const divisions: Division[] = [
   {
     slug: 'family-medicine',
     name: 'Family Medicine',
+    metaDescription: 'Family medicine and hospitalist expert witnesses for primary care misdiagnosis, preventive care failures, and chronic disease management cases.',
     tagline: 'Family medicine and hospital medicine expertise for primary care, urgent care, and inpatient standard of care litigation',
     description: 'Our family medicine division features board-certified family physicians with active hospitalist, primary care, and urgent care practice across multiple states. Our experts provide testimony on diagnostic accuracy, chronic disease management, preventive care, urgent and emergent presentations in the outpatient setting, and the management of acutely ill adult patients across medical-surgical, step-down, and intensive care units.',
     practiceAreas: [
@@ -172,6 +194,7 @@ export const divisions: Division[] = [
   {
     slug: 'gastroenterology',
     name: 'Gastroenterology',
+    metaDescription: 'GI expert witnesses for missed colon cancer, ERCP complications, GI bleeding, IBD management, and endoscopy malpractice cases.',
     tagline: 'GI expertise in endoscopy complications, missed cancer, and digestive system malpractice',
     description: 'Our gastroenterology division provides board-certified gastroenterologists expert testimony on endoscopic procedures, diagnostic accuracy, cancer screening standards, and management of GI bleeding and inflammatory bowel disease.',
     practiceAreas: [
@@ -204,6 +227,7 @@ export const divisions: Division[] = [
   {
     slug: 'internal-medicine',
     name: 'Internal Medicine',
+    metaDescription: 'Internal medicine and hospitalist expert witnesses for inpatient mismanagement, delayed diagnosis, and chronic disease care malpractice cases.',
     tagline: 'Hospitalist and IM expertise for inpatient care, diagnostic delay, and standard of care litigation',
     description: 'Our internal medicine division features board-certified internists and hospitalists with extensive inpatient and outpatient experience. Our experts provide testimony on diagnostic delay, hospital-based negligence, medication errors, and complex medical decision-making across multi-system disease.',
     practiceAreas: [
@@ -236,6 +260,7 @@ export const divisions: Division[] = [
   {
     slug: 'neurocritical-care',
     name: 'Neurocritical Care',
+    metaDescription: 'Neuro-ICU expert witnesses for TBI, intracranial hemorrhage, status epilepticus, and brain death determination malpractice cases.',
     tagline: 'Neurocritical care expertise for ICU-level neurologic injury, ICP, and acute brain injury litigation',
     description: 'Our neurocritical care division features fellowship-trained neurointensivists with active practice managing acute neurologic emergencies in the ICU. Our experts provide testimony on intracranial pressure management, severe TBI, status epilepticus, neuromonitoring, and the standard of care across complex neurocritical conditions.',
     practiceAreas: [
@@ -268,6 +293,7 @@ export const divisions: Division[] = [
   {
     slug: 'neuroimmunology',
     name: 'Neuroimmunology',
+    metaDescription: 'Neuroimmunology expert witnesses for MS misdiagnosis, NMOSD, autoimmune encephalitis, and disease-modifying therapy malpractice cases.',
     tagline: 'Neuroimmunology and MS expertise for demyelinating disease, autoimmune neurologic, and disease-modifying therapy litigation',
     description: 'Our neuroimmunology division features fellowship-trained neuroimmunologists with deep expertise in multiple sclerosis, neuromyelitis optica, autoimmune encephalitis, and other immune-mediated neurologic conditions. Our experts provide testimony on diagnostic accuracy, disease-modifying therapy selection, and standard of care for complex autoimmune neurologic disease.',
     practiceAreas: [
@@ -300,6 +326,7 @@ export const divisions: Division[] = [
   {
     slug: 'neurology',
     name: 'Neurology',
+    metaDescription: 'Duke-trained neurology expert witnesses for TBI, stroke, seizure, dementia, and neurological misdiagnosis malpractice cases. Nationwide.',
     tagline: 'Expert witness testimony for traumatic brain injury, stroke, seizures, and neurological conditions',
     description: 'Our neurology division provides board-certified neurologists with specialized expertise in TBI litigation, stroke cases, spinal cord injuries, seizure disorders, and neuromuscular disease. We maintain active clinical practices while delivering authoritative expert testimony and case reviews.',
     practiceAreas: [
@@ -333,6 +360,7 @@ export const divisions: Division[] = [
   {
     slug: 'neuromuscular-medicine',
     name: 'Neuromuscular Medicine',
+    metaDescription: 'Neuromuscular medicine expert witnesses for ALS, myasthenia gravis, neuropathy, EMG interpretation, and motor neuron disease malpractice cases.',
     tagline: 'Neuromuscular medicine expertise for peripheral nerve injury, EMG, and complex nerve and muscle disorder litigation',
     description: 'Our neuromuscular medicine division features fellowship-trained, board-certified neuromuscular specialists with active high-volume EMG, nerve conduction study, and neuromuscular ultrasound practice. Our experts provide testimony on peripheral nerve injury, toxic and chemotherapy-induced neuropathy, autoimmune neuromuscular disease, hereditary syndromes, and the standard of care across electrodiagnostic and therapeutic neuromuscular practice.',
     practiceAreas: [
@@ -365,6 +393,7 @@ export const divisions: Division[] = [
   {
     slug: 'neurosurgery',
     name: 'Neurosurgery',
+    metaDescription: 'Neurosurgery expert witnesses for cranial trauma, spine surgery complications, tumor resection, and informed consent malpractice cases.',
     tagline: 'Surgical expertise for cranial, spinal, and neurosurgical malpractice litigation',
     description: 'Our neurosurgery division features board-certified neurosurgeons with deep experience in cranial and spinal surgery. Our experts provide expert testimony on traumatic brain injury, spine procedures, surgical complications, and standard of care issues across the full spectrum of neurosurgical practice.',
     practiceAreas: [
@@ -397,6 +426,7 @@ export const divisions: Division[] = [
   {
     slug: 'orthopedic-surgery',
     name: 'Orthopedic Surgery',
+    metaDescription: 'Orthopedic surgery expert witnesses for fracture management, joint replacement, surgical complications, and orthopedic malpractice cases.',
     tagline: 'Orthopedic surgery expertise for musculoskeletal injury, joint replacement, and surgical complication litigation',
     description: 'Our orthopedic surgery division features fellowship-trained, board-certified orthopedic surgeons with deep expertise in musculoskeletal trauma, joint reconstruction, sports medicine, and post-surgical complications. Our experts provide authoritative testimony on standard-of-care issues across the full spectrum of orthopedic practice.',
     practiceAreas: [
@@ -429,6 +459,7 @@ export const divisions: Division[] = [
   {
     slug: 'pediatric-neurology',
     name: 'Pediatric Neurology',
+    metaDescription: 'Pediatric neurology expert witnesses for pediatric stroke, neonatal HIE, childhood epilepsy, and developmental delay malpractice cases.',
     tagline: 'Child neurology expertise for pediatric brain injury, epilepsy, and developmental cases',
     description: 'Our pediatric neurology division features ABPN-certified child neurologists with specialized fellowship training in neurocritical care and epilepsy. Our experts provide testimony on neonatal neurologic injury, pediatric epilepsy, developmental delay, and child neurological emergencies.',
     practiceAreas: [
@@ -461,6 +492,7 @@ export const divisions: Division[] = [
   {
     slug: 'pharmacy',
     name: 'Pharmacy',
+    metaDescription: 'Pharmacy expert witnesses for medication errors, drug interactions, dispensing standard of care, and pharmacist liability malpractice cases.',
     tagline: 'Pharmacotherapy and critical care pharmacy expertise for medication error and pharmacy malpractice litigation',
     description: 'Our pharmacy division features board-certified pharmacotherapy and critical care pharmacy specialists providing expert testimony on medication errors, drug overdoses, adverse drug reactions, improper dosing, and breaches in pharmacy standard of care.',
     practiceAreas: [
@@ -493,6 +525,7 @@ export const divisions: Division[] = [
   {
     slug: 'physical-medicine-rehabilitation',
     name: 'Physical Medicine and Rehabilitation',
+    metaDescription: 'PM&R / physiatry expert witnesses for impairment ratings, spinal cord injury, TBI rehab, and chronic pain management malpractice cases.',
     tagline: 'PM&R expertise for spinal cord injury, brain injury, and rehabilitation outcomes',
     description: 'Our PM&R division features triple board-certified physiatrists with expertise in spinal cord injury medicine and brain injury medicine. Our experts provide testimony on rehabilitation standards of care, life-care planning, and long-term outcomes after catastrophic injury.',
     practiceAreas: [
@@ -525,6 +558,7 @@ export const divisions: Division[] = [
   {
     slug: 'radiology',
     name: 'Radiology',
+    metaDescription: 'Radiology expert witnesses for missed findings, imaging interpretation errors, CT/MRI standards, and diagnostic radiology malpractice cases.',
     tagline: 'Diagnostic radiology and neuroradiology expertise for imaging interpretation litigation',
     description: 'Our radiology division features double board-certified diagnostic radiologists and neuroradiologists with expertise across CT, MRI, and advanced imaging modalities. Our experts provide testimony on missed findings, imaging interpretation accuracy, and radiologic standard of care.',
     practiceAreas: [
@@ -557,6 +591,7 @@ export const divisions: Division[] = [
   {
     slug: 'spine-surgery',
     name: 'Spine Surgery',
+    metaDescription: 'Spine surgery expert witnesses for cervical and lumbar fusion, disc herniation, post-surgical complications, and spinal trauma cases.',
     tagline: 'Spine surgery expertise across orthopedic and neurosurgical approaches to cervical, thoracic, and lumbar pathology',
     description: 'Our spine surgery division features fellowship-trained orthopedic spine surgeons and neurosurgeons with combined expertise across the cervical, thoracic, and lumbar spine. Our experts provide testimony on surgical indications, technique, complication management, and standard of care for both elective and trauma spine procedures.',
     practiceAreas: [
@@ -589,6 +624,7 @@ export const divisions: Division[] = [
   {
     slug: 'stroke-vascular-neurology',
     name: 'Stroke and Vascular Neurology',
+    metaDescription: 'Stroke and vascular neurology expert witnesses for tPA timing, thrombectomy, posterior strokes, telestroke standards, and ICH litigation.',
     tagline: 'Vascular neurology expertise for acute stroke, thrombolytics, and cerebrovascular disease litigation',
     description: 'Our stroke and vascular neurology division features board-certified vascular neurologists with active stroke center practice. Our experts provide testimony on acute ischemic and hemorrhagic stroke management, thrombolytic and thrombectomy decisions, telestroke standards, and the full spectrum of cerebrovascular disease.',
     practiceAreas: [
@@ -621,6 +657,7 @@ export const divisions: Division[] = [
   {
     slug: 'wilderness-medicine',
     name: 'Wilderness Medicine',
+    metaDescription: 'Wilderness medicine expert witnesses for hypothermia, drowning, altitude illness, envenomation, dive injuries, and remote-care litigation.',
     tagline: 'Wilderness and environmental medicine expertise for austere, dive, and remote-care emergency litigation',
     description: 'Our wilderness medicine division features fellowship-trained, FAWM-credentialed emergency physicians with expertise in environmental emergencies, austere and remote care, dive medicine, and search-and-rescue medical direction. Our experts provide testimony on standard of care for hypothermia, drowning, altitude illness, envenomation, and other wilderness presentations.',
     practiceAreas: [

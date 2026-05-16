@@ -3,7 +3,8 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 import { Navigation } from '@/components/Navigation';
-import { SEO, OrganizationSchema } from '@/components/SEO';
+import { SEO, HomepageSchema, FAQPageSchema } from '@/components/SEO';
+import { homepageFaqs } from '@/data/faqs';
 import { ApexHeroSection } from '@/sections/ApexHeroSection';
 import { ApexTeamSection } from '@/sections/ApexTeamSection';
 import { DivisionsSection } from '@/sections/DivisionsSection';
@@ -15,14 +16,13 @@ const ApexApproachSection = lazy(() => import('@/sections/ApexApproachSection').
 const FAQSection = lazy(() => import('@/sections/FAQSection').then(m => ({ default: m.FAQSection })));
 const ContactSection = lazy(() => import('@/sections/ContactSection').then(m => ({ default: m.ContactSection })));
 
-gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
-
 function SectionFallback() {
   return <div className="w-full py-20" />;
 }
 
 export function HomePage() {
   useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
     ScrollTrigger.refresh();
     return () => {
       ScrollTrigger.getAll().forEach((st) => st.kill());
@@ -31,8 +31,14 @@ export function HomePage() {
 
   return (
     <>
-    <SEO />
-    <OrganizationSchema />
+    <SEO
+      title="ApexMedLaw | Physician-Led Medical-Legal Expert Witness Consulting"
+      description="Duke-trained, board-certified physician expert witnesses for medical malpractice, IME, and personal injury cases. Nationwide. 24-hour expert match."
+      path="/"
+      noTitleSuffix
+    />
+    <HomepageSchema />
+    <FAQPageSchema faqs={homepageFaqs} />
     <Navigation />
     <main className="relative">
       <ApexHeroSection />

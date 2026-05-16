@@ -23,6 +23,10 @@ export function Footer() {
               <img
                 src="/logo.png"
                 alt="ApexMedLaw"
+                width="240"
+                height="80"
+                loading="lazy"
+                decoding="async"
                 className="h-20 w-auto object-contain bg-white rounded-md p-3"
               />
             </Link>

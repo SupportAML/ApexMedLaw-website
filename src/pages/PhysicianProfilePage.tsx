@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Navigation } from '@/components/Navigation';
-import { SEO } from '@/components/SEO';
+import { SEO, PersonSchema, BreadcrumbSchema } from '@/components/SEO';
+import { Breadcrumb } from '@/components/Breadcrumb';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import {
@@ -14,7 +15,8 @@ import {
   Clock,
   Mail,
 } from 'lucide-react';
-import { getPhysicianBySlug, getSpecialtyName } from '@/data/physicians';
+import { getPhysicianBySlug, getSpecialtyName, getPhysicianMetaDescription } from '@/data/physicians';
+import { getPostsByPhysician, getPostsForDivision } from '@/lib/relations';
 
 export function PhysicianProfilePage() {
   const { slug } = useParams<{ slug: string }>();
@@ -46,9 +48,27 @@ export function PhysicianProfilePage() {
   return (
     <>
       <SEO
-        title={`${physician.name} — Expert Witness`}
-        description={`${physician.name} is a ${physician.role} providing expert witness services with ApexMedLaw.`}
+        title={`${physician.name} — ${physician.role} Expert Witness`}
+        description={getPhysicianMetaDescription(physician)}
         path={`/experts/${physician.slug}`}
+        image={physician.photo.startsWith('http') ? physician.photo : `https://www.apexmedlaw.com${physician.photo}`}
+      />
+      <PersonSchema
+        slug={physician.slug}
+        name={physician.name}
+        role={physician.role}
+        title={physician.title}
+        bio={physician.bio}
+        credentials={physician.credentials}
+        categories={physician.categories.map((c) => getSpecialtyName(c) ?? c)}
+        photo={physician.photo}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', path: '/' },
+          { name: 'Experts', path: '/experts' },
+          { name: physician.name, path: `/experts/${physician.slug}` },
+        ]}
       />
       <Navigation />
       <main className="pt-20 lg:pt-24">
@@ -57,18 +77,32 @@ export function PhysicianProfilePage() {
           <div className="absolute inset-0 neural-bg opacity-[0.05]" />
           <div className="relative z-10 w-full px-6 lg:px-12">
             <div className="max-w-5xl mx-auto">
-              <Link
-                to="/experts"
-                className="inline-flex items-center gap-2 text-white/60 hover:text-electric transition-colors text-sm mb-8"
-              >
-                <ArrowLeft size={16} /> Back to Experts
-              </Link>
+              <div className="flex items-center justify-between gap-4 mb-8 flex-wrap">
+                <Breadcrumb
+                  items={[
+                    { name: 'Home', path: '/' },
+                    { name: 'Experts', path: '/experts' },
+                    { name: physician.name, path: `/experts/${physician.slug}` },
+                  ]}
+                  className="text-white/60"
+                />
+                <Link
+                  to="/experts"
+                  className="inline-flex items-center gap-2 text-white/60 hover:text-electric transition-colors text-sm"
+                >
+                  <ArrowLeft size={16} /> Back to Experts
+                </Link>
+              </div>
 
               <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-8">
                 <div className="w-32 h-40 lg:w-44 lg:h-56 rounded-2xl overflow-hidden shrink-0 bg-electric/10">
                   <img
                     src={physician.photo}
                     alt={physician.name}
+                    width="700"
+                    height="900"
+                    fetchPriority="high"
+                    decoding="async"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -153,6 +187,57 @@ export function PhysicianProfilePage() {
                     })}
                   </div>
                 </div>
+
+                {/* Authored / related articles */}
+                {(() => {
+                  const authored = getPostsByPhysician(physician);
+                  // If physician hasn't authored any posts, surface posts
+                  // from their primary specialty so the profile still has
+                  // outbound editorial links.
+                  const fallbackBySpecialty =
+                    authored.length === 0 && physician.categories[0]
+                      ? getPostsForDivision(physician.categories[0], 3)
+                      : [];
+                  const posts =
+                    authored.length > 0 ? authored.slice(0, 3) : fallbackBySpecialty;
+                  if (posts.length === 0) return null;
+                  const label =
+                    authored.length > 0 ? 'Articles by this expert' : 'Related insights';
+                  return (
+                    <div>
+                      <h2 className="font-display font-bold text-xl text-foreground mb-4">
+                        {label}
+                      </h2>
+                      <ul className="space-y-3">
+                        {posts.map((post) => (
+                          <li key={post.slug}>
+                            <Link
+                              to={`/blog/${post.slug}`}
+                              className="group flex items-start gap-3 p-3 bg-clinical-100 rounded-xl hover:bg-clinical-200 transition-colors"
+                            >
+                              <ArrowRight
+                                size={14}
+                                className="text-electric mt-1 shrink-0 group-hover:translate-x-0.5 transition-transform"
+                              />
+                              <div className="flex-1">
+                                <p className="text-sm font-medium text-foreground line-clamp-2 group-hover:text-electric transition-colors">
+                                  {post.title}
+                                </p>
+                                <p className="text-xs text-muted-foreground mt-0.5">
+                                  {new Date(post.date).toLocaleDateString('en-US', {
+                                    year: 'numeric',
+                                    month: 'long',
+                                    day: 'numeric',
+                                  })}
+                                </p>
+                              </div>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  );
+                })()}
               </div>
 
               {/* Sidebar */}
