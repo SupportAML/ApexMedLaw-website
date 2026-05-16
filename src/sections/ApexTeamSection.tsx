@@ -84,6 +84,10 @@ export function ApexTeamSection() {
                     <img
                       src={leader.photo}
                       alt={leader.name}
+                      width="640"
+                      height="800"
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover object-top"
                     />
                   </div>

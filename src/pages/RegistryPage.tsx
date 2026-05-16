@@ -140,6 +140,10 @@ export function RegistryPage() {
                         <img
                           src={doc.photo}
                           alt={doc.name}
+                          width="480"
+                          height="640"
+                          loading="lazy"
+                          decoding="async"
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         />
                       </div>

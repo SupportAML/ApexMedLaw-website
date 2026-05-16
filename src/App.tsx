@@ -7,11 +7,13 @@ import { RegistryPage } from '@/pages/RegistryPage';
 import { PhysicianProfilePage } from '@/pages/PhysicianProfilePage';
 import { NotFoundPage } from '@/pages/NotFoundPage';
 import { Footer } from '@/components/Footer';
+import { RouteAnalytics } from '@/components/RouteAnalytics';
 import './App.css';
 
 export default function App() {
   return (
     <div className="relative">
+      <RouteAnalytics />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/divisions/:slug" element={<DivisionPage />} />

@@ -10,7 +10,8 @@
     "build:prerender": "node scripts/prerender.mjs",
     "build:sitemap": "node scripts/generate-sitemap.mjs",
     "build:seo-check": "node scripts/check-seo.mjs",
-    "build": "tsc -b && npm run build:client && npm run build:ssr && npm run build:prerender && npm run build:sitemap && npm run build:seo-check",
+    "build:structured-data": "node scripts/validate-structured-data.mjs",
+    "build": "tsc -b && npm run build:client && npm run build:ssr && npm run build:prerender && npm run build:sitemap && npm run build:seo-check && npm run build:structured-data",
     "lint": "eslint .",
     "preview": "vite preview"
   },

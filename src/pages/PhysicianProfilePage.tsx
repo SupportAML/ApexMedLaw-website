@@ -99,6 +99,10 @@ export function PhysicianProfilePage() {
                   <img
                     src={physician.photo}
                     alt={physician.name}
+                    width="700"
+                    height="900"
+                    fetchPriority="high"
+                    decoding="async"
                     className="w-full h-full object-cover"
                   />
                 </div>
