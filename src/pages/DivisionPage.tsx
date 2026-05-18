@@ -8,6 +8,7 @@ import { ArrowRight, ExternalLink, Award } from 'lucide-react';
 import { getDivisionBySlug } from '@/data/divisions';
 import { getPhysiciansBySpecialty } from '@/data/physicians';
 import { SEO } from '@/components/SEO';
+import { DivisionSchema } from '@/components/SEOSchemas';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -45,6 +46,11 @@ export function DivisionPage() {
         title={`${division.name} Expert Witness Services`}
         description={division.description}
         path={`/divisions/${division.slug}`}
+      />
+      <DivisionSchema
+        name={division.name}
+        description={division.description}
+        slug={division.slug}
       />
       <Navigation />
       <main className="relative">

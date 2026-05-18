@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Navigation } from '@/components/Navigation';
 import { SEO } from '@/components/SEO';
+import { PhysicianSchema } from '@/components/SEOSchemas';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import {
@@ -14,7 +15,15 @@ import {
   Clock,
   Mail,
 } from 'lucide-react';
-import { getPhysicianBySlug, getSpecialtyName } from '@/data/physicians';
+import { getPhysicianBySlug, getSpecialtyName, type Physician } from '@/data/physicians';
+
+function buildPhysicianDescription(p: Physician): string {
+  // Take the first ~200 chars of the bio, then trim back to the nearest sentence end.
+  const slice = p.bio.replace(/\s+/g, ' ').slice(0, 200);
+  const lastEnd = Math.max(slice.lastIndexOf('. '), slice.lastIndexOf('! '), slice.lastIndexOf('? '));
+  const intro = lastEnd > 40 ? slice.slice(0, lastEnd + 1) : slice;
+  return `${p.role} expert witness with ApexMedLaw based in ${p.location}. ${intro}`.trim().slice(0, 300);
+}
 
 export function PhysicianProfilePage() {
   const { slug } = useParams<{ slug: string }>();
@@ -46,9 +55,17 @@ export function PhysicianProfilePage() {
   return (
     <>
       <SEO
-        title={`${physician.name} — Expert Witness`}
-        description={`${physician.name} is a ${physician.role} providing expert witness services with ApexMedLaw.`}
+        title={`${physician.name} — ${physician.role} Expert Witness`}
+        description={buildPhysicianDescription(physician)}
         path={`/experts/${physician.slug}`}
+      />
+      <PhysicianSchema
+        name={physician.name}
+        role={physician.role}
+        bio={physician.bio}
+        location={physician.location}
+        credentials={physician.credentials}
+        slug={physician.slug}
       />
       <Navigation />
       <main className="pt-20 lg:pt-24">
