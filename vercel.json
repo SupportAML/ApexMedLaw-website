@@ -1,5 +1,7 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/registry", "destination": "/experts", "permanent": true },
+    { "source": "/registry/:path*", "destination": "/experts", "permanent": true }
   ]
 }
