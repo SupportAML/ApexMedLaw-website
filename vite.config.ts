@@ -12,4 +12,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  ssr: {
+    // react-helmet-async is CJS — bundle it so the SSR ESM build can import its named exports.
+    noExternal: ['react-helmet-async', 'gsap', /^gsap\//],
+  },
 });
