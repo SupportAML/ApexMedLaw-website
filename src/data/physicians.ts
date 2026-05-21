@@ -269,7 +269,7 @@ Dr. Newmark received his MD from Temple University (Katz) School of Medicine, co
     bio: `Dr. Jay Yasen is a board-certified vascular neurologist and neurocritical care specialist with more than 25 years of experience. He currently serves as Assistant Attending in Neurology and Director of Neurology Education at New York-Presbyterian Queens, and is an Assistant Professor of Clinical Neurology at Weill Cornell Medical College. He completed his neurology residency at Albert Einstein College of Medicine and a fellowship in Stroke and Neurocritical Care at Beth Israel Medical Center in New York City. He is board certified in Neurology, Vascular Neurology, and Neurocritical Care. He has been named a New York Magazine "Top Doctor" and has contributed to numerous NIH- and industry-funded multicenter stroke trials.`,
     credentials: ['Vascular Neurology', 'Neurocritical Care', 'Weill Cornell Faculty'],
     location: 'New York',
-    categories: ['neurology', 'stroke-vascular-neurology', 'neurocritical-care', 'critical-care'],
+    categories: ['neurology', 'stroke-vascular-neurology'],
   },
   {
     id: '19',
@@ -422,6 +422,27 @@ Dr. Jain provides expert witness testimony and case review on a wide range of or
     ],
     location: 'California',
     categories: ['orthopedic-surgery', 'spine-surgery'],
+  },
+  {
+    id: '27',
+    slug: 'anita-mallya',
+    name: 'Anita Mallya, MD',
+    role: 'Neurologist / Neurointensivist',
+    title: 'Ancillary Physician Partner',
+    photo: '/team_mallya.jpg',
+    bio: `Dr. Anita Mallya is a board-certified neurologist and neurocritical care specialist, certified by the American Board of Psychiatry and Neurology in both Neurology and Neurocritical Care. She has extensive experience as a NeuroCritical Care and NeuroHospitalist attending physician, managing acute neurological emergencies including ischemic and hemorrhagic stroke, subarachnoid hemorrhage, status epilepticus, and complex ICU-level neurologic injury across numerous hospital systems.
+
+She completed her NeuroCritical Care fellowship at Emory University Hospital and Grady Memorial Hospital in Atlanta, following an internal medicine internship and neurology residency at Albany Medical Center, where she served as Chief Resident. She earned her M.D. from the University of Toledo College of Medicine and a B.A. in Neuroscience from Kenyon College.
+
+Dr. Mallya serves as a Medical Expert Reviewer for the South Carolina Board of Medical Examiners, providing independent, impartial medical expertise in neurology and neurocritical care for the evaluation of medical records, standards of care, and compliance. She is licensed across multiple states and is an active member of the Neurocritical Care Society, the American Academy of Neurology, the Society of Critical Care Medicine, and the American Heart Association.`,
+    credentials: [
+      'Emory/Grady NeuroCritical Care Fellowship',
+      'ABPN — Neurology & Neurocritical Care',
+      'Albany Medical Center Chief Resident',
+      'SC Board of Medical Examiners Reviewer',
+    ],
+    location: 'Multiple States',
+    categories: ['neurocritical-care', 'stroke-vascular-neurology'],
   },
 ];
 
