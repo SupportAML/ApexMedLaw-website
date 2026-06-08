@@ -31,6 +31,7 @@ export const SPECIALTIES = [
   { slug: 'pharmacy', name: 'Pharmacy' },
   { slug: 'physical-medicine-rehabilitation', name: 'Physical Medicine and Rehabilitation' },
   { slug: 'radiology', name: 'Radiology' },
+  { slug: 'spinal-cord-injury', name: 'Spinal Cord Injury' },
   { slug: 'spine-surgery', name: 'Spine Surgery' },
   { slug: 'stroke-vascular-neurology', name: 'Stroke and Vascular Neurology' },
   { slug: 'wilderness-medicine', name: 'Wilderness Medicine' },
@@ -464,7 +465,7 @@ A prolific academic contributor, Dr. Mehta has co-authored a chapter in Braddom'
       'President, North Carolina Society of PM&R',
     ],
     location: 'North Carolina',
-    categories: ['physical-medicine-rehabilitation', 'interventional-spine'],
+    categories: ['physical-medicine-rehabilitation', 'interventional-spine', 'spinal-cord-injury'],
   },
 ];
 

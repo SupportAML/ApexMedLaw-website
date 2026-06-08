@@ -19,7 +19,7 @@ export function RegistryPage() {
     <>
       <SEO
         title="Our Expert Witnesses"
-        description="ApexMedLaw's network of board-certified expert witnesses. Browse by specialty: Anesthesiology, Critical Care, Emergency Medicine, Epilepsy, Family Medicine, Gastroenterology, Internal Medicine, Interventional Spine, Neurocritical Care, Neuroimmunology, Neurology, Neuromuscular Medicine, Neurosurgery, Orthopedic Surgery, Pediatric Neurology, Pharmacy, Physical Medicine and Rehabilitation, Radiology, Spine Surgery, Stroke and Vascular Neurology, and Wilderness Medicine."
+        description="ApexMedLaw's network of board-certified expert witnesses. Browse by specialty: Anesthesiology, Critical Care, Emergency Medicine, Epilepsy, Family Medicine, Gastroenterology, Internal Medicine, Interventional Spine, Neurocritical Care, Neuroimmunology, Neurology, Neuromuscular Medicine, Neurosurgery, Orthopedic Surgery, Pediatric Neurology, Pharmacy, Physical Medicine and Rehabilitation, Radiology, Spinal Cord Injury, Spine Surgery, Stroke and Vascular Neurology, and Wilderness Medicine."
       />
       <Navigation />
       <main className="pt-20 lg:pt-24">
