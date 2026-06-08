@@ -20,6 +20,7 @@ export const SPECIALTIES = [
   { slug: 'family-medicine', name: 'Family Medicine' },
   { slug: 'gastroenterology', name: 'Gastroenterology' },
   { slug: 'internal-medicine', name: 'Internal Medicine' },
+  { slug: 'interventional-spine', name: 'Interventional Spine' },
   { slug: 'neurocritical-care', name: 'Neurocritical Care' },
   { slug: 'neuroimmunology', name: 'Neuroimmunology' },
   { slug: 'neurology', name: 'Neurology' },
@@ -443,6 +444,27 @@ Dr. Mallya serves as a Medical Expert Reviewer for the South Carolina Board of M
     ],
     location: 'Multiple States',
     categories: ['neurocritical-care', 'stroke-vascular-neurology'],
+  },
+  {
+    id: '28',
+    slug: 'sudeep-mehta',
+    name: 'Sudeep Mehta, MD',
+    role: 'Physical Medicine & Rehabilitation / Interventional Spine & Pain',
+    title: 'Ancillary Physician Partner',
+    photo: '/team_mehta.png',
+    bio: `Dr. Sudeep Mehta is a physiatrist specializing in Physical Medicine & Rehabilitation, interventional spine care, electrodiagnostic medicine, and musculoskeletal & pain management. He currently practices electrodiagnostic and musculoskeletal medicine at EmergeOrtho in Greensboro, North Carolina, and serves as Medical Director of Inpatient Rehabilitation Services at Encompass Health Rehabilitation in Winston-Salem.
+
+He completed his residency in Physical Medicine & Rehabilitation at East Carolina University and Vidant Medical Center, where he served as Administrative Chief Resident, followed by advanced training in interventional spine and musculoskeletal medicine at the Medical University of South Carolina. Dr. Mehta currently serves as President of the North Carolina Society of PM&R and was named Encompass Health's Medical Director of the Region for the Mid-Atlantic in 2025.
+
+A prolific academic contributor, Dr. Mehta has co-authored a chapter in Braddom's Physical Medicine and Rehabilitation and published peer-reviewed work on interventional spine care, electrodiagnostics, and traumatic neuropathies. His clinical expertise — spanning EMG/nerve conduction studies, spinal injuries, chronic pain, and traumatic brain injury rehabilitation — makes him a strong expert witness for cases involving spine injury, nerve damage, rehabilitation outcomes, and musculoskeletal trauma.`,
+    credentials: [
+      'Board-Eligible in Physical Medicine & Rehabilitation',
+      'East Carolina University PM&R Residency — Administrative Chief Resident',
+      'MUSC Interventional Spine & Musculoskeletal Training',
+      'President, North Carolina Society of PM&R',
+    ],
+    location: 'North Carolina',
+    categories: ['physical-medicine-rehabilitation', 'interventional-spine'],
   },
 ];
 
