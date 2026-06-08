@@ -587,6 +587,38 @@ export const divisions: Division[] = [
     ]
   },
   {
+    slug: 'spinal-cord-injury',
+    name: 'Spinal Cord Injury',
+    tagline: 'Spinal cord injury expertise spanning acute management, rehabilitation, and long-term functional outcomes',
+    description: 'Our spinal cord injury division features physiatrists and rehabilitation specialists with active experience managing traumatic and non-traumatic spinal cord injury. Our experts provide testimony on injury causation, acute and rehabilitative standard of care, neurogenic complications, functional prognosis, and life care planning across complex SCI cases.',
+    practiceAreas: [
+      {
+        title: 'Traumatic SCI Causation',
+        description: 'Mechanism of injury analysis, completeness and level determination, and causation of traumatic spinal cord injury.'
+      },
+      {
+        title: 'Acute Management & Standard of Care',
+        description: 'Spinal stabilization, timing of decompression, and acute medical management of spinal cord injury.'
+      },
+      {
+        title: 'Neurogenic Complications',
+        description: 'Neurogenic bladder and bowel, autonomic dysreflexia, spasticity, and respiratory complication management.'
+      },
+      {
+        title: 'Rehabilitation & Functional Outcomes',
+        description: 'Inpatient rehabilitation standard of care, functional independence assessment, and recovery prognosis.'
+      },
+      {
+        title: 'Secondary Complications',
+        description: 'Pressure injury prevention, deep vein thrombosis, heterotopic ossification, and preventable secondary harm.'
+      },
+      {
+        title: 'Life Care Planning & Prognosis',
+        description: 'Long-term care needs, durable medical equipment, attendant care, and life expectancy considerations.'
+      }
+    ]
+  },
+  {
     slug: 'spine-surgery',
     name: 'Spine Surgery',
     tagline: 'Spine surgery expertise across orthopedic and neurosurgical approaches to cervical, thoracic, and lumbar pathology',
