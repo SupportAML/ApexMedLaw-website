@@ -234,6 +234,38 @@ export const divisions: Division[] = [
     ]
   },
   {
+    slug: 'interventional-spine',
+    name: 'Interventional Spine',
+    tagline: 'Interventional spine and physiatry expertise for spinal injury, image-guided procedures, and pain litigation',
+    description: 'Our interventional spine division features fellowship-trained physiatrists and interventional spine specialists who provide expert testimony on image-guided spinal procedures, electrodiagnostic evaluation, spinal injury, and chronic pain management. Our experts address procedural technique, standard of care, and causation across complex spine and musculoskeletal cases.',
+    practiceAreas: [
+      {
+        title: 'Epidural Steroid Injections',
+        description: 'Injection indication, image-guidance technique, dosing and frequency protocols, and analysis of adverse events.'
+      },
+      {
+        title: 'Facet & Medial Branch Procedures',
+        description: 'Facet joint injections, medial branch blocks, and radiofrequency ablation technique, indication, and complications.'
+      },
+      {
+        title: 'Electrodiagnostic Evaluation',
+        description: 'EMG and nerve conduction study interpretation, radiculopathy and neuropathy diagnosis, and traumatic nerve injury assessment.'
+      },
+      {
+        title: 'Spinal Cord Stimulation & Neuromodulation',
+        description: 'Trial and implant candidacy, device placement technique, infection risk, and management of neuromodulation complications.'
+      },
+      {
+        title: 'Spinal Injury & Rehabilitation',
+        description: 'Spinal cord and column injury causation, functional outcome assessment, and rehabilitation standard of care.'
+      },
+      {
+        title: 'Chronic Pain Management',
+        description: 'Chronic and post-traumatic pain diagnosis, conservative versus interventional treatment decisions, and impairment evaluation.'
+      }
+    ]
+  },
+  {
     slug: 'neurocritical-care',
     name: 'Neurocritical Care',
     tagline: 'Neurocritical care expertise for ICU-level neurologic injury, ICP, and acute brain injury litigation',

@@ -54,6 +54,7 @@ const specialties = [
   'Anesthesiology',
   'Radiology',
   'Physical Medicine and Rehabilitation',
+  'Interventional Spine',
   'Pharmacy',
 ];
 
