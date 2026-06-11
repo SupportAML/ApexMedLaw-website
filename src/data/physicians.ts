@@ -467,6 +467,27 @@ A prolific academic contributor, Dr. Mehta has co-authored a chapter in Braddom'
     location: 'North Carolina',
     categories: ['physical-medicine-rehabilitation', 'interventional-spine', 'spinal-cord-injury'],
   },
+  {
+    id: '29',
+    slug: 'autumn-ivy',
+    name: 'Autumn Ivy, MD, PhD',
+    role: 'Pediatric Neurologist',
+    title: 'Ancillary Physician Partner',
+    photo: '/team_ivy.png',
+    bio: `Dr. Autumn Ivy is a board-certified pediatric neurologist and physician-scientist specializing in child neurology, pediatric epilepsy, and neurodevelopmental disorders. She serves as an Assistant Professor in the Departments of Neurology and Neurodevelopmental Medicine at the Kennedy Krieger Institute and Johns Hopkins School of Medicine, where she is an attending pediatric neurologist and directs the BRAVE2 Neuroscience Research Lab.
+
+She completed her combined Pediatric and Child Neurology residency at Lucile Packard Children's Hospital, Stanford, and earned her MD and PhD through the Medical Scientist Training Program at the University of California, Irvine. She is certified by the American Board of Psychiatry and Neurology with Special Qualifications in Child Neurology and is licensed in both California and Maryland.
+
+A nationally funded physician-scientist, Dr. Ivy has led NIH- and foundation-supported research on the neurobiology of early-life stress, epilepsy, and cognitive development, with an extensive record of peer-reviewed publications. Her clinical and scientific expertise — spanning pediatric epilepsy, neonatal encephalopathy, neurodevelopmental disorders, and the developing brain — makes her a strong expert witness for cases involving childhood neurological injury, seizure disorders, developmental outcomes, and the standard of neurological care in children.`,
+    credentials: [
+      'ABPN Board Certified — Child Neurology',
+      'Johns Hopkins / Kennedy Krieger Institute — Attending Pediatric Neurologist',
+      'Stanford Combined Pediatric & Child Neurology Residency',
+      'UC Irvine MD/PhD — Medical Scientist Training Program',
+    ],
+    location: 'Maryland',
+    categories: ['pediatric-neurology'],
+  },
 ];
 
 export function getPhysicianBySlug(slug: string): Physician | undefined {
