@@ -486,7 +486,7 @@ A nationally funded physician-scientist, Dr. Ivy has led NIH- and foundation-sup
       'UC Irvine MD/PhD — Medical Scientist Training Program',
     ],
     location: 'Maryland',
-    categories: ['pediatric-neurology'],
+    categories: ['pediatric-neurology', 'epilepsy'],
   },
 ];
 
