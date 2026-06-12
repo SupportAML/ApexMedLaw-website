@@ -488,6 +488,27 @@ A nationally funded physician-scientist, Dr. Ivy has led NIH- and foundation-sup
     location: 'Maryland',
     categories: ['pediatric-neurology', 'epilepsy'],
   },
+  {
+    id: '30',
+    slug: 'abhishek-shenoy',
+    name: 'Abhishek Shenoy, MD, MSc',
+    role: 'Internal Medicine, Gastroenterology & Transplant Hepatology',
+    title: 'Ancillary Physician Partner',
+    photo: '/team_placeholder.svg',
+    bio: `Dr. Abhishek Shenoy is a board-certified gastroenterologist and transplant hepatologist, also board-certified in internal medicine. He serves as Assistant Professor of Medicine in the Division of Gastroenterology and Hepatology at Virginia Commonwealth University School of Medicine and as a staff physician at the Richmond VA Medical Center.
+
+He completed his gastroenterology fellowship and an additional transplant hepatology fellowship at the University of Michigan Hospitals, following an internal medicine residency at the University of Virginia Health System. He earned his MD from SUNY Downstate Medical Center and a Master of Science in Health and Healthcare Research from the University of Michigan through the Robert Wood Johnson Program.
+
+Dr. Shenoy provides expert witness services in medical malpractice and standard-of-care matters involving gastrointestinal disease, endoscopic and colonoscopy complications, inflammatory bowel disease and Crohn's disease, and liver and transplant hepatology. His combined clinical and health-services research background makes him a strong reviewer of complex GI and hepatology cases.`,
+    credentials: [
+      'Board Certified — Gastroenterology, Transplant Hepatology & Internal Medicine',
+      'University of Michigan — GI & Transplant Hepatology Fellowship',
+      'VCU School of Medicine — Assistant Professor of Medicine',
+      'University of Virginia — Internal Medicine Residency',
+    ],
+    location: 'Virginia',
+    categories: ['gastroenterology', 'internal-medicine'],
+  },
 ];
 
 export function getPhysicianBySlug(slug: string): Physician | undefined {
