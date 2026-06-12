@@ -494,7 +494,7 @@ A nationally funded physician-scientist, Dr. Ivy has led NIH- and foundation-sup
     name: 'Abhishek Shenoy, MD, MSc',
     role: 'Internal Medicine, Gastroenterology & Transplant Hepatology',
     title: 'Ancillary Physician Partner',
-    photo: '/team_placeholder.svg',
+    photo: '/team_shenoy.png',
     bio: `Dr. Abhishek Shenoy is a board-certified gastroenterologist and transplant hepatologist, also board-certified in internal medicine. He serves as Assistant Professor of Medicine in the Division of Gastroenterology and Hepatology at Virginia Commonwealth University School of Medicine and as a staff physician at the Richmond VA Medical Center.
 
 He completed his gastroenterology fellowship and an additional transplant hepatology fellowship at the University of Michigan Hospitals, following an internal medicine residency at the University of Virginia Health System. He earned his MD from SUNY Downstate Medical Center and a Master of Science in Health and Healthcare Research from the University of Michigan through the Robert Wood Johnson Program.
