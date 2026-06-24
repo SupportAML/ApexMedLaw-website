@@ -34,6 +34,7 @@ export const SPECIALTIES = [
   { slug: 'spinal-cord-injury', name: 'Spinal Cord Injury' },
   { slug: 'spine-surgery', name: 'Spine Surgery' },
   { slug: 'stroke-vascular-neurology', name: 'Stroke and Vascular Neurology' },
+  { slug: 'vascular-surgery', name: 'Vascular Surgery' },
   { slug: 'wilderness-medicine', name: 'Wilderness Medicine' },
 ] as const;
 
@@ -508,6 +509,27 @@ Dr. Shenoy provides expert witness services in medical malpractice and standard-
     ],
     location: 'Virginia',
     categories: ['gastroenterology', 'internal-medicine'],
+  },
+  {
+    id: '31',
+    slug: 'arun-chervu',
+    name: 'Arun Chervu, MD, MBA, MHA, FACS, RVT',
+    role: 'Vascular Surgeon',
+    title: 'Ancillary Physician Partner',
+    photo: '/team_chervu.png',
+    bio: `Dr. Arun Chervu is a board-certified vascular surgeon with more than 30 years of clinical experience. He is a Fellow of the American College of Surgeons and a Registered Vascular Technologist, with expertise spanning lower-extremity wound care, dialysis access, deep vein thrombosis, venous insufficiency, amputation and limb salvage, carotid disease (including TCAR and carotid stenting), and both open and endovascular peripheral vascular procedures.
+
+He completed his general surgery residency and vascular surgery fellowship at UCLA School of Medicine, earned his MD from Cornell University Medical College, and holds a BSE in Chemical Engineering from Princeton University along with an MBA/MHA from Georgia State University. He has served as Chief of Surgery and Chief of Medical Staff at Wellstar Cobb Hospital, and as President of both the Georgia Vascular Society and the Georgia Vascular Foundation.
+
+Handling over 1,000 vascular cases per year across his career, with extensive medical-staff governance and peer-review experience and academic appointments including Clinical Faculty at the Medical College of Georgia, Dr. Chervu provides expert witness services in vascular surgery standard-of-care, peripheral vascular disease, dialysis access, venous thromboembolism, amputation, and wound-care matters.`,
+    credentials: [
+      'Board Certified — Vascular Surgery (American Board of Surgery)',
+      'Fellow, American College of Surgeons (FACS) & Registered Vascular Technologist (RVT)',
+      'UCLA — General Surgery Residency & Vascular Surgery Fellowship',
+      'Cornell University Medical College, MD; Princeton University, BSE',
+    ],
+    location: 'Georgia',
+    categories: ['vascular-surgery'],
   },
 ];
 
