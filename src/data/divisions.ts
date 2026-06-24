@@ -683,6 +683,38 @@ export const divisions: Division[] = [
     ]
   },
   {
+    slug: 'vascular-surgery',
+    name: 'Vascular Surgery',
+    tagline: 'Vascular surgery expertise across peripheral vascular disease, dialysis access, venous disease, and limb salvage litigation',
+    description: 'Our vascular surgery division features board-certified vascular surgeons with decades of open and endovascular experience. Our experts provide testimony on peripheral vascular disease, carotid disease, dialysis access, deep vein thrombosis and venous insufficiency, amputation and limb salvage, and wound care across complex vascular and medico-legal matters.',
+    practiceAreas: [
+      {
+        title: 'Peripheral Vascular Procedures',
+        description: 'Open and endovascular treatment of peripheral arterial disease, procedural technique, indication, and complication analysis.'
+      },
+      {
+        title: 'Carotid Disease',
+        description: 'Carotid endarterectomy, carotid stenting and TCAR, stroke-risk management, and standard-of-care review.'
+      },
+      {
+        title: 'Dialysis Access',
+        description: 'Creation and maintenance of dialysis access, central line placement, and management of access complications.'
+      },
+      {
+        title: 'Venous Thromboembolism & Insufficiency',
+        description: 'Deep vein thrombosis diagnosis and treatment, venous insufficiency evaluation, and anticoagulation management.'
+      },
+      {
+        title: 'Amputation & Limb Salvage',
+        description: 'Limb salvage decision-making, amputation level determination, and management of lower-extremity ischemia.'
+      },
+      {
+        title: 'Wound Care',
+        description: 'Lower-extremity and non-healing wound management, vascular evaluation, and the standard of care in chronic wound treatment.'
+      }
+    ]
+  },
+  {
     slug: 'wilderness-medicine',
     name: 'Wilderness Medicine',
     tagline: 'Wilderness and environmental medicine expertise for austere, dive, and remote-care emergency litigation',
