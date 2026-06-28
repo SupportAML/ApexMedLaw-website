@@ -3,7 +3,31 @@ export interface DivisionFAQ {
   answer: string;
 }
 
-export interface Division {
+export interface EngagementStep {
+  title: string;
+  description: string;
+}
+
+/**
+ * Deep, attorney-facing content rendered on each division page. Authored to be
+ * accurate for a physician-led medical-legal expert-witness firm (board-certified,
+ * clinically active experts; plaintiff and defense; nationwide). Keyed by slug in
+ * `divisionContent` below and merged in via `getDivisionBySlug`.
+ */
+export interface DivisionContent {
+  /** 1-2 deeper overview paragraphs that sit above the practice-area grid. */
+  overview?: string[];
+  /** Specific case types attorneys retain this specialty for. */
+  caseTypes?: string[];
+  /** Sample questions an attorney can have this specialty's expert answer. */
+  expertQuestions?: string[];
+  /** Daubert / admissibility considerations specific to the specialty. */
+  daubert?: string[];
+  /** What to expect when retaining an expert (process, turnaround, deliverables). */
+  whatToExpect?: EngagementStep[];
+}
+
+export interface Division extends DivisionContent {
   slug: string;
   name: string;
   tagline: string;
@@ -757,11 +781,49 @@ export const divisions: Division[] = [
 export function getDivisionBySlug(slug: string): Division | undefined {
   const division = divisions.find(d => d.slug === slug);
   if (!division) return undefined;
-  return { ...division, faqs: divisionFaqs[division.slug] ?? division.faqs };
+  const content = divisionContent[division.slug] ?? {};
+  return {
+    ...division,
+    ...content,
+    faqs: divisionFaqs[division.slug] ?? division.faqs,
+    whatToExpect: content.whatToExpect ?? standardEngagementProcess(division.name),
+  };
 }
 
 export function getDivisionFaqs(slug: string): DivisionFAQ[] {
   return divisionFaqs[slug] ?? [];
+}
+
+/**
+ * Standard "what to expect when retaining an expert" engagement process. Shared
+ * across divisions (lightly templated with the specialty name) so the process,
+ * turnaround, and deliverables are described consistently. A division may override
+ * this by supplying its own `whatToExpect` in `divisionContent`.
+ */
+export function standardEngagementProcess(name: string): EngagementStep[] {
+  const specialty = name.toLowerCase();
+  return [
+    {
+      title: '1. Conflict check and intake',
+      description: `Send us the parties, the venue, and a short summary of the ${specialty} issue. We run a conflict check across our experts and confirm we can take the matter for your side, typically the same business day.`,
+    },
+    {
+      title: '2. Expert match and fee schedule',
+      description: `We identify the board-certified ${specialty} expert whose subspecialty and active practice align with the specific clinical question, and provide that expert's CV and fee schedule — usually within one business day of a cleared conflict check.`,
+    },
+    {
+      title: '3. Records review and preliminary merit assessment',
+      description: 'The expert reviews the medical records, imaging, and relevant literature and gives you a candid preliminary read on standard of care and causation before you commit to a full written report. Expedited screening is available for discovery, deposition, and trial deadlines.',
+    },
+    {
+      title: '4. Written report and opinions',
+      description: 'When the matter warrants it, the expert produces a signed report (or affidavit/declaration where required) setting out the standard of care, each identified deviation, and the causation analysis, supported by the records and published authority.',
+    },
+    {
+      title: '5. Deposition and trial testimony',
+      description: 'The same expert is available for deposition and trial, with preparation sessions to ensure the opinions are communicated clearly and survive cross-examination and Daubert/Frye scrutiny.',
+    },
+  ];
 }
 
 /**
@@ -1185,4 +1247,618 @@ export const divisionFaqs: Record<string, DivisionFAQ[]> = {
       answer: 'Yes. We provide objective opinions for either side, conduct a conflict check, and typically provide a fee schedule and CV within one business day.',
     },
   ],
+};
+
+/**
+ * Deep, specialty-specific page content (overview, case types handled, sample
+ * expert-witness questions, and Daubert/admissibility considerations) keyed by
+ * division slug. Merged into the division via `getDivisionBySlug`. The
+ * "what to expect when retaining an expert" process is shared via
+ * `standardEngagementProcess` unless a division supplies its own `whatToExpect`.
+ */
+export const divisionContent: Record<string, DivisionContent> = {
+  'anesthesiology': {
+    overview: [
+      'Anesthesiology and pain medicine claims turn on decisions made in minutes — induction and airway management in the operating room, sedation in the procedure suite, and prescribing decisions in the pain clinic. Because so much of the relevant care is documented in anesthesia records, flowsheets, and monitor strips rather than narrative notes, these cases reward an expert who can read the primary data and reconstruct exactly what happened second by second.',
+      'Our anesthesiology experts are board-certified and maintain active perioperative and interventional pain practices. Each case is matched to a physician who personally performs the technique at issue, whether that is a difficult-airway algorithm, a regional block, a neuraxial procedure, or chronic opioid management, so the opinion reflects the current standard of care rather than dated training.',
+    ],
+    caseTypes: [
+      'Perioperative anesthesia complications, including intraoperative awareness, hemodynamic instability, and medication errors',
+      'Airway and ventilation events — failed intubation, esophageal intubation, aspiration, and difficult-airway management',
+      'Regional and neuraxial anesthesia injuries (epidural hematoma, nerve injury, high spinal, local anesthetic systemic toxicity)',
+      'Interventional pain procedure complications such as epidural steroid injection injuries and nerve damage',
+      'Opioid prescribing, dose escalation, and overdose causation in chronic pain management',
+      'Monitored anesthesia care and procedural sedation outside the operating room',
+      'Obstetric anesthesia and labor epidural complications',
+      'Postoperative respiratory depression and inadequate monitoring in the PACU and on the floor',
+    ],
+    expertQuestions: [
+      'Did the anesthesia team perform an adequate preoperative airway and risk assessment, and was the anesthetic plan appropriate for this patient?',
+      'Was the intubation, ventilation, and monitoring consistent with ASA standards for basic anesthetic monitoring?',
+      'Was intraoperative awareness preventable, and did the documented anesthetic depth support the claim?',
+      'Did the provider recognize and manage a complication (e.g., LAST, malignant hyperthermia, aspiration) within the accepted time frame?',
+      'Was the opioid regimen — selection, dose, and concurrent sedatives — within current CDC and state prescribing standards?',
+      'More likely than not, did the prescribing or anesthetic decision cause the alleged injury or death?',
+      'Was postoperative monitoring adequate to detect opioid-induced respiratory depression?',
+    ],
+    daubert: [
+      'Anesthesiology opinions are most defensible when the expert actively practices the same subspecialty (e.g., a pain physician opining on interventional procedures, an OB anesthesiologist on labor epidurals). We match credentials to the specific issue so the opinion rests on a reliable, current methodology rather than general board certification.',
+      'Causation in anesthesia and pain cases is frequently the Daubert battleground — particularly opioid overdose causation and anesthetic-depth/awareness claims. Our experts ground causation in the anesthetic record, monitor data, pharmacology, and peer-reviewed literature so the opinion is tied to the case-specific facts.',
+    ],
+  },
+  'critical-care': {
+    overview: [
+      'ICU litigation is timeline litigation. Critically ill patients deteriorate in hours, the record is dense with vital-sign trends, ventilator settings, labs, and medication administration times, and the standard of care is often defined by protocolized bundles. The decisive question is usually whether a deterioration was recognized and acted on quickly enough, and whether earlier intervention would have changed the outcome.',
+      'Our intensivists maintain active ICU practice and reconstruct the clinical course hour by hour from flowsheets, blood gases, and the medication administration record. They benchmark the care against the Surviving Sepsis Campaign bundles, ARDSnet lung-protective targets, and other accepted protocols to identify the precise point of deviation.',
+    ],
+    caseTypes: [
+      'Sepsis and septic shock — delayed recognition, antibiotic timing, fluid resuscitation, and source control',
+      'Mechanical ventilation and ARDS management, including lung-protective ventilation failures and ventilator-associated pneumonia',
+      'Failure to recognize and escalate organ failure (acute kidney injury, hepatic failure, shock)',
+      'ICU medication errors — sedation, vasopressors, anticoagulants, and insulin',
+      'Post-surgical deterioration and failure-to-rescue on the floor and in the ICU',
+      'Central line, intubation, and other ICU procedural complications',
+      'End-of-life, brain-death, and wrongful-death disputes arising in critical care',
+    ],
+    expertQuestions: [
+      'At what point should sepsis (or shock, or respiratory failure) have been recognized, and what did the standard of care require at that point?',
+      'Were the Surviving Sepsis Campaign bundle elements — lactate, cultures, antibiotics, fluids, vasopressors — delivered within the recommended window?',
+      'Was the patient ventilated with lung-protective settings, and were escalation options (proning, neuromuscular blockade, ECMO referral) appropriately considered?',
+      'Was the deterioration a failure-to-rescue, and was ICU transfer or rapid-response activation timely?',
+      'Did a medication or dosing error contribute to the harm?',
+      'More likely than not, would timely intervention have changed the outcome given the patient’s physiology?',
+    ],
+    daubert: [
+      'Critical care causation opinions must contend with the inherent mortality of ICU illness. Our experts use SOFA-score progression, lactate clearance, and published mortality-per-hour-of-delay data to show, on a more-likely-than-not basis, what timely care would have achieved — a methodology that holds up under Daubert and Frye scrutiny.',
+      'Because ICU standards are largely protocol-driven, we tie each opinion to the specific bundle, guideline, or institutional protocol in force at the time, keeping the analysis reliable and case-specific rather than conclusory.',
+    ],
+  },
+  'emergency-medicine': {
+    overview: [
+      'Emergency medicine cases live at the intersection of incomplete information and time pressure. The emergency physician must risk-stratify undifferentiated patients, decide who can safely go home, and recognize time-critical diagnoses — stroke, MI, sepsis, aortic dissection, pulmonary embolism — before the workup is complete. Liability frequently turns on the documented thought process, the disposition decision, and EMTALA obligations.',
+      'Our board-certified emergency physicians practice across trauma centers, community, freestanding, and rural EDs, so they understand the resource constraints of the actual setting at issue. They evaluate triage acuity, the differential that should have been considered, and whether the workup and disposition met the standard of care given the presentation.',
+    ],
+    caseTypes: [
+      'Missed or delayed diagnosis of stroke, MI, sepsis, aortic dissection, pulmonary embolism, and other time-sensitive presentations',
+      'Triage, EMTALA screening and stabilization, and admission-versus-discharge disposition decisions',
+      'Trauma activation and resuscitation, including ATLS adherence and hemorrhage control',
+      'Airway management — rapid sequence intubation, the difficult and failed airway, and procedural complications',
+      'Premature discharge and inadequate return precautions or follow-up',
+      'Procedural complications (central lines, chest tubes, lumbar puncture)',
+      'Environmental and toxicologic emergencies',
+    ],
+    expertQuestions: [
+      'Was the triage acuity assignment and reassessment interval appropriate for this presentation?',
+      'Did the differential diagnosis and workup meet the standard of care, or was a time-critical diagnosis prematurely excluded?',
+      'Were EMTALA screening and stabilization obligations satisfied before transfer or discharge?',
+      'Was the disposition (admit vs. discharge) supported by the documented findings and vital signs?',
+      'Were return precautions and follow-up adequate given the diagnostic uncertainty?',
+      'More likely than not, would earlier diagnosis or treatment have changed the outcome?',
+    ],
+    daubert: [
+      'Emergency medicine opinions are strongest when offered by a clinically active emergency physician — not a specialist applying a retrospective, specialty-specific lens to a front-line ED decision. We align the expert to the actual practice setting (e.g., rural vs. tertiary) so the standard-of-care opinion reflects what was reasonable in real time.',
+      'We frame causation around the treatment window that existed at the moment of the alleged miss, using outcome literature for the specific condition, which keeps the opinion tied to reliable methodology under Daubert.',
+    ],
+  },
+  'epilepsy': {
+    overview: [
+      'Epilepsy and clinical-neurophysiology cases hinge on technical evidence that a non-specialist cannot fully evaluate: EEG tracings, seizure semiology, antiseizure-medication pharmacology, and the time-dependent treatment of status epilepticus. Whether the dispute is a misclassified event, a missed nonconvulsive seizure, or a treatment delay, the record usually contains objective data that a fellowship-trained epileptologist can interpret directly.',
+      'Our epileptologists and clinical neurophysiologists actively read EEG and manage epilepsy monitoring units. They evaluate whether events were correctly characterized, whether medication selection and monitoring met the standard, and whether status epilepticus was treated along the accepted phase-based timeline.',
+    ],
+    caseTypes: [
+      'Status epilepticus — delayed or under-dosed benzodiazepine and second-line therapy, and resulting neurologic injury',
+      'EEG misinterpretation and missed nonconvulsive seizures or status',
+      'Misdiagnosis of epileptic versus non-epileptic (psychogenic) events',
+      'Antiseizure-medication errors — selection, dosing, interactions, and monitoring',
+      'Antiseizure-medication teratogenicity and inadequate pregnancy counseling',
+      'Post-traumatic epilepsy causation and prophylaxis decisions',
+      'Surgical and neurostimulation candidacy in drug-resistant epilepsy',
+    ],
+    expertQuestions: [
+      'Was the event correctly classified as an epileptic seizure, nonconvulsive status, or a non-epileptic event?',
+      'Was the EEG (routine, prolonged, or continuous) interpreted correctly, and were epileptiform abnormalities identified?',
+      'Was status epilepticus treated with adequate benzodiazepine dosing and timely escalation along accepted protocols?',
+      'Was antiseizure-medication selection, dosing, and monitoring appropriate, including drug-interaction and pregnancy considerations?',
+      'Did a treatment delay cause neurologic injury, and what does the seizure-duration literature show?',
+      'Was the patient appropriately evaluated for drug-resistant epilepsy and surgical or device options?',
+    ],
+    daubert: [
+      'EEG interpretation is an area where credentials matter for admissibility: we use board-certified clinical neurophysiologists who read these studies in practice, so the opinion rests on a recognized, reliable methodology.',
+      'Causation opinions tying treatment delay to injury are grounded in the published relationship between seizure duration and neuronal injury and in the patient’s own imaging and trajectory, keeping the analysis case-specific.',
+    ],
+  },
+  'family-medicine': {
+    overview: [
+      'Family medicine and hospitalist litigation spans the widest clinical territory of any specialty — outpatient continuity care, urgent care, and high-acuity inpatient management. The recurring theme is diagnostic reasoning over time: whether abnormal results were acted on, whether red-flag symptoms triggered the right workup, and whether escalation or referral happened when it should have.',
+      'Our family physicians maintain active hospitalist, primary care, and urgent care practice across multiple states, so they can speak to the realistic standard of care in each setting rather than an idealized one. They evaluate the longitudinal record — not just a single encounter — to determine whether the cumulative management met the standard.',
+    ],
+    caseTypes: [
+      'Diagnostic delay and failure to work up cancer, cardiac, infectious, and other serious conditions in the outpatient setting',
+      'Failure to act on abnormal labs, imaging, or screening results, and breakdowns in test follow-up',
+      'Hospitalist management of acutely ill adults — escalation of care, interfacility transfer, and discharge timing',
+      'Urgent care triage and disposition of acute presentations',
+      'Medication and polypharmacy management, anticoagulation, and adverse drug interactions',
+      'Chronic-disease management and preventive-screening failures',
+      'Care-coordination and communication failures across providers and settings',
+    ],
+    expertQuestions: [
+      'Did the workup, referral, and follow-up for this presentation meet the family-medicine or hospitalist standard of care?',
+      'Were abnormal results recognized and acted on, and was there an adequate system to close the loop?',
+      'In the hospital, was escalation, transfer, or ICU consultation timely given the patient’s trajectory?',
+      'Was the medication regimen, including anticoagulation and polypharmacy, managed appropriately?',
+      'Was the discharge decision and follow-up plan safe for this patient?',
+      'More likely than not, would earlier diagnosis or escalation have changed the outcome?',
+    ],
+    daubert: [
+      'Because family medicine overlaps with many specialties, admissibility can turn on whether the expert was practicing in the same capacity (e.g., hospitalist vs. office-based) as the defendant. We match the expert to the actual role at issue.',
+      'Opinions are tied to applicable primary-care and hospital-medicine guidelines and to the specific abnormal findings in the record, supporting a reliable, non-speculative causation analysis.',
+    ],
+  },
+  'gastroenterology': {
+    overview: [
+      'Gastroenterology claims cluster around two themes: procedural complications and diagnostic delay. Endoscopic procedures carry well-characterized risks — perforation, post-ERCP pancreatitis, bleeding — and missed or delayed GI cancer can convert a curable disease into a fatal one. In both, the technical detail of the procedure note and the adequacy of surveillance are central.',
+      'Our gastroenterologists and hepatologists actively perform the procedures at issue, including advanced-endoscopy physicians who regularly perform ERCP. They assess colonoscopy quality (preparation, withdrawal time, adenoma detection), surveillance intervals against published guidelines, and whether complications were recognized and managed in time.',
+    ],
+    caseTypes: [
+      'Endoscopic perforation (EGD, colonoscopy) and delayed recognition of perforation',
+      'Post-ERCP pancreatitis and duodenal perforation — risk stratification, prophylaxis, and management',
+      'Missed or delayed colorectal and other GI cancers, including inadequate surveillance and lost-to-follow-up',
+      'GI bleeding mismanagement — resuscitation, timing of endoscopy, and hemostasis',
+      'Inflammatory bowel disease management and surgical-timing disputes',
+      'Liver disease, cirrhosis, and transplant-hepatology management',
+      'Medication-related GI injury (NSAIDs, anticoagulants) and prophylaxis adequacy',
+    ],
+    expertQuestions: [
+      'Was the endoscopic procedure technically appropriate, and was a complication such as perforation recognized and managed in time?',
+      'For ERCP, were patient selection, indication, and pancreatitis prophylaxis consistent with the standard of care?',
+      'Was colonoscopy quality adequate — bowel prep, withdrawal time, inspection technique, adenoma detection?',
+      'Were surveillance intervals correct, and was the patient appropriately recalled for follow-up?',
+      'In a delayed-cancer case, what stage was the disease when it should have been detected versus when it was, and how does that change prognosis?',
+      'Was GI bleeding resuscitated and scoped within the appropriate window?',
+    ],
+    daubert: [
+      'Technical endoscopy opinions are most credible — and most defensible under Daubert — when the expert personally performs the specific procedure at high volume. We match cases accordingly (e.g., an ERCP-active physician for post-ERCP pancreatitis claims).',
+      'Delayed-cancer causation uses stage-shift and published survival data to quantify the harm caused by the delay, a reliable and widely accepted methodology rather than speculation about tumor behavior.',
+    ],
+  },
+  'internal-medicine': {
+    overview: [
+      'Internal medicine and hospitalist cases are diagnostic-reasoning cases. They typically involve multi-system disease, where the question is whether the clinician synthesized the available data, ordered the right workup, recognized deterioration, and escalated care. The relevant evidence is spread across progress notes, vital-sign trends, labs, and consult records.',
+      'Our internists and hospitalists maintain active inpatient and outpatient practice. They reconstruct the clinical reasoning over the admission or treatment course and benchmark it against current internal-medicine standards to identify where management fell below the standard of care.',
+    ],
+    caseTypes: [
+      'Diagnostic delay across complex, multi-system internal-medicine presentations',
+      'Inpatient and hospitalist standard of care — admission decisions, monitoring, and escalation',
+      'Failure-to-rescue and failure to recognize clinical deterioration',
+      'Medication errors, polypharmacy, and adverse drug interactions',
+      'Anticoagulation management and bleeding or thrombotic complications',
+      'Discharge-planning failures and inadequate follow-up',
+      'Care-team communication and handoff failures',
+    ],
+    expertQuestions: [
+      'Was the differential diagnosis and workup appropriate for this presentation, and was a serious diagnosis missed?',
+      'Were admission, level-of-care, and escalation decisions consistent with the hospitalist standard of care?',
+      'Was clinical deterioration recognized and acted on in a timely way?',
+      'Did a medication, dosing, or anticoagulation error contribute to the harm?',
+      'Was the discharge safe, and was follow-up adequate?',
+      'More likely than not, would appropriate management have changed the outcome?',
+    ],
+    daubert: [
+      'Admissibility is strongest when the expert practiced in the same capacity (hospitalist, intensivist-comanaging, or office-based internist) as the defendant; we align the match to the role at issue.',
+      'Causation opinions rest on the documented physiology and on outcome literature for the missed or delayed condition, supporting a reliable more-likely-than-not analysis.',
+    ],
+  },
+  'interventional-spine': {
+    overview: [
+      'Interventional spine and physiatry cases turn on image-guided technique. Epidural, facet, and neuromodulation procedures are governed by detailed multi-society guidelines covering fluoroscopic guidance, contrast confirmation, steroid selection, and anticoagulation management. When a catastrophic injury follows a spinal injection, the procedure note and fluoroscopic images usually reveal whether protocol was followed.',
+      'Our interventional pain physicians and physiatrists perform these procedures themselves and read the fluoroscopic anatomy directly. They evaluate indication, technique, complication recognition, and the electrodiagnostic and imaging evidence underlying the diagnosis and causation.',
+    ],
+    caseTypes: [
+      'Epidural steroid injection injuries — spinal cord infarction, epidural hematoma, and nerve injury',
+      'Particulate-versus-non-particulate steroid selection in transforaminal injections',
+      'Facet, medial-branch, and radiofrequency-ablation complications',
+      'Spinal cord stimulator and neuromodulation infection, lead injury, and candidacy disputes',
+      'Anticoagulation management around spinal procedures',
+      'Electrodiagnostic (EMG/NCS) interpretation and radiculopathy or nerve-injury diagnosis',
+      'Chronic and post-traumatic pain causation and impairment evaluation',
+    ],
+    expertQuestions: [
+      'Was fluoroscopic guidance used, and did contrast confirmation rule out intravascular, intrathecal, or subdural placement before injection?',
+      'Was an appropriate (non-particulate) steroid selected for the approach and spinal level?',
+      'Was intravascular uptake recognized, and was the procedure aborted when it should have been?',
+      'Were anticoagulants managed per guideline intervals before and after the procedure?',
+      'Was a post-procedure complication (epidural hematoma, progressive deficit) recognized and decompressed within the surgical window?',
+      'Do the EMG/NCS and imaging support the alleged nerve injury and its causation?',
+    ],
+    daubert: [
+      'These opinions are most defensible when offered by a physician who regularly performs the exact procedure under fluoroscopy; we match accordingly so the technique opinion rests on current, hands-on practice.',
+      'Causation linking a procedural deviation to spinal cord infarction or nerve injury is grounded in the fluoroscopic images, contrast pattern, and vascular anatomy, keeping it tied to the case facts rather than generic risk.',
+    ],
+  },
+  'neurocritical-care': {
+    overview: [
+      'Neurocritical care sits at the intersection of the ICU and the nervous system, where minutes of delay in managing intracranial pressure, hemorrhage, or status epilepticus translate into permanent injury. These cases require an expert fluent in both critical-care physiology and neurologic monitoring.',
+      'Our neurointensivists maintain active neuro-ICU practice. They evaluate ICP management, osmotic and surgical interventions, neuromonitoring data, and brain-death and prognostication protocols against accepted neurocritical-care standards.',
+    ],
+    caseTypes: [
+      'Severe TBI and intracranial-pressure management — monitoring, osmotic therapy, and decompression timing',
+      'Hemorrhagic and ischemic stroke ICU care, including rebleeding and vasospasm management',
+      'Refractory and super-refractory status epilepticus management',
+      'Neuromonitoring failures (ICP, brain-tissue oxygenation, cerebral perfusion pressure)',
+      'Brain-death determination and neuroprognostication after cardiac arrest',
+      'Acute spinal cord injury ICU management and autonomic instability',
+    ],
+    expertQuestions: [
+      'Was intracranial pressure monitored and managed (osmotic therapy, CSF drainage, decompression) per the standard of care?',
+      'Was the neurologic deterioration recognized in time, and was escalation appropriate?',
+      'Was status epilepticus escalated to continuous EEG and anesthetic infusion when indicated?',
+      'Was the brain-death determination or neuroprognostication consistent with accepted protocols?',
+      'More likely than not, would timely neurocritical management have changed the outcome?',
+    ],
+    daubert: [
+      'Neurocritical-care opinions require dual fluency in critical care and neurology; we use fellowship-trained neurointensivists so the methodology reflects the actual subspecialty standard.',
+      'Causation and prognostication opinions rest on neuroimaging, monitoring data, and the post-arrest and TBI outcome literature, supporting a reliable analysis.',
+    ],
+  },
+  'neuroimmunology': {
+    overview: [
+      'Neuroimmunology litigation usually concerns diagnostic accuracy and therapy management in complex, antibody-mediated disease — multiple sclerosis, NMOSD, MOGAD, and autoimmune encephalitis — where both missed diagnosis and the risks of disease-modifying therapy can cause serious harm.',
+      'Our neuroimmunologists maintain active MS and neuroimmunology practice. They evaluate application of diagnostic criteria, MRI and antibody testing, and the risk-benefit and monitoring of disease-modifying therapy, including PML and other adverse-event risks.',
+    ],
+    caseTypes: [
+      'Misdiagnosis of MS (over- or under-diagnosis) and failure to apply the McDonald criteria',
+      'Delayed diagnosis or treatment of NMOSD and MOGAD',
+      'Missed autoimmune or paraneoplastic encephalitis',
+      'Disease-modifying therapy selection, escalation, and monitoring failures',
+      'PML and other DMT-related adverse events and inadequate risk monitoring',
+      'Failure to distinguish demyelinating disease from mimics (vasculitis, infection, metabolic)',
+    ],
+    expertQuestions: [
+      'Were the McDonald (or relevant) diagnostic criteria correctly applied, and was the MRI interpreted appropriately?',
+      'Was antibody testing (aquaporin-4, MOG, autoimmune-encephalitis panels) ordered and acted on correctly?',
+      'Was disease-modifying therapy appropriately selected, escalated, and monitored for known risks?',
+      'Was a treatable autoimmune process missed or mistaken for an untreatable condition?',
+      'More likely than not, would timely diagnosis and treatment have changed the neurologic outcome?',
+    ],
+    daubert: [
+      'Given how specialized these antibody-mediated diseases are, admissibility benefits from an expert who manages them clinically; we match accordingly so opinions reflect current diagnostic criteria.',
+      'Causation is grounded in the imaging, serology, and treatment-response literature, keeping the analysis tied to the specific clinical evidence.',
+    ],
+  },
+  'neurology': {
+    overview: [
+      'General neurology cases span the most heavily litigated conditions in medicine — TBI, stroke, seizures, spinal cord injury, and neuromuscular disease — and they frequently turn on causation: distinguishing injury-related deficits from pre-existing or unrelated disease. The objective evidence (imaging, EEG, neuropsychological testing, electrodiagnostics) is central.',
+      'Our neurologists maintain active clinical practice and are matched to the subspecialty relevant to the case. They provide rigorous standard-of-care and causation analysis supported by imaging, testing, treatment-window analysis, and published outcome data.',
+    ],
+    caseTypes: [
+      'Traumatic brain injury and post-concussive syndrome — acute management and causation',
+      'Stroke and cerebrovascular disease, including delayed diagnosis and treatment',
+      'Seizure disorders and status epilepticus',
+      'Spinal cord injury evaluation and management',
+      'Neuromuscular disease and diagnostic delay (myasthenia gravis, ALS, neuropathy)',
+      'Chronic pain, neuropathy, and medication management',
+      'Missed CNS infection and other neurologic emergencies',
+    ],
+    expertQuestions: [
+      'Did the neurologic workup and management meet the standard of care for this presentation?',
+      'Are the claimed deficits caused by the injury at issue, or by pre-existing or alternative conditions?',
+      'Was a time-critical neurologic diagnosis (stroke, status epilepticus, meningitis) recognized and treated in time?',
+      'Do the imaging, EEG, and neuropsychological findings support the alleged injury and its severity?',
+      'More likely than not, would appropriate care have changed the neurologic outcome?',
+    ],
+    daubert: [
+      'We align the neurologist’s subspecialty to the specific issue (vascular, epilepsy, neuromuscular, TBI), which supports admissibility by ensuring the opinion rests on the relevant body of expertise.',
+      'Causation opinions are anchored in objective testing and treatment-window analysis rather than symptom report alone, supporting reliability under Daubert and Frye.',
+    ],
+  },
+  'neuromuscular-medicine': {
+    overview: [
+      'Neuromuscular medicine cases rest on electrodiagnostic and clinical evidence — EMG, nerve conduction studies, and neuromuscular ultrasound — that requires specialized training to perform and interpret. Disputes often involve whether a nerve injury, neuropathy, or myopathy was correctly identified and correctly attributed to a given cause.',
+      'Our neuromuscular specialists run high-volume electrodiagnostic practices. They evaluate testing technique and interpretation, exposure and clinical history, and the literature underlying causation in toxic, traumatic, autoimmune, and hereditary nerve and muscle disease.',
+    ],
+    caseTypes: [
+      'Traumatic and compressive peripheral nerve injury — diagnosis, prognosis, and management',
+      'EMG and nerve conduction study technique and interpretation errors',
+      'Toxic and chemotherapy-induced neuropathy causation',
+      'Autoimmune neuromuscular disease (myasthenia gravis, CIDP, Guillain-Barre) diagnosis and treatment',
+      'Missed or delayed diagnosis of neuromuscular disease',
+      'Neuromuscular ultrasound interpretation and procedural standards',
+      'Hereditary neuromuscular syndrome workup and counseling',
+    ],
+    expertQuestions: [
+      'Was the EMG/NCS technically adequate and correctly interpreted, and was radiculopathy, neuropathy, or myopathy correctly identified?',
+      'Does the electrodiagnostic and clinical evidence support the alleged nerve injury and its localization?',
+      'In a toxic or chemotherapy case, does the exposure history and pattern support that the agent more likely than not caused the neuropathy?',
+      'Was an autoimmune neuromuscular emergency (e.g., myasthenic crisis, GBS) recognized and treated in time?',
+      'More likely than not, would appropriate diagnosis and treatment have changed the outcome?',
+    ],
+    daubert: [
+      'Electrodiagnostic opinions are most defensible from a physician who performs and interprets EMG/NCS at volume; we match on that basis so the methodology is reliable and reproducible.',
+      'Toxic-neuropathy causation follows an exposure-and-pattern methodology supported by the literature, keeping the opinion grounded rather than speculative.',
+    ],
+  },
+  'neurosurgery': {
+    overview: [
+      'Neurosurgical litigation concerns high-stakes operative decisions — when to operate, how the procedure was performed, and how complications were managed — across cranial and spinal surgery. The operative note, imaging, and post-operative course are the core evidence, and credible opinions require a surgeon who performs the same procedures.',
+      'Our neurosurgeons maintain active operative practice. They evaluate surgical indication, intraoperative technique, decompression timing, and post-operative complication management against current neurosurgical standards.',
+    ],
+    caseTypes: [
+      'Traumatic brain injury — decompressive craniectomy decisions and ICP management',
+      'Cranial procedures for tumor, aneurysm, and intracranial hemorrhage',
+      'Cervical and lumbar spine surgery — indication, technique, and complications',
+      'Surgical timing in acute spinal cord injury',
+      'Disc herniation and nerve-compression management decisions',
+      'Wrong-level surgery, dural tears, and nerve injury',
+      'Post-operative infection, hematoma, and failure to recognize complications',
+    ],
+    expertQuestions: [
+      'Was surgery appropriately indicated, and was the timing consistent with the standard of care?',
+      'Was the operative technique, including level confirmation and instrumentation, appropriate?',
+      'Was an intraoperative or post-operative complication recognized and managed in time?',
+      'In acute SCI or cord compression, was decompression performed within the appropriate window?',
+      'More likely than not, did the surgical decision or technique cause the alleged injury?',
+    ],
+    daubert: [
+      'Operative-standard opinions are most credible from a surgeon who actively performs the same cranial or spinal procedures; we match accordingly to support admissibility.',
+      'Causation is tied to the operative note, imaging, and post-operative course, grounding the opinion in the case-specific record.',
+    ],
+  },
+  'orthopedic-surgery': {
+    overview: [
+      'Orthopedic surgery cases involve fracture care, joint reconstruction, sports and soft-tissue injury, and post-surgical complications, as well as a large volume of causation, impairment, and IME work. The imaging, operative notes, and rehabilitation records drive the analysis.',
+      'Our fellowship-trained orthopedic surgeons maintain active practice and perform the procedures at issue. They evaluate surgical indication and technique, complication recognition, and work-related causation and impairment using the AMA Guides.',
+    ],
+    caseTypes: [
+      'Fracture management — reduction, fixation technique, malunion, and nonunion',
+      'Joint replacement (hip, knee, shoulder) — indication, technique, infection, and revision',
+      'Sports and soft-tissue injuries and arthroscopic procedures',
+      'Post-surgical complications — infection, nerve and vascular injury, and compartment syndrome',
+      'DVT prophylaxis adequacy and thromboembolic complications',
+      'Orthopedic and polytrauma management and timing of fixation',
+      "Workers' compensation causation, impairment rating, and IME evaluations",
+    ],
+    expertQuestions: [
+      'Was the surgical indication and technique consistent with the orthopedic standard of care?',
+      'Was a complication — infection, nerve or vascular injury, compartment syndrome — recognized and managed appropriately?',
+      'Was DVT prophylaxis adequate for this procedure and patient?',
+      'Is the injury or impairment causally related to the incident at issue?',
+      'What is the appropriate impairment rating under the AMA Guides, and is the claimant at maximum medical improvement?',
+    ],
+    daubert: [
+      'We match the expert to the procedure and anatomic region at issue (e.g., arthroplasty vs. trauma vs. sports), supporting admissibility through directly relevant operative experience.',
+      'Impairment and causation opinions follow the AMA Guides and the imaging and operative record, providing a reliable, standardized methodology.',
+    ],
+  },
+  'pediatric-neurology': {
+    overview: [
+      'Pediatric neurology cases — neonatal brain injury, childhood epilepsy, pediatric stroke, and developmental disorders — carry catastrophic, lifelong damages and require an expert who understands the developing nervous system and pediatric-specific standards. Neonatal HIE litigation in particular demands careful timing and causation analysis.',
+      'Our ABPN-certified child neurologists, several with neurocritical-care and epilepsy fellowships, maintain active pediatric practice. They evaluate the timing and recognition of injury, birth-related causation, and whether management met the pediatric standard of care.',
+    ],
+    caseTypes: [
+      'Neonatal hypoxic-ischemic encephalopathy (HIE) and birth-related neurologic injury',
+      'Neonatal and pediatric stroke and sinus venous thrombosis',
+      'Pediatric epilepsy and epileptic encephalopathies, including status epilepticus',
+      'Developmental delay and neurodevelopmental-disorder workup',
+      'Pediatric neurocritical care and acute encephalopathy',
+      'Concussion and mild TBI in children, including return-to-play decisions',
+      'Missed pediatric CNS infection',
+    ],
+    expertQuestions: [
+      'Was neonatal neurologic injury (HIE) recognized and timed correctly, and does the evidence support birth-related causation?',
+      'Was pediatric epilepsy or status epilepticus diagnosed and treated per the pediatric standard of care?',
+      'Was a pediatric stroke or CNS infection recognized in time?',
+      'Was the developmental or neurodevelopmental workup appropriate?',
+      'More likely than not, would timely care have changed the child’s neurologic outcome?',
+    ],
+    daubert: [
+      'Pediatric standards differ from adult standards; admissibility benefits from a clinically active child neurologist rather than an adult specialist, which we provide.',
+      'Neonatal causation opinions are grounded in imaging, cord gases, placental pathology, and the HIE literature, keeping the timing analysis reliable and fact-specific.',
+    ],
+  },
+  'pharmacy': {
+    overview: [
+      'Pharmacy and pharmacotherapy cases concern the medication-use process — prescribing, dispensing, administration, and monitoring — and the pharmacist’s independent professional duties. The medication administration record, pharmacy logs, and order history are the core evidence.',
+      'Our board-certified pharmacotherapy and critical-care pharmacy specialists practice in hospital, ICU, and emergency settings. They evaluate dosing, interactions, dispensing decisions, and the pharmacist’s corresponding responsibility, particularly in opioid and anticoagulation cases.',
+    ],
+    caseTypes: [
+      'Medication, dispensing, and order-entry errors across inpatient and outpatient settings',
+      'Drug overdose and adverse reactions (insulin, anticoagulants, opioids)',
+      'Opioid dispensing and pharmacist corresponding-responsibility / red-flag analysis',
+      'Anticoagulation dosing, monitoring, and interaction management',
+      'Compounding and sterile-preparation errors',
+      'ICU and emergency pharmacotherapy and rapid-sequence drug protocols',
+      'Failure to counsel or to catch a clinically significant interaction',
+    ],
+    expertQuestions: [
+      'Was the medication selection, dose, and route appropriate, and did a dispensing or administration error occur?',
+      'Did the pharmacist meet the corresponding-responsibility standard in dispensing controlled substances?',
+      'Were drug-drug interactions and contraindications identified and addressed?',
+      'Was anticoagulation dosed and monitored appropriately?',
+      'More likely than not, did the medication error cause the alleged harm?',
+    ],
+    daubert: [
+      'Pharmacy standard-of-care opinions are most defensible from a board-certified pharmacist practicing in the same setting (e.g., critical care, community); we match accordingly.',
+      'Causation is tied to the pharmacology and the medication record, supporting a reliable, non-speculative opinion.',
+    ],
+  },
+  'physical-medicine-rehabilitation': {
+    overview: [
+      'PM&R cases focus on recovery, function, and the lifelong consequences of catastrophic injury — spinal cord injury, brain injury, and stroke — and frequently drive the largest damages through life-care planning. The rehabilitation record and functional assessments are central.',
+      'Our physiatrists, including those board-certified in spinal cord injury and brain injury medicine, maintain active rehabilitation practice. They evaluate rehabilitation standards, preventable secondary complications, impairment rating, and future-care needs.',
+    ],
+    caseTypes: [
+      'Spinal cord injury rehabilitation and secondary-complication management',
+      'Brain injury and stroke rehabilitation standards and recovery trajectory',
+      'Life-care planning and future-cost projections after catastrophic injury',
+      'Functional capacity evaluation, disability, and impairment rating under the AMA Guides',
+      'Pressure injury, contractures, and autonomic dysreflexia as preventable harm',
+      'Return-to-work and return-to-activity determinations',
+    ],
+    expertQuestions: [
+      'Did rehabilitation management meet the standard of care for this injury?',
+      'Were secondary complications (pressure injury, dysreflexia, contractures) preventable?',
+      'What are the anticipated future-care needs, equipment, and costs for this patient?',
+      'What is the appropriate impairment rating, and is the patient at maximum medical improvement?',
+      'What is the realistic functional prognosis and return-to-work capacity?',
+    ],
+    daubert: [
+      'Life-care-planning and impairment opinions are grounded in the AMA Guides and published outcome data, providing a standardized, reliable methodology that supports admissibility.',
+      'We match the physiatrist’s subspecialty (SCI vs. brain injury) to the case so the prognosis opinion reflects the relevant expertise.',
+    ],
+  },
+  'radiology': {
+    overview: [
+      'Radiology malpractice cases ask a focused question: was a finding perceptible and reportable on the images, and did the miss change the outcome? Because the images are objective and reproducible, these cases are uniquely evidence-driven, and the reviewing expert must read the same studies in practice.',
+      'Our diagnostic radiologists and neuroradiologists actively interpret the modalities at issue. They evaluate whether the finding should have been reported, whether interpretation met the standard of care, and whether the miss affected the clinical outcome.',
+    ],
+    caseTypes: [
+      'Missed findings on CT, MRI, X-ray, and ultrasound — stroke, hemorrhage, fracture, and tumor',
+      'Acute stroke and intracranial-hemorrhage imaging interpretation',
+      'Spine imaging interpretation — degenerative disease, trauma, and cord compression',
+      'Failure to detect malignancy on screening and diagnostic imaging',
+      'CSF leak and intracranial-hypotension diagnosis',
+      'Trauma and polytrauma imaging interpretation',
+      'Communication failures — failure to convey critical or unexpected findings',
+    ],
+    expertQuestions: [
+      'Was the finding perceptible on the images and should it have been reported?',
+      'Did the interpretation and report meet the radiologic standard of care?',
+      'Was a critical or unexpected finding communicated to the ordering provider appropriately?',
+      'More likely than not, would correct interpretation have changed the clinical outcome?',
+      'Was the imaging protocol adequate for the clinical question?',
+    ],
+    daubert: [
+      'Radiology opinions are most defensible from a subspecialty-matched radiologist who actively reads the same studies (e.g., a neuroradiologist for brain and spine MRI); we match on that basis.',
+      'Because the images are objective, opinions are demonstrable to the factfinder and tied directly to the primary evidence, supporting reliability.',
+    ],
+  },
+  'spinal-cord-injury': {
+    overview: [
+      'Spinal cord injury cases combine causation (mechanism, level, and completeness of injury), acute management, and the lifelong consequences of the injury. They demand an expert who can connect the acute record to the long-term functional and life-care picture.',
+      'Our physiatrists and rehabilitation specialists actively manage traumatic and non-traumatic SCI. They analyze injury causation and level/completeness, acute and rehabilitative standards, preventable secondary complications, and prognosis and life-care planning.',
+    ],
+    caseTypes: [
+      'Traumatic SCI causation — mechanism, level, and completeness determination',
+      'Acute SCI management — stabilization, decompression timing, and medical management',
+      'Neurogenic bladder/bowel, autonomic dysreflexia, and spasticity management',
+      'Rehabilitation standard of care and functional-outcome assessment',
+      'Preventable secondary complications (pressure injury, DVT, heterotopic ossification)',
+      'Life-care planning, durable medical equipment, and attendant-care needs',
+    ],
+    expertQuestions: [
+      'Does the mechanism and documented findings support the alleged level and completeness of injury?',
+      'Was acute SCI management — stabilization and decompression timing — consistent with the standard of care?',
+      'Were neurogenic and secondary complications recognized and prevented or managed appropriately?',
+      'What is the functional prognosis, and what future care and equipment will the patient require?',
+      'More likely than not, would timely management have improved the neurologic outcome?',
+    ],
+    daubert: [
+      'SCI causation and prognosis opinions are grounded in imaging, the ASIA/ISNCSCI examination, and published recovery data, supporting a reliable methodology.',
+      'Life-care opinions follow accepted planning methodology, keeping future-cost projections defensible rather than speculative.',
+    ],
+  },
+  'spine-surgery': {
+    overview: [
+      'Spine surgery litigation spans orthopedic and neurosurgical approaches to cervical, thoracic, and lumbar pathology, and turns on surgical indication, technique, and complication management. The imaging, operative note, and post-operative course are the decisive evidence.',
+      'Our fellowship-trained spine surgeons actively perform the procedures at issue. They evaluate whether surgery was indicated, whether technique and instrumentation met the standard, and whether complications were recognized and managed.',
+    ],
+    caseTypes: [
+      'Cervical procedures (ACDF, arthroplasty, posterior decompression) and myelopathy management',
+      'Lumbar fusion and decompression (TLIF, PLIF, XLIF, ALIF, laminectomy, microdiscectomy)',
+      'Spinal trauma — surgical timing, instrumentation, and post-operative care',
+      'Disc herniation and nerve-compression management decisions',
+      'Spinal deformity correction',
+      'Wrong-level surgery, dural tears, and nerve injury',
+      'Hardware failure, adjacent-segment disease, and post-operative infection',
+    ],
+    expertQuestions: [
+      'Was surgery appropriately indicated for this pathology and symptom profile?',
+      'Was the operative technique, level confirmation, and instrumentation consistent with the standard of care?',
+      'Was a complication — dural tear, nerve injury, hardware failure, infection — recognized and managed appropriately?',
+      'In a trauma case, was the timing and choice of fixation appropriate?',
+      'More likely than not, did the surgical decision or technique cause the alleged injury?',
+    ],
+    daubert: [
+      'Spine-surgery opinions are most credible from a surgeon who actively performs the same approach (orthopedic or neurosurgical); we match accordingly to support admissibility.',
+      'Causation is tied to the operative note, imaging, and post-operative course, grounding the opinion in the record.',
+    ],
+  },
+  'stroke-vascular-neurology': {
+    overview: [
+      'Vascular neurology cases are defined by treatment windows. Acute ischemic stroke care operates on strict, evidence-based timelines for thrombolysis and thrombectomy, and posterior-circulation strokes are misdiagnosed at high rates. The decisive questions are timing, eligibility, and whether salvageable tissue was present.',
+      'Our vascular neurologists maintain active stroke-center practice. They evaluate last-known-well determination, imaging triage, thrombolytic and thrombectomy eligibility, telestroke and transfer standards, and door-to-needle and door-to-groin benchmarks.',
+    ],
+    caseTypes: [
+      'Acute ischemic stroke — recognition, imaging triage, and time-sensitive treatment',
+      'IV thrombolysis (alteplase/tenecteplase) eligibility and administration decisions',
+      'Mechanical thrombectomy candidacy and transfer to a comprehensive stroke center',
+      'Intracerebral and subarachnoid hemorrhage management and anticoagulation reversal',
+      'Missed posterior-circulation stroke and atypical presentations',
+      'Telestroke and inter-facility transfer standards',
+      'Secondary stroke prevention and atrial-fibrillation management',
+    ],
+    expertQuestions: [
+      'Was the last-known-well time established, and was imaging obtained within the door-to-imaging benchmark?',
+      'Was the patient eligible for IV thrombolysis or thrombectomy at the time they should have been assessed?',
+      'Was a posterior-circulation or young-patient stroke missed when the workup should have identified it?',
+      'Were door-to-needle and door-to-groin (or door-in-door-out) benchmarks met?',
+      'Was salvageable brain tissue present during the delay, and would treatment have changed the outcome?',
+    ],
+    daubert: [
+      'Stroke causation opinions use imaging-based penumbra analysis and the number-needed-to-treat data from the major thrombolysis and thrombectomy trials, a reliable and widely accepted methodology.',
+      'We use vascular neurologists with active acute-stroke practice so the standard-of-care opinion reflects current protocols and survives Daubert scrutiny.',
+    ],
+  },
+  'vascular-surgery': {
+    overview: [
+      'Vascular surgery cases involve limb- and life-threatening disease — acute and chronic limb ischemia, carotid disease, dialysis access, and venous thromboembolism — where timing of revascularization and recognition of complications drive outcomes and damages.',
+      'Our board-certified vascular surgeons maintain active open and endovascular practice. They evaluate procedural indication and technique, timing of revascularization, amputation-level decisions, and the management of access and wound complications.',
+    ],
+    caseTypes: [
+      'Peripheral arterial disease — open and endovascular procedures and complications',
+      'Acute and chronic limb ischemia, limb salvage, and amputation-level decisions',
+      'Carotid endarterectomy, stenting, and TCAR — indication and stroke-risk management',
+      'Dialysis access creation, maintenance, and complications',
+      'Deep vein thrombosis and venous insufficiency diagnosis and management',
+      'Anticoagulation management in vascular disease',
+      'Lower-extremity and non-healing wound care',
+    ],
+    expertQuestions: [
+      'Was revascularization indicated and performed within the appropriate window to salvage the limb?',
+      'Was the procedural technique (open or endovascular) consistent with the standard of care?',
+      'Was a vascular emergency (acute limb ischemia, access bleeding) recognized and treated in time?',
+      'Was the amputation-level determination appropriate?',
+      'More likely than not, would timely intervention have prevented the limb loss or other harm?',
+    ],
+    daubert: [
+      'We match the expert to the procedure type (open vs. endovascular) and disease at issue, supporting admissibility through directly relevant operative experience.',
+      'Causation linking delay to limb loss is grounded in the ischemia timeline and vascular-surgery outcome literature, keeping the opinion fact-specific.',
+    ],
+  },
+  'wilderness-medicine': {
+    overview: [
+      'Wilderness and environmental medicine cases involve care delivered in austere, remote, and aquatic settings — hypothermia, drowning, heat illness, altitude illness, envenomation, and dive injury — where the standard of care must account for limited resources and the specific environmental physiology.',
+      'Our FAWM-credentialed emergency physicians have fellowship training and field experience in environmental and dive medicine. They evaluate care against accepted wilderness-medicine standards, including search-and-rescue medical direction and hyperbaric referral decisions.',
+    ],
+    caseTypes: [
+      'Accidental hypothermia and cold injury (frostbite) management',
+      'Drowning and submersion resuscitation and post-immersion care',
+      'Heat exhaustion and exertional heat stroke recognition and cooling',
+      'Altitude illness — AMS, HACE, and HAPE — and descent decisions',
+      'Snake, marine, and arthropod envenomation and antivenom decisions',
+      'Dive medicine — decompression sickness, arterial gas embolism, and hyperbaric referral',
+      'Austere and remote care and search-and-rescue medical direction',
+    ],
+    expertQuestions: [
+      'Was the environmental emergency recognized and treated per accepted wilderness-medicine standards?',
+      'Were rewarming, cooling, or resuscitation strategies appropriate for the setting and physiology?',
+      'Was hyperbaric or antivenom referral arranged when indicated?',
+      'Was care reasonable given the austere or remote resource constraints at the time?',
+      'More likely than not, would appropriate care have changed the outcome?',
+    ],
+    daubert: [
+      'Wilderness-medicine opinions benefit from FAWM-credentialed experts who account for the austere setting rather than applying a hospital-resourced standard, supporting a reliable, context-appropriate methodology.',
+      'Causation is grounded in environmental physiology and the wilderness-medicine literature, keeping the opinion tied to the specific facts.',
+    ],
+  },
 };

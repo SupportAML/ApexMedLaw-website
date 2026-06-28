@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { Navigation } from '@/components/Navigation';
 import { SEO } from '@/components/SEO';
 import { PhysicianSchema, BreadcrumbSchema } from '@/components/SEOSchemas';
+import { CaseReviewCTA } from '@/components/CaseReviewCTA';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import {
@@ -14,8 +15,10 @@ import {
   Phone,
   Clock,
   Mail,
+  Calendar,
 } from 'lucide-react';
 import { getPhysicianBySlug, getSpecialtyName, type Physician } from '@/data/physicians';
+import { getPostsByDivision, type BlogPost } from '@/blog/posts';
 
 function buildPhysicianDescription(p: Physician): string {
   // Take the first ~200 chars of the bio, then trim back to the nearest sentence end.
@@ -50,6 +53,18 @@ export function PhysicianProfilePage() {
         </main>
       </>
     );
+  }
+
+  // Related reading: dedup blog posts across this expert's specialties.
+  const relatedReading: BlogPost[] = [];
+  const seenPosts = new Set<string>();
+  for (const cat of physician.categories) {
+    for (const p of getPostsByDivision(cat)) {
+      if (!seenPosts.has(p.slug)) {
+        seenPosts.add(p.slug);
+        relatedReading.push(p);
+      }
+    }
   }
 
   return (
@@ -177,6 +192,27 @@ export function PhysicianProfilePage() {
                     })}
                   </div>
                 </div>
+
+                {/* Related Reading */}
+                {relatedReading.length > 0 && (
+                  <div>
+                    <h2 className="font-display font-bold text-xl text-foreground mb-4">Related Reading</h2>
+                    <div className="space-y-3">
+                      {relatedReading.slice(0, 4).map((p) => (
+                        <Link
+                          key={p.slug}
+                          to={`/blog/${p.slug}`}
+                          className="group flex items-start gap-3 bg-clinical-100 rounded-xl p-4 hover:bg-clinical-200/60 transition-colors"
+                        >
+                          <Calendar size={16} className="text-teal shrink-0 mt-0.5" />
+                          <span className="text-sm font-medium text-foreground group-hover:text-electric transition-colors">
+                            {p.title}
+                          </span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
 
               {/* Sidebar */}
@@ -191,7 +227,7 @@ export function PhysicianProfilePage() {
                   <Link to="/#contact">
                     <Button className="w-full bg-electric hover:bg-electric/90 text-white font-medium py-3 rounded-full flex items-center justify-center gap-2 mb-3">
                       <Mail size={16} />
-                      Request a Consult
+                      Request a Case Review
                     </Button>
                   </Link>
                   <a href="tel:9193077949">
@@ -220,6 +256,9 @@ export function PhysicianProfilePage() {
             </div>
           </div>
         </section>
+        <CaseReviewCTA
+          subtext={`Submit a case inquiry to request availability, CV, and fee schedule for ${physician.name.split(',')[0]} or another board-certified expert. We run a conflict check and respond within 24 hours.`}
+        />
       </main>
     </>
   );

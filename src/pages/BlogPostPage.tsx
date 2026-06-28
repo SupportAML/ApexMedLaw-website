@@ -1,9 +1,11 @@
 import { type ReactNode } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Calendar, Tag } from 'lucide-react';
-import { blogPosts, getPostFaqs } from '@/blog/posts';
+import { ArrowLeft, ArrowRight, Calendar, Tag, Stethoscope } from 'lucide-react';
+import { blogPosts, getPostFaqs, getPostDivisions } from '@/blog/posts';
+import { getSpecialtyName, getPhysiciansBySpecialty, type Physician } from '@/data/physicians';
 import { Navigation } from '@/components/Navigation';
 import { Button } from '@/components/ui/button';
+import { CaseReviewCTA } from '@/components/CaseReviewCTA';
 import { SEO, BlogPostingSchema } from '@/components/SEO';
 import { FAQSchema, BreadcrumbSchema } from '@/components/SEOSchemas';
 
@@ -84,6 +86,22 @@ export function BlogPostPage() {
     );
   }
 
+  const relatedDivisions = getPostDivisions(post.slug);
+  // Dedup experts across the related specialties, preserving first-seen order.
+  const relatedExperts: Physician[] = [];
+  const seenExperts = new Set<string>();
+  for (const divSlug of relatedDivisions) {
+    for (const doc of getPhysiciansBySpecialty(divSlug)) {
+      if (!seenExperts.has(doc.slug)) {
+        seenExperts.add(doc.slug);
+        relatedExperts.push(doc);
+      }
+    }
+  }
+  const relatedReading = blogPosts
+    .filter((p) => p.slug !== post.slug && getPostDivisions(p.slug).some((d) => relatedDivisions.includes(d)))
+    .slice(0, 3);
+
   return (
     <div className="relative">
       <SEO
@@ -158,23 +176,87 @@ export function BlogPostPage() {
           {/* Content */}
           <div className="prose-nlc">{renderMarkdown(post.content)}</div>
 
-          {/* CTA */}
-          <div className="mt-16 bg-navy rounded-2xl p-8 lg:p-12 text-center">
-            <h3 className="font-display text-2xl font-bold text-white mb-3">
-              Need a Medical Expert for Your Case?
-            </h3>
-            <p className="text-slate-300 mb-6 max-w-lg mx-auto">
-              Our board-certified physician experts are available for case review,
-              expert testimony, and independent medical examinations nationwide.
-            </p>
-            <Link to="/#contact">
-              <Button className="bg-electric hover:bg-electric/90 text-white font-medium px-8 py-6 rounded-full transition-transform hover:-translate-y-0.5">
-                Request a Consult
-              </Button>
-            </Link>
-          </div>
+          {/* Related specialties */}
+          {relatedDivisions.length > 0 && (
+            <div className="mt-16 pt-10 border-t border-clinical-200">
+              <h2 className="font-display text-xl font-bold text-foreground mb-4">
+                Related Specialties
+              </h2>
+              <div className="flex flex-wrap gap-2">
+                {relatedDivisions.map((divSlug) => {
+                  const name = getSpecialtyName(divSlug);
+                  if (!name) return null;
+                  return (
+                    <Link
+                      key={divSlug}
+                      to={`/divisions/${divSlug}`}
+                      className="inline-flex items-center gap-1.5 text-sm bg-electric/5 text-electric hover:bg-electric/10 px-4 py-2 rounded-full transition-colors"
+                    >
+                      <Stethoscope size={14} />
+                      {name} Expert Witnesses
+                      <ArrowRight size={12} />
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* Related experts */}
+          {relatedExperts.length > 0 && (
+            <div className="mt-12">
+              <h2 className="font-display text-xl font-bold text-foreground mb-5">
+                Related Experts
+              </h2>
+              <div className="grid sm:grid-cols-2 gap-4">
+                {relatedExperts.slice(0, 4).map((doc) => (
+                  <Link
+                    key={doc.slug}
+                    to={`/experts/${doc.slug}`}
+                    className="group flex items-center gap-4 bg-white border border-clinical-200 rounded-xl p-4 hover:shadow-md transition-all"
+                  >
+                    <div className="w-14 h-14 rounded-full overflow-hidden bg-clinical-100 shrink-0">
+                      <img src={doc.photo} alt={doc.name} className="w-full h-full object-cover" />
+                    </div>
+                    <div className="min-w-0">
+                      <h3 className="font-display font-bold text-sm text-foreground truncate group-hover:text-electric transition-colors">
+                        {doc.name}
+                      </h3>
+                      <p className="text-xs text-text-secondary truncate">{doc.role}</p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Related reading */}
+          {relatedReading.length > 0 && (
+            <div className="mt-12">
+              <h2 className="font-display text-xl font-bold text-foreground mb-5">
+                Continue Reading
+              </h2>
+              <div className="space-y-3">
+                {relatedReading.map((p) => (
+                  <Link
+                    key={p.slug}
+                    to={`/blog/${p.slug}`}
+                    className="group flex items-start gap-3 bg-white border border-clinical-200 rounded-xl p-4 hover:shadow-md transition-all"
+                  >
+                    <ArrowRight size={16} className="text-electric shrink-0 mt-1" />
+                    <span className="text-sm font-medium text-foreground group-hover:text-electric transition-colors">
+                      {p.title}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
         </article>
       </main>
+      <CaseReviewCTA
+        subtext="Our board-certified physician experts are available for case review, expert testimony, and independent medical examinations nationwide. Request a case review and we will match you with the right expert."
+      />
     </div>
   );
 }

@@ -1222,3 +1222,36 @@ export const postFaqs: Record<string, BlogPostFAQ[]> = {
 export function getPostFaqs(slug: string): BlogPostFAQ[] {
   return postFaqs[slug] ?? [];
 }
+
+/**
+ * Topical mapping from blog post → relevant division slugs, used for internal
+ * linking in both directions (a post links to related specialties/experts, and a
+ * division page surfaces related reading). Single source of truth so the two
+ * directions never drift. Division slugs must match `divisions.ts`.
+ */
+export const postDivisions: Record<string, string[]> = {
+  'tbi-litigation-neurology-expert-witness': ['neurology', 'neurosurgery', 'neurocritical-care', 'physical-medicine-rehabilitation'],
+  'icu-standard-of-care-critical-care-expert': ['critical-care', 'internal-medicine'],
+  'endoscopy-complications-gi-expert-witness': ['gastroenterology'],
+  'opioid-litigation-pain-medicine-expert': ['anesthesiology', 'interventional-spine', 'pharmacy'],
+  'sepsis-misdiagnosis-delayed-treatment-expert-witness': ['critical-care', 'emergency-medicine', 'internal-medicine'],
+  'delayed-colon-cancer-diagnosis-expert-witness': ['gastroenterology', 'radiology'],
+  'stroke-misdiagnosis-failure-to-treat-neurology-expert': ['stroke-vascular-neurology', 'neurology', 'emergency-medicine', 'radiology'],
+  'epidural-steroid-injection-complications-pain-medicine-expert': ['interventional-spine', 'anesthesiology'],
+  'ventilator-associated-pneumonia-icu-malpractice-critical-care-expert': ['critical-care'],
+  'gi-bleeding-mismanagement-gastroenterology-expert-witness': ['gastroenterology'],
+  'status-epilepticus-malpractice-neurology-expert-witness': ['epilepsy', 'neurology', 'neurocritical-care', 'pediatric-neurology'],
+  'crps-complex-regional-pain-syndrome-malpractice-expert-witness': ['interventional-spine', 'anesthesiology', 'physical-medicine-rehabilitation', 'neuromuscular-medicine'],
+  'post-ercp-pancreatitis-perforation-gi-expert-witness': ['gastroenterology'],
+  'ards-mismanagement-critical-care-expert-witness': ['critical-care'],
+  'delayed-meningitis-diagnosis-neurology-expert-witness': ['neurology', 'emergency-medicine', 'pediatric-neurology'],
+};
+
+export function getPostDivisions(slug: string): string[] {
+  return postDivisions[slug] ?? [];
+}
+
+/** Blog posts relevant to a given division, for "Related reading" blocks. */
+export function getPostsByDivision(divisionSlug: string): BlogPost[] {
+  return blogPosts.filter((p) => (postDivisions[p.slug] ?? []).includes(divisionSlug));
+}

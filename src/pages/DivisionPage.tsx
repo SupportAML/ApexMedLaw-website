@@ -4,9 +4,11 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Navigation } from '@/components/Navigation';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, ExternalLink, Award } from 'lucide-react';
+import { CaseReviewCTA } from '@/components/CaseReviewCTA';
+import { ArrowRight, ExternalLink, Award, FileText, HelpCircle, Scale, ClipboardCheck, Calendar } from 'lucide-react';
 import { getDivisionBySlug } from '@/data/divisions';
 import { getPhysiciansBySpecialty } from '@/data/physicians';
+import { getPostsByDivision } from '@/blog/posts';
 import { SEO } from '@/components/SEO';
 import { DivisionSchema, FAQSchema, BreadcrumbSchema } from '@/components/SEOSchemas';
 
@@ -17,6 +19,7 @@ export function DivisionPage() {
   const navigate = useNavigate();
   const division = slug ? getDivisionBySlug(slug) : undefined;
   const specialtyPhysicians = slug ? getPhysiciansBySpecialty(slug) : [];
+  const relatedPosts = slug ? getPostsByDivision(slug) : [];
 
   useEffect(() => {
     if (!division) {
@@ -172,8 +175,27 @@ export function DivisionPage() {
           </section>
         )}
 
+        {/* Overview Section */}
+        {division.overview && division.overview.length > 0 && (
+          <section className="relative w-full py-16 lg:py-20 px-6 lg:px-12 bg-white border-b border-slate-100">
+            <div className="max-w-3xl mx-auto">
+              <span className="text-sm font-semibold text-electric uppercase tracking-widest">
+                Overview
+              </span>
+              <h2 className="text-display-md font-bold text-navy mt-3 mb-6">
+                {division.name} Expert Witness Consulting
+              </h2>
+              <div className="space-y-5 text-lg text-slate-700 leading-relaxed">
+                {division.overview.map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Practice Areas Section */}
-        <section id="practice-areas" className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-white">
+        <section id="practice-areas" className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-clinical">
           <div className="max-w-7xl mx-auto">
             <div className="max-w-2xl mb-16">
               <h2 className="text-display-lg font-bold text-navy mb-4">
@@ -207,6 +229,160 @@ export function DivisionPage() {
             </div>
           </div>
         </section>
+
+        {/* Case Types Handled */}
+        {division.caseTypes && division.caseTypes.length > 0 && (
+          <section className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-white">
+            <div className="max-w-4xl mx-auto">
+              <div className="mb-12">
+                <span className="text-sm font-semibold text-electric uppercase tracking-widest">
+                  Case Types
+                </span>
+                <h2 className="text-display-lg font-bold text-navy mt-3 mb-4">
+                  {division.name} Cases We Handle
+                </h2>
+                <p className="text-lg text-slate-600">
+                  Attorneys retain our {division.name.toLowerCase()} experts for matters including:
+                </p>
+              </div>
+              <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-4">
+                {division.caseTypes.map((item, i) => (
+                  <li key={i} className="flex gap-3">
+                    <FileText className="h-5 w-5 text-electric shrink-0 mt-1" />
+                    <span className="text-slate-700 leading-relaxed">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        )}
+
+        {/* Sample Expert-Witness Questions */}
+        {division.expertQuestions && division.expertQuestions.length > 0 && (
+          <section className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-clinical">
+            <div className="max-w-4xl mx-auto">
+              <div className="mb-12">
+                <span className="text-sm font-semibold text-electric uppercase tracking-widest">
+                  Expert Analysis
+                </span>
+                <h2 className="text-display-lg font-bold text-navy mt-3 mb-4">
+                  Questions Our {division.name} Experts Answer
+                </h2>
+                <p className="text-lg text-slate-600">
+                  Representative questions a {division.name.toLowerCase()} expert can address on standard of care and causation:
+                </p>
+              </div>
+              <div className="space-y-4">
+                {division.expertQuestions.map((q, i) => (
+                  <div key={i} className="flex gap-4 bg-white border border-slate-200 rounded-xl p-5">
+                    <HelpCircle className="h-5 w-5 text-electric shrink-0 mt-0.5" />
+                    <p className="text-slate-700 leading-relaxed">{q}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Daubert / Admissibility Considerations */}
+        {division.daubert && division.daubert.length > 0 && (
+          <section className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-white">
+            <div className="max-w-3xl mx-auto">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-electric/10">
+                  <Scale className="h-6 w-6 text-electric" />
+                </div>
+                <div>
+                  <span className="text-sm font-semibold text-electric uppercase tracking-widest">
+                    Admissibility
+                  </span>
+                  <h2 className="text-display-md font-bold text-navy">
+                    Daubert &amp; Admissibility Considerations
+                  </h2>
+                </div>
+              </div>
+              <div className="space-y-5 text-lg text-slate-700 leading-relaxed">
+                {division.daubert.map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* What to Expect When Retaining an Expert */}
+        {division.whatToExpect && division.whatToExpect.length > 0 && (
+          <section className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-clinical">
+            <div className="max-w-4xl mx-auto">
+              <div className="mb-12">
+                <span className="text-sm font-semibold text-electric uppercase tracking-widest">
+                  Engagement
+                </span>
+                <h2 className="text-display-lg font-bold text-navy mt-3 mb-4">
+                  What to Expect When You Retain an Expert
+                </h2>
+                <p className="text-lg text-slate-600">
+                  Our process is built for litigation timelines — from conflict check to trial testimony.
+                </p>
+              </div>
+              <div className="space-y-6">
+                {division.whatToExpect.map((step, i) => (
+                  <div key={i} className="flex gap-4">
+                    <div className="flex-shrink-0">
+                      <div className="flex items-center justify-center h-12 w-12 rounded-lg bg-electric/10">
+                        <ClipboardCheck className="h-6 w-6 text-electric" />
+                      </div>
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-navy mb-1">{step.title}</h3>
+                      <p className="text-slate-600 leading-relaxed">{step.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Related Reading */}
+        {relatedPosts.length > 0 && (
+          <section className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-white">
+            <div className="max-w-7xl mx-auto">
+              <div className="max-w-2xl mb-12">
+                <span className="text-sm font-semibold text-electric uppercase tracking-widest">
+                  Related Reading
+                </span>
+                <h2 className="text-display-lg font-bold text-navy mt-3 mb-4">
+                  Insights for {division.name} Litigation
+                </h2>
+                <p className="text-lg text-slate-600">
+                  Attorney-focused guides from our {division.name.toLowerCase()} and related practice areas.
+                </p>
+              </div>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {relatedPosts.map((post) => (
+                  <Link
+                    key={post.slug}
+                    to={`/blog/${post.slug}`}
+                    className="group bg-clinical border border-slate-200 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 flex flex-col"
+                  >
+                    <div className="flex items-center gap-2 text-xs text-slate-500 mb-3">
+                      <Calendar size={12} />
+                      {new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+                    </div>
+                    <h3 className="font-display font-bold text-base text-navy mb-2 leading-snug group-hover:text-electric transition-colors">
+                      {post.title}
+                    </h3>
+                    <p className="text-sm text-slate-600 line-clamp-3 mb-4 flex-1">{post.metaDescription}</p>
+                    <span className="inline-flex items-center gap-1 text-xs font-medium text-electric group-hover:gap-2 transition-all">
+                      Read article <ArrowRight size={12} />
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* Why ApexMedLaw Section */}
         <section className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-clinical">
@@ -258,24 +434,9 @@ export function DivisionPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="relative w-full py-20 lg:py-24 px-6 lg:px-12 bg-navy text-white">
-          <div className="max-w-3xl mx-auto text-center space-y-6">
-            <h2 className="text-display-lg font-bold">
-              Ready to Discuss Your Case?
-            </h2>
-            <p className="text-lg text-slate-300">
-              Contact our team to review your case and connect with the right {division.name} expert witness.
-            </p>
-            <Button
-              onClick={scrollToContact}
-              size="lg"
-              className="bg-electric hover:bg-electric/90 text-white font-medium px-8 py-6 rounded-full transition-all hover:-translate-y-1 hover:shadow-lg flex items-center gap-2 mx-auto"
-            >
-              Submit a Case Inquiry
-              <ArrowRight size={20} />
-            </Button>
-          </div>
-        </section>
+        <CaseReviewCTA
+          subtext={`Contact our team to review your case and connect with the right ${division.name} expert witness. We run a conflict check and typically provide a CV and fee schedule within one business day.`}
+        />
 
         {/* Breadcrumb Navigation */}
         <section className="py-8 px-6 lg:px-12 bg-white border-t border-slate-200">

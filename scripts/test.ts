@@ -15,8 +15,9 @@ import {
   buildFaqSchema,
   buildBreadcrumbSchema,
 } from '../src/lib/seo-schema.ts';
-import { divisions, getDivisionFaqs } from '../src/data/divisions.ts';
-import { blogPosts, getPostFaqs } from '../src/blog/posts.ts';
+import { divisions, getDivisionFaqs, getDivisionBySlug } from '../src/data/divisions.ts';
+import { blogPosts, getPostFaqs, postDivisions, getPostsByDivision } from '../src/blog/posts.ts';
+import { SPECIALTIES } from '../src/data/physicians.ts';
 
 const BASE = 'https://www.apexmedlaw.com';
 
@@ -116,6 +117,54 @@ test('every blog post has 4-6 well-formed FAQs', () => {
     for (const f of faqs) {
       assert.ok(isNonEmptyString(f.question), `${p.slug} has an empty question`);
       assert.ok(isNonEmptyString(f.answer), `${p.slug} has an empty answer`);
+    }
+  }
+});
+
+// ---- Division deep content ----
+test('every division has well-formed deep content (overview, case types, expert questions, Daubert, process)', () => {
+  for (const d of divisions) {
+    const full = getDivisionBySlug(d.slug);
+    assert.ok(full, `${d.slug} not resolvable`);
+    assert.ok((full!.overview?.length ?? 0) >= 1, `${d.slug} missing overview`);
+    for (const p of full!.overview ?? []) assert.ok(isNonEmptyString(p), `${d.slug} empty overview paragraph`);
+
+    assert.ok((full!.caseTypes?.length ?? 0) >= 5, `${d.slug} has ${full!.caseTypes?.length ?? 0} case types (expected >=5)`);
+    for (const c of full!.caseTypes ?? []) assert.ok(isNonEmptyString(c), `${d.slug} empty case type`);
+
+    assert.ok((full!.expertQuestions?.length ?? 0) >= 5, `${d.slug} has ${full!.expertQuestions?.length ?? 0} expert questions (expected >=5)`);
+    for (const q of full!.expertQuestions ?? []) assert.ok(isNonEmptyString(q), `${d.slug} empty expert question`);
+
+    assert.ok((full!.daubert?.length ?? 0) >= 1, `${d.slug} missing Daubert content`);
+    for (const p of full!.daubert ?? []) assert.ok(isNonEmptyString(p), `${d.slug} empty Daubert paragraph`);
+
+    assert.ok((full!.whatToExpect?.length ?? 0) >= 4, `${d.slug} has ${full!.whatToExpect?.length ?? 0} engagement steps (expected >=4)`);
+    for (const s of full!.whatToExpect ?? []) {
+      assert.ok(isNonEmptyString(s.title), `${d.slug} empty engagement step title`);
+      assert.ok(isNonEmptyString(s.description), `${d.slug} empty engagement step description`);
+    }
+  }
+});
+
+// ---- Blog <-> division internal-linking mapping ----
+test('every post→division mapping references real divisions, and every post maps to at least one division', () => {
+  const divSlugs = new Set(divisions.map((d) => d.slug));
+  const specialtySlugs = new Set(SPECIALTIES.map((s) => s.slug));
+  for (const post of blogPosts) {
+    const mapped = postDivisions[post.slug] ?? [];
+    assert.ok(mapped.length >= 1, `${post.slug} maps to no divisions`);
+    for (const d of mapped) {
+      assert.ok(divSlugs.has(d), `${post.slug} maps to unknown division "${d}"`);
+      assert.ok(specialtySlugs.has(d), `${post.slug} maps to non-specialty "${d}"`);
+    }
+  }
+});
+
+test('getPostsByDivision is the inverse of the post→division mapping', () => {
+  for (const d of divisions) {
+    const posts = getPostsByDivision(d.slug);
+    for (const p of posts) {
+      assert.ok((postDivisions[p.slug] ?? []).includes(d.slug), `${p.slug} should list ${d.slug}`);
     }
   }
 });
