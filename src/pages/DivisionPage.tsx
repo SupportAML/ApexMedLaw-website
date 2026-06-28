@@ -8,7 +8,7 @@ import { ArrowRight, ExternalLink, Award } from 'lucide-react';
 import { getDivisionBySlug } from '@/data/divisions';
 import { getPhysiciansBySpecialty } from '@/data/physicians';
 import { SEO } from '@/components/SEO';
-import { DivisionSchema } from '@/components/SEOSchemas';
+import { DivisionSchema, FAQSchema, BreadcrumbSchema } from '@/components/SEOSchemas';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -52,6 +52,14 @@ export function DivisionPage() {
         description={division.description}
         slug={division.slug}
       />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Divisions', url: '/#divisions' },
+          { name: division.name, url: `/divisions/${division.slug}` },
+        ]}
+      />
+      {division.faqs && division.faqs.length > 0 && <FAQSchema faqs={division.faqs} />}
       <Navigation />
       <main className="relative">
         {/* Hero Section */}

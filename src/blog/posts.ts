@@ -1,3 +1,8 @@
+export interface BlogPostFAQ {
+  question: string;
+  answer: string;
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -6,6 +11,7 @@ export interface BlogPost {
   author: string;
   keywords: string[];
   content: string;
+  faqs?: BlogPostFAQ[];
 }
 
 export const blogPosts: BlogPost[] = [
@@ -934,3 +940,285 @@ For pediatric cases, we apply age-specific fever workup criteria and evaluate wh
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
 ];
+
+/**
+ * Attorney-facing FAQ content per blog post, surfaced as FAQPage JSON-LD on each
+ * post page. Authored from the post's own subject matter for a physician-led
+ * medical-legal expert-witness firm. Keyed by post slug.
+ */
+export const postFaqs: Record<string, BlogPostFAQ[]> = {
+  'tbi-litigation-neurology-expert-witness': [
+    {
+      question: 'When does a TBI case need a neurology expert witness?',
+      answer: 'A neurology expert is valuable whenever liability or causation turns on acute TBI management, monitoring, surgical timing, or the distinction between injury-related deficits and other causes. Their analysis must withstand Daubert scrutiny while clearly explaining neurological principles to a jury.',
+    },
+    {
+      question: 'What makes a strong TBI expert witness?',
+      answer: 'A strong TBI expert understands acute neuro-ICU management, recognizes chronic sequelae such as post-concussive syndrome, evaluates causation rigorously using imaging and neuropsychological testing, and communicates complex concepts clearly without oversimplifying the medicine.',
+    },
+    {
+      question: 'What are the most common liability issues in TBI cases?',
+      answer: 'Common issues include delayed or missed diagnosis of evolving lesions such as epidural hematoma, inadequate monitoring of hospitalized patients, disputes over surgical timing, and deficient post-discharge management including return-to-activity and follow-up imaging decisions.',
+    },
+    {
+      question: 'How does ApexMedLaw support TBI litigation?',
+      answer: 'ApexMedLaw provides board-certified neurologists in active practice who deliver rapid case review, written causation analysis, expertise in pediatric and adult TBI, and deposition- and trial-ready testimony for plaintiff or defense.',
+    },
+  ],
+  'icu-standard-of-care-critical-care-expert': [
+    {
+      question: 'What is the ICU standard of care in critical care litigation?',
+      answer: 'The ICU standard of care is more fluid than other settings because critically ill patients deteriorate rapidly and decisions are made with incomplete information. Analysis focuses on whether recognition and intervention were timely and consistent with current critical care guidelines.',
+    },
+    {
+      question: 'What are the key areas of ICU litigation?',
+      answer: 'The most litigated areas are sepsis and septic shock management, mechanical ventilation and its complications, recognition of organ failure, and medication errors involving sedation, vasopressors, antibiotics, and antiarrhythmics.',
+    },
+    {
+      question: 'What should attorneys look for when selecting a critical care expert?',
+      answer: 'The expert should maintain current or recent active ICU practice, understand current sepsis bundles and guidelines, communicate complex physiology clearly, and have deposition and trial experience.',
+    },
+    {
+      question: 'Why do ApexMedLaw critical care experts stand out?',
+      answer: 'Our intensivists combine active ICU practice with extensive litigation experience, so they understand both the realities of ICU decision-making and the legal standards applied to critical care cases.',
+    },
+  ],
+  'endoscopy-complications-gi-expert-witness': [
+    {
+      question: 'What are the most common endoscopy complications in malpractice cases?',
+      answer: 'The most common are perforation (esophageal, gastric, or colonic), post-ERCP pancreatitis, bleeding during or after the procedure, and infection from inadequate sterilization or patient preparation.',
+    },
+    {
+      question: 'What does the standard of care require in endoscopy?',
+      answer: 'It requires appropriate patient selection and pre-procedure assessment, procedure-specific informed consent, technical competence, prompt recognition and management of complications, and adequate follow-up and surveillance.',
+    },
+    {
+      question: 'What should attorneys look for in a gastroenterology expert?',
+      answer: 'The expert should be board-certified, have personal experience performing the specific procedure at issue, understand current procedural guidelines, articulate technical points to lay jurors, and have litigation and deposition experience.',
+    },
+    {
+      question: 'How does ApexMedLaw support endoscopy complication cases?',
+      answer: 'Our actively practicing gastroenterologists understand the technical challenges of endoscopic procedures and the evolving standard of care, and provide case review, causation analysis, and trial-ready testimony.',
+    },
+  ],
+  'opioid-litigation-pain-medicine-expert': [
+    {
+      question: 'What are the key issues in opioid and pain medicine litigation?',
+      answer: 'Key issues include appropriate opioid selection, dose management against current guidelines, addiction-risk assessment and monitoring, dangerous drug interactions, and the adequacy of ongoing reassessment and documentation.',
+    },
+    {
+      question: 'What qualifications should a pain medicine expert have for opioid cases?',
+      answer: 'They should be board-certified in pain medicine or anesthesia with a pain fellowship, maintain active pain management practice, understand current CDC, DEA, and state prescribing guidelines, and be able to evaluate the appropriateness of opioid selection and dosing.',
+    },
+    {
+      question: 'How is the opioid prescribing standard of care evaluated?',
+      answer: 'Experts assess whether opioids were indicated, whether dosing reflected current lower-dose guidance while allowing for individualized care, and whether screening, monitoring, and dose adjustment or discontinuation met accepted standards.',
+    },
+    {
+      question: 'How does ApexMedLaw support opioid-related litigation?',
+      answer: 'Our board-certified, actively practicing pain medicine specialists evaluate prescribing decisions and overdose causation and provide objective opinions for plaintiff or defense, with a fee schedule and CV typically within one business day.',
+    },
+  ],
+  'sepsis-misdiagnosis-delayed-treatment-expert-witness': [
+    {
+      question: 'Why are sepsis cases high-value and high-complexity in litigation?',
+      answer: 'Sepsis mortality climbs sharply for every hour treatment is delayed, and well-defined, time-sensitive protocols create clear evidentiary targets. The difference between defensible care and negligence often comes down to timing the expert can dissect hour by hour.',
+    },
+    {
+      question: 'How do the Surviving Sepsis Campaign guidelines establish the standard of care?',
+      answer: 'The SSC Hour-1 bundle calls for measuring lactate, obtaining blood cultures before antibiotics, administering broad-spectrum antibiotics, beginning rapid fluid resuscitation, and applying vasopressors for persistent hypotension — creating a documentable timeline of expected interventions.',
+    },
+    {
+      question: 'What are the common patterns of negligence in sepsis cases?',
+      answer: 'Recurring patterns include failure to recognize sepsis early, inadequate triage and monitoring, delays in administering appropriate antibiotics, and failure to escalate floor patients to ICU-level care when deterioration occurs.',
+    },
+    {
+      question: 'How do experts establish causation in delayed-sepsis cases?',
+      answer: 'Experts use mortality data tied to antibiotic delay, SOFA scores comparing the point sepsis should have been treated versus when it was, and lactate-clearance trends to show the patient could have responded to timely treatment.',
+    },
+  ],
+  'delayed-colon-cancer-diagnosis-expert-witness': [
+    {
+      question: 'How does delayed colon cancer diagnosis create malpractice liability?',
+      answer: 'Colorectal cancer has well-established screening and surveillance protocols. When those standards are not met and a curable early-stage cancer progresses to advanced disease, the resulting stage shift and worsened prognosis can support a strong failure-to-diagnose claim.',
+    },
+    {
+      question: 'What is the standard of care for colorectal cancer screening and surveillance?',
+      answer: 'Major guidelines recommend average-risk screening beginning at age 45 or 50, colonoscopy every 10 years for normal exams, shorter intervals based on adenoma characteristics, and prompt colonoscopy for positive stool-based or imaging findings.',
+    },
+    {
+      question: 'What are common negligence patterns in delayed colon cancer cases?',
+      answer: 'Common patterns include missed or inadequately resected adenomas, failure to recommend or perform indicated colonoscopy, inadequate or delayed follow-up of abnormal findings, and patients lost to surveillance follow-up.',
+    },
+    {
+      question: 'How do experts prove causation in these cases?',
+      answer: 'Experts use stage-shift analysis, prognosis comparison with published survival data, tumor biology and growth-rate estimates, and metastatic-disease analysis to show the delay changed the stage and outcome.',
+    },
+  ],
+  'stroke-misdiagnosis-failure-to-treat-neurology-expert': [
+    {
+      question: 'What treatment windows define stroke malpractice cases?',
+      answer: 'IV thrombolysis (tPA) is generally indicated within 4.5 hours of onset for eligible patients, and mechanical thrombectomy for large-vessel occlusion extends to 24 hours in selected patients with favorable imaging. These windows create clear standard-of-care benchmarks.',
+    },
+    {
+      question: 'Where do stroke diagnostic failures most often occur?',
+      answer: 'Failures commonly involve missed posterior circulation strokes presenting as vertigo or ataxia, dismissal of stroke in younger patients, reliance on CT alone to exclude early ischemia, and inadequate imaging in wake-up or unclear-onset strokes.',
+    },
+    {
+      question: 'What standard-of-care benchmarks should attorneys know?',
+      answer: 'AHA/ASA benchmarks include door-to-imaging under 25 minutes, door-to-needle under 60 minutes, and door-to-groin under 90 minutes, along with stroke-code activation and screening for large-vessel occlusion with emergent transfer when indicated.',
+    },
+    {
+      question: 'How do experts address causation in stroke cases?',
+      answer: 'Experts analyze the imaging timeline for salvageable penumbra, confirm the patient met treatment criteria during the delay, and compare the actual outcome to published outcome and number-needed-to-treat data from the major trials.',
+    },
+  ],
+  'epidural-steroid-injection-complications-pain-medicine-expert': [
+    {
+      question: 'What does the standard of care require for epidural steroid injections?',
+      answer: 'Current standards require fluoroscopic guidance for interlaminar and transforaminal injections, contrast confirmation before steroid delivery, use of non-particulate steroids for transforaminal (especially cervical) injections, and appropriate patient selection and anticoagulation management.',
+    },
+    {
+      question: 'What deviations most commonly create liability in ESI cases?',
+      answer: 'Frequent deviations include performing the injection without fluoroscopy, failing to recognize intravascular contrast uptake, improper needle placement causing direct neural injury, and delayed recognition of post-procedure complications such as epidural hematoma.',
+    },
+    {
+      question: 'Why is procedure documentation so important in ESI cases?',
+      answer: 'The procedure note often becomes the central evidence. It should document the approach, level, use of fluoroscopy, contrast spread pattern, steroid type and dose, and any complications. Sparse or templated notes can suggest protocols were not followed.',
+    },
+    {
+      question: 'How does ApexMedLaw evaluate ESI complication cases?',
+      answer: 'Our actively practicing interventional pain physicians review fluoroscopic images and procedure notes, assess imaging guidance and steroid selection, evaluate post-procedure monitoring, and provide causation opinions linking deviations to the injury.',
+    },
+  ],
+  'ventilator-associated-pneumonia-icu-malpractice-critical-care-expert': [
+    {
+      question: 'What is ventilator-associated pneumonia and why does it matter in litigation?',
+      answer: 'VAP is pneumonia developing 48 hours or more after intubation. Because prevention strategies are well-studied and widely adopted, documented failures to follow them — combined with VAP’s high mortality — frequently support negligence arguments.',
+    },
+    {
+      question: 'What does the VAP prevention bundle include?',
+      answer: 'Core elements include head-of-bed elevation to 30–45 degrees, daily sedation interruption and spontaneous breathing trials, oral care with chlorhexidine, endotracheal cuff-pressure management, and peptic-ulcer and DVT prophylaxis.',
+    },
+    {
+      question: 'Where do prevention failures create liability?',
+      answer: 'Liability commonly arises from failure to implement or monitor the bundle, prolonged intubation without daily reassessment for extubation, and delayed recognition and treatment of infection, including inadequate or delayed antibiotic selection.',
+    },
+    {
+      question: 'What records are central to VAP case evaluation?',
+      answer: 'Nursing flowsheets (bed angle, oral care, cuff pressures, sedation), respiratory-therapy weaning notes, microbiology culture timing, and pharmacy antibiotic records together establish whether prevention and treatment met the standard of care.',
+    },
+  ],
+  'gi-bleeding-mismanagement-gastroenterology-expert-witness': [
+    {
+      question: 'How does the upper-versus-lower GI bleeding distinction affect the standard of care?',
+      answer: 'The distinction drives the diagnostic and treatment approach. Upper GI bleeds typically require endoscopy within 24 hours (and within 12 hours for high-risk or variceal bleeding, with specific pharmacologic therapy), so misclassification or delay can breach the standard of care.',
+    },
+    {
+      question: 'Where do standard-of-care failures occur in GI bleeding cases?',
+      answer: 'Common failure points include inadequate initial resuscitation and monitoring, delayed endoscopy, failure to recognize high-risk features using scores such as the Glasgow-Blatchford score, and inadequate post-procedural management.',
+    },
+    {
+      question: 'How do experts build causation in GI hemorrhage cases?',
+      answer: 'Experts focus on timing analysis against guideline-recommended endoscopy windows and on hemodynamic and hemoglobin trends and transfusion records that reveal whether monitoring and intervention were timely.',
+    },
+    {
+      question: 'What documentation should attorneys obtain in GI bleeding cases?',
+      answer: 'Key records include ED triage notes, nursing flowsheets with vital-sign and hemoglobin trends, gastroenterology consult timing, endoscopy reports, blood-bank transfusion records, and pharmacy records for PPI, octreotide, and antibiotics.',
+    },
+  ],
+  'status-epilepticus-malpractice-neurology-expert-witness': [
+    {
+      question: 'What is status epilepticus and why is it a time-sensitive emergency?',
+      answer: 'Status epilepticus is continuous seizure activity lasting more than five minutes, or recurrent seizures without return to baseline. It carries a 20–30% mortality rate, and each additional minute of uncontrolled seizure causes progressive neuronal injury.',
+    },
+    {
+      question: 'What is the time-based treatment protocol for status epilepticus?',
+      answer: 'Guidelines define phases: stabilization and recognition (0–5 minutes), first-line benzodiazepines (5–20 minutes), second-line antiseizure medications such as fosphenytoin, valproate, or levetiracetam (20–40 minutes), and ICU escalation with continuous EEG for refractory SE (40+ minutes).',
+    },
+    {
+      question: 'What failures most often drive status epilepticus liability?',
+      answer: 'Common failures include misidentifying nonconvulsive status, underdosing benzodiazepines, failure to escalate to second-line therapy, and inadequate monitoring and reassessment that obscure ongoing seizure activity.',
+    },
+    {
+      question: 'How do experts establish causation in these cases?',
+      answer: 'Experts anchor causation to the treatment timeline from EMS and hospital records and to imaging such as diffusion-weighted MRI, tying avoidable delays to the published relationship between seizure duration and permanent neurological injury.',
+    },
+  ],
+  'crps-complex-regional-pain-syndrome-malpractice-expert-witness': [
+    {
+      question: 'What is CRPS and why does it matter in malpractice litigation?',
+      answer: 'CRPS is a chronic pain condition with disproportionate pain, autonomic dysfunction, and trophic and motor changes following trauma, surgery, or nerve injury. It is diagnosed clinically using the Budapest Criteria, and applying outdated frameworks or dismissing it can be a deviation from the standard of care.',
+    },
+    {
+      question: 'What are the most common liability theories in CRPS cases?',
+      answer: 'Recurring theories include failure to diagnose, failure to refer to a specialist, precipitating negligence such as a surgical or casting error, and inadequate interdisciplinary treatment after diagnosis.',
+    },
+    {
+      question: 'How is the standard of care defined for CRPS?',
+      answer: 'The standard is defined by the Budapest Criteria for diagnosis and multi-society consensus guidelines for treatment. It does not require cure, but it requires recognized diagnostic frameworks, timely evidence-based treatment, and coordinated interdisciplinary care.',
+    },
+    {
+      question: 'How should attorneys approach causation in CRPS cases?',
+      answer: 'The temporal relationship between the inciting event and symptom onset is critical, since CRPS typically develops within days to weeks. In failure-to-diagnose cases, damages capture the additional disability that arose because the early-intervention window was missed.',
+    },
+  ],
+  'post-ercp-pancreatitis-perforation-gi-expert-witness': [
+    {
+      question: 'What questions drive ERCP malpractice cases?',
+      answer: 'Because ERCP carries baseline risk even when performed well, cases usually turn on whether the procedure was appropriately indicated, whether informed consent was adequate, whether complications were recognized and managed promptly, and whether a deviation caused the outcome.',
+    },
+    {
+      question: 'What is the standard of care for preventing post-ERCP pancreatitis?',
+      answer: 'For high-risk patients the standard includes documented risk stratification, evidence-based prophylaxis such as rectal indomethacin and prophylactic pancreatic duct stenting in selected cases, and a frank informed-consent discussion quantifying the risk. Omitting NSAID prophylaxis in a high-risk patient without a contraindication is increasingly litigated.',
+    },
+    {
+      question: 'Why is timely recognition of duodenal perforation so important?',
+      answer: 'Perforation is rare but carries high mortality, especially when recognition is delayed. Endoscopists should have a low threshold for cross-sectional imaging with unexpected post-procedure pain, tachycardia, fever, or subcutaneous emphysema; delayed recognition is a recurring catastrophic fact pattern.',
+    },
+    {
+      question: 'Why does ApexMedLaw use endoscopists who perform ERCP regularly?',
+      answer: 'ERCP litigation turns on nuanced questions of procedural judgment and timing, so we emphasize experts with active ERCP practice rather than generalist gastroenterologists, ensuring credible opinions on indication, technique, and complication management.',
+    },
+  ],
+  'ards-mismanagement-critical-care-expert-witness': [
+    {
+      question: 'How is ARDS diagnosed under the Berlin criteria?',
+      answer: 'ARDS requires onset within one week of a clinical insult, bilateral opacities not fully explained by effusion or collapse, respiratory failure not fully explained by cardiac failure or fluid overload, and a PaO2/FiO2 ratio of 300 or less with at least 5 cm H2O of PEEP, graded mild to severe.',
+    },
+    {
+      question: 'What is the lung-protective ventilation standard in ARDS?',
+      answer: 'The standard is low tidal volume ventilation at 6 mL/kg predicted body weight with plateau pressures at or below 30 cm H2O and driving pressure below 15 cm H2O. Ventilating at higher volumes or pressures is a documentable deviation linked to ventilator-induced lung injury.',
+    },
+    {
+      question: 'What additional interventions are expected in moderate-to-severe ARDS?',
+      answer: 'Evidence supports appropriate PEEP titration, prone positioning for at least 16 hours per day when PaO2/FiO2 is below 150, short-course neuromuscular blockade in severe cases, and conservative fluid management after resuscitation. Failure to consider proning or ECMO referral in severe hypoxemia is increasingly flagged.',
+    },
+    {
+      question: 'How does ApexMedLaw analyze ARDS cases?',
+      answer: 'Our pulmonary and critical care experts reconstruct the ventilator course hour by hour from flowsheets, blood gases, imaging, and fluid balance to determine whether lung-protective ventilation was actually delivered and whether escalation was appropriately considered.',
+    },
+  ],
+  'delayed-meningitis-diagnosis-neurology-expert-witness': [
+    {
+      question: 'Why is delayed meningitis diagnosis so significant in malpractice cases?',
+      answer: 'Bacterial meningitis is highly time-sensitive, with a 20–30% mortality rate when treatment is delayed and frequent permanent sequelae. The clinical presentation is often well documented, the diagnostic standard is straightforward, and the link between delay and harm is well established.',
+    },
+    {
+      question: 'When is a lumbar puncture indicated, and when does CT delay it?',
+      answer: 'When bacterial meningitis is suspected, IDSA guidance is to draw blood cultures and give empiric antibiotics immediately, with LP as soon as feasible. CT before LP is indicated only for specific findings such as papilledema, focal deficits, altered consciousness, or immunocompromise; otherwise CT should not delay LP.',
+    },
+    {
+      question: 'How does antibiotic timing affect meningitis liability?',
+      answer: 'The standard of care calls for empiric antibiotics within one hour of clinical suspicion. Because published evidence ties each hour of delay to increased mortality, timestamped records showing multi-hour delays provide concrete, clock-based evidence of a deviation.',
+    },
+    {
+      question: 'How are pediatric meningitis cases evaluated differently?',
+      answer: 'Infants may present without classic signs, showing only irritability, poor feeding, or a bulging fontanelle. Pediatric guidelines set a lower threshold for LP in febrile infants, and structured tools such as the Rochester or Step-by-Step criteria guide the workup.',
+    },
+  ],
+};
+
+export function getPostFaqs(slug: string): BlogPostFAQ[] {
+  return postFaqs[slug] ?? [];
+}

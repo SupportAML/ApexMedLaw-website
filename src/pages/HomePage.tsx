@@ -4,6 +4,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 import { Navigation } from '@/components/Navigation';
 import { SEO, OrganizationSchema } from '@/components/SEO';
+import { FAQSchema } from '@/components/SEOSchemas';
+import { faqs } from '@/sections/faqData';
 import { ApexHeroSection } from '@/sections/ApexHeroSection';
 import { ApexTeamSection } from '@/sections/ApexTeamSection';
 import { DivisionsSection } from '@/sections/DivisionsSection';
@@ -37,6 +39,7 @@ export function HomePage() {
       path="/"
     />
     <OrganizationSchema />
+    <FAQSchema faqs={faqs} />
     <Navigation />
     <main className="relative">
       <ApexHeroSection />

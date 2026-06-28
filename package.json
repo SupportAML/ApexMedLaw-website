@@ -10,7 +10,8 @@
     "build:ssr": "vite build --ssr src/entry-server.tsx --outDir dist-ssr",
     "build:prerender": "tsx scripts/generate-sitemap.ts && tsx scripts/prerender.ts",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "tsx scripts/test.ts"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

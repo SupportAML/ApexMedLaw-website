@@ -1,9 +1,15 @@
+export interface DivisionFAQ {
+  question: string;
+  answer: string;
+}
+
 export interface Division {
   slug: string;
   name: string;
   tagline: string;
   description: string;
   practiceAreas: { title: string; description: string }[];
+  faqs?: DivisionFAQ[];
   externalUrl?: string;
   comingSoon?: boolean;
 }
@@ -749,5 +755,434 @@ export const divisions: Division[] = [
 ];
 
 export function getDivisionBySlug(slug: string): Division | undefined {
-  return divisions.find(d => d.slug === slug);
+  const division = divisions.find(d => d.slug === slug);
+  if (!division) return undefined;
+  return { ...division, faqs: divisionFaqs[division.slug] ?? division.faqs };
 }
+
+export function getDivisionFaqs(slug: string): DivisionFAQ[] {
+  return divisionFaqs[slug] ?? [];
+}
+
+/**
+ * Attorney-facing FAQ content per division, surfaced as FAQPage JSON-LD on each
+ * division page. Authored to be accurate for a physician-led medical-legal
+ * expert-witness firm (board-certified, clinically active experts; plaintiff and
+ * defense; nationwide). Keyed by division slug.
+ */
+export const divisionFaqs: Record<string, DivisionFAQ[]> = {
+  'anesthesiology': [
+    {
+      question: 'What types of anesthesiology cases do your experts review?',
+      answer: 'Our anesthesiologists review perioperative anesthesia complications, intraoperative monitoring and awareness, airway and ventilation events, interventional pain procedure injuries, opioid prescribing and overdose causation, and chronic pain management. Each case is matched to an expert who actively practices in the relevant subspecialty.',
+    },
+    {
+      question: 'Are your anesthesiology experts board-certified and clinically active?',
+      answer: 'Yes. Every anesthesiology and pain medicine expert is board-certified and maintains an active clinical practice, so their opinions reflect current standards of care rather than dated experience — a key factor in surviving Daubert and Frye challenges.',
+    },
+    {
+      question: 'Can an anesthesiology expert opine on opioid prescribing and overdose causation?',
+      answer: 'Yes. Our pain medicine physicians address opioid selection, dose escalation, addiction-risk assessment, drug-interaction analysis, and whether a prescribing decision more likely than not caused the alleged harm, grounded in current CDC and state prescribing standards.',
+    },
+    {
+      question: 'Do you take both plaintiff and defense anesthesiology cases?',
+      answer: 'Yes. We provide objective, evidence-based opinions for either side and run a conflict check before engagement. A fee schedule and the assigned expert’s CV are typically provided within one business day of your inquiry.',
+    },
+  ],
+  'critical-care': [
+    {
+      question: 'What ICU and critical care cases do your intensivists handle?',
+      answer: 'Our intensivists review sepsis and septic shock recognition and treatment, mechanical ventilation and ARDS management, organ-failure recognition, ICU medication errors, post-surgical deterioration, and end-of-life and wrongful-death cases arising in the intensive care setting.',
+    },
+    {
+      question: 'How do critical care experts analyze sepsis timing and causation?',
+      answer: 'They reconstruct the clinical timeline hour by hour against the Surviving Sepsis Campaign bundles, identify the point at which sepsis should have been recognized and treated, and compare the patient’s actual trajectory to expected outcomes under timely care using published mortality data.',
+    },
+    {
+      question: 'Are your critical care experts currently practicing in an ICU?',
+      answer: 'Yes. Our critical care experts are board-certified and maintain active ICU practice, giving them firsthand familiarity with current protocols, ventilator management, and the real-world pressures of critical care decision-making.',
+    },
+    {
+      question: 'How quickly can you provide a critical care case review?',
+      answer: 'We offer rapid initial screening, often with a preliminary merit assessment, and can accommodate expedited timelines for discovery cutoffs, deposition deadlines, and trial preparation. Share your key dates when you submit your inquiry.',
+    },
+  ],
+  'emergency-medicine': [
+    {
+      question: 'What emergency department cases do your EM experts review?',
+      answer: 'Our board-certified emergency physicians review missed and delayed diagnoses (stroke, MI, sepsis, aortic dissection, pulmonary embolism), triage and EMTALA disposition decisions, trauma resuscitation, airway management, and procedural complications across academic, community, freestanding, and rural EDs.',
+    },
+    {
+      question: 'Can your experts address triage and EMTALA disposition decisions?',
+      answer: 'Yes. Our experts evaluate triage acuity assignment, admission-versus-discharge decisions, EMTALA screening and stabilization obligations, and whether the disposition met the standard of care given the patient’s presentation.',
+    },
+    {
+      question: 'Will an emergency medicine expert withstand a Daubert challenge?',
+      answer: 'Our experts are board-certified, clinically active emergency physicians whose credentials are aligned to the specific issue in your case, which supports admissibility under Daubert and Frye scrutiny.',
+    },
+    {
+      question: 'Do you handle both plaintiff and defense emergency medicine cases?',
+      answer: 'Yes. We provide objective opinions for either side, conduct a conflict check before engagement, and provide a fee schedule and the expert’s CV typically within one business day.',
+    },
+  ],
+  'epilepsy': [
+    {
+      question: 'What epilepsy and seizure cases do your epileptologists review?',
+      answer: 'Our fellowship-trained epileptologists review seizure diagnosis and classification, EEG interpretation, antiseizure medication management, status epilepticus treatment, post-traumatic epilepsy causation, and surgical or device-candidacy decisions.',
+    },
+    {
+      question: 'Can your experts interpret EEG and distinguish epileptic from non-epileptic events?',
+      answer: 'Yes. Our clinical neurophysiologists interpret routine, prolonged, and continuous EEG, evaluate epileptiform abnormalities, and analyze whether events were correctly characterized as epileptic, nonconvulsive status, or non-epileptic.',
+    },
+    {
+      question: 'How do you analyze status epilepticus treatment delays?',
+      answer: 'Our experts compare the documented timeline against the phase-based national protocols for benzodiazepine and second-line therapy dosing and escalation, and tie any delay to the published relationship between seizure duration and neurological injury.',
+    },
+    {
+      question: 'Are your epilepsy experts board-certified and currently practicing?',
+      answer: 'Yes. Each is board-certified and clinically active in epilepsy monitoring and EEG, ensuring opinions reflect the current standard of care. We work both plaintiff and defense and run a conflict check before engagement.',
+    },
+  ],
+  'family-medicine': [
+    {
+      question: 'What family medicine and hospitalist cases do your experts review?',
+      answer: 'Our board-certified family physicians review primary care and urgent care standard of care, hospital and hospitalist management of acutely ill adults, diagnostic delay, medication and polypharmacy management, and inpatient escalation and transfer decisions.',
+    },
+    {
+      question: 'Can a family medicine expert address diagnostic delay in the outpatient setting?',
+      answer: 'Yes. Our experts evaluate whether the workup, follow-up, and referral decisions for common and complex conditions met the standard of care, and whether earlier diagnosis would more likely than not have changed the outcome.',
+    },
+    {
+      question: 'Do your experts have active hospital and urgent care experience?',
+      answer: 'Yes. Our family medicine experts maintain active hospitalist, primary care, or urgent care practice across multiple states, so their opinions reflect current, real-world standards.',
+    },
+    {
+      question: 'Do you take both plaintiff and defense family medicine cases?',
+      answer: 'Yes. We provide objective opinions for either side, run a conflict check, and typically provide a fee schedule and CV within one business day of your inquiry.',
+    },
+  ],
+  'gastroenterology': [
+    {
+      question: 'What gastroenterology cases do your GI experts review?',
+      answer: 'Our board-certified gastroenterologists review endoscopy complications such as perforation and post-ERCP pancreatitis, missed or delayed GI cancer, GI bleeding management, inflammatory bowel disease, liver disease, and medication-related GI injury.',
+    },
+    {
+      question: 'Can your experts evaluate colonoscopy quality and missed adenomas?',
+      answer: 'Yes. Our experts assess bowel-preparation adequacy, withdrawal time, inspection technique, adenoma detection, and surveillance intervals against published guidelines, and perform stage-shift and prognosis analysis in delayed colorectal cancer cases.',
+    },
+    {
+      question: 'Do your experts personally perform the procedures at issue?',
+      answer: 'Yes. We match cases to gastroenterologists who actively perform the specific procedure in question — including advanced-endoscopy physicians who regularly perform ERCP — so technical opinions are credible and current.',
+    },
+    {
+      question: 'How quickly can you provide a GI expert and case review?',
+      answer: 'We offer rapid case screening and can accommodate expedited deadlines. A fee schedule and the expert’s CV are typically provided within one business day, after a conflict check. We work both plaintiff and defense.',
+    },
+  ],
+  'internal-medicine': [
+    {
+      question: 'What internal medicine and hospitalist cases do your experts review?',
+      answer: 'Our board-certified internists and hospitalists review diagnostic delay, inpatient standard of care, medication errors, failure to monitor or escalate, discharge-planning issues, and complex multi-system disease management.',
+    },
+    {
+      question: 'Can an internal medicine expert address inpatient and hospitalist negligence?',
+      answer: 'Yes. Our experts evaluate admission decisions, escalation of care, communication failures between care teams, and whether hospital-based management met the standard of care.',
+    },
+    {
+      question: 'Are your internal medicine experts clinically active?',
+      answer: 'Yes. Each expert maintains active inpatient or outpatient practice, ensuring current knowledge of standards and clinical decision-making that withstands cross-examination.',
+    },
+    {
+      question: 'Do you provide opinions for both plaintiff and defense?',
+      answer: 'Yes. We provide objective, evidence-based opinions for either side, conduct a conflict check before engagement, and typically deliver a fee schedule and CV within one business day.',
+    },
+  ],
+  'interventional-spine': [
+    {
+      question: 'What interventional spine cases do your physiatrists review?',
+      answer: 'Our fellowship-trained interventional spine specialists review epidural steroid injection complications, facet and medial-branch procedures, radiofrequency ablation, spinal cord stimulation, electrodiagnostic evaluation, spinal injury, and chronic pain management.',
+    },
+    {
+      question: 'Can your experts evaluate epidural steroid injection injuries?',
+      answer: 'Yes. They assess whether fluoroscopic guidance and contrast confirmation were used, whether appropriate (non-particulate) steroids were selected, whether intravascular uptake was recognized, and whether post-procedure complications such as epidural hematoma were managed in time.',
+    },
+    {
+      question: 'Do your experts perform these image-guided procedures themselves?',
+      answer: 'Yes. We match cases to interventional pain physicians who regularly perform the procedure at issue, giving them authoritative perspective on technique, indications, and complication management.',
+    },
+    {
+      question: 'Do you handle both plaintiff and defense interventional spine cases?',
+      answer: 'Yes. We provide objective opinions for either side, run a conflict check, and typically provide a fee schedule and CV within one business day of your inquiry.',
+    },
+  ],
+  'neurocritical-care': [
+    {
+      question: 'What neurocritical care cases do your neurointensivists review?',
+      answer: 'Our fellowship-trained neurointensivists review severe TBI and intracranial pressure management, hemorrhagic and ischemic stroke ICU care, refractory status epilepticus, neuromonitoring, brain-death determination and prognostication, and acute spinal cord injury ICU management.',
+    },
+    {
+      question: 'Can your experts address intracranial pressure and herniation management?',
+      answer: 'Yes. They evaluate ICP monitoring decisions, osmotic and surgical interventions, tiered escalation, and whether the neurocritical management met the standard of care given the patient’s trajectory.',
+    },
+    {
+      question: 'Do your experts handle brain-death and prognostication disputes?',
+      answer: 'Yes. Our neurointensivists evaluate brain-death determination protocols, neuroprognostication after cardiac arrest, and end-of-life decision-making against accepted guidelines.',
+    },
+    {
+      question: 'Are your neurocritical care experts currently practicing in the ICU?',
+      answer: 'Yes. Each is board-certified and maintains active neurocritical care practice. We work both plaintiff and defense and run a conflict check before engagement.',
+    },
+  ],
+  'neuroimmunology': [
+    {
+      question: 'What neuroimmunology cases do your experts review?',
+      answer: 'Our fellowship-trained neuroimmunologists review multiple sclerosis diagnosis and treatment, neuromyelitis optica and MOGAD, autoimmune encephalitis, disease-modifying therapy selection and monitoring, and demyelinating-disease differential diagnosis.',
+    },
+    {
+      question: 'Can an expert address misdiagnosis of MS or delayed treatment?',
+      answer: 'Yes. They evaluate application of the McDonald criteria, MRI interpretation, antibody testing, and whether disease-modifying therapy was appropriately selected, escalated, and monitored, including PML and other adverse-event risks.',
+    },
+    {
+      question: 'Are your neuroimmunology experts board-certified and clinically active?',
+      answer: 'Yes. Each maintains active neuroimmunology practice, ensuring opinions reflect current diagnostic criteria and therapeutic standards.',
+    },
+    {
+      question: 'Do you take both plaintiff and defense neuroimmunology cases?',
+      answer: 'Yes. We provide objective opinions for either side, conduct a conflict check, and typically provide a fee schedule and CV within one business day.',
+    },
+  ],
+  'neurology': [
+    {
+      question: 'What neurology cases do your expert witnesses review?',
+      answer: 'Our board-certified neurologists review traumatic brain injury and concussion, stroke and cerebrovascular disease, spinal cord injury, seizure disorders, neuromuscular disease, and chronic pain and neuropathy, with a focus on standard of care and causation.',
+    },
+    {
+      question: 'How do neurology experts approach causation in TBI and stroke cases?',
+      answer: 'They provide rigorous causation analysis supported by imaging, neuropsychological testing, treatment-window analysis, and published outcome data, distinguishing injury-related deficits from other causes.',
+    },
+    {
+      question: 'Are your neurology experts board-certified and clinically active?',
+      answer: 'Yes. Each neurologist maintains an active clinical practice and is matched to the subspecialty relevant to your case, supporting admissibility under Daubert and Frye.',
+    },
+    {
+      question: 'Do you provide neurology experts for both plaintiff and defense nationwide?',
+      answer: 'Yes. Our neurologists are available for case review, IME, deposition, and trial testimony nationwide, for either side, following a conflict check.',
+    },
+  ],
+  'neuromuscular-medicine': [
+    {
+      question: 'What neuromuscular medicine cases do your experts review?',
+      answer: 'Our fellowship-trained neuromuscular specialists review peripheral nerve injury, EMG and nerve conduction study technique and interpretation, neuromuscular ultrasound, toxic and chemotherapy-induced neuropathy, autoimmune neuromuscular disease, and hereditary neuromuscular syndromes.',
+    },
+    {
+      question: 'Can your experts interpret EMG and nerve conduction studies?',
+      answer: 'Yes. Our experts maintain high-volume electrodiagnostic practices and evaluate testing technique, interpretation, and whether radiculopathy, neuropathy, or myopathy was correctly identified.',
+    },
+    {
+      question: 'Can an expert address causation in toxic or chemotherapy-induced neuropathy?',
+      answer: 'Yes. They analyze exposure history, clinical and electrodiagnostic findings, and the literature to opine on whether a specific agent or exposure more likely than not caused the nerve injury.',
+    },
+    {
+      question: 'Do you handle both plaintiff and defense neuromuscular cases?',
+      answer: 'Yes. We provide objective opinions for either side, run a conflict check, and typically provide a fee schedule and CV within one business day.',
+    },
+  ],
+  'neurosurgery': [
+    {
+      question: 'What neurosurgery cases do your experts review?',
+      answer: 'Our board-certified neurosurgeons review traumatic brain injury management, cranial and spinal surgery, surgical timing in spinal cord injury, craniotomy and tumor resection, disc herniation and nerve compression, and post-operative complications.',
+    },
+    {
+      question: 'Can your experts address surgical timing and technique disputes?',
+      answer: 'Yes. They evaluate indications for surgery, intraoperative technique, decompression timing, and whether the surgical decision-making met the standard of care across cranial and spinal procedures.',
+    },
+    {
+      question: 'Do your neurosurgery experts maintain active surgical practice?',
+      answer: 'Yes. Our experts maintain active neurosurgical practice, giving them current, credible perspective on operative standards that withstands Daubert scrutiny.',
+    },
+    {
+      question: 'Do you provide neurosurgery experts for both plaintiff and defense?',
+      answer: 'Yes. We provide objective opinions for either side, conduct a conflict check before engagement, and typically provide a fee schedule and CV within one business day.',
+    },
+  ],
+  'orthopedic-surgery': [
+    {
+      question: 'What orthopedic surgery cases do your experts review?',
+      answer: 'Our fellowship-trained orthopedic surgeons review fracture management, joint replacement, sports and soft-tissue injuries, post-surgical complications, orthopedic trauma, and workers’ compensation and IME evaluations.',
+    },
+    {
+      question: 'Can your experts evaluate post-surgical complications and infection?',
+      answer: 'Yes. They assess surgical site infection, nerve and vascular injury, compartment syndrome, DVT prophylaxis adequacy, hardware issues, and whether complications were recognized and managed appropriately.',
+    },
+    {
+      question: 'Do your experts provide impairment ratings and IME opinions?',
+      answer: 'Yes. Our orthopedic experts perform work-related causation analysis, impairment ratings, and return-to-work evaluations, including in-person IMEs arranged at convenient locations.',
+    },
+    {
+      question: 'Do you take both plaintiff and defense orthopedic cases?',
+      answer: 'Yes. We provide objective opinions for either side, run a conflict check, and typically provide a fee schedule and CV within one business day.',
+    },
+  ],
+  'pediatric-neurology': [
+    {
+      question: 'What pediatric neurology cases do your experts review?',
+      answer: 'Our ABPN-certified child neurologists review neonatal brain injury and HIE, pediatric epilepsy, pediatric stroke, developmental delay, pediatric neurocritical care, and concussion in children.',
+    },
+    {
+      question: 'Can your experts address neonatal hypoxic-ischemic encephalopathy (HIE)?',
+      answer: 'Yes. Our experts evaluate the timing and recognition of neonatal neurologic injury, birth-related causation, and whether management met the pediatric standard of care.',
+    },
+    {
+      question: 'Are your pediatric neurology experts fellowship-trained and clinically active?',
+      answer: 'Yes. Our child neurologists hold subspecialty fellowship training in areas such as epilepsy and neurocritical care and maintain active pediatric practice.',
+    },
+    {
+      question: 'Do you provide pediatric neurology experts for both plaintiff and defense?',
+      answer: 'Yes. We provide objective opinions for either side, conduct a conflict check, and typically provide a fee schedule and CV within one business day.',
+    },
+  ],
+  'pharmacy': [
+    {
+      question: 'What pharmacy and medication cases do your experts review?',
+      answer: 'Our board-certified pharmacotherapy and critical care pharmacy specialists review medication and dispensing errors, drug overdose and adverse reactions, opioid prescribing and dispensing responsibilities, anticoagulation management, pharmacy standard of care, and ICU and emergency pharmacotherapy.',
+    },
+    {
+      question: 'Can a pharmacy expert address a pharmacist’s corresponding responsibility in opioid cases?',
+      answer: 'Yes. Our experts evaluate red-flag identification, corresponding-responsibility analysis, and whether dispensing decisions met the pharmacy standard of care.',
+    },
+    {
+      question: 'Are your pharmacy experts board-certified and clinically active?',
+      answer: 'Yes. Each is board-certified and practices in the relevant setting, ensuring opinions reflect current dispensing, compounding, and clinical-pharmacy standards.',
+    },
+    {
+      question: 'Do you take both plaintiff and defense pharmacy cases?',
+      answer: 'Yes. We provide objective opinions for either side, run a conflict check, and typically provide a fee schedule and CV within one business day.',
+    },
+  ],
+  'physical-medicine-rehabilitation': [
+    {
+      question: 'What PM&R cases do your physiatrists review?',
+      answer: 'Our board-certified physiatrists review spinal cord injury, brain injury and stroke rehabilitation, life-care planning, functional capacity evaluation and impairment rating, and complications of immobility such as pressure injury and autonomic dysreflexia.',
+    },
+    {
+      question: 'Can your experts provide life-care planning and future-cost opinions?',
+      answer: 'Yes. Our experts assess anticipated quality of life, future care needs, durable medical equipment, and rehabilitation cost projections after catastrophic injury.',
+    },
+    {
+      question: 'Do your experts use the AMA Guides for impairment ratings?',
+      answer: 'Yes. Our physiatrists perform disability evaluations, return-to-work assessments, and impairment ratings using the AMA Guides, including in IME settings.',
+    },
+    {
+      question: 'Do you handle both plaintiff and defense PM&R cases?',
+      answer: 'Yes. We provide objective opinions for either side, conduct a conflict check, and typically provide a fee schedule and CV within one business day.',
+    },
+  ],
+  'radiology': [
+    {
+      question: 'What radiology cases do your experts review?',
+      answer: 'Our board-certified diagnostic radiologists and neuroradiologists review missed findings on CT, MRI, X-ray, and ultrasound, including stroke and hemorrhage, spine imaging, cancer detection, CSF leaks, and trauma imaging interpretation.',
+    },
+    {
+      question: 'Can your experts address a missed or misread finding on imaging?',
+      answer: 'Yes. They evaluate whether the finding was perceptible and should have been reported, whether interpretation met the standard of care, and whether the miss more likely than not affected the outcome.',
+    },
+    {
+      question: 'Are your radiology experts subspecialty-trained and clinically active?',
+      answer: 'Yes. Our experts include double board-certified neuroradiologists who actively read the relevant studies, supporting credible, current testimony.',
+    },
+    {
+      question: 'Do you provide radiology experts for both plaintiff and defense?',
+      answer: 'Yes. We provide objective opinions for either side, run a conflict check, and typically provide a fee schedule and CV within one business day.',
+    },
+  ],
+  'spinal-cord-injury': [
+    {
+      question: 'What spinal cord injury cases do your experts review?',
+      answer: 'Our physiatrists and rehabilitation specialists review traumatic SCI causation, acute management and standard of care, neurogenic complications, rehabilitation and functional outcomes, preventable secondary complications, and life-care planning.',
+    },
+    {
+      question: 'Can your experts address causation and level/completeness of injury?',
+      answer: 'Yes. They analyze mechanism of injury, completeness and level determination, and whether the documented findings support the alleged causation.',
+    },
+    {
+      question: 'Do your experts provide prognosis and life-care planning opinions?',
+      answer: 'Yes. Our experts address long-term care needs, durable medical equipment, attendant care, and life-expectancy considerations in catastrophic SCI cases.',
+    },
+    {
+      question: 'Do you take both plaintiff and defense SCI cases?',
+      answer: 'Yes. We provide objective opinions for either side, conduct a conflict check, and typically provide a fee schedule and CV within one business day.',
+    },
+  ],
+  'spine-surgery': [
+    {
+      question: 'What spine surgery cases do your experts review?',
+      answer: 'Our fellowship-trained orthopedic spine surgeons and neurosurgeons review cervical, thoracic, and lumbar procedures (ACDF, fusion, decompression, arthroplasty), spinal trauma, disc herniation and nerve compression, deformity correction, and post-operative complications.',
+    },
+    {
+      question: 'Can your experts evaluate surgical indication and technique?',
+      answer: 'Yes. They assess whether surgery was appropriately indicated, whether the technique and instrumentation met the standard of care, and whether complications such as hardware failure, dural tear, or nerve injury were managed appropriately.',
+    },
+    {
+      question: 'Do your spine surgery experts maintain active operative practice?',
+      answer: 'Yes. Our experts actively perform the procedures at issue, giving them current, credible perspective for deposition and trial.',
+    },
+    {
+      question: 'Do you provide spine surgery experts for both plaintiff and defense?',
+      answer: 'Yes. We provide objective opinions for either side, run a conflict check, and typically provide a fee schedule and CV within one business day.',
+    },
+  ],
+  'stroke-vascular-neurology': [
+    {
+      question: 'What stroke and vascular neurology cases do your experts review?',
+      answer: 'Our board-certified vascular neurologists review acute ischemic stroke, thrombolytic and thrombectomy decisions, intracerebral and subarachnoid hemorrhage, posterior circulation stroke, telestroke and transfer standards, and secondary stroke prevention.',
+    },
+    {
+      question: 'How do experts analyze tPA and thrombectomy treatment-window decisions?',
+      answer: 'They evaluate last-known-well determination, imaging triage, eligibility for IV thrombolysis and mechanical thrombectomy, door-to-needle and door-to-groin benchmarks, and whether salvageable tissue was present during any delay.',
+    },
+    {
+      question: 'Can your experts address missed posterior circulation strokes?',
+      answer: 'Yes. Our experts evaluate atypical presentations such as vertigo and ataxia that are frequently misdiagnosed, and whether the workup met the standard of care.',
+    },
+    {
+      question: 'Do you handle both plaintiff and defense stroke cases?',
+      answer: 'Yes. We provide objective opinions for either side, conduct a conflict check, and typically provide a fee schedule and CV within one business day.',
+    },
+  ],
+  'vascular-surgery': [
+    {
+      question: 'What vascular surgery cases do your experts review?',
+      answer: 'Our board-certified vascular surgeons review peripheral arterial disease procedures, carotid disease, dialysis access, venous thromboembolism and insufficiency, amputation and limb salvage, and chronic wound care.',
+    },
+    {
+      question: 'Can your experts address delayed treatment and limb-salvage decisions?',
+      answer: 'Yes. They evaluate timing of revascularization, amputation-level determination, management of lower-extremity ischemia, and whether the standard of care was met.',
+    },
+    {
+      question: 'Do your vascular surgery experts have open and endovascular experience?',
+      answer: 'Yes. Our experts have extensive open and endovascular experience and maintain active practice, supporting credible testimony on technique and indications.',
+    },
+    {
+      question: 'Do you take both plaintiff and defense vascular surgery cases?',
+      answer: 'Yes. We provide objective opinions for either side, run a conflict check, and typically provide a fee schedule and CV within one business day.',
+    },
+  ],
+  'wilderness-medicine': [
+    {
+      question: 'What wilderness and environmental medicine cases do your experts review?',
+      answer: 'Our FAWM-credentialed emergency physicians review hypothermia and cold injury, drowning and submersion, heat illness, altitude illness, envenomation and animal bites, and dive and marine-medicine emergencies.',
+    },
+    {
+      question: 'Can your experts address austere, remote, and dive-medicine standards of care?',
+      answer: 'Yes. Our experts evaluate care delivered in austere and remote settings, search-and-rescue medical direction, decompression illness, and hyperbaric referral decisions against accepted standards.',
+    },
+    {
+      question: 'Are your wilderness medicine experts board-certified and fellowship-trained?',
+      answer: 'Yes. Our experts are board-certified emergency physicians with fellowship training and FAWM credentialing in wilderness medicine.',
+    },
+    {
+      question: 'Do you handle both plaintiff and defense wilderness medicine cases?',
+      answer: 'Yes. We provide objective opinions for either side, conduct a conflict check, and typically provide a fee schedule and CV within one business day.',
+    },
+  ],
+};

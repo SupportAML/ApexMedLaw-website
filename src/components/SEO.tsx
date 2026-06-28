@@ -1,4 +1,6 @@
 import { Helmet } from 'react-helmet-async';
+import { BASE_URL, LOGO_IMAGE, buildBlogPostingSchema } from '@/lib/seo-schema';
+import type { BlogPostingSchemaInput } from '@/lib/seo-schema';
 
 interface SEOProps {
   title?: string;
@@ -9,10 +11,9 @@ interface SEOProps {
   image?: string;
 }
 
-const BASE_URL = 'https://www.apexmedlaw.com';
 const DEFAULT_TITLE = 'ApexMedLaw | Physician-Led Medical-Legal Expert Witness Consulting';
 const DEFAULT_DESCRIPTION = 'Board-certified, trial-ready physician expert witnesses for medical malpractice, personal injury, and IME cases. Neurology, Critical Care, GI, and Pain Medicine divisions. Nationwide coverage.';
-const DEFAULT_IMAGE = `${BASE_URL}/og-image.jpg`;
+const DEFAULT_IMAGE = LOGO_IMAGE;
 
 export function SEO({ title, description, path = '/', type = 'website', publishedTime, image }: SEOProps) {
   const pageTitle = title ? `${title} | ApexMedLaw` : DEFAULT_TITLE;
@@ -73,29 +74,11 @@ export function OrganizationSchema() {
   );
 }
 
-/** JSON-LD for blog Article */
-export function ArticleSchema({ title, description, date, slug }: { title: string; description: string; date: string; slug: string }) {
-  const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline: title,
-    description,
-    datePublished: date,
-    author: {
-      '@type': 'Organization',
-      name: 'ApexMedLaw',
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: 'ApexMedLaw',
-      url: BASE_URL,
-    },
-    mainEntityOfPage: `${BASE_URL}/blog/${slug}`,
-  };
-
+/** JSON-LD for a blog post (BlogPosting). */
+export function BlogPostingSchema(props: BlogPostingSchemaInput) {
   return (
     <Helmet>
-      <script type="application/ld+json">{JSON.stringify(schema)}</script>
+      <script type="application/ld+json">{JSON.stringify(buildBlogPostingSchema(props))}</script>
     </Helmet>
   );
 }

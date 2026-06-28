@@ -1,10 +1,11 @@
 import { type ReactNode } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Tag } from 'lucide-react';
-import { blogPosts } from '@/blog/posts';
+import { blogPosts, getPostFaqs } from '@/blog/posts';
 import { Navigation } from '@/components/Navigation';
 import { Button } from '@/components/ui/button';
-import { SEO, ArticleSchema } from '@/components/SEO';
+import { SEO, BlogPostingSchema } from '@/components/SEO';
+import { FAQSchema, BreadcrumbSchema } from '@/components/SEOSchemas';
 
 function renderMarkdown(content: string) {
   // Simple markdown renderer for blog posts
@@ -92,12 +93,24 @@ export function BlogPostPage() {
         type="article"
         publishedTime={post.date}
       />
-      <ArticleSchema
+      <BlogPostingSchema
         title={post.title}
         description={post.metaDescription}
         date={post.date}
         slug={post.slug}
+        author={post.author}
       />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Blog', url: '/blog' },
+          { name: post.title, url: `/blog/${post.slug}` },
+        ]}
+      />
+      {(() => {
+        const postFaqs = getPostFaqs(post.slug);
+        return postFaqs.length > 0 ? <FAQSchema faqs={postFaqs} /> : null;
+      })()}
       <Navigation />
       <main className="relative pt-24 pb-20 min-h-screen bg-clinical">
         <article className="max-w-3xl mx-auto px-6 lg:px-12">

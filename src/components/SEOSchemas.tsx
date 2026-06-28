@@ -1,6 +1,28 @@
 import { Helmet } from 'react-helmet-async';
+import { BASE_URL, buildFaqSchema, buildBreadcrumbSchema } from '@/lib/seo-schema';
+import type { FAQItem, BreadcrumbItem } from '@/lib/seo-schema';
 
-const BASE_URL = 'https://www.apexmedlaw.com';
+export type { FAQItem, BreadcrumbItem };
+
+/** JSON-LD FAQPage. Renders nothing when there are no FAQs. */
+export function FAQSchema({ faqs }: { faqs?: FAQItem[] }) {
+  if (!faqs || faqs.length === 0) return null;
+  return (
+    <Helmet>
+      <script type="application/ld+json">{JSON.stringify(buildFaqSchema(faqs))}</script>
+    </Helmet>
+  );
+}
+
+/** JSON-LD BreadcrumbList. */
+export function BreadcrumbSchema({ items }: { items: BreadcrumbItem[] }) {
+  if (!items || items.length === 0) return null;
+  return (
+    <Helmet>
+      <script type="application/ld+json">{JSON.stringify(buildBreadcrumbSchema(items))}</script>
+    </Helmet>
+  );
+}
 
 /** JSON-LD for a division page (MedicalSpecialty + Service). */
 export function DivisionSchema({
@@ -55,7 +77,12 @@ export function PhysicianSchema({
     '@type': 'Physician',
     name,
     jobTitle: role,
-    description: bio.split(/(?<=[.!?])\s+/)[0]?.trim() ?? bio.slice(0, 200),
+    description: (() => {
+      const clean = bio.replace(/\s+/g, ' ').trim();
+      if (clean.length <= 300) return clean;
+      const cut = clean.slice(0, 300);
+      return cut.slice(0, cut.lastIndexOf(' ')) + '…';
+    })(),
     url: `${BASE_URL}/experts/${slug}`,
     areaServed: location,
     hasCredential: credentials,

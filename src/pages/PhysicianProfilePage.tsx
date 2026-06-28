@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Navigation } from '@/components/Navigation';
 import { SEO } from '@/components/SEO';
-import { PhysicianSchema } from '@/components/SEOSchemas';
+import { PhysicianSchema, BreadcrumbSchema } from '@/components/SEOSchemas';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import {
@@ -66,6 +66,13 @@ export function PhysicianProfilePage() {
         location={physician.location}
         credentials={physician.credentials}
         slug={physician.slug}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Experts', url: '/experts' },
+          { name: physician.name, url: `/experts/${physician.slug}` },
+        ]}
       />
       <Navigation />
       <main className="pt-20 lg:pt-24">
