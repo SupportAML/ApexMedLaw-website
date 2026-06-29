@@ -29,6 +29,7 @@ const entries: Entry[] = [
   { loc: `${BASE}/`,        lastmod: TODAY, changefreq: 'weekly',  priority: '1.0' },
   { loc: `${BASE}/experts`, lastmod: TODAY, changefreq: 'weekly',  priority: '0.9' },
   { loc: `${BASE}/blog`,    lastmod: TODAY, changefreq: 'daily',   priority: '0.9' },
+  { loc: `${BASE}/trial-lawyers`, lastmod: TODAY, changefreq: 'monthly', priority: '0.8' },
 ];
 
 for (const d of divisions as Array<{ slug: string }>) {

@@ -18,6 +18,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     name, lawFirm, email, phone,
     caseType, specialty,
     urgentDeadline, deadlineDetails, caseDetails,
+    source,
   } = req.body;
 
   if (!name || !lawFirm || !email || !caseDetails || !urgentDeadline) {
@@ -26,6 +27,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   const caseTypeDisplay = caseType || 'Not specified';
   const specialtyDisplay = specialty || 'Not specified';
+  // Lead-source attribution (e.g. landing pages / campaigns). Backward-compatible:
+  // older form submissions without a source default to "Website (direct)".
+  const sourceDisplay = source || 'Website (direct)';
 
   const urgentDisplay = urgentDeadline === 'yes'
     ? `⚠️ YES${deadlineDetails ? ` — ${deadlineDetails}` : ''}`
@@ -75,6 +79,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
             <tr style="background: ${urgentDeadline === 'yes' ? '#FEF3C7' : 'transparent'};">
               <td style="padding: 8px 12px; font-weight: bold; border-bottom: 1px solid #eee;">Urgent Deadline</td>
               <td style="padding: 8px 12px; border-bottom: 1px solid #eee;">${urgentDisplay}</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px 12px; font-weight: bold; border-bottom: 1px solid #eee;">Source</td>
+              <td style="padding: 8px 12px; border-bottom: 1px solid #eee;">${sourceDisplay}</td>
             </tr>
             <tr>
               <td style="padding: 8px 12px; font-weight: bold; vertical-align: top;">Case Details</td>

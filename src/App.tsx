@@ -5,6 +5,7 @@ import { BlogPage } from '@/pages/BlogPage';
 import { BlogPostPage } from '@/pages/BlogPostPage';
 import { RegistryPage } from '@/pages/RegistryPage';
 import { PhysicianProfilePage } from '@/pages/PhysicianProfilePage';
+import { TrialLawyersPage } from '@/pages/TrialLawyersPage';
 import { Footer } from '@/components/Footer';
 import './App.css';
 
@@ -16,6 +17,7 @@ export function AppRoutes() {
         <Route path="/divisions/:slug" element={<DivisionPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
+        <Route path="/trial-lawyers" element={<TrialLawyersPage />} />
         <Route path="/experts" element={<RegistryPage />} />
         <Route path="/experts/:slug" element={<PhysicianProfilePage />} />
         <Route path="/registry" element={<Navigate to="/experts" replace />} />

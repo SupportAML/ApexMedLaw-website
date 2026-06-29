@@ -38,6 +38,7 @@ const routes: string[] = [
   '/',
   '/blog',
   '/experts',
+  '/trial-lawyers',
   ...(divisions as Slugged[]).map((d) => `/divisions/${d.slug}`),
   ...(blogPosts as Slugged[]).map((p) => `/blog/${p.slug}`),
   ...(physicians as Slugged[]).map((p) => `/experts/${p.slug}`),
