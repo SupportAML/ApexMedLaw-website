@@ -939,6 +939,116 @@ For pediatric cases, we apply age-specific fever workup criteria and evaluate wh
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'pulmonary-embolism-misdiagnosis-expert-witness',
+    title: 'Pulmonary Embolism Misdiagnosis: What Attorneys Need to Know About Failure-to-Diagnose PE Cases',
+    metaDescription: 'A litigation guide for attorneys on pulmonary embolism misdiagnosis. Learn Wells criteria, PERC rule, causation analysis, and how to select the right PE expert witness.',
+    date: '2026-06-29',
+    author: 'AML Editorial',
+    keywords: [
+      'pulmonary embolism misdiagnosis expert witness',
+      'failure to diagnose PE lawsuit',
+      'pulmonary embolism malpractice attorney',
+      'Wells criteria standard of care',
+      'PERC rule medical malpractice',
+      'VTE prophylaxis negligence',
+    ],
+    content: `Pulmonary embolism (PE) is among the most common and most preventable causes of in-hospital death, yet it remains one of the most frequently missed diagnoses in emergency medicine and hospital practice. When left untreated, PE carries a mortality rate approaching 25 to 30 percent. What makes these cases particularly compelling for litigation is the existence of a well-defined, validated diagnostic pathway — one that is widely taught and widely endorsed — against which provider conduct can be measured precisely and objectively.
+
+Published research into PE malpractice claims confirms that failure to diagnose and treat is the dominant allegation, appearing in the substantial majority of litigated cases, and that death is the claimed injury in most of those claims. Internists are the most frequently named defendants, followed by emergency physicians, orthopedic surgeons, and obstetricians — a pattern that reflects exactly where missed PE most commonly occurs: in post-surgical patients, pregnant and postpartum women, and hospitalized patients whose non-specific symptoms are attributed to other causes.
+
+## The Diagnostic Pathway and the Standard of Care
+
+Unlike many areas of clinical medicine where the standard of care requires individualized judgment with limited objective benchmarks, PE diagnosis is governed by validated clinical decision tools that define a structured, stepwise approach. The existence of these tools is both a clinical strength and a legal liability: when a provider bypasses them, the deviation from standard practice is concrete, documentable, and difficult to defend.
+
+### The Wells Score
+
+The Wells criteria are the most widely used risk-stratification tool for suspected PE in the United States and internationally. The score assigns weighted points based on clinical features: clinical signs and symptoms of DVT, PE being the most likely alternative diagnosis, heart rate greater than 100 beats per minute, immobilization or surgery in the preceding four weeks, a prior history of DVT or PE, hemoptysis, and active malignancy. Under the two-tier model, a score above four places the patient in the "PE likely" category, mandating direct imaging without waiting for D-dimer results.
+
+For attorneys, the evidentiary significance of the Wells score is straightforward. A provider who evaluates a patient with dyspnea, unexplained tachycardia, and recent orthopedic surgery — without documenting any risk stratification — lacks the evidentiary foundation to defend the evaluation as methodical or thorough. The score is teachable to a jury, and its absence from the chart speaks for itself.
+
+### The PERC Rule
+
+For patients in whom clinical gestalt places pretest probability below approximately 15 percent, the Pulmonary Embolism Rule-out Criteria (PERC) rule provides a validated means to exclude PE without laboratory or imaging workup. All eight PERC criteria must be absent: age under 50 years, heart rate under 100 beats per minute, oxygen saturation of 95 percent or above, no unilateral leg swelling, no hemoptysis, no recent surgery or trauma within four weeks, no prior PE or DVT history, and no exogenous estrogen use. A single positive criterion means the PERC rule cannot be applied, and D-dimer testing or imaging must follow.
+
+The liability pattern this creates is direct. A provider who discharges a patient with even one positive PERC criterion — say, a heart rate of 102 or a recent knee surgery within four weeks — without further workup has bypassed a structured decision tool the standard of care endorses. When that patient returns in extremis the following day with a massive saddle PE, the discharged vital signs and surgical history in the original chart become powerful evidence of the deviation.
+
+### D-Dimer Testing and CT Pulmonary Angiography
+
+For patients who do not meet PERC criteria — meaning further testing is required — D-dimer testing is indicated in the low-to-intermediate pretest probability group. A negative age-adjusted D-dimer in a low-probability patient can safely exclude PE without imaging. A positive D-dimer, or any clinical presentation in the high pretest probability category, requires CT pulmonary angiography (CTPA). The American College of Radiology recognizes multislice CTPA as the imaging standard of care for suspected PE, with ventilation-perfusion (V/Q) scanning available as an alternative for patients with contrast allergy or significant renal impairment.
+
+The most common documentation failure driving liability is simple in structure: a patient has one or more positive PERC criteria or returns a positive D-dimer, and the record shows no CTPA was ordered. The risk was assessed — or should have been — and the testing that the assessment demanded never happened.
+
+## Common Patterns of Negligence in PE Cases
+
+PE misdiagnosis litigation arises from several recurring fact patterns that medical experts identify across clinical settings and provider types.
+
+**Failure to recognize high-risk populations.** Certain patient groups carry substantially elevated PE risk that should lower the diagnostic threshold below that applied to the general population. Post-operative patients — particularly those recovering from orthopedic procedures such as hip or knee arthroplasty, where immobility and venous stasis are compounded by surgical trauma — face significant PE risk in the weeks following discharge. Patients with active malignancy, known hypercoagulable states, prolonged bedrest, or recent long-distance travel carry similarly elevated risk. Pregnant and postpartum women represent another high-risk group: PE is a leading cause of maternal mortality, and the physiologic tachycardia, dyspnea, and leg edema of normal pregnancy can obscure early warning signs. When a patient from any of these groups presents with respiratory symptoms or unexplained tachycardia and the provider anchors on the surgery or the pregnancy as the explanation without pursuing a structured PE evaluation, the deviation is identifiable and indefensible.
+
+**Premature discharge from the emergency department.** A significant proportion of PE-related malpractice claims involve patients evaluated in the ED, given an alternative diagnosis — musculoskeletal chest pain, anxiety, viral pleuritis, deconditioning — and discharged, only to return hours or days later with cardiovascular collapse or as a wrongful death. When the triage note and nursing documentation record tachycardia, hypoxia, or pleuritic chest pain, and the discharge note attributes symptoms to a benign cause without documenting a risk-stratification score, D-dimer result, or CTPA, the standard-of-care deviation requires little expert interpretation to establish.
+
+**Failure to prescribe VTE prophylaxis.** In the inpatient setting, PE risk is elevated among patients with limited mobility, recent surgery, active malignancy, prior thromboembolic disease, or other recognized risk factors. Current clinical guidelines recommend VTE prophylaxis — typically low-molecular-weight heparin or, where anticoagulation is contraindicated, sequential compression devices — for at-risk hospitalized patients. When a patient develops PE during a hospitalization in which no prophylaxis was ordered despite documented, recognized risk factors, the failure to prescribe prophylaxis is a separate and independently actionable theory of liability.
+
+**Delayed treatment after confirmed diagnosis.** Even when PE is correctly identified, delays in initiating anticoagulation generate their own liability. The standard of care calls for prompt therapeutic anticoagulation — typically parenteral heparin or low-molecular-weight heparin, with transition to a direct oral anticoagulant in most patients — as soon as PE is confirmed in the absence of contraindications. In massive PE presenting with hemodynamic instability, systemic thrombolysis or catheter-directed therapy may be required, and failure to pursue these options or to escalate to the appropriate specialist constitutes a deviation from the standard of care for the sickest patients.
+
+## Establishing Causation in PE Misdiagnosis Cases
+
+Causation in PE cases benefits from the predictable and well-characterized natural history of the condition. A patient who was hemodynamically stable at the time of a missed evaluation and was found in circulatory collapse hours later presents a causation framework that an expert can anchor to objective hemodynamic data recorded in the chart.
+
+**Hemodynamic trajectory analysis** is the core causation tool. The vital signs, oxygen saturation, and clinical status documented at the initial evaluation — when PE was present but undiagnosed — are compared to the clinical state at the time of eventual diagnosis or death. If the initial presentation shows preserved hemodynamics, a stable respiratory status, and no organ dysfunction, the expert can opine that therapeutic anticoagulation initiated at that earlier point would more likely than not have interrupted the clinical deterioration.
+
+**Risk stratification of the initial presentation** provides a second layer of causation support. Validated scoring tools such as the Pulmonary Embolism Severity Index (PESI) and the simplified PESI (sPESI) allow experts to classify the severity of the PE at the time it should have been recognized and tie that classification to published outcome data. A patient whose initial presentation would have classified as low to intermediate risk at the point of the missed diagnosis, but who died from a massive PE hours later, illustrates the preventable nature of the outcome through objective, publishable criteria.
+
+## Daubert Considerations for PE Expert Witnesses
+
+PE expert witnesses in malpractice cases must ground their opinions in the validated clinical decision tools and guidelines that define the standard of care. Opinions about what a reasonable clinician should have done are strongest when they trace back to the Wells criteria, PERC rule, ACR imaging guidelines, and current anticoagulation protocols — not to informal gestalt. Defense counsel will challenge any expert who offers a deviation opinion without identifying the specific clinical decision point where the standard required a different action.
+
+Causation opinions are most defensible when they engage directly with the defense argument that the outcome was inevitable regardless of earlier diagnosis. Experts must address the hemodynamic reserve visible in the initial documentation, the established time-course of PE progression, and the published evidence that anticoagulation — when initiated during the appropriate window — meaningfully reduces mortality and prevents clot propagation.
+
+## How ApexMedLaw Supports PE Litigation
+
+Pulmonary embolism misdiagnosis cases require expert witnesses who are fluent in the Wells criteria, PERC rule, and current anticoagulation standards — and who can explain to a jury why a structured, well-validated diagnostic pathway was available and was not used. Our emergency medicine and internal medicine experts are board-certified and actively practice in the clinical settings where PE misdiagnosis most commonly occurs.
+
+We provide:
+- Rapid case screening with preliminary merit assessment
+- Detailed analysis of whether Wells criteria, PERC rule, D-dimer protocols, and imaging standards were applied
+- Causation opinions grounded in hemodynamic trajectory and the published PE outcomes literature
+- Expertise across the full spectrum of PE presentation, including massive, submassive, incidental, and post-operative PE
+- Coverage of prophylaxis failures in the inpatient setting as a separate liability theory
+- Deposition and trial-ready testimony from board-certified emergency medicine and internal medicine physicians
+
+For attorneys handling wrongful death or catastrophic injury claims arising from missed or delayed pulmonary embolism diagnosis, contact ApexMedLaw to discuss your case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'What makes pulmonary embolism misdiagnosis cases strong for litigation?',
+        answer: 'PE has a clearly defined, validated diagnostic pathway — the Wells score, PERC rule, D-dimer testing, and CT pulmonary angiography — that creates concrete, documentable evidence of deviation when bypassed. When a provider fails to apply these tools in a patient who then dies from an untreated PE, the standard-of-care departure is apparent and well-supported by published guidelines.',
+      },
+      {
+        question: 'Which physicians are most often named in PE malpractice lawsuits?',
+        answer: 'Published research on PE malpractice claims identifies internists as the most frequently named defendants, followed by emergency physicians, orthopedic surgeons, and obstetricians. This reflects the clinical settings where missed PE is most common: post-surgical inpatients, hospitalized medical patients with non-specific symptoms, and pregnant or postpartum women.',
+      },
+      {
+        question: 'What is the PERC rule and when does failing to apply it create liability?',
+        answer: 'The PERC rule is an 8-item validated clinical decision tool that allows exclusion of PE without further testing when all eight criteria are absent (age under 50, HR under 100, SpO2 ≥ 95%, no leg swelling, no hemoptysis, no recent surgery, no prior VTE, no estrogen use). When a provider discharges a patient with one or more positive PERC criteria without D-dimer testing or imaging, this failure to follow the structured decision tool can constitute a deviation from the standard of care.',
+      },
+      {
+        question: 'How do experts establish causation in a missed PE case?',
+        answer: 'Experts analyze the hemodynamic status documented at the initial evaluation — vital signs, oxygen saturation, rhythm — and compare it to the state when PE was ultimately diagnosed or when the patient decompensated. A patient who was stable at the point of the missed diagnosis but deteriorated into shock or death hours later provides a strong causation framework, particularly when validated severity-scoring tools show the initial PE was at a treatable stage.',
+      },
+      {
+        question: 'Can a PE case involve liability for failure to prevent rather than failure to diagnose?',
+        answer: 'Yes. When at-risk hospitalized patients do not receive guideline-recommended VTE prophylaxis — low-molecular-weight heparin or sequential compression devices — and subsequently develop PE, the failure to prescribe prophylaxis is an independent theory of liability separate from any diagnostic failure. This pattern is particularly common in post-operative, oncology, and medically immobilized patient populations.',
+      },
+      {
+        question: 'What records should attorneys obtain when evaluating a PE malpractice case?',
+        answer: 'Key records include ED triage notes with timestamped vital signs, physician evaluation notes documenting or omitting risk stratification, D-dimer and laboratory results with order and result timestamps, CT pulmonary angiography reports and imaging, nursing flowsheets showing oxygenation and hemodynamic trends, pharmacy records for anticoagulation timing, and, in prophylaxis cases, VTE risk-assessment documentation and medication administration records.',
+      },
+    ],
+  },
 ];
 
 /**
@@ -1199,6 +1309,32 @@ export const postFaqs: Record<string, BlogPostFAQ[]> = {
       answer: 'Our pulmonary and critical care experts reconstruct the ventilator course hour by hour from flowsheets, blood gases, imaging, and fluid balance to determine whether lung-protective ventilation was actually delivered and whether escalation was appropriately considered.',
     },
   ],
+  'pulmonary-embolism-misdiagnosis-expert-witness': [
+    {
+      question: 'What makes pulmonary embolism misdiagnosis cases strong for litigation?',
+      answer: 'PE has a clearly defined, validated diagnostic pathway — the Wells score, PERC rule, D-dimer testing, and CT pulmonary angiography — that creates concrete, documentable evidence of deviation when bypassed. When a provider fails to apply these tools in a patient who then dies from an untreated PE, the standard-of-care departure is apparent and well-supported by published guidelines.',
+    },
+    {
+      question: 'Which physicians are most often named in PE malpractice lawsuits?',
+      answer: 'Published research on PE malpractice claims identifies internists as the most frequently named defendants, followed by emergency physicians, orthopedic surgeons, and obstetricians. This reflects the clinical settings where missed PE is most common: post-surgical inpatients, hospitalized medical patients with non-specific symptoms, and pregnant or postpartum women.',
+    },
+    {
+      question: 'What is the PERC rule and when does failing to apply it create liability?',
+      answer: 'The PERC rule is an 8-item validated clinical decision tool that allows exclusion of PE without further testing when all eight criteria are absent (age under 50, HR under 100, SpO2 ≥ 95%, no leg swelling, no hemoptysis, no recent surgery, no prior VTE, no estrogen use). When a provider discharges a patient with one or more positive PERC criteria without D-dimer testing or imaging, this failure to follow the structured decision tool can constitute a deviation from the standard of care.',
+    },
+    {
+      question: 'How do experts establish causation in a missed PE case?',
+      answer: 'Experts analyze the hemodynamic status documented at the initial evaluation — vital signs, oxygen saturation, rhythm — and compare it to the state when PE was ultimately diagnosed or when the patient decompensated. A patient who was stable at the point of the missed diagnosis but deteriorated into shock or death hours later provides a strong causation framework, particularly when validated severity-scoring tools show the initial PE was at a treatable stage.',
+    },
+    {
+      question: 'Can a PE case involve liability for failure to prevent rather than failure to diagnose?',
+      answer: 'Yes. When at-risk hospitalized patients do not receive guideline-recommended VTE prophylaxis — low-molecular-weight heparin or sequential compression devices — and subsequently develop PE, the failure to prescribe prophylaxis is an independent theory of liability separate from any diagnostic failure. This pattern is particularly common in post-operative, oncology, and medically immobilized patient populations.',
+    },
+    {
+      question: 'What records should attorneys obtain when evaluating a PE malpractice case?',
+      answer: 'Key records include ED triage notes with timestamped vital signs, physician evaluation notes documenting or omitting risk stratification, D-dimer and laboratory results with order and result timestamps, CT pulmonary angiography reports and imaging, nursing flowsheets showing oxygenation and hemodynamic trends, pharmacy records for anticoagulation timing, and, in prophylaxis cases, VTE risk-assessment documentation and medication administration records.',
+    },
+  ],
   'delayed-meningitis-diagnosis-neurology-expert-witness': [
     {
       question: 'Why is delayed meningitis diagnosis so significant in malpractice cases?',
@@ -1245,6 +1381,7 @@ export const postDivisions: Record<string, string[]> = {
   'post-ercp-pancreatitis-perforation-gi-expert-witness': ['gastroenterology'],
   'ards-mismanagement-critical-care-expert-witness': ['critical-care'],
   'delayed-meningitis-diagnosis-neurology-expert-witness': ['neurology', 'emergency-medicine', 'pediatric-neurology'],
+  'pulmonary-embolism-misdiagnosis-expert-witness': ['emergency-medicine', 'internal-medicine', 'radiology', 'orthopedic-surgery'],
 };
 
 export function getPostDivisions(slug: string): string[] {
