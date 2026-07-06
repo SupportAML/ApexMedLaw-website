@@ -1049,6 +1049,117 @@ For attorneys handling wrongful death or catastrophic injury claims arising from
       },
     ],
   },
+  {
+    slug: 'aortic-dissection-misdiagnosis-expert-witness',
+    title: 'Aortic Dissection Misdiagnosis: What Attorneys Need to Know About Failure-to-Diagnose Cases',
+    metaDescription: 'A guide for attorneys on aortic dissection misdiagnosis litigation. Learn the ADD-RS, 2022 ACC/AHA imaging standards, Type A vs. Type B liability, and how to select the right expert witness.',
+    date: '2026-07-06',
+    author: 'AML Editorial',
+    keywords: [
+      'aortic dissection misdiagnosis expert witness',
+      'failure to diagnose aortic dissection',
+      'aortic dissection malpractice attorney',
+      'ADD-RS standard of care',
+      'emergency medicine expert witness',
+      'aortic dissection wrongful death',
+    ],
+    content: `Aortic dissection is one of the most lethal emergencies in medicine — and one of the most commonly missed. When the aortic wall tears and blood dissects between its layers, untreated Type A dissections carry a mortality rate that rises by approximately 1 to 2 percent per hour. Despite advances in emergency imaging, studies have found misdiagnosis rates exceeding 30 percent on initial emergency department presentation, with patients discharged or worked up for competing diagnoses while the dissection propagates. For attorneys evaluating potential malpractice claims, aortic dissection cases are medically grounded and legally compelling: the standard of care is defined by a validated risk-stratification tool, specific imaging benchmarks, and time-sensitive treatment requirements that are documentable in the medical record.
+
+## Why Aortic Dissection Cases Are Among the Most Dangerous Missed Diagnoses
+
+Aortic dissection is frequently missed because its presentations overlap with far more common conditions. The textbook picture — sudden, tearing chest or back pain with a pulse deficit and widened mediastinum — is present in a minority of patients. Most arrive with isolated chest pain, back pain, or neurological symptoms that suggest acute coronary syndrome, musculoskeletal injury, or stroke. A 10-year retrospective cohort study of Type A aortic dissection found that approximately one-third of patients were initially misdiagnosed in the emergency department, with acute myocardial infarction, musculoskeletal pain, and hypertensive urgency as the most common alternative diagnoses applied.
+
+The diagnostic danger is compounded by the standard chest pain workup. A negative troponin does not exclude aortic dissection. An ECG showing ST-segment changes may reflect dissection extending to the coronary ostia rather than primary ACS. A normal-appearing mediastinum on plain chest X-ray is present in a meaningful proportion of confirmed dissection cases. Providers who anchor on these negative findings as exclusionary criteria for dissection are bypassing the structured evaluation that the standard of care requires.
+
+## The Diagnostic Framework: Risk Stratification and the ADD-RS
+
+The 2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease, together with American College of Emergency Physicians (ACEP) clinical policies, defines a structured, validated approach to suspected aortic dissection. These guidelines establish the benchmarks against which emergency department conduct is measured in litigation.
+
+### The ADD-RS
+
+The Aortic Dissection Detection Risk Score (ADD-RS) is the validated clinical decision tool endorsed for stratifying risk in suspected acute aortic syndromes. The ADD-RS assigns one point each to three categories of high-risk features:
+
+**High-risk conditions**: Marfan syndrome or other connective tissue disorder, family history of aortic disease, known aortic aneurysm or prior aortic valve surgery, or recent aortic manipulation.
+
+**High-risk pain features**: Chest, back, or abdominal pain of abrupt onset described as severe, worst-ever, or with a tearing or ripping quality.
+
+**High-risk examination findings**: Pulse deficit, blood pressure differential greater than 20 mmHg between arms, new aortic regurgitation murmur with pain, focal neurological deficit with pain, or hypotension and shock.
+
+A score of zero combined with a D-dimer below 500 ng/mL achieves high sensitivity for ruling out acute aortic syndrome in low-risk presentations. Any score of one or above requires direct CT angiography without relying on D-dimer alone. The ACEP clinical policy is explicit: clinicians must not exclude aortic dissection based solely on the absence of classic features. A provider who fails to apply this framework — or who documents no aortic risk assessment in a patient with acute chest or back pain — has no evidentiary basis to defend the evaluation as thorough or systematic.
+
+### CT Angiography as the Imaging Standard
+
+The 2022 ACC/AHA guidelines designate CT angiography (CTA) as the primary imaging modality for suspected acute aortic syndromes. CTA carries very high sensitivity and specificity, defines the full extent of the dissection from the thoracic inlet to the femoral arteries, identifies branch-vessel involvement and hemopericardium, and directly guides surgical planning. The protocol includes a noncontrast series to detect intramural hematoma, followed by arterial-phase contrast-enhanced images.
+
+Chest X-ray and echocardiography are adjuncts, not substitutes. Providers who stop the workup at a normal chest X-ray when the clinical picture warrants further evaluation — or who defer CTA without a documented benefit-risk analysis — are deviating from the standard the guidelines establish.
+
+## The Stanford Classification and Its Treatment Implications
+
+Aortic dissection is classified as Type A (involving the ascending aorta) or Type B (confined to the descending aorta). This distinction drives the treatment approach and creates distinct liability frameworks.
+
+**Type A dissection** is a surgical emergency. Emergency aortic repair is the definitive treatment, and published operative mortality at experienced aortic centers ranges from approximately 15 to 25 percent — substantially better than the near-universal mortality of untreated ascending dissection. Delays in diagnosis that postpone transfer to a cardiac surgical center, or that result in a Type A patient being managed as ACS while the dissection progresses, directly compress the treatment window and implicate causation.
+
+**Type B dissection** is initially managed medically in uncomplicated cases, with aggressive blood pressure and heart rate control using intravenous beta-blockers to limit propagation. Failure to recognize Type B and initiate appropriate antihypertensive therapy — or failure to identify the malperfusion complications that require endovascular or surgical escalation — generates a distinct liability theory independent of the initial diagnostic question.
+
+## Common Patterns of Negligence in Aortic Dissection Cases
+
+**Anchoring on acute coronary syndrome.** The most pervasive failure involves a patient with chest pain and cardiac risk factors worked up exclusively for ACS. When troponin is negative and ECG is non-diagnostic, the provider may discharge the patient or initiate anticoagulation — a potentially catastrophic intervention if undiagnosed dissection is present, as anticoagulation can worsen hemorrhagic complications. The absence of any documented aortic risk assessment in the chart is the record the expert examines first.
+
+**Failure to apply structured risk stratification.** The ADD-RS is validated, widely endorsed, and takes seconds to apply. Its absence from a chart where dissection was clinically plausible — particularly in a patient with one or more high-risk features — is powerful evidence that the evaluation was not systematic.
+
+**Failure to order CTA in elevated-risk presentations.** ADD-RS scores of one or above require imaging. When the record shows a patient with abrupt-onset tearing back pain, hypertension, and a blood pressure differential between arms discharged without CTA, the standard-of-care deviation is concrete and well-supported.
+
+**Failure to arrange emergent transfer.** Physicians who identify dissection in facilities lacking cardiac surgery capability must arrange expedited transfer to an aortic surgical center. Documented delays in initiating transfer — or treating a Type A patient as medically stable when emergent surgery is required — represent independent deviations with direct causation implications.
+
+## Establishing Causation in Aortic Dissection Cases
+
+Defense counsel in aortic dissection cases routinely argues that operative mortality is high regardless of timing and that the outcome was inevitable. A qualified expert responds by reconstructing the clinical timeline: the hemodynamic status documented at the point of the missed diagnosis, what imaging would have revealed at that earlier time, and what published surgical outcomes for timely repair would have predicted compared to the actual outcome after delay.
+
+Causation is strongest when the record shows the patient was hemodynamically stable — and therefore a favorable surgical candidate — at the time the evaluation was inadequate. The deterioration that followed, whether cardiovascular collapse, stroke from branch-vessel involvement, or cardiac tamponade from hemopericardium, becomes the measurable consequence of the diagnostic delay.
+
+## How ApexMedLaw Supports Aortic Dissection Malpractice Cases
+
+Aortic dissection cases require expert witnesses who understand both the emergency diagnostic framework and the vascular surgical implications of delayed management. Our emergency medicine and vascular surgery experts are board-certified, actively practicing physicians with current experience in aortic disease evaluation and management.
+
+We provide:
+- Rapid case screening with preliminary merit assessment
+- Detailed ADD-RS and clinical-decision analysis against 2022 ACC/AHA guideline standards
+- Causation opinions grounded in the documented hemodynamic trajectory and published surgical outcomes data
+- Expertise across both Type A and Type B dissection, including malperfusion complications and transfer delays
+- Deposition and trial-ready testimony from clinically active experts
+
+For attorneys handling wrongful death or catastrophic injury claims arising from missed or delayed aortic dissection diagnosis, contact ApexMedLaw to discuss your case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'What makes aortic dissection misdiagnosis a compelling medical malpractice case?',
+        answer: 'Aortic dissection cases are compelling because the standard of care is defined by a validated risk-stratification tool (the ADD-RS), specific imaging benchmarks from the 2022 ACC/AHA guidelines, and time-sensitive treatment requirements. When a provider fails to apply structured risk assessment in a patient who then dies from untreated dissection, the deviation from standard practice is concrete, documentable, and supported by published authority.',
+      },
+      {
+        question: 'What is the ADD-RS and why does it matter in aortic dissection litigation?',
+        answer: 'The Aortic Dissection Detection Risk Score is a validated three-point risk stratification tool that categorizes patients by high-risk conditions, pain features, and examination findings. A score of one or above requires CT angiography. ACEP guidelines state that providers must not exclude aortic dissection based solely on the absence of classic features. When a provider documents no aortic risk assessment in a patient with concerning features, the evaluation has no systematic evidentiary foundation.',
+      },
+      {
+        question: 'What is the difference between Type A and Type B aortic dissection and how does each affect a malpractice claim?',
+        answer: 'Type A involves the ascending aorta and is a surgical emergency requiring emergent aortic repair. Delays in diagnosis that postpone transfer to a cardiac surgical center directly compress the treatment window and support causation. Type B is confined to the descending aorta and is initially managed medically; liability may arise from failure to recognize Type B, failure to control blood pressure appropriately, or failure to escalate when malperfusion develops.',
+      },
+      {
+        question: 'How do expert witnesses establish causation in an aortic dissection case?',
+        answer: 'Experts reconstruct the clinical timeline to show the hemodynamic status documented at the point of the missed evaluation. A patient who was hemodynamically stable — a favorable surgical candidate — at the time of the diagnostic failure, but who then deteriorated into shock, stroke, or tamponade before reaching surgery, presents a strong causation framework. Published operative mortality data for timely repair at experienced aortic centers provides the counterfactual outcome.',
+      },
+      {
+        question: 'Can anticoagulation given for a misdiagnosed MI worsen an aortic dissection?',
+        answer: 'Yes. Anticoagulation administered to a patient with undiagnosed aortic dissection who was being treated empirically for ACS can accelerate hemorrhagic complications and worsen outcomes. This is a recognized risk that reinforces the importance of excluding aortic dissection before initiating anticoagulation in patients with acute chest pain, and it can serve as an independent causation argument when anticoagulation was given and the patient deteriorated.',
+      },
+      {
+        question: 'What records should attorneys obtain when evaluating an aortic dissection malpractice case?',
+        answer: 'Key records include ED triage notes with timestamped vital signs, physician evaluation notes documenting or omitting aortic risk assessment, imaging studies and radiology reports with order and result timestamps, cardiac biomarkers and ECG results, nursing flowsheets showing hemodynamic trends, pharmacy records for anticoagulation or antihypertensive management, and in transfer cases, records of when transfer was initiated along with the operative report and surgical timing from the receiving facility.',
+      },
+    ],
+  },
 ];
 
 /**
@@ -1353,6 +1464,32 @@ export const postFaqs: Record<string, BlogPostFAQ[]> = {
       answer: 'Infants may present without classic signs, showing only irritability, poor feeding, or a bulging fontanelle. Pediatric guidelines set a lower threshold for LP in febrile infants, and structured tools such as the Rochester or Step-by-Step criteria guide the workup.',
     },
   ],
+  'aortic-dissection-misdiagnosis-expert-witness': [
+    {
+      question: 'What makes aortic dissection misdiagnosis a compelling medical malpractice case?',
+      answer: 'Aortic dissection cases are compelling because the standard of care is defined by a validated risk-stratification tool (the ADD-RS), specific imaging benchmarks from the 2022 ACC/AHA guidelines, and time-sensitive treatment requirements. When a provider fails to apply structured risk assessment in a patient who then dies from untreated dissection, the deviation from standard practice is concrete, documentable, and supported by published authority.',
+    },
+    {
+      question: 'What is the ADD-RS and why does it matter in aortic dissection litigation?',
+      answer: 'The Aortic Dissection Detection Risk Score is a validated three-point risk stratification tool that categorizes patients by high-risk conditions, pain features, and examination findings. A score of one or above requires CT angiography. ACEP guidelines state that providers must not exclude aortic dissection based solely on the absence of classic features. When a provider documents no aortic risk assessment in a patient with concerning features, the evaluation has no systematic evidentiary foundation.',
+    },
+    {
+      question: 'What is the difference between Type A and Type B aortic dissection and how does each affect a malpractice claim?',
+      answer: 'Type A involves the ascending aorta and is a surgical emergency requiring emergent aortic repair. Delays in diagnosis that postpone transfer to a cardiac surgical center directly compress the treatment window and support causation. Type B is confined to the descending aorta and is initially managed medically; liability may arise from failure to recognize Type B, failure to control blood pressure appropriately, or failure to escalate when malperfusion develops.',
+    },
+    {
+      question: 'How do expert witnesses establish causation in an aortic dissection case?',
+      answer: 'Experts reconstruct the clinical timeline to show the hemodynamic status documented at the point of the missed evaluation. A patient who was hemodynamically stable — a favorable surgical candidate — at the time of the diagnostic failure, but who then deteriorated into shock, stroke, or tamponade before reaching surgery, presents a strong causation framework. Published operative mortality data for timely repair at experienced aortic centers provides the counterfactual outcome.',
+    },
+    {
+      question: 'Can anticoagulation given for a misdiagnosed MI worsen an aortic dissection?',
+      answer: 'Yes. Anticoagulation administered to a patient with undiagnosed aortic dissection who was being treated empirically for ACS can accelerate hemorrhagic complications and worsen outcomes. This is a recognized risk that reinforces the importance of excluding aortic dissection before initiating anticoagulation in patients with acute chest pain, and it can serve as an independent causation argument when anticoagulation was given and the patient deteriorated.',
+    },
+    {
+      question: 'What records should attorneys obtain when evaluating an aortic dissection malpractice case?',
+      answer: 'Key records include ED triage notes with timestamped vital signs, physician evaluation notes documenting or omitting aortic risk assessment, imaging studies and radiology reports with order and result timestamps, cardiac biomarkers and ECG results, nursing flowsheets showing hemodynamic trends, pharmacy records for anticoagulation or antihypertensive management, and in transfer cases, records of when transfer was initiated along with the operative report and surgical timing from the receiving facility.',
+    },
+  ],
 };
 
 export function getPostFaqs(slug: string): BlogPostFAQ[] {
@@ -1382,6 +1519,7 @@ export const postDivisions: Record<string, string[]> = {
   'ards-mismanagement-critical-care-expert-witness': ['critical-care'],
   'delayed-meningitis-diagnosis-neurology-expert-witness': ['neurology', 'emergency-medicine', 'pediatric-neurology'],
   'pulmonary-embolism-misdiagnosis-expert-witness': ['emergency-medicine', 'internal-medicine', 'radiology', 'orthopedic-surgery'],
+  'aortic-dissection-misdiagnosis-expert-witness': ['emergency-medicine', 'vascular-surgery', 'radiology', 'internal-medicine'],
 };
 
 export function getPostDivisions(slug: string): string[] {
