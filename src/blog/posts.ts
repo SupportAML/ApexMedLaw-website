@@ -1160,6 +1160,136 @@ For attorneys handling wrongful death or catastrophic injury claims arising from
       },
     ],
   },
+  {
+    slug: 'acute-compartment-syndrome-expert-witness',
+    title: 'Acute Compartment Syndrome: What Attorneys Need to Know About Delayed Diagnosis and Orthopedic Malpractice',
+    metaDescription: 'A litigation guide for attorneys on acute compartment syndrome malpractice — pressure thresholds, fasciotomy timing, causation, and expert witness selection.',
+    date: '2026-07-13',
+    author: 'AML Editorial',
+    keywords: [
+      'acute compartment syndrome expert witness',
+      'compartment syndrome malpractice attorney',
+      'delayed fasciotomy lawsuit',
+      'orthopedic surgery expert witness',
+      'Volkmann contracture malpractice',
+      'compartment syndrome standard of care',
+    ],
+    content: `Acute compartment syndrome (ACS) is one of the few true orthopedic emergencies where the window between diagnosis and permanent injury can be measured in hours. When pressure within a closed fascial compartment rises to the point where tissue perfusion is critically compromised, every hour of delay carries measurable cost — progressive muscle necrosis, irreversible nerve injury, and in severe cases, the need for amputation. For attorneys evaluating potential malpractice claims, ACS cases have a compelling legal structure: the warning signs are documented in nursing flowsheets and physician notes, the standard of care is grounded in specific pressure thresholds and timing benchmarks, and the resulting injuries are often catastrophic and permanent.
+
+## The Clinical Framework: Why Timing Defines Liability in ACS Cases
+
+Compartment syndrome occurs when pressure within a closed muscular compartment rises high enough to impair the circulation supplying the muscles and nerves inside it. The extremity compartments — lower leg, forearm, thigh, and foot — are enclosed by unyielding fascial envelopes that cannot expand as tissue swelling occurs. As pressure builds, venous outflow is obstructed first, and then arterial inflow becomes compromised, producing ischemia that advances to irreversible necrosis if not relieved.
+
+**The margin for intervention is narrow.** Skeletal muscle typically tolerates ischemia for four to six hours before permanent injury begins. Peripheral nerves are even more sensitive and may suffer lasting dysfunction with shorter periods of ischemia. Fasciotomy — surgical decompression of the affected compartment — is the only definitive treatment. The central standard of care question in almost every ACS malpractice case is straightforward to state and difficult to defend: when should the diagnosis have been made, and why was fasciotomy not performed within the available window?
+
+## The Standard of Care for Recognizing and Diagnosing ACS
+
+### Clinical Signs: What Providers Must Assess and Document
+
+The standard of care requires providers to recognize ACS before late-stage signs develop. Waiting for obvious tissue death is not watchful clinical practice — it is a failure — because by the time those findings appear, the intervention window has already closed.
+
+**Pain out of proportion to the injury** is the cardinal early symptom of ACS and the most actionable one in litigation. A patient with a tibial fracture who reports escalating pain disproportionate to what the injury alone would explain, particularly pain that is not relieved by appropriate analgesic doses, should raise immediate clinical concern and trigger further evaluation.
+
+**Pain with passive stretch** is the most specific clinical finding. Passively dorsiflexing the ankle in a patient with lower-leg compartment syndrome, or passively extending the fingers in a patient with forearm ACS, stretches the ischemic muscles within the compartment and produces characteristic, intense pain. Failure to perform and document this clinical test in a patient at risk for ACS — particularly after tibial fracture, forearm fracture, or crush injury — is a recurring and significant deviation in litigation.
+
+**Firmness or tenseness of the compartment** on palpation provides another clinical signal that must be assessed and documented. A compartment that is palpably tense compared to the contralateral extremity is abnormal and warrants further evaluation.
+
+**Late signs** — pallor, pulselessness, and paralysis — represent advanced ischemia. These findings should never be waited for before acting. Providers who document that they ruled out compartment syndrome because the patient still had palpable pulses are making a clinically indefensible argument: absent pulses signal that the diagnosis has already been missed for hours, not that a threshold has been reached for intervention.
+
+### Intracompartmental Pressure Measurement
+
+When clinical diagnosis is uncertain — particularly in obtunded, sedated, or pediatric patients who cannot reliably report pain — intracompartmental pressure (ICP) measurement is indicated. Two pressure-based thresholds guide clinical decision-making and form the evidentiary framework for expert testimony.
+
+**Absolute pressure threshold.** An ICP greater than 30 mmHg is widely used as a threshold warranting serious consideration of fasciotomy, particularly in the context of consistent clinical findings.
+
+**Delta pressure.** The difference between diastolic blood pressure and ICP — referred to as the delta pressure — is arguably the more physiologically meaningful benchmark. When this value falls to 30 mmHg or below, tissue perfusion is critically compromised regardless of the absolute ICP value. The 2025 American Academy of Orthopaedic Surgeons (AAOS) clinical practice guidelines support repeated and continuous ICP monitoring and the delta pressure threshold as diagnostic aids, particularly in patients who cannot be reliably examined clinically.
+
+A single normal ICP reading does not exclude ACS. The AAOS guidelines recognize that pressure trends and clinical context — not isolated measurements — guide decision-making in equivocal cases, and failure to repeat measurements in a deteriorating patient is itself a deviation.
+
+## Common Settings Where Compartment Syndrome Is Missed
+
+ACS litigation arises in several predictable clinical contexts that attorneys should recognize during initial case evaluation.
+
+**Post-fracture monitoring failures.** Tibial shaft fractures are among the most common causes of lower-extremity ACS. Distal radius fractures are a leading cause in the upper extremity. Patients admitted for orthopedic fracture management require regular, documented neurovascular checks — specifically including assessment of sensation, motor function, pain with passive stretch, and compartment firmness — at appropriate intervals. Nursing flowsheets that record only whether pulses are present, without addressing the early clinical signs of compartment syndrome, are a recurring evidentiary finding in these cases.
+
+**Post-operative compartment syndrome.** Prolonged orthopedic procedures, including tibial intramedullary nailing and tibial plateau fixation, carry recognized compartment syndrome risk. Post-operative protocols require vigilant nursing assessment for escalating pain, and physicians must respond promptly to nursing escalation. Cases in which nursing documentation reflects repeated pain reassessments that go unaddressed by the surgical team — while compartment syndrome progresses — are a common and legally powerful fact pattern.
+
+**Emergency department presentations.** Crush injuries, high-energy trauma, and reperfusion injuries following vascular repair are all ACS triggers that may present initially to emergency physicians. Emergency providers are expected to recognize ACS risk in these patients and obtain timely orthopedic consultation. Discharging a crush injury patient without documented ACS assessment, or attributing escalating pain to musculoskeletal injury without further evaluation, can constitute a deviation from the standard of care.
+
+**Vascular surgery and reperfusion.** Limb revascularization — whether after traumatic arterial injury or peripheral vascular disease intervention — carries significant compartment syndrome risk due to reperfusion edema. The standard of care in vascular surgery frequently includes consideration of prophylactic fasciotomy at the time of revascularization when ischemia time has been prolonged. Failure to perform or even consider prophylactic fasciotomy in appropriate cases is a well-recognized basis for expert criticism.
+
+## Cast and Splint Management: A Recurring Source of Liability
+
+A distinct and frequently litigated subset of ACS cases involves cast and splint application. A circumferential cast that does not accommodate post-injury or post-operative swelling can cause or exacerbate compartment syndrome by creating external constriction of the affected extremity.
+
+The standard of care requires providers and nursing staff to:
+- Monitor patients with newly applied casts or splints for escalating pain, swelling, and neurovascular change
+- Respond to patient complaints of escalating pain under a cast with timely clinical evaluation — not reassurance given by phone without examination
+- Bivalve or split the cast when worsening symptoms develop, rather than attributing the patient's complaints to expected post-fracture discomfort
+
+Malpractice cases in this category frequently involve patients who complained repeatedly — to nursing staff, to on-call physicians by telephone — about escalating pain after cast application, only to be told the pain was expected. When those patients develop ACS and sustain permanent nerve and muscle injury, the documented complaints and the absence of responsive clinical action create a compelling record for litigation.
+
+## Building the Causation Argument
+
+ACS causation arguments are grounded in the established relationship between ischemia duration and tissue injury. Muscle and nerve function can be preserved when fasciotomy is performed promptly after the onset of ischemia. When fasciotomy is delayed beyond the critical window, permanent injury — Volkmann ischemic contracture in the upper extremity, foot drop and peroneal nerve palsy in the lower leg, or compartment necrosis requiring amputation — is the foreseeable consequence.
+
+Expert witnesses anchor causation to the timeline reconstructed from the medical record: when did the patient first document escalating pain, when did nursing assessments note compartment firmness or paresthesias, at what point did the clinical picture and pressure measurements meet the threshold for action, and how long after that threshold was crossed did fasciotomy actually occur? Each hour of documented delay during this reconstruction strengthens the causation argument that earlier intervention would have preserved the tissue that was ultimately lost.
+
+Defense experts will argue that the degree of injury was inevitable given the mechanism or that the clinical presentation was ambiguous enough to justify observation. A well-prepared ACS expert addresses this by demonstrating, through the documented timeline, that the warning signs crossed the intervention threshold at a specific point in the record — and that action at that point, rather than hours later, would have changed the outcome.
+
+## Daubert Considerations for ACS Expert Witnesses
+
+ACS expert testimony is most defensible when the expert is an actively practicing orthopedic surgeon or trauma surgeon with direct, current experience diagnosing and treating compartment syndrome. The clinical signs and pressure thresholds used to establish the standard of care deviation are grounded in published orthopedic and trauma surgery guidelines — including the 2025 AAOS clinical practice guidelines — providing the methodological reliability that Daubert requires.
+
+An expert who relies on clinical thresholds recognized in AAOS guidance and peer-reviewed literature, and who can articulate why the findings documented in the specific medical record crossed those thresholds before intervention occurred, presents causation opinions that withstand cross-examination and Daubert challenge.
+
+## How ApexMedLaw Supports Acute Compartment Syndrome Litigation
+
+Compartment syndrome malpractice cases require expert witnesses who understand the clinical nuance of ACS recognition and the timing standards that define appropriate intervention. Our orthopedic surgery and emergency medicine experts are board-certified, actively practicing physicians with direct experience managing ACS across trauma and elective orthopedic settings.
+
+We provide:
+- Rapid case review with analysis of neurovascular assessment documentation and nursing flowsheet patterns
+- Evaluation of ICP measurement technique and interpretation against current thresholds, including delta pressure analysis
+- Assessment of cast and splint monitoring compliance against institutional and published standards
+- Timeline reconstruction identifying when the standard of care required intervention
+- Causation opinions grounded in the ischemia-injury relationship and published outcomes data
+- Expertise in both lower-extremity and upper-extremity compartment syndrome
+- Deposition and trial-ready testimony from board-certified orthopedic surgeons
+
+Whether the case involves a missed post-fracture compartment syndrome, a delayed cast management response, or a failure to consider prophylactic fasciotomy after vascular repair, our experts evaluate the clinical record rigorously and provide opinions that withstand cross-examination.
+
+Contact ApexMedLaw to discuss your acute compartment syndrome malpractice case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'What are the earliest clinical signs of compartment syndrome that providers must recognize?',
+        answer: 'The two most important early signs are pain out of proportion to the injury — escalating pain that exceeds what the underlying fracture or trauma would explain — and pain with passive stretch of the muscles within the affected compartment. Compartment firmness on palpation is a third early finding. These signs must be actively assessed and documented; providers should never wait for late signs such as pulselessness or paralysis, which indicate that the diagnosis has already been missed for hours.',
+      },
+      {
+        question: 'What pressure thresholds define the standard of care for diagnosing ACS?',
+        answer: 'Two pressure-based criteria are widely used. An absolute intracompartmental pressure (ICP) greater than 30 mmHg is a common threshold warranting consideration of fasciotomy. The delta pressure — diastolic blood pressure minus ICP — falling to 30 mmHg or below is a physiologically meaningful benchmark indicating critically compromised tissue perfusion. The 2025 AAOS clinical practice guidelines support repeated and continuous ICP monitoring, recognizing that a single normal reading does not exclude ACS in a deteriorating patient.',
+      },
+      {
+        question: 'How does cast management create malpractice liability in compartment syndrome cases?',
+        answer: 'A circumferential cast applied after fracture can cause or worsen compartment syndrome by restricting swelling. The standard of care requires timely clinical evaluation — not telephone reassurance — when a patient reports escalating pain under a cast, and bivalving or splitting the cast when symptoms worsen. Cases where nursing documentation records repeated patient complaints that go unanswered, while ACS progresses to permanent injury, frequently establish a strong record of deviation from the standard of care.',
+      },
+      {
+        question: 'How do expert witnesses establish causation in a delayed ACS case?',
+        answer: 'Experts reconstruct the medical record timeline to identify the specific point at which clinical findings and pressure measurements crossed the recognized intervention threshold, then calculate how long after that point fasciotomy was actually performed. Causation is supported by the established relationship between ischemia duration and tissue injury — muscle and nerve tolerate only a narrow window of ischemia before permanent damage occurs — and by the predictable nature of the sequelae (Volkmann contracture, foot drop, amputation) that develop when that window is exceeded.',
+      },
+      {
+        question: 'Which providers are typically named as defendants in compartment syndrome cases?',
+        answer: 'Liability commonly attaches to orthopedic surgeons who perform the index procedure or manage the fracture without timely recognition of ACS, nursing staff who fail to document or escalate neurovascular findings, on-call physicians who receive escalation calls without responding with appropriate urgency, emergency physicians who discharge high-risk patients without ACS assessment, and vascular surgeons who fail to consider prophylactic fasciotomy after revascularization procedures with prolonged ischemia times.',
+      },
+      {
+        question: 'What medical records are most important when evaluating an ACS malpractice case?',
+        answer: 'Key records include nursing flowsheets documenting neurovascular checks (sensation, motor function, pulse status, pain assessment, and compartment firmness) with timestamps; physician examination notes and their timing relative to nursing escalation calls; ICP measurement records including technique used, absolute values, and delta pressure calculations; operative notes documenting fasciotomy timing; anesthesia records if post-operative ACS is at issue; and, in cast-related cases, phone call logs and on-call physician documentation.',
+      },
+    ],
+  },
 ];
 
 /**
@@ -1490,6 +1620,32 @@ export const postFaqs: Record<string, BlogPostFAQ[]> = {
       answer: 'Key records include ED triage notes with timestamped vital signs, physician evaluation notes documenting or omitting aortic risk assessment, imaging studies and radiology reports with order and result timestamps, cardiac biomarkers and ECG results, nursing flowsheets showing hemodynamic trends, pharmacy records for anticoagulation or antihypertensive management, and in transfer cases, records of when transfer was initiated along with the operative report and surgical timing from the receiving facility.',
     },
   ],
+  'acute-compartment-syndrome-expert-witness': [
+    {
+      question: 'What are the earliest clinical signs of compartment syndrome that providers must recognize?',
+      answer: 'The two most important early signs are pain out of proportion to the injury — escalating pain that exceeds what the underlying fracture or trauma would explain — and pain with passive stretch of the muscles within the affected compartment. Compartment firmness on palpation is a third early finding. These signs must be actively assessed and documented; providers should never wait for late signs such as pulselessness or paralysis, which indicate that the diagnosis has already been missed for hours.',
+    },
+    {
+      question: 'What pressure thresholds define the standard of care for diagnosing ACS?',
+      answer: 'Two pressure-based criteria are widely used. An absolute intracompartmental pressure (ICP) greater than 30 mmHg is a common threshold warranting consideration of fasciotomy. The delta pressure — diastolic blood pressure minus ICP — falling to 30 mmHg or below is a physiologically meaningful benchmark indicating critically compromised tissue perfusion. The 2025 AAOS clinical practice guidelines support repeated and continuous ICP monitoring, recognizing that a single normal reading does not exclude ACS in a deteriorating patient.',
+    },
+    {
+      question: 'How does cast management create malpractice liability in compartment syndrome cases?',
+      answer: 'A circumferential cast applied after fracture can cause or worsen compartment syndrome by restricting swelling. The standard of care requires timely clinical evaluation — not telephone reassurance — when a patient reports escalating pain under a cast, and bivalving or splitting the cast when symptoms worsen. Cases where nursing documentation records repeated patient complaints that go unanswered, while ACS progresses to permanent injury, frequently establish a strong record of deviation from the standard of care.',
+    },
+    {
+      question: 'How do expert witnesses establish causation in a delayed ACS case?',
+      answer: 'Experts reconstruct the medical record timeline to identify the specific point at which clinical findings and pressure measurements crossed the recognized intervention threshold, then calculate how long after that point fasciotomy was actually performed. Causation is supported by the established relationship between ischemia duration and tissue injury — muscle and nerve tolerate only a narrow window of ischemia before permanent damage occurs — and by the predictable nature of the sequelae (Volkmann contracture, foot drop, amputation) that develop when that window is exceeded.',
+    },
+    {
+      question: 'Which providers are typically named as defendants in compartment syndrome cases?',
+      answer: 'Liability commonly attaches to orthopedic surgeons who perform the index procedure or manage the fracture without timely recognition of ACS, nursing staff who fail to document or escalate neurovascular findings, on-call physicians who receive escalation calls without responding with appropriate urgency, emergency physicians who discharge high-risk patients without ACS assessment, and vascular surgeons who fail to consider prophylactic fasciotomy after revascularization procedures with prolonged ischemia times.',
+    },
+    {
+      question: 'What medical records are most important when evaluating an ACS malpractice case?',
+      answer: 'Key records include nursing flowsheets documenting neurovascular checks (sensation, motor function, pulse status, pain assessment, and compartment firmness) with timestamps; physician examination notes and their timing relative to nursing escalation calls; ICP measurement records including technique used, absolute values, and delta pressure calculations; operative notes documenting fasciotomy timing; anesthesia records if post-operative ACS is at issue; and, in cast-related cases, phone call logs and on-call physician documentation.',
+    },
+  ],
 };
 
 export function getPostFaqs(slug: string): BlogPostFAQ[] {
@@ -1520,6 +1676,7 @@ export const postDivisions: Record<string, string[]> = {
   'delayed-meningitis-diagnosis-neurology-expert-witness': ['neurology', 'emergency-medicine', 'pediatric-neurology'],
   'pulmonary-embolism-misdiagnosis-expert-witness': ['emergency-medicine', 'internal-medicine', 'radiology', 'orthopedic-surgery'],
   'aortic-dissection-misdiagnosis-expert-witness': ['emergency-medicine', 'vascular-surgery', 'radiology', 'internal-medicine'],
+  'acute-compartment-syndrome-expert-witness': ['orthopedic-surgery', 'emergency-medicine', 'vascular-surgery', 'neuromuscular-medicine'],
 };
 
 export function getPostDivisions(slug: string): string[] {
