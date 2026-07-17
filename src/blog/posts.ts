@@ -1290,6 +1290,82 @@ Contact ApexMedLaw to discuss your acute compartment syndrome malpractice case.
       },
     ],
   },
+  {
+    slug: 'daubert-challenge-medical-expert-witness-selection',
+    title: 'Surviving a Daubert Challenge: How to Vet a Medical Expert Witness Before You Retain One',
+    metaDescription: 'A practical guide for attorneys on Daubert-proofing medical expert witness selection — qualifications, methodology, and the review steps that prevent exclusion.',
+    date: '2026-07-17',
+    author: 'AML Editorial',
+    keywords: [
+      'Daubert challenge medical expert',
+      'expert witness qualification standard',
+      'medical malpractice expert witness vetting',
+      'Daubert motion to exclude expert',
+      'expert witness methodology reliability',
+      'medical expert witness selection attorney',
+    ],
+    content: `A well-credentialed physician can still lose a case before a jury ever hears a word of testimony. Motions to exclude under *Daubert v. Merrell Dow Pharmaceuticals* and its state-law analogues are filed routinely in medical malpractice and personal injury litigation, and they succeed often enough that expert selection has become a distinct, high-stakes phase of case preparation. Attorneys who treat expert vetting as a formality — checking board certification and moving on — are exposed to a motion that can gut a case regardless of its underlying merit. Attorneys who vet rigorously at the outset convert the expert's credibility into one of the strongest assets in the file.
+
+## What Daubert Actually Tests
+
+*Daubert* and Federal Rule of Evidence 702 do not ask whether an expert is impressive. They ask whether the expert's methodology is reliable and whether that methodology was reliably applied to the facts of the specific case. Courts generally evaluate some combination of the following factors, adapted from *Daubert* and its progeny:
+
+- Whether the expert's technique or theory can be and has been tested
+- Whether it has been subjected to peer review and publication
+- The known or potential error rate of the technique
+- The existence and maintenance of standards controlling the technique's application
+- Whether the theory or technique has attracted general acceptance within the relevant medical community
+
+**The critical distinction attorneys must internalize:** Daubert challenges rarely turn on whether the expert is qualified in the abstract. They turn on whether the specific opinion offered is grounded in a reliable, articulable methodology rather than the expert's unsupported say-so. An intensivist with thirty years of ICU experience can still be excluded if the causation opinion in the report is not tied to a reasoned methodology applied to the record.
+
+## Vetting Qualifications: Beyond the CV
+
+**Match the specialty to the precise clinical question, not the general subject matter.** A general neurologist may not be qualified to opine on neurosurgical technique, and a retired physician who has not practiced in the relevant area for years is a frequent target of successful challenges. Courts increasingly scrutinize the gap between an expert's current practice and the clinical scenario at issue.
+
+**Confirm active or recent clinical practice in the specific area at issue.** An expert who is actively managing the exact clinical scenario in question — not simply board-certified in the broader specialty — presents testimony that is far more difficult to characterize as detached from real-world practice.
+
+**Review the expert's litigation history for prior exclusions.** A history of successful Daubert challenges against the same expert in other cases is discoverable and will be used against your case. Ask directly, and verify independently where possible, before retention rather than after a deposition surfaces it.
+
+**Assess testifying balance.** An expert who testifies exclusively for plaintiffs or exclusively for defense, without exception, invites a bias argument that a more balanced testifying history helps blunt.
+
+## Vetting Methodology: The Part Attorneys Skip
+
+Most Daubert failures are not qualification failures — they are methodology failures. Before retaining or finalizing an expert, confirm the report demonstrates each of the following:
+
+**A stated methodology, not a conclusion.** The report must explain how the expert reached the opinion — what records were reviewed, what standards or guidelines were applied, and what reasoning connects the facts to the conclusion. "In my medical opinion, the standard of care was breached" without the supporting analytical chain is exactly the kind of ipse dixit reasoning that *General Electric Co. v. Joiner* and its progeny allow courts to reject.
+
+**Reliance on recognized medical literature or guidelines.** Opinions anchored to published clinical practice guidelines, peer-reviewed literature, or specialty-society standards are substantially more durable under challenge than opinions based solely on personal experience. When personal experience is the basis, the report should explain why that experience is a reliable substitute for or supplement to published standards.
+
+**A differential diagnosis or differential etiology analysis for causation opinions.** Causation opinions that fail to address and rule out alternative causes are a recurring basis for exclusion, particularly in cases involving pre-existing conditions or multiple potential contributing factors. A rigorous report shows the expert's reasoning for eliminating competing explanations, not just an assertion that the defendant's conduct caused the injury.
+
+**Consistency with the expert's own prior testimony and publications.** Prior deposition transcripts, trial testimony, and published articles are discoverable. An expert whose current opinion contradicts a position taken in a prior case or publication, without an articulated reason for the shift, hands opposing counsel a ready-made cross-examination.
+
+## Preparing the Report to Withstand Scrutiny
+
+**Build the analytical chain into the report itself, not just the deposition.** Courts and opposing counsel scrutinize the written report closely at the motion stage, often before any deposition occurs. A report that shows its work — records reviewed, standards applied, reasoning followed — is far less vulnerable to a pre-deposition motion to exclude.
+
+**Address foreseeable counterarguments proactively.** If an alternative causation theory is plausible, the report should address and rule it out rather than leaving that work for cross-examination, where it reads as improvisation rather than considered analysis.
+
+**Avoid overreach beyond the expert's demonstrated area of competence.** An otherwise strong expert can be partially excluded — limited to certain opinions while others are struck — when the report strays into adjacent specialties without adequate foundation. Scope the retention and the report to match the expert's genuine area of active practice.
+
+## How ApexMedLaw Supports Daubert-Ready Expert Selection
+
+Our physician experts are actively practicing in the specific clinical area relevant to each case, not generalists retained for a broad specialty match. We work with retaining attorneys to ensure reports are grounded in current, recognized clinical guidelines and demonstrate the reasoned methodology that Daubert and its state analogues require.
+
+We provide:
+- Specialty and sub-specialty matching to the precise clinical question at issue
+- Experts with active, current clinical practice — not retired physicians trading on past credentials
+- Reports structured around a stated, defensible methodology with literature support
+- Differential causation analysis addressing alternative explanations directly
+- Transparent litigation history and testifying balance disclosed at intake
+- Deposition preparation focused on defending methodology, not just credentials
+
+Contact ApexMedLaw to discuss expert witness selection for your case before opposing counsel has the chance to build a Daubert motion around it.
+
+---
+
+*This article is for informational purposes and does not constitute legal advice. Evidentiary standards for expert testimony vary by jurisdiction.*`,
+  },
 ];
 
 /**
