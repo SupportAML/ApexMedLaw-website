@@ -1479,6 +1479,71 @@ Contact ApexMedLaw to discuss expert witness selection for your case before oppo
 
 *This article is for informational purposes and does not constitute legal advice. Evidentiary standards for expert testimony vary by jurisdiction.*`,
   },
+  {
+    slug: 'deposition-prep-medical-expert-witness',
+    title: 'Preparing Your Medical Expert Witness for Deposition: A Practical Guide for Attorneys',
+    metaDescription: 'A practical guide for attorneys on preparing medical expert witnesses for deposition — testimony discipline, common pitfalls, and how strong preparation protects case value.',
+    date: '2026-07-20',
+    author: 'AML Editorial',
+    keywords: [
+      'medical expert witness deposition prep',
+      'expert witness deposition preparation',
+      'preparing expert for cross-examination',
+      'medical malpractice expert testimony',
+      'expert witness deposition pitfalls',
+      'attorney expert witness coordination',
+    ],
+    content: `A strong written report can be undone in a single afternoon of deposition testimony. Attorneys spend weeks vetting an expert's qualifications and refining a report, then treat deposition preparation as an afterthought — a quick pre-deposition call the day before. Opposing counsel knows this, and a deposition transcript full of hedged answers, inconsistent phrasing, or unforced concessions becomes exhibit material at summary judgment or trial, regardless of how sound the underlying medicine was. Deposition preparation is not a formality. It is where a well-built expert opinion either holds or comes apart.
+
+## Why Deposition Prep Gets Shortchanged
+
+Attorneys are often more comfortable evaluating credentials and methodology than coaching testimony delivery, and physicians — accustomed to being the authority in a room — sometimes assume their clinical expertise will carry them through questioning without dedicated preparation. Both assumptions are wrong. A physician who has never been deposed does not intuitively know how to answer a compound question, how to avoid narrating beyond the question asked, or how to handle a document put in front of them without warning. That is a skill set separate from clinical competence, and it has to be built deliberately before the deposition, not discovered during it.
+
+## What Effective Preparation Actually Covers
+
+**Review the report line by line with the expert before the session, not just once at retention.** The expert must be able to explain, defend, and if necessary restate every sentence of their own report from memory. Any opinion the expert cannot immediately articulate and justify under questioning is an opinion opposing counsel will target.
+
+**Drill the discipline of answering only the question asked.** The single most common deposition failure is a physician who elaborates past the scope of the question, volunteering information, alternative theories, or qualifications that opposing counsel never requested. Every extra sentence is a new opening for follow-up questions and a new opportunity for an inconsistent statement to surface later.
+
+**Prepare the expert for the "trick" of a compound or hypothetical question.** Physicians accustomed to explaining medicine comprehensively often try to answer multi-part or hypothetical questions comprehensively too. Teach the expert to ask for questions to be broken apart, and to flag when a hypothetical departs from the actual facts of the case rather than answering as if it were the real record.
+
+**Walk through likely impeachment material in advance.** Prior testimony, publications, CME presentations, and social media all get pulled before a deposition. If the expert has taken a position elsewhere that could be read as inconsistent with the current opinion, address it directly in preparation — with a clear, honest explanation for any distinction — rather than letting the expert be surprised by it on the record.
+
+**Rehearse the difference between "I don't know" and guessing.** An expert who guesses at a fact outside their personal knowledge, rather than saying so plainly, creates testimony that can be shown to be wrong later and used to undercut credibility on everything else. A confident, precise "that is outside the scope of my review" protects the opinions the expert is actually qualified to give.
+
+**Address demeanor, not just substance.** Pace, tone, and the instinct to fill silence all affect how testimony reads on a cold transcript and how it plays if excerpted at trial. An expert who pauses to think before answering, rather than filling dead air, produces cleaner, more defensible testimony.
+
+## Common Pitfalls That Damage Otherwise Strong Experts
+
+**Volunteering causation opinions beyond the retention scope.** An expert retained on standard-of-care questions who drifts into causation testimony without having done the underlying differential analysis hands opposing counsel grounds to challenge both opinions, not just the unsupported one.
+
+**Inconsistent terminology between the report and testimony.** Using looser or different language in a deposition than the report used creates an appearance of imprecision, even when the underlying opinion has not changed. Preparation should reinforce the report's own vocabulary.
+
+**Agreeing to hypotheticals that quietly shift the facts.** Opposing counsel will often build a hypothetical that resembles the case but changes one material detail. An unprepared expert who answers reflexively can appear to concede a point that does not actually apply to the real record.
+
+**Losing composure under repetitive or aggressive questioning.** Deposition strategy sometimes relies on wearing down a witness through repetition. An expert who has rehearsed staying calm and simply restating the same accurate answer, rather than becoming defensive or elaborating further each time, denies opposing counsel the reaction they are looking for.
+
+## Preparation Timing and Format
+
+Preparation works best as more than one session: an initial deep review of the report and record well ahead of the deposition date, followed by a shorter session closer to the deposition focused on delivery and likely lines of questioning. A single rushed call the day before leaves no time to correct problems that surface during the mock questioning itself — and mock questioning, with someone playing opposing counsel, is the single most effective preparation tool available. Reading through likely questions is not the same as answering them out loud under pressure.
+
+## How ApexMedLaw Supports Deposition-Ready Testimony
+
+Our physician experts are prepared with deposition readiness built into the retention process from the start, not added as a last-minute step. We work directly with retaining attorneys to structure preparation sessions, review prior testimony and publications for consistency, and rehearse the specific question patterns each case is likely to draw.
+
+We provide:
+- Coordinated preparation sessions scheduled with enough lead time to address issues before they surface
+- Mock cross-examination focused on the specific vulnerabilities of each case's opinions
+- Review of the expert's litigation and publication history for consistency before opposing counsel finds it first
+- Guidance on scope discipline so testimony stays within the expert's retained role
+- Experts who maintain active clinical practice and are comfortable being questioned, not just comfortable writing a report
+
+Contact ApexMedLaw to discuss expert witness support for an upcoming deposition, or to build deposition readiness into your case strategy from the outset.
+
+---
+
+*This article is for informational purposes and does not constitute legal advice. Deposition practice and procedure vary by jurisdiction.*`,
+  },
 ];
 
 /**
