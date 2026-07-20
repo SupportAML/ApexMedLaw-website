@@ -1291,6 +1291,119 @@ Contact ApexMedLaw to discuss your acute compartment syndrome malpractice case.
     ],
   },
   {
+    slug: 'missed-myocardial-infarction-stemi-expert-witness',
+    title: 'Missed Heart Attack: What Attorneys Need to Know About STEMI and NSTEMI Malpractice Cases',
+    metaDescription: 'A litigation guide for attorneys on missed AMI malpractice. Learn AHA/ACC door-to-balloon standards, STEMI equivalents, troponin protocols, and how to select the right cardiac expert witness.',
+    date: '2026-07-20',
+    author: 'AML Editorial',
+    keywords: [
+      'missed heart attack malpractice',
+      'STEMI expert witness',
+      'heart attack misdiagnosis attorney',
+      'acute myocardial infarction malpractice',
+      'NSTEMI missed diagnosis expert',
+      'emergency medicine cardiac expert witness',
+    ],
+    content: `Acute myocardial infarction (AMI) is one of the most commonly litigated diagnoses in emergency medicine — and one of the most frequently missed. Despite the availability of validated diagnostic tools, serial ECGs, and high-sensitivity troponin assays, patients continue to be discharged from emergency departments with myocardial infarction misdiagnosed as musculoskeletal chest pain, anxiety, or gastrointestinal upset, only to return hours later in cardiogenic shock or as wrongful death claims.
+
+For attorneys evaluating potential AMI malpractice cases, the liability framework is grounded in clear, evidence-based standards: the ACC/AHA guidelines establish specific time targets and diagnostic protocols that create documentable benchmarks against which emergency department conduct can be measured precisely.
+
+## STEMI vs. NSTEMI: Two Distinct Liability Frameworks
+
+Attorneys handling AMI cases must understand the clinical distinction between ST-elevation myocardial infarction (STEMI) and non-ST-elevation myocardial infarction (NSTEMI), because each triggers a distinct standard-of-care framework with different timing requirements and different liability profiles.
+
+**STEMI** is the highest-acuity cardiac emergency. It occurs when a coronary artery is completely occluded, producing transmural ischemia visible on ECG as ST-segment elevation in two or more contiguous leads. The ACC/AHA STEMI guidelines establish an ironclad time target: primary percutaneous coronary intervention (PCI) should be performed within 90 minutes of first medical contact at PCI-capable hospitals. When transfer to a PCI-capable center is required, the first-medical-contact-to-device time should not exceed 120 minutes. When PCI cannot be performed within that window, fibrinolytic therapy should be administered within 30 minutes of hospital arrival. Deviations from these benchmarks — particularly in cases where the STEMI was initially missed or misdiagnosed — form the core of most STEMI malpractice claims.
+
+**NSTEMI** involves partial or transient coronary occlusion, typically without diagnostic ST elevation, and requires risk stratification to guide the timing of intervention. The HEART score and TIMI score are validated clinical decision tools for this purpose. High-risk NSTEMI patients — those with dynamic ECG changes, elevated troponins, hemodynamic instability, or ongoing ischemic symptoms — require an early invasive strategy within two hours under current guidelines. Intermediate-risk patients should undergo invasive evaluation within 24 hours. NSTEMI cases generate liability when these risk-stratification frameworks are bypassed and the patient is sent home or triaged to low-acuity care without appropriate workup.
+
+## The ECG: Where Missed Diagnoses Most Often Begin
+
+The 12-lead ECG is the first-line diagnostic tool for suspected AMI and must be obtained and interpreted within 10 minutes of arrival for any patient with chest pain. This 10-minute benchmark is an AHA/ACC standard, and its documentation in the triage record is among the first evidentiary points an expert examines.
+
+**Missed STEMI patterns** drive a significant proportion of AMI litigation because not all STEMIs present with the textbook finding of obvious ST elevation in anterior or inferior leads. Three patterns in particular account for a disproportionate share of missed diagnoses.
+
+**Posterior MI** is among the most frequently missed. A posteriorly located infarction produces ST depression in the anterior precordial leads rather than elevation, with tall R waves in leads V1 and V2. Providers who read these changes as nonspecific, or who fail to obtain posterior leads (V7 through V9) in a patient with these findings and a consistent clinical presentation, are missing a treatable STEMI. The posterior lead tracing is an inexpensive and quickly performed diagnostic step; its absence in the record when the anterior lead pattern warranted it is powerful evidence of a protocol failure.
+
+**Left bundle branch block (LBBB)** obscures standard STEMI criteria. The Sgarbossa criteria — a validated set of ECG findings used to identify AMI superimposed on LBBB — are expected knowledge for emergency physicians. New or presumed-new LBBB in a patient with chest pain is a recognized STEMI equivalent under current guidelines, warranting catheterization laboratory activation. Failure to recognize this pattern, or failure to apply the Sgarbossa criteria in an equivocal LBBB presentation, is a concrete and increasingly litigated deviation from the standard of care.
+
+**Subtle or evolving changes** in early STEMI may be initially nondiagnostic. The standard of care requires serial ECGs obtained at regular intervals in patients with ongoing symptoms or clinical suspicion. A single ECG that is read as normal and used to justify discharge — without repeat ECGs as symptoms evolve — does not satisfy the diagnostic standard for a patient with high-risk features.
+
+## Troponin Testing: Understanding the Protocol and Its Limitations
+
+Troponin elevation is the biochemical hallmark of myocardial injury, but the timing of troponin measurement relative to symptom onset is critical. Conventional troponin assays may not show elevation until three to six hours after symptom onset. A single negative troponin drawn at presentation does not exclude AMI in a patient who presents within two or three hours of symptom onset — and treating it as such is a recurring deviation in emergency department AMI cases.
+
+**High-sensitivity troponin (hs-cTn) assays**, now in widespread use, allow validated rapid rule-out protocols using serial measurements at presentation and one to two hours later. These accelerated protocols carry specific clinical decision thresholds and must be applied using validated algorithms, not simply a single negative result. The American College of Emergency Physicians has published guidance on the appropriate use of these protocols.
+
+**The critical liability point**: a provider who obtains a single troponin at presentation, interprets it as negative, and discharges a patient without serial measurement or further evaluation has not followed a complete diagnostic protocol. The standard of care requires serial troponin measurement at three-hour intervals with conventional assays — or application of a validated accelerated protocol with hs-cTn — in combination with clinical and ECG monitoring throughout the observation period. A patient discharged after a single negative troponin within two hours of symptom onset who returns the following day with a completed anterior MI presents a clear and well-supported malpractice framework.
+
+## Common Patterns of Negligence in AMI Malpractice Cases
+
+**Failure to obtain an ECG within 10 minutes.** The timing of the first ECG is documented in the triage record and is among the first evidentiary data points an expert reviews. An ECG obtained 45 or 60 minutes after arrival while alternative diagnoses were pursued, with no documented explanation for the delay, is an early deviation that undermines the defense narrative.
+
+**Atypical presentations in women and elderly patients.** Clinical research has consistently documented that women, older adults, and patients with diabetes are more likely to present with atypical symptoms — jaw pain, fatigue, dyspnea, nausea, or diaphoresis — without classic substernal chest pressure. Emergency providers are expected to maintain an appropriately lower threshold for cardiac workup in these populations. Anchoring on a non-cardiac diagnosis in an older woman with unexplained dyspnea and diaphoresis, without a cardiac evaluation, is a recognizable and frequently litigated negligence pattern.
+
+**Failure to recognize STEMI equivalents.** Posterior MI patterns, new LBBB, and the de Winter T-wave pattern are recognized STEMI equivalents that should activate the same catheterization laboratory pathway as classic ST elevation. Missing these on an ECG — or failing to obtain posterior leads when the clinical picture and anterior lead changes warrant it — is a concrete standard-of-care deviation.
+
+**Premature discharge without serial monitoring.** Patients with chest pain who have not been reliably ruled out should remain under observation with serial ECGs and serial troponins rather than being discharged after a brief evaluation. Many institutions have adopted standardized chest pain observation pathways for intermediate-risk patients. Deviations from these pathways — particularly when the patient decompensates at home within hours of discharge — form the factual foundation of wrongful death claims in this category.
+
+## Establishing Causation in AMI Cases
+
+Causation in AMI malpractice is grounded in the quantifiable relationship between ischemia time and myocardial injury. Each minute of coronary occlusion results in progressive cardiomyocyte death, and the extent of myocardial salvage achievable with timely reperfusion decreases predictably with duration of ischemia. This is the physiologic principle underlying both the clinical urgency of the AHA/ACC time benchmarks and the legal framework for causation.
+
+Experts establish causation by reconstructing what the ECG and troponin findings would have shown had the diagnosis been made at the first clinical opportunity, comparing that picture to the patient's state at the time of eventual presentation, and applying the published relationship between total ischemia time and left ventricular function loss. In wrongful death cases, experts compare the patient's presenting hemodynamic status with published mortality data for timely reperfusion — a comparison that frequently supports causation when the patient was hemodynamically stable and a viable interventional candidate at the point of the missed diagnosis.
+
+Defense experts will argue that coronary artery disease and AMI carry inherent mortality regardless of treatment timing. A well-prepared cardiac expert addresses this directly by tying the specific ischemia time delay to quantifiable loss of functional myocardium and by citing the published relationship between door-to-balloon time and mortality at the specific duration of delay documented in the record.
+
+## Daubert Considerations for AMI Expert Witnesses
+
+AMI expert testimony is most defensible when the expert is an actively practicing emergency physician, cardiologist, or internist with current experience managing chest pain and acute coronary syndrome in the relevant clinical setting. Opinions anchored to the AHA/ACC STEMI guidelines, the validated risk-stratification scores, and the published troponin protocols are substantially more durable under Daubert challenge than opinions based solely on personal gestalt. Defense counsel will specifically target causation opinions that fail to engage with the inherent variability in AMI prognosis — a rigorous expert anticipates this and grounds the causation analysis in the patient-specific hemodynamic and imaging data.
+
+## How ApexMedLaw Supports AMI Malpractice Litigation
+
+Missed heart attack cases require expert witnesses who are fluent in the AHA/ACC STEMI and NSTEMI guidelines, experienced in ECG pattern recognition — including posterior MI, LBBB, and de Winter patterns — and able to explain to a jury why a validated diagnostic protocol existed and was not followed.
+
+Our emergency medicine and internal medicine experts are board-certified, actively practicing physicians with current experience in the clinical settings where AMI misdiagnosis most commonly occurs. We provide:
+
+- Rapid case screening with preliminary merit assessment and ECG review
+- Analysis of ECG acquisition timing and interpretation against current STEMI activation standards
+- Troponin protocol analysis, including application of conventional and high-sensitivity assay standards
+- Causation opinions grounded in the ischemia-time and myocardial salvage literature
+- Expertise across the full spectrum of AMI presentations, including posterior MI, LBBB, STEMI equivalents, and atypical presentations in women and elderly patients
+- Deposition and trial-ready testimony from board-certified emergency medicine physicians
+
+For attorneys handling wrongful death or catastrophic cardiac injury claims arising from missed or delayed AMI diagnosis, contact ApexMedLaw to discuss your case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'What makes a missed heart attack a strong medical malpractice case?',
+        answer: 'AMI cases are strong when the medical record shows a patient with classic or high-risk features was discharged without serial ECGs, complete troponin protocols, or appropriate risk stratification — and then sustained irreversible myocardial injury or died from the untreated infarction. The AHA/ACC guidelines create concrete, documentable benchmarks (10-minute ECG acquisition, door-to-balloon times, serial troponin intervals) that make standard-of-care deviations identifiable and well-supported.',
+      },
+      {
+        question: 'What are the AHA/ACC time benchmarks for STEMI treatment?',
+        answer: 'For STEMI, primary PCI should be performed within 90 minutes of first medical contact at PCI-capable hospitals. When transfer to a PCI center is required, first-medical-contact-to-device time should not exceed 120 minutes. If PCI cannot be achieved within that window, fibrinolytic therapy should be administered within 30 minutes of hospital arrival. Failure to meet these benchmarks, particularly when the STEMI was delayed in recognition, supports both standard-of-care and causation analysis.',
+      },
+      {
+        question: 'What ECG patterns are most often missed in AMI malpractice cases?',
+        answer: 'Three patterns account for a disproportionate share of missed STEMI diagnoses: posterior MI (which produces ST depression in V1-V4 rather than elevation, requiring posterior leads for confirmation), new left bundle branch block (which obscures standard STEMI criteria and should be treated as a STEMI equivalent in a patient with chest pain), and the de Winter T-wave pattern. Experts evaluate whether providers recognized these patterns and took appropriate action.',
+      },
+      {
+        question: 'How does a single negative troponin create malpractice liability?',
+        answer: 'Conventional troponin assays may not show elevation until three to six hours after symptom onset, so a single negative troponin at presentation does not exclude AMI in a patient who arrives within that window. The standard of care requires serial troponin measurements at three-hour intervals with conventional assays, or an accelerated protocol with high-sensitivity troponin assays. Discharging a patient after a single negative troponin without serial monitoring is a recognized and frequently litigated deviation.',
+      },
+      {
+        question: 'Which patients are at the highest risk of a missed AMI diagnosis?',
+        answer: 'Women, elderly patients, and patients with diabetes are disproportionately affected by atypical AMI presentations — jaw pain, fatigue, dyspnea, or nausea rather than classic chest pressure. Emergency providers are expected to maintain a lower threshold for cardiac workup in these populations. Anchoring on a non-cardiac diagnosis in an older woman with unexplained diaphoresis and dyspnea without a cardiac evaluation is a recognized negligence pattern.',
+      },
+      {
+        question: 'How do expert witnesses establish causation in a missed AMI case?',
+        answer: 'Experts reconstruct the clinical timeline to identify the state of the patient — hemodynamic status, ECG findings, troponin trajectory — at the point the diagnosis should have been made, then compare that to published outcome data for timely reperfusion. The quantifiable relationship between total ischemia time and myocardial salvage supports causation: a patient who was hemodynamically stable and a viable interventional candidate at the missed diagnosis but who sustained massive LV dysfunction or died due to delay presents a strong causation framework tied to documented timing and published mortality data.',
+      },
+    ],
+  },
+  {
     slug: 'daubert-challenge-medical-expert-witness-selection',
     title: 'Surviving a Daubert Challenge: How to Vet a Medical Expert Witness Before You Retain One',
     metaDescription: 'A practical guide for attorneys on Daubert-proofing medical expert witness selection — qualifications, methodology, and the review steps that prevent exclusion.',
