@@ -1616,6 +1616,60 @@ Contact ApexMedLaw to discuss building a defensible causation analysis for your 
 
 *This article is for informational purposes and does not constitute legal advice. Causation standards for medical malpractice claims vary by jurisdiction.*`,
   },
+  {
+    slug: 'post-cardiac-arrest-neuroprognostication-expert-witness',
+    title: 'Post-Cardiac Arrest Neuroprognostication: What Attorneys Need to Know About Premature Withdrawal-of-Care Litigation',
+    metaDescription: 'A guide for medical malpractice attorneys on post-cardiac arrest neuroprognostication litigation — targeted temperature management, the multimodal prognostication timeline, and how critical care and neurology expert witnesses evaluate premature withdrawal-of-care claims.',
+    date: '2026-07-24',
+    author: 'AML Editorial',
+    keywords: [
+      'neuroprognostication expert witness',
+      'post-cardiac arrest care malpractice',
+      'withdrawal of care litigation',
+      'targeted temperature management standard of care',
+      'anoxic brain injury expert witness',
+      'critical care neurology malpractice',
+    ],
+    content: `Roughly 350,000 people suffer out-of-hospital cardiac arrest in the United States each year, and the minority who achieve return of spontaneous circulation face a second, less-visible crisis: predicting whether the brain that survived the arrest will ever recover meaningful function. Post-cardiac arrest neuroprognostication sits at the intersection of critical care and neurology, and it generates a distinct and growing category of malpractice exposure — cases in which life-sustaining treatment was withdrawn based on a prognosis that current guidelines say cannot be reliably rendered as early, or on as narrow a set of findings, as it was.
+
+## Why These Cases Are Different From Standard Diagnostic Delay Claims
+
+Most malpractice litigation in this space does not allege that a hospital failed to treat a patient aggressively enough. It alleges the opposite: that a family was told recovery was impossible, consented to withdrawal of life-sustaining treatment, and that the prognosis driving that conversation was rendered prematurely or on insufficient evidence under the applicable multimodal standard. Because the decision to withdraw care is irreversible and the patient cannot later contradict the prognosis, these cases turn almost entirely on whether the medical record shows the guideline-directed workup was actually completed — not on a disputed clinical outcome.
+
+## The Multimodal Standard and the 72-Hour Rule
+
+**Current American Academy of Neurology and European Resuscitation Council guidance is unambiguous that no single test, performed at any single time point, is sufficient to declare a poor neurological prognosis after cardiac arrest.** The guidelines instead call for a multimodal approach — combining neurological examination, electroencephalography, somatosensory evoked potentials (SSEPs), serum neuron-specific enolase (NSE) levels, and neuroimaging — with the earliest reliable prognostication generally occurring no sooner than 72 hours after return of spontaneous circulation, and later still in patients who received targeted temperature management or remain on sedating medications that confound the exam.
+
+**The absence of pupillary and corneal reflexes at 72 hours, bilaterally absent N20 responses on SSEP, and a burst-suppression or unreactive EEG pattern are the findings guidelines treat as reliably predictive of poor outcome — and even these are meant to be considered together, not individually.** A chart showing that a poor-prognosis conversation with the family occurred at 24 or 36 hours post-arrest, based on examination findings alone or a single test result, is one of the clearest and most reviewable deviations an expert witness will encounter in this area, because the timeline itself — documented in nursing notes, EEG reports, and physician progress notes — establishes the gap between what was done and what the guideline requires.
+
+## Confounders That Are Frequently Overlooked
+
+**Sedating and paralytic medications, hepatic or renal impairment that prolongs their clearance, and residual hypothermia all delay the point at which a neurological examination becomes reliable — and each is a recurring source of premature prognostication.** A patient who received a benzodiazepine infusion for shivering control during targeted temperature management, and whose exam is assessed as "no brainstem reflexes, no motor response" twelve hours after the infusion was stopped, may simply be sedated rather than irreversibly injured. Expert review in these cases turns heavily on the medication administration record, including infusion stop times and known half-lives adjusted for organ function, cross-referenced against the timing of the examination the prognosis relied on.
+
+**Targeted temperature management itself introduces a further timing complication.** Guidelines recommend that neuroprognostication be deferred until at least 72 hours after the patient reaches normothermia — not 72 hours after arrest — in patients who were cooled. Charts that measure the 72-hour window from arrest rather than from rewarming, and that consequently prognosticate too early, are a documented and litigated pattern in this area.
+
+## What the Expert Record Review Looks For
+
+- Whether the neurological examination used to inform the withdrawal-of-care discussion was performed at or after the guideline-recommended time point, adjusted for temperature management and sedation
+- Whether the prognosis relied on a single modality (examination alone, or EEG alone) rather than the required multimodal combination
+- Documentation of sedating and paralytic medication administration, including stop times, and whether the treating team accounted for delayed clearance
+- Whether SSEP and EEG were performed by qualified personnel and interpreted using standardized, guideline-consistent criteria
+- The content and timing of the family conversation in which withdrawal was discussed, correlated against the completed workup at that point in time
+
+## Damages and Case Value
+
+Because these cases involve the withdrawal of life-sustaining treatment from a patient who might otherwise have survived — in some cases with meaningful neurological recovery — they carry catastrophic damages exposure when the record supports a premature-prognostication theory. The absence of a definitive counterfactual (the patient did not survive to demonstrate what recovery might have looked like) makes causation analysis in these cases particularly dependent on the published natural history data for patients whose workup was completed to guideline standard, which is precisely the kind of literature-grounded causation opinion a qualified critical care or neurocritical care expert is positioned to provide.
+
+## How ApexMedLaw Approaches Neuroprognostication Cases
+
+ApexMedLaw's critical care and neurology panels include physicians who manage post-cardiac arrest patients in active practice and are fluent in the AAN and ERC multimodal prognostication guidelines. Our experts reconstruct the full timeline from arrest through the withdrawal-of-care discussion — cross-referencing temperature management records, sedation and paralytic administration, EEG and SSEP reports, and NSE trends — to determine whether the prognosis met the applicable evidentiary threshold at the time it was rendered.
+
+We provide written reports that lay out each element of the multimodal workup against the guideline it corresponds to, identify any confounder the treating team failed to account for, and support both plaintiff and defense counsel with deposition testimony and trial preparation. Contact ApexMedLaw to discuss your post-cardiac arrest care or withdrawal-of-care case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
