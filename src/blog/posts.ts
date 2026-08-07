@@ -2116,6 +2116,74 @@ Contact ApexMedLaw to discuss expert support for your next trial.
 
 *This article is for informational purposes and does not constitute legal advice. Trial procedure and evidentiary rules vary by jurisdiction.*`,
   },
+  {
+    slug: 'clabsi-central-line-infection-critical-care-expert-witness',
+    title: 'Central Line-Associated Bloodstream Infections: What Attorneys Need to Know About ICU Malpractice Liability',
+    metaDescription: 'A critical care expert witness guide for attorneys on central line-associated bloodstream infections (CLABSI) — insertion bundle standards, maintenance failures, and how to build the negligence and causation case.',
+    date: '2026-08-07',
+    author: 'AML Editorial',
+    keywords: [
+      'CLABSI expert witness',
+      'central line infection malpractice',
+      'central line-associated bloodstream infection lawsuit',
+      'ICU catheter infection liability',
+      'critical care expert witness',
+      'hospital-acquired infection malpractice',
+    ],
+    content: `Central line-associated bloodstream infections rank among the most consequential hospital-acquired complications in critical care, carrying attributable mortality estimates as high as 12 to 25 percent and adding, on average, a week or more to an ICU stay. What separates CLABSI from many other adverse outcomes litigated in medical malpractice is the existence of a well-defined, widely adopted, and rigorously studied prevention framework. The Centers for Disease Control and Prevention, through its National Healthcare Safety Network, has spent two decades refining insertion and maintenance bundles specifically because the data show these infections are, in the overwhelming majority of cases, preventable. When a patient develops a CLABSI and the chart reveals that bundle elements were skipped, undocumented, or inconsistently applied, attorneys are looking at a fact pattern where the standard of care is not a matter of expert opinion but of published, near-universal protocol.
+
+## What a CLABSI Actually Is
+
+A central line-associated bloodstream infection is a laboratory-confirmed bloodstream infection that develops in a patient with a central venous catheter in place for more than two calendar days, where the infection is not attributable to another source. The mechanism is straightforward: bacteria or fungi gain access to the bloodstream either through the catheter's insertion tract, contamination of the hub or connectors during use, or, less commonly, hematogenous seeding from a distant site. Once organisms colonize the catheter, they can produce a biofilm that shields them from antibiotics and the immune system, making eradication difficult without removing the line itself.
+
+The clinical stakes are high. Patients can progress from a localized catheter infection to sepsis and septic shock within hours, and the causative organisms in ICU settings — coagulase-negative staphylococci, Staphylococcus aureus, Candida species, and gram-negative rods such as Klebsiella and Pseudomonas — frequently carry resistance patterns that complicate treatment. For a patient already critically ill from an unrelated condition, a superimposed CLABSI can be the difference between recovery and a fatal outcome.
+
+## The Insertion Bundle: A Codified Standard of Care
+
+The central line insertion bundle, popularized by the Institute for Healthcare Improvement and now embedded in hospital accreditation and CMS reporting requirements, defines a small set of interventions that dramatically reduce CLABSI rates when followed consistently. The core elements are not in dispute among infectious disease and critical care societies:
+
+**Hand hygiene** immediately before catheter insertion and before any manipulation of the line is the foundational, non-negotiable step, and its omission is typically documented — or conspicuously absent from documentation — in the procedure note.
+
+**Maximal sterile barrier precautions** during insertion require a cap, mask, sterile gown, sterile gloves, and a full-body sterile drape for the patient, not merely a small fenestrated drape at the insertion site. Deviations from full barrier precautions are a well-established risk factor for infection and are frequently reconstructable from the procedure documentation and any available staffing or nursing notes present during the insertion.
+
+**Chlorhexidine skin antisepsis** with an alcohol-based chlorhexidine solution, applied with the appropriate friction and allowed to dry fully before puncture, is superior to povidone-iodine and is the standard antiseptic in current guidelines.
+
+**Optimal catheter site selection** favors the subclavian vein over the femoral or internal jugular sites when clinically appropriate, given the femoral site's substantially higher infection risk, particularly in patients with a higher body mass index or in the presence of groin colonization.
+
+**Daily review of line necessity** requires the care team to affirmatively document, each day, whether the central line remains clinically indicated, with prompt removal once it is not. Because infection risk climbs with every additional day a catheter remains in place, a line left in beyond its clinical necessity — without daily justification in the record — is one of the most common and most provable prevention failures in these cases.
+
+## Where Maintenance Failures Create Liability
+
+Insertion technique is only half the picture. A substantial share of CLABSI cases trace back to breaches in the maintenance of an otherwise properly placed line, and attorneys should scrutinize this phase with equal care.
+
+**Inconsistent hub and connector disinfection.** Every access of the catheter hub — for medication administration, blood draws, or tubing changes — requires vigorous disinfection with an appropriate antiseptic and adequate dry time ("scrub the hub"). Nursing documentation showing rushed or skipped hub disinfection, particularly in high-volume ICU settings, is a recurring finding in these files.
+
+**Dressing management failures.** Transparent semipermeable dressings should be changed on a defined schedule, and immediately if they become soiled, loosened, or damp. Gauze dressings, when used, require more frequent changes. Nursing flowsheets that show overdue dressing changes or fail to document dressing condition at regular intervals are directly relevant to whether the maintenance bundle was followed.
+
+**Delayed removal despite signs of infection.** Once a catheter-related infection is suspected — new fever without another source, purulence at the insertion site, or positive blood cultures drawn through the line — prompt catheter removal and culture is the standard response. Continued use of a line after these warning signs, whether from inattention or a failure to connect the clinical picture to the catheter, extends the infectious burden and worsens outcomes.
+
+**Failure to reassess line necessity.** As noted above, a line that stays in for convenience — because replacing IV access is inconvenient, or because no one documented the daily necessity assessment — after it is no longer clinically required represents an avoidable extension of risk with no corresponding clinical benefit.
+
+## Building the Causation Argument
+
+Causation analysis in CLABSI litigation requires connecting a specific, documented bundle failure to the infection's onset and its downstream consequences. Experts reconstruct the insertion and maintenance timeline against the catheter's dwell time, compare culture results and their organism profile against what is typical for skin-flora contamination versus a genuine catheter-source infection, and evaluate whether the infection precipitated a measurable decline — new-onset sepsis, prolonged ICU stay, additional organ dysfunction, or death — that would not have occurred absent the infection. Facility-level CLABSI surveillance data, which hospitals are required to track and report under CMS and NHSN requirements, can also be relevant to establishing whether a given unit had a pattern of elevated infection rates suggesting systemic, not merely isolated, breaches in bundle compliance.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential CLABSI case should obtain the central line insertion procedure note, including documentation of barrier precautions, antiseptic used, and site selected. Nursing flowsheets covering the full dwell time of the catheter establish dressing change frequency, hub access documentation, and daily line-necessity assessments. Blood culture results — including collection site, time to positivity, and organism identification — help distinguish a true CLABSI from contamination or an alternative infectious source. Infection control or hospital epidemiology records, where obtainable, may reveal whether the infection was internally classified as a CLABSI and whether it was included in the facility's NHSN reporting, which can be a useful admission against interest.
+
+## How ApexMedLaw Supports CLABSI Litigation
+
+Central line infection litigation requires expert witnesses who understand both the technical mechanics of catheter insertion and maintenance and the evidence-based bundle standards that define current ICU practice. Our critical care experts are board-certified intensivists with active clinical experience placing and managing central venous catheters, giving them direct familiarity with insertion technique, maintenance protocols, and the infection-control expectations hospitals are held to.
+
+We provide detailed bundle-compliance analysis drawn from procedure notes and nursing documentation, assessment of whether daily line-necessity review was performed and documented, evaluation of the timeline between infection warning signs and catheter removal, and causation opinions connecting specific prevention or maintenance failures to the patient's clinical decline.
+
+Contact ApexMedLaw to discuss your central line infection case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
