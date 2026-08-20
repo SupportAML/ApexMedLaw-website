@@ -1,4 +1,4 @@
-import { Award, GraduationCap, Scale, ShieldCheck, Mic, Gavel, Mail } from 'lucide-react';
+import { Award, GraduationCap, Scale, ShieldCheck, Mic, Gavel, Mail, FileCheck } from 'lucide-react';
 
 const leaders = [
   {
@@ -51,6 +51,15 @@ const traits = [
     icon: Scale,
     title: 'Trial Ready',
     description: 'Experienced in depositions, cross-examination, and courtroom testimony. Daubert-qualified and prepared to withstand the toughest scrutiny.',
+  },
+  {
+    icon: FileCheck,
+    title: 'Ethically Grounded',
+    description: 'Every expert adheres to the AMA Code of Medical Ethics for expert testimony — objective, evidence-based opinions, free of advocacy for either side.',
+    link: {
+      href: 'https://code-medical-ethics.ama-assn.org/ethics-opinions/medical-testimony',
+      label: 'Per the AMA Code of Medical Ethics on medical testimony',
+    },
   },
 ];
 
@@ -149,6 +158,16 @@ export function ApexTeamSection() {
                 <p className="text-slate-600 text-sm leading-relaxed">
                   {trait.description}
                 </p>
+                {trait.link && (
+                  <a
+                    href={trait.link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-teal underline hover:text-electric transition-colors"
+                  >
+                    {trait.link.label}
+                  </a>
+                )}
               </div>
             );
           })}
