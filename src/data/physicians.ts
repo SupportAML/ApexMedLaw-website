@@ -531,6 +531,27 @@ Handling over 1,000 vascular cases per year across his career, with extensive me
     location: 'Georgia',
     categories: ['vascular-surgery'],
   },
+  {
+    id: '32',
+    slug: 'parth-shah',
+    name: 'Parth D. Shah, MD',
+    role: 'Internal Medicine Physician',
+    title: 'Managing Partner & Director of Clinical Quality',
+    photo: '/team_parth_shah.jpg',
+    bio: `Dr. Parth Shah is a board-certified internal medicine physician and Equity & Managing Partner at Maniya Health, a three-site primary and urgent care group in New Jersey. As Director of Clinical Quality, he holds direct quality oversight and peer-review responsibility for 15 physicians and advanced practice providers across the group, including routine review of clinical care, documentation and E/M coding standards, and standard-of-care adherence.
+
+His full-time outpatient practice spans adult primary care and urgent/walk-in care — acute complaint evaluation, chronic disease management (hypertension, diabetes, hyperlipidemia, anticoagulation), and preventive medicine — alongside oversight of remote patient monitoring and chronic care management programs serving roughly 1,500 patients. He previously served as a Hospitalist and Medical Director at Lehigh Valley Health Network, covering general medical, step-down, and trauma co-management services, and completed his internal medicine residency at the University of Pittsburgh Medical Center.
+
+Dr. Shah is available for medical records review and written expert opinions in outpatient primary care and urgent care standard-of-care matters, with particular depth in chronic disease management, preventive care and screening guidelines, and E/M documentation and coding compliance.`,
+    credentials: [
+      'Board Certified — Internal Medicine (American Board of Internal Medicine)',
+      'University of Pittsburgh Medical Center — Internal Medicine Residency',
+      'American University of Antigua College of Medicine, MD',
+      'Active New Jersey Medical License',
+    ],
+    location: 'New Jersey',
+    categories: ['internal-medicine'],
+  },
 ];
 
 export function getPhysicianBySlug(slug: string): Physician | undefined {
