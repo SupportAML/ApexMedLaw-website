@@ -56,6 +56,10 @@ const traits = [
     icon: FileCheck,
     title: 'Ethically Grounded',
     description: 'Every expert adheres to the AMA Code of Medical Ethics for expert testimony — objective, evidence-based opinions, free of advocacy for either side.',
+    link: {
+      href: 'https://code-medical-ethics.ama-assn.org/ethics-opinions/medical-testimony',
+      label: 'Per the AMA Code of Medical Ethics on medical testimony',
+    },
   },
 ];
 
@@ -154,19 +158,20 @@ export function ApexTeamSection() {
                 <p className="text-slate-600 text-sm leading-relaxed">
                   {trait.description}
                 </p>
+                {trait.link && (
+                  <a
+                    href={trait.link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-teal underline hover:text-electric transition-colors"
+                  >
+                    {trait.link.label}
+                  </a>
+                )}
               </div>
             );
           })}
         </div>
-
-        <a
-          href="https://code-medical-ethics.ama-assn.org/ethics-opinions/medical-testimony"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block mt-4 text-xs text-slate-500 underline hover:text-electric transition-colors"
-        >
-          Per the AMA Code of Medical Ethics on medical testimony
-        </a>
       </div>
     </section>
   );
