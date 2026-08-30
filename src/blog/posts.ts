@@ -2915,6 +2915,58 @@ Contact ApexMedLaw to discuss your ascending cholangitis case.
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'intrathecal-pump-complications-pain-medicine-expert-witness',
+    title: 'Intrathecal Pain Pump Complications: What Attorneys Need to Know About Implantable Drug Delivery Malpractice',
+    metaDescription: 'A litigation guide for attorneys on intrathecal (baclofen and opioid) pump malpractice — trial screening, refill and programming errors, catheter failure, and how pain medicine expert witnesses evaluate these cases.',
+    date: '2026-08-30',
+    author: 'AML Editorial',
+    keywords: [
+      'intrathecal pump expert witness',
+      'baclofen pump malpractice',
+      'intrathecal drug delivery litigation',
+      'pain medicine expert witness',
+      'pump refill error lawsuit',
+      'implantable pump malpractice attorney',
+    ],
+    content: `Intrathecal drug delivery systems — implantable pumps that deliver baclofen for spasticity or opioids for chronic pain directly into the cerebrospinal fluid — carry a narrow margin for error unlike almost any other device in pain medicine. Because the pump delivers medication at a fraction of the oral dose directly to the central nervous system, a programming mistake, a refill error, or an undetected catheter problem can produce an outcome ranging from withdrawal to fatal overdose within hours. These cases sit at the intersection of device malpractice and medication error, and they require an expert who understands both the mechanics of the pump itself and the clinical decision-making that governs patient selection, refill technique, and troubleshooting when a patient's status changes unexpectedly.
+
+## Why Intrathecal Pump Cases Are Different
+
+A single intrathecal dose of baclofen or morphine can be roughly 100 to 300 times more potent than the equivalent oral dose, which means the pump's programmed rate, the concentration of drug in the reservoir, and the volume delivered at refill must all be verified against each other before a syringe is emptied into the device. Unlike an oral medication error, where a wrong dose is absorbed gradually and can often be caught and reversed, an intrathecal delivery error reaches the central nervous system almost immediately and with little buffer. Attorneys evaluating these cases should expect the standard-of-care analysis to focus heavily on verification protocols — the point in the refill or reprogramming process where a second check should have caught the error before it reached the patient.
+
+## The Most Common Liability Theories in Pump Cases
+
+**Refill programming mismatches.** The most frequently litigated error is a mismatch between the drug concentration actually loaded into the pump reservoir and the concentration entered into the pump's programming during a refill. If a clinic switches to a higher-concentration baclofen formulation but does not update the corresponding programmed rate, the pump continues delivering the previous volume at the new, stronger concentration — producing a rapid overdose. Records should show a documented, independently verified concentration entry at every refill, not just a volume and a rate.
+
+**Pocket fill or subcutaneous injection instead of reservoir access.** If the refill needle misses the pump's fill port and instead deposits medication into the subcutaneous pocket surrounding the device — a recognized and serious refill complication — the intended intrathecal dose never reaches the patient while a large bolus of concentrated drug sits in soft tissue. A pocket fill of intrathecal baclofen is a life-threatening overdose risk requiring emergency recognition, and a pocket fill of opioid can cause acute systemic toxicity. The standard of care requires confirming needle placement, often by aspirating cerebrospinal fluid before injecting, and having a protocol in place to recognize a suspected pocket fill immediately.
+
+**Inadequate trial and patient selection.** As with spinal cord stimulation, permanent pump implantation should follow a documented trial period demonstrating meaningful symptom improvement at a tolerable dose, along with screening for contraindications. A patient who proceeds to permanent implantation without a properly documented, objectively measured trial response presents a selection issue that experts frequently flag when the permanent pump subsequently fails to control symptoms.
+
+**Catheter failure and undetected disconnection.** Catheters can migrate, kink, fracture, or disconnect from the pump, resulting in a sudden loss of drug delivery. For baclofen pumps, abrupt cessation is a recognized medical emergency — intrathecal baclofen withdrawal can progress to high fever, rebound spasticity, rhabdomyolysis, multi-organ failure, and death if not recognized and treated promptly with oral or enteral baclofen and supportive care. A patient presenting with new-onset itching, high fever, or worsening spasticity after having a pump in place should prompt an immediate withdrawal work-up; failure to consider catheter failure in this presentation is a recurring theme in fatal and near-fatal withdrawal cases.
+
+**Missed or delayed recognition of overdose.** Intrathecal opioid overdose can present with respiratory depression, sedation, and pinpoint pupils that should be immediately recognizable, but attorneys should look for whether staff correctly connected the patient's presentation to a possible pump malfunction or refill error rather than treating it as an unrelated medical event, delaying the naloxone administration or emergency pump interrogation that the situation required.
+
+**Battery depletion and end-of-life alarms.** Pumps have a finite battery life and issue alarms as depletion approaches. A patient whose pump alarm was not addressed, or whose device reached end of service without a scheduled replacement, faces the same abrupt-cessation risk as a catheter failure, and the standard of care requires a tracking system to ensure device replacement occurs before battery depletion.
+
+## Causation Analysis in Pump Cases
+
+Causation in these cases is often more tractable than in many malpractice claims because implantable pumps store an internal log of programmed rates, alarm history, and — for many modern devices — the exact timing of programming changes and any occlusion or low-reservoir alarms. Device interrogation data can establish precisely when a programming change was made, what rate was in effect at the time of the adverse event, and whether an alarm condition existed and went unaddressed. A pain medicine expert who can read and interpret this interrogation data, alongside the clinical timeline of symptom onset, is often central to building or defending the causation narrative.
+
+## Documentation Attorneys Should Request
+
+A complete pump case file should include the device interrogation report showing programming history and alarm log, the refill and reprogramming worksheets used at each clinic visit, informed consent documentation for the trial and permanent implant, nursing and physician notes from the time of any adverse presentation, and the manufacturer's device-specific refill and reprogramming protocol in effect at the time of the incident. Comparing the clinic's actual refill technique against the manufacturer's protocol is often where the clearest standard-of-care deviations surface.
+
+## How ApexMedLaw Approaches Pump Cases
+
+ApexMedLaw's pain medicine experts implant and manage intrathecal drug delivery systems in active practice and are fluent in refill verification protocols, device interrogation data, and the clinical recognition of both overdose and withdrawal emergencies. We review the complete continuum of pump care — trial, implant, and every subsequent refill and reprogramming event — to identify the specific point of deviation and connect it to the documented device data and clinical timeline.
+
+Contact ApexMedLaw to discuss your intrathecal pump or implantable drug delivery malpractice case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
