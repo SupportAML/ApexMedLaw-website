@@ -3083,6 +3083,63 @@ Contact ApexMedLaw to discuss your Guillain-Barré syndrome malpractice case.
       },
     ],
   },
+  {
+    slug: 'frcp-26-expert-witness-disclosure-requirements',
+    title: 'FRCP 26 Expert Witness Disclosure Requirements: What Attorneys Need to Know to Avoid Exclusion',
+    metaDescription: 'A practical guide for attorneys on FRCP 26 expert witness disclosure deadlines, report content requirements, and the most common mistakes that lead to exclusion of medical experts.',
+    date: '2026-09-01',
+    author: 'AML Editorial',
+    keywords: [
+      'FRCP 26 expert witness disclosure',
+      'expert witness report requirements',
+      'Rule 26 expert disclosure deadlines',
+      'federal expert witness exclusion',
+      'expert witness qualification disclosure',
+      'litigation expert disclosure attorney guide',
+    ],
+    content: `Retaining a well-qualified medical expert wins nothing if the disclosure package fails to satisfy Federal Rule of Civil Procedure 26. Every year, plaintiff and defense experts alike are excluded — not because their opinions were unreliable, but because their disclosure was late, incomplete, or missing a required element. For attorneys managing medical malpractice and personal injury litigation, understanding what Rule 26 actually demands, and building the disclosure timeline around your expert's availability rather than around your own case-preparation schedule, is as important as the substance of the testimony itself.
+
+## What Rule 26(a)(2) Actually Requires
+
+FRCP 26(a)(2) governs expert disclosures in federal court, and most state analogs (such as those modeled on the Uniform Rules) track it closely. The rule distinguishes between two categories of experts, and the disclosure obligation is very different for each.
+
+**Retained experts require a full written report under Rule 26(a)(2)(B).** Any expert "retained or specially employed to provide expert testimony" — which describes nearly every physician expert witness in a medical-legal case — must produce a signed report containing: a complete statement of all opinions and the basis and reasons for them; the facts or data considered in forming those opinions; any exhibits used to summarize or support them; the witness's qualifications, including a list of publications from the preceding ten years; a list of all cases in which the witness testified as an expert (trial or deposition) during the preceding four years; and a statement of compensation for the study and testimony in the case.
+
+**Non-retained treating physicians require only a summary disclosure under Rule 26(a)(2)(C).** A treating physician who will testify about opinions formed during the course of treatment — without having been retained specifically to develop opinions for litigation — is not required to produce a full report. Instead, counsel discloses only the subject matter of the expected testimony and a summary of the facts and opinions to which the witness is expected to testify. Confusing which category an expert falls into is one of the most frequent and consequential mistakes attorneys make.
+
+## Where Attorneys Get Disclosure Wrong
+
+**Missing the deadline entirely.** Under Rule 26(a)(2)(D), absent a court order or stipulation, disclosures are due at least 90 days before trial for case-in-chief experts, and within 30 days after the opposing party's disclosure for rebuttal experts. Courts vary widely in how strictly they enforce these defaults, but many judges apply Rule 37(c)(1)'s automatic exclusion sanction for a late disclosure unless the failure was substantially justified or harmless — and "my expert was slow to return the report" is rarely accepted as justification.
+
+**Treating a treating physician like a full-report expert, or vice versa.** When a treating physician is asked, beyond their contemporaneous treatment opinions, to opine on standard of care or causation for litigation purposes, that additional testimony typically converts them into a retained expert requiring a full Rule 26(a)(2)(B) report for those opinions. Courts routinely strike causation or standard-of-care testimony from a treating physician who was disclosed only under the lighter (a)(2)(C) summary standard.
+
+**Incomplete qualification or prior-testimony lists.** The rule's ten-year publication list and four-year prior-testimony list are frequently underinclusive — experts forget conference presentations, book chapters, or a deposition given in an unrelated case. Opposing counsel who discovers an omission during cross-examination can use it to attack credibility even when the substantive opinion is sound, and in more serious cases can move to strike the report as non-compliant.
+
+**Reports that read as advocacy rather than opinion documentation.** A compliant report must show the "basis and reasons" for each opinion — the specific facts, records, and literature that support it. Reports drafted primarily by counsel, or that recite conclusions without connecting them to the medical record and recognized standards, invite both Daubert challenges and motions to compel supplementation or a deposition solely on methodology.
+
+**Failing to supplement.** Rule 26(e) requires supplementation of a report if the expert's opinions change or new information comes to light — for example, after reviewing additional medical records produced in discovery. An expert who testifies inconsistently with an un-supplemented report faces impeachment, and counsel who fails to supplement in a timely manner risks exclusion of the new opinion altogether.
+
+## Building the Disclosure Timeline Backwards
+
+The most reliable way to avoid a Rule 26 problem is to build the case calendar backward from the disclosure deadline, not forward from case intake. That means engaging your expert early enough that they have adequate time to review the full record, form opinions, and draft a report that meets every enumerated requirement — with time remaining for you to review it for compliance before the deadline, not after.
+
+## How ApexMedLaw Supports Rule 26 Compliance
+
+Our physician experts prepare reports built to the full Rule 26(a)(2)(B) standard as a matter of course — complete opinion statements with supporting basis and reasons, current curriculum vitae with the required ten-year publication history, an accurate four-year prior-testimony log, and disclosed compensation terms. We work directly with retaining counsel to confirm early in the engagement whether an expert is being retained for full-report purposes or will testify as a treating physician, so the correct disclosure track is set from the outset rather than discovered after a motion to strike.
+
+We provide:
+- Full Rule 26(a)(2)(B)-compliant written reports with complete supporting basis and reasons
+- Current, itemized qualification and prior-testimony documentation maintained on an ongoing basis
+- Clear guidance distinguishing retained-expert from treating-physician disclosure obligations
+- Prompt supplementation when new records or deposition testimony affect an expert's opinions
+- Deposition and trial-ready testimony consistent with the disclosed report
+
+If you are structuring your case timeline around an upcoming expert disclosure deadline, contact ApexMedLaw to discuss your expert witness needs.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Federal and state disclosure requirements vary by jurisdiction and case type.*`,
+  },
 ];
 
 /**
