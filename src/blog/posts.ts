@@ -3198,6 +3198,62 @@ Contact ApexMedLaw to discuss your ECMO litigation case.
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'esophageal-perforation-boerhaave-syndrome-expert-witness',
+    title: 'Esophageal Perforation and Boerhaave Syndrome: What Attorneys Need to Know About Delayed Diagnosis in GI Malpractice',
+    metaDescription: 'A gastroenterology expert witness guide for attorneys on esophageal perforation and Boerhaave syndrome litigation — recognizing the missed diagnosis, evaluating time-to-treatment, and building the standard-of-care and causation case.',
+    date: '2026-09-03',
+    author: 'AML Editorial',
+    keywords: [
+      'esophageal perforation expert witness',
+      'Boerhaave syndrome malpractice',
+      'delayed esophageal perforation diagnosis',
+      'iatrogenic esophageal perforation lawsuit',
+      'mediastinitis malpractice',
+      'GI expert witness',
+    ],
+    content: `Esophageal perforation is one of the most time-sensitive emergencies in gastroenterology, and it is also one of the most frequently missed on initial presentation. Whether the perforation arises spontaneously — classically after forceful vomiting, known as Boerhaave syndrome — or iatrogenically after an endoscopic procedure, dilation, or nasogastric tube placement, the injury allows gastric and esophageal contents to spill into the mediastinum, and mortality climbs sharply with every hour that passes before source control and drainage. For attorneys, these cases turn on a narrow and highly litigable question: did the treating clinicians recognize the perforation, or a presentation consistent with it, within the window where intervention still changes the outcome.
+
+## Why Esophageal Perforation Is So Often Missed
+
+Boerhaave syndrome in particular has a reputation among clinicians as a "great masquerader" because its presenting triad — vomiting, chest pain, and subcutaneous emphysema — is present together in only a minority of confirmed cases. More often, a patient presents with severe chest or upper abdominal pain after vomiting or retching, and the differential is dominated by more common diagnoses: myocardial infarction, pancreatitis, peptic ulcer disease, or a simple case of gastroenteritis. **A history of vomiting or retching immediately preceding the onset of severe chest, back, or epigastric pain is the single most important detail in the initial workup**, and a chart that does not reflect this history being elicited — or reflects it being elicited and then not pursued diagnostically — is central to a standard-of-care analysis. Iatrogenic perforations carry their own recognition problem: post-procedure chest pain, fever, or subcutaneous crepitus is too often attributed to expected post-endoscopy discomfort rather than triggering the imaging that would confirm or rule out a perforation.
+
+## The Diagnostic Standard: Imaging That Should Have Been Ordered
+
+**A contrast esophagram or CT of the chest and abdomen with oral contrast is the recognized diagnostic standard** once esophageal perforation enters the differential, and current practice favors water-soluble contrast on the initial study given the risk of mediastinitis from barium extravasation. A plain chest X-ray showing pneumomediastinum, a widened mediastinum, a left pleural effusion, or subcutaneous air is not diagnostic on its own but is a well-recognized red flag that should prompt confirmatory cross-sectional imaging rather than reassurance. Cases attorneys should scrutinize closely are those where a plain film showed one or more of these findings and the record shows no follow-up imaging ordered, or a significant delay between the abnormal film and the study that ultimately confirmed the perforation.
+
+## The Golden Window: Why Time-to-Treatment Drives the Case
+
+Esophageal perforation is one of the few GI emergencies where the medical literature ties outcome directly to a specific time interval. **Perforations identified and treated within 24 hours of onset carry substantially better survival than those where treatment is delayed beyond that window**, because mediastinal soilage and the resulting sepsis and multi-organ dysfunction progress rapidly once contents escape the esophageal lumen. This makes the timeline reconstruction — the interval between symptom onset, presentation, the point at which the diagnosis was reasonably suspectable on the available information, and the point treatment actually began — the organizing framework for both the standard-of-care and causation opinions in these cases.
+
+## Treatment Failures Beyond the Missed Diagnosis
+
+Litigation in this area is not limited to the initial missed diagnosis. Once a perforation is confirmed, the standard of care requires prompt surgical or, in appropriate anatomically favorable cases, endoscopic source control — primary repair, esophageal stenting, or diversion depending on the size, location, and time since perforation — combined with broad-spectrum antibiotics covering oral and GI flora and adequate drainage of the mediastinal or pleural space. **A confirmed diagnosis followed by an unexplained delay in surgical consultation or operative intervention** is a distinct and separately litigable failure from the diagnostic delay, and the two must be analyzed independently because a case can present with either, both, or neither depending on the facts.
+
+## Iatrogenic Cases: A Distinct Standard-of-Care Question
+
+Perforations occurring during or after endoscopy, esophageal dilation, transesophageal echocardiography, or nasogastric or feeding tube placement raise a further standard-of-care question distinct from timely recognition: whether the procedure itself was performed appropriately and whether known risk factors — prior esophageal surgery, strictures, eosinophilic esophagitis, or forceful dilation technique — were adequately assessed beforehand. A procedure note that documents unusual resistance, difficulty, or a "pop" sensation during dilation, followed by a discharge without post-procedure imaging or an adequate observation period, is a recurring fact pattern that experts are asked to evaluate.
+
+## Building the Causation Argument
+
+Causation analysis in these cases requires connecting a specific delay — in recognition, in imaging, in surgical consultation, or in operative intervention — to a measurable worsening in outcome, whether that is progression to overt mediastinitis and sepsis, the need for a more extensive surgical procedure than would have been required earlier, or death. Because baseline mortality for esophageal perforation is meaningful even with prompt treatment, a credible expert opinion must be specific about how the documented delay changed the patient's trajectory rather than asserting generally that earlier treatment would have helped.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential esophageal perforation case should obtain the full history and physical documentation from presentation, all imaging studies and their formal reads in chronological order, the endoscopy or procedure note if the perforation was iatrogenic, nursing documentation of vital sign trends and reported symptoms, the surgical consultation note and time-stamps for each step from confirmation to operative intervention, and any transfer records if the patient was moved to a higher level of care.
+
+## How ApexMedLaw Supports Esophageal Perforation Litigation
+
+Esophageal perforation litigation requires an expert who can credibly explain why a presentation that looked like something more common should have been recognized for what it was, and who understands the operative and non-operative management options well enough to evaluate whether the treatment that followed diagnosis met the standard of care. Our gastroenterology and critical care experts bring active clinical experience managing these time-sensitive presentations, from the initial diagnostic workup through post-operative management.
+
+We provide detailed review of the diagnostic timeline against the presenting history and imaging findings, assessment of procedural technique in iatrogenic cases, evaluation of the interval between confirmed diagnosis and definitive treatment, and causation opinions connecting specific delays to the patient's clinical outcome.
+
+Contact ApexMedLaw to discuss your esophageal perforation litigation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
