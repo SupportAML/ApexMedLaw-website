@@ -3306,6 +3306,58 @@ Contact ApexMedLaw to discuss your radiofrequency ablation litigation case.
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'expert-witness-fees-compensation-disclosure',
+    title: 'Medical Expert Witness Fees and Compensation: What Attorneys Need to Know About Disclosure and Cross-Examination Risk',
+    metaDescription: 'A practical guide for attorneys on medical expert witness fee structures, FRCP 26 compensation disclosure, and how to prepare an expert for bias cross-examination over payment.',
+    date: '2026-09-05',
+    author: 'AML Editorial',
+    keywords: [
+      'expert witness fees',
+      'expert witness compensation disclosure',
+      'medical expert witness bias cross-examination',
+      'FRCP 26 compensation statement',
+      'expert witness billing rates',
+      'retained expert financial bias',
+    ],
+    content: `Every medical expert witness gets paid, and every experienced trial attorney on the other side of the case knows it. Compensation is not, by itself, a basis to exclude testimony — courts have long recognized that experts are entitled to reasonable payment for their time. But the way an expert's fees are structured, documented, and disclosed determines whether payment becomes a routine line item in a report or the centerpiece of a cross-examination that unravels the expert's credibility in front of a jury. Attorneys who treat fee disclosure as an afterthought hand opposing counsel a gift; attorneys who get it right turn a predictable line of attack into a non-event.
+
+## Why Fees Draw Scrutiny
+
+Jurors are told, correctly, that a retained expert has a financial stake in the outcome of the engagement even if not in the case itself. Opposing counsel's goal in any fee-based cross-examination is to suggest that the expert's opinions track the compensation rather than the medicine — that a witness paid well by one side, or paid repeatedly by the same referring firm, has become an advocate rather than an objective evaluator. **The strength of that suggestion depends almost entirely on what the record shows**, and the record is built well before trial, starting with how the engagement letter is drafted and how the expert's billing is disclosed under the applicable rules.
+
+## What FRCP 26 Requires — and What It Does Not
+
+Federal Rule of Civil Procedure 26(a)(2)(B)(vi) requires a retained expert's report to disclose "a statement of the compensation to be paid for the study and testimony in the case." That is a narrow requirement: it calls for the expert's compensation in the case at hand, not the expert's overall income from litigation work, and not a running total across unrelated matters. State rules vary, and some jurisdictions require broader financial disclosure, including the percentage of the expert's professional income derived from litigation-related work or the number of times the expert has testified for the same referring attorney or firm. **Attorneys must know the specific compensation-disclosure rule in the presiding jurisdiction before the report is drafted, not after opposing counsel raises a deficiency** — a report that under-discloses compensation under the governing rule risks a motion to strike or supplement that has nothing to do with the substance of the opinion.
+
+## Hourly Rate Versus Flat Fee Structures
+
+**An hourly rate tied to actual time spent on record review, report preparation, deposition, and trial testimony is the standard and most defensible fee structure**, because it allows the expert to testify credibly that the amount billed simply reflects the hours worked, independent of the opinion reached. Flat fees for a full case engagement are used in some markets and are not improper, but they are harder to defend on cross because they invite the argument that the expert was paid the same amount regardless of what conclusion was reached — even though that is equally true of an hourly arrangement in substance. Contingent or outcome-based fee structures, where compensation depends on the result of the case, are prohibited in essentially every jurisdiction and would be independently disqualifying; no legitimate expert engagement should ever be structured this way, and attorneys should confirm at intake that the expert understands this is not negotiable.
+
+## The Repeat-Engagement Problem
+
+**A pattern of repeated engagements between the same expert and the same referring attorney or firm is one of the most effective cross-examination tools available to opposing counsel**, particularly when the expert cannot immediately state how many times they have testified for that firm or what percentage of their litigation income comes from that relationship. This is not a reason to avoid using a strong expert repeatedly — continuity has real value — but it is a reason to ensure the expert maintains accurate records of prior engagements, testimony history, and the proportion of professional time devoted to litigation support, so the answer at deposition is precise rather than evasive. An expert who responds to a repeat-engagement question with a vague estimate looks like they have something to hide even when they do not.
+
+## Preparing the Expert for the Compensation Question
+
+Deposition and trial preparation should include a direct, unrehearsed run-through of the compensation cross-examination the expert will face. The expert should be able to state, without hesitation, the hourly rate, the total amount billed to date, whether the fee changes based on the opinion reached, and the general scope of the expert's litigation practice. **An expert who appears defensive or minimizes the fee discussion reads to a jury as having something to hide, while an expert who answers plainly and moves on reads as simply a professional being paid for professional time** — the substance of the answer matters less than the demeanor with which it is delivered, and that demeanor is built through preparation, not instinct.
+
+## How ApexMedLaw Supports Fee Transparency
+
+Our experts operate on transparent, hourly fee schedules disclosed at engagement, with no contingent or outcome-based compensation of any kind. We maintain accurate records of each expert's litigation history and prior engagements so that compensation and repeat-engagement questions can be answered precisely at deposition and trial.
+
+We provide:
+- Clear, itemized fee schedules provided before engagement begins
+- Compensation disclosure statements prepared to match the governing jurisdiction's rule
+- Deposition preparation addressing bias and compensation cross-examination directly
+- Complete, accurate records of an expert's prior litigation engagements
+
+Contact ApexMedLaw to discuss expert witness engagement terms for your case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
