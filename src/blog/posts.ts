@@ -3358,6 +3358,58 @@ Contact ApexMedLaw to discuss expert witness engagement terms for your case.
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'medical-expert-rebuttal-reports-timing-strategy',
+    title: 'Rebuttal Expert Reports in Medical Malpractice Litigation: Timing, Scope, and Strategy',
+    metaDescription: 'A practical guide for attorneys on when a rebuttal medical expert report is warranted, how FRCP 26(a)(2)(D) constrains its scope, and how to avoid a report being struck for exceeding it.',
+    date: '2026-09-06',
+    author: 'AML Editorial',
+    keywords: [
+      'rebuttal expert report',
+      'FRCP 26(a)(2)(D) rebuttal disclosure',
+      'rebuttal witness deadline',
+      'medical expert rebuttal strategy',
+      'responding to opposing expert report',
+      'scope of rebuttal testimony',
+    ],
+    content: `A rebuttal expert report is one of the most narrowly drawn tools in medical malpractice litigation, and also one of the most frequently misused. Attorneys under deadline pressure sometimes treat the rebuttal slot as a second opportunity to build the affirmative case — expanding causation theories, introducing new standard-of-care criticisms, or shoring up gaps left in the case-in-chief report. Courts routinely strike reports that do this, sometimes with the case-defining consequence of losing an expert's testimony entirely on the eve of trial. Understanding what a rebuttal report is for, and just as importantly what it is not for, is the difference between a report that survives a motion to strike and one that does not.
+
+## What a Rebuttal Report Is For
+
+**A rebuttal report exists solely to contradict or rebut the same subject matter identified by an opposing party's initial expert disclosure.** Under Federal Rule of Civil Procedure 26(a)(2)(D)(ii), and the near-identical language in most state analogs, rebuttal evidence is limited to responding to the specific opinions the other side's expert offered — not to opinions the retaining attorney wishes had been offered in the case-in-chief report, and not to new theories of liability or causation that could have been raised initially. If the defense expert opines that the standard of care was met because a particular lab value was within normal limits, a proper rebuttal addresses that specific reasoning. It does not introduce an unrelated standard-of-care criticism the plaintiff's expert never raised on direct.
+
+## The Scope Problem Courts Actually Police
+
+**The single most common basis for a motion to strike a rebuttal report is scope creep**, not lateness. A rebuttal report that restates the expert's original opinions in expanded form, cites new literature to bolster a causation theory already advanced, or responds to deposition testimony rather than the written report itself will draw a scope challenge — and many courts grant them, excluding the offending portions or the report in its entirety. The safest rebuttal reports are built paragraph-by-paragraph against the opposing expert's actual report: each rebuttal point traceable to a specific opinion or piece of reasoning the other expert offered, with no material that could have appeared in the original disclosure instead.
+
+## Rebuttal Deadlines Are Unforgiving
+
+Rebuttal disclosure deadlines are typically short — often 30 days after the opposing expert's report under the federal default, though scheduling orders frequently shorten or lengthen that window, and attorneys must calendar the actual order rather than assume the default applies. **Missing a rebuttal deadline is treated far less sympathetically by courts than missing an initial expert deadline**, because rebuttal timing is inherently reactive and attorneys are presumed to know the date the moment the opposing report is served. There is little room for the "we needed more time to find the right expert" argument that sometimes succeeds for initial disclosures. Retaining a rebuttal expert should begin the same week the opposing report is received, not after the retaining attorney has had time to fully digest its implications.
+
+## Choosing the Right Expert for a Rebuttal Assignment
+
+A rebuttal assignment is a different skill from an initial case-in-chief review. **The expert needs to engage critically and quickly with another physician's written reasoning**, identify where that reasoning is medically unsupported or internally inconsistent, and do so within a compressed timeline that leaves no room for the exploratory record review typical of an initial retention. An expert who has not previously written a rebuttal report may instinctively want to write a broader opinion than the assignment calls for; attorneys should be explicit at the outset that the report is confined to responding to the identified opposing opinions, not restating or expanding the affirmative case.
+
+## Rebuttal Reports and the Same-Expert Question
+
+Attorneys sometimes ask whether the case-in-chief expert can also submit the rebuttal report, or whether a second expert is required. **Using the same expert for both is common and often preferable**, since that expert already has full command of the record and the case theory, and a rebuttal report under their own name reads as a natural extension of testimony already given rather than an ad hoc addition. A separate rebuttal expert becomes worth considering only when the opposing report raises a sub-specialty issue — a pharmacology or biomechanics point, for instance — that falls outside the original expert's core competency and would itself invite a Daubert challenge if answered by someone unqualified to answer it.
+
+## How ApexMedLaw Supports Rebuttal Assignments
+
+Our experts are experienced in the compressed timeline and narrow scope that rebuttal work demands, and we can typically confirm expert availability within 24 hours of receiving an opposing report so the rebuttal clock does not run against you.
+
+We provide:
+- Rapid expert matching keyed to the specific subject matter of the opposing report
+- Rebuttal reports drafted paragraph-by-paragraph against the opponent's actual opinions
+- Clear internal guidance to the expert on scope limits under the governing rule
+- Coordination with the case-in-chief expert when a single expert can properly handle both roles
+
+Contact ApexMedLaw when you receive an opposing expert report and need rebuttal support on a compressed timeline.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
