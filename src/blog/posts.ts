@@ -3518,6 +3518,56 @@ For attorneys evaluating failure-to-diagnose or delayed-diagnosis claims arising
       },
     ],
   },
+  {
+    slug: 'cerebral-venous-sinus-thrombosis-misdiagnosis-neurology-expert-witness',
+    title: 'Cerebral Venous Sinus Thrombosis Misdiagnosis: What Attorneys Need to Know About Missed CVST Cases',
+    metaDescription: 'A litigation guide for attorneys on cerebral venous sinus thrombosis misdiagnosis. Learn the imaging standards, anticoagulation timing, and how neurology expert witnesses evaluate missed CVST cases.',
+    date: '2026-09-08',
+    author: 'AML Editorial',
+    keywords: [
+      'cerebral venous sinus thrombosis expert witness',
+      'CVST misdiagnosis malpractice',
+      'missed CVST diagnosis attorney',
+      'venous sinus thrombosis standard of care',
+      'MRV imaging malpractice litigation',
+      'neurology expert witness CVST',
+    ],
+    content: `Cerebral venous sinus thrombosis (CVST) is an uncommon but treatable cause of stroke that continues to be missed because its presentation mimics far more common neurological complaints. A patient with a new, persistent headache — sometimes with no other findings on a standard neurological exam — is a low-acuity presentation in most emergency departments, and CVST rarely makes the initial differential. Yet delayed recognition allows venous congestion to progress to venous infarction, hemorrhage, and intracranial hypertension, converting a condition that responds well to timely anticoagulation into one with permanent neurological injury or death. For attorneys evaluating a failure-to-diagnose claim, CVST cases turn on a specific and well-documented gap: standard non-contrast CT of the head does not reliably show CVST, and the standard of care requires venous imaging — CT venography (CTV) or MR venography (MRV) — whenever the clinical picture raises the possibility.
+
+## Why CVST Is Missed
+
+**The headache in CVST is nonspecific, and that is precisely the problem.** Headache is the presenting symptom in roughly 90% of CVST cases, and it lacks the classic "thunderclap" onset that reliably triggers a subarachnoid hemorrhage workup. Instead, CVST headache is often subacute, progressively worsening over days, and frequently worse when lying flat or with Valsalva maneuvers — a pattern consistent with elevated intracranial pressure that a clinician unfamiliar with CVST may not recognize as a red flag. When this headache is the only presenting complaint, and the neurological exam is normal, it is easy for CVST to be diagnosed as a migraine, tension headache, or viral illness and discharged without imaging beyond a non-contrast CT that appears reassuring.
+
+**Certain patient populations carry disproportionate risk, and a documented risk factor without a corresponding workup is a recurring liability pattern.** CVST disproportionately affects women of childbearing age, and the postpartum period and combined oral contraceptive use are established risk factors, alongside inherited and acquired thrombophilias, active malignancy, dehydration, and underlying infection or inflammatory disease. A postpartum patient presenting with a new, persistent headache — a population in which CVST incidence is meaningfully elevated — who is evaluated and discharged without venous imaging presents a fact pattern that a qualified neurology expert will scrutinize closely.
+
+## Where the Imaging Standard Is Missed
+
+**Non-contrast CT of the head, the default first study in most headache and stroke workups, is insensitive for CVST and cannot be relied upon to exclude it.** CT may show a hyperdense clot within a dural sinus (the "cord sign") or secondary findings such as venous infarction or hemorrhage, but a substantial proportion of CVST cases — commonly cited at 30% or more — have a normal or nonspecific non-contrast CT. A negative non-contrast CT head in a patient with a compatible clinical picture does not rule out CVST, and expert analysis will examine whether the treating provider understood and documented that limitation before discharging the patient.
+
+**The standard of care for a suspected CVST workup requires dedicated venous imaging — CTV or MRV — not arterial imaging alone.** CT angiography and MR angiography are optimized to visualize the arterial system and are not a substitute for venography; a chart showing that a CTA or MRA was obtained and interpreted as "no acute findings" while no venous-phase study was ordered is a frequent and legally significant documentation gap. MRV, particularly with contrast-enhanced or time-of-flight sequences, and contrast CTV both offer high sensitivity for dural sinus and cortical vein thrombosis and are the tests that should be ordered whenever CVST is a genuine clinical consideration — including in a patient with a new headache pattern, papilledema on fundoscopic exam, a known risk factor, or a focal deficit not otherwise explained.
+
+**D-dimer can support but should not exclude the diagnosis.** An elevated D-dimer is common in CVST and can support the decision to proceed to venous imaging, but a normal D-dimer does not reliably exclude CVST, particularly in patients presenting with isolated headache and a prolonged symptom course. A chart in which a normal D-dimer alone was used to forgo venous imaging in a patient with a compatible clinical picture is a pattern expert witnesses evaluate carefully.
+
+## Treatment Timing and the Causation Framework
+
+**Anticoagulation is the cornerstone of CVST treatment, and the standard of care calls for initiating it promptly once the diagnosis is confirmed — even in the presence of a hemorrhagic venous infarct.** This point is frequently counterintuitive to non-specialist providers, who may withhold anticoagulation out of concern that it will worsen an associated hemorrhage. Clinical guidelines and the published literature support anticoagulation in most CVST patients, including many with hemorrhagic transformation, because the underlying pathology is progressive clot propagation and venous congestion — the mechanism anticoagulation is designed to interrupt. A delay in anticoagulation attributable to diagnostic delay, rather than to a genuine contraindication, is a central causation issue in missed CVST litigation.
+
+**The causation narrative in CVST cases follows a recognizable arc: undiagnosed venous congestion progresses to venous infarction, hemorrhage, or malignant intracranial hypertension, each of which carries a materially worse prognosis than CVST caught and treated at the headache-only stage.** Expert analysis reconstructs the clinical timeline — the date of symptom onset, the date of the first medical evaluation, what imaging was and was not obtained, and the date and clinical status at diagnosis — to establish whether earlier venous imaging and earlier anticoagulation would, more likely than not, have prevented the progression to infarction, hemorrhage, or the vision-threatening consequences of sustained intracranial hypertension.
+
+## Daubert Considerations
+
+CVST expert opinions are well-supported by established clinical literature: the insensitivity of non-contrast CT is documented in imaging outcomes studies, the sensitivity of CTV and MRV is described in neuroradiology guidelines, and anticoagulation timing recommendations are set out in neurology and stroke society practice guidance. An expert who ties each opinion to the specific imaging obtained, the specific risk factors documented in the chart, and the published sensitivity data for each modality is working from a reproducible, well-grounded methodology. The qualifying expert is typically a board-certified neurologist, vascular neurologist, or neuroradiologist with active experience diagnosing and managing CVST.
+
+## How ApexMedLaw Supports Cerebral Venous Sinus Thrombosis Cases
+
+ApexMedLaw's neurology and stroke and vascular neurology panels include board-certified physicians with active experience diagnosing and treating CVST. Our experts review the full imaging record — including whether venous-phase imaging was ever ordered — alongside the documented risk factors, headache characteristics, and treatment timeline to determine whether the standard of care was met.
+
+We provide written reports that connect each opinion to the specific imaging findings, laboratory results, and the timeline between presentation and diagnosis, grounded in the published literature on CT and MRV sensitivity and anticoagulation timing. We serve plaintiff and defense counsel and are available for deposition and trial testimony nationwide. Contact ApexMedLaw to discuss your cerebral venous sinus thrombosis or missed CVST case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
