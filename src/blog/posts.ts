@@ -3568,6 +3568,62 @@ We provide written reports that connect each opinion to the specific imaging fin
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'failed-airway-management-difficult-intubation-expert-witness',
+    title: 'Failed Airway Management: What Attorneys Need to Know About Difficult Intubation Malpractice',
+    metaDescription: 'A critical care expert witness guide for attorneys on failed airway management — difficult airway prediction, rescue technique failures, and how to build the standard-of-care case in emergency intubation litigation.',
+    date: '2026-09-09',
+    author: 'AML Editorial',
+    keywords: [
+      'failed intubation expert witness',
+      'difficult airway malpractice',
+      'emergency airway management lawsuit',
+      'critical care expert witness',
+      'anesthesia airway malpractice',
+      'can\'t intubate can\'t oxygenate litigation',
+    ],
+    content: `Few sequences in acute medicine compress more risk into fewer minutes than a failed intubation. A patient who loses their airway and cannot be rescued within minutes suffers hypoxic brain injury or death, and the interval between the first failed attempt and a secured airway — surgical, supraglottic, or otherwise — is almost always the interval a case turns on. For attorneys evaluating these cases, the central question is rarely whether the outcome was catastrophic. It is whether the team recognized a difficult airway before it became an emergency, and whether they executed a recognized rescue algorithm once the first attempt failed.
+
+## Predicting the Difficult Airway
+
+The standard of care requires a pre-intubation airway assessment in any non-crash setting, using validated predictors — Mallampati classification, thyromental distance, mouth opening, neck mobility, and known risk factors such as obesity, obstructive sleep apnea, prior difficult intubation, or airway-distorting pathology like a neck mass or angioedema. **A documented failure to perform or record this assessment before an elective or semi-elective intubation is one of the most common findings in these cases**, because it removes the evidence that the team had any opportunity to plan for a difficult airway rather than discover one mid-procedure. Where a difficult airway was predicted or previously documented, the standard of care shifts further — toward an awake, spontaneously breathing approach or fiberoptic-assisted intubation rather than an induction that eliminates the patient's own airway reflexes before a backup plan is in place.
+
+## The Failed First Attempt: What Should Happen Next
+
+Professional society guidelines — the American Society of Anesthesiologists' Difficult Airway Algorithm chief among them — do not merely recommend a stepwise rescue sequence; they define the standard against which a failed attempt is judged. After a failed first attempt, the algorithm calls for optimizing conditions (repositioning, suction, an assistant applying external laryngeal manipulation), then escalating to a different device — video laryngoscopy if direct laryngoscopy failed, or a supraglottic airway if visualization remains inadequate — while maintaining oxygenation between attempts. **A case record showing repeated attempts with the same technique and the same operator, without escalation to an alternative device or a call for more experienced help, is a documentable departure** from an algorithm that exists specifically to prevent that pattern.
+
+## Can't Intubate, Can't Oxygenate: The Point of No Return
+
+The most severe and most litigated airway emergency is the "can't intubate, can't oxygenate" (CICO) scenario, where neither an endotracheal tube nor bag-mask ventilation nor a supraglottic device can establish an airway. The recognized standard of care requires an immediate transition to a surgical or needle cricothyrotomy once CICO is declared — and the critical variable in these cases is almost always the time elapsed between the point CICO criteria were met and the point a rescue airway was actually established. **A delay driven by repeated attempts to "try one more time" with a failing technique, rather than declaring CICO and moving to cricothyrotomy, is the single most common causation narrative in brain-injury and death cases arising from failed airway management.** Anesthesia and emergency medicine literature consistently identify this reluctance to escalate — sometimes called "plan continuation bias" — as a recurring, preventable contributor to poor outcomes.
+
+## Medication Choices and Hemodynamic Collapse
+
+A second category of airway litigation centers not on the mechanical failure to secure the airway but on what happened physiologically around it. Induction agents and paralytics given without accounting for a patient's hemodynamic instability, volume status, or acid-base derangement can precipitate cardiac arrest independent of any airway difficulty — a well-recognized risk in emergency and ICU intubations of critically ill patients. **Rapid sequence intubation performed on a hypotensive, acidotic patient without hemodynamic optimization or a resuscitation-sequence approach beforehand is a distinct standard-of-care question from the airway technique itself**, and cases involving peri-intubation cardiac arrest require an expert who can separate medication-related cardiovascular collapse from hypoxia-driven arrest.
+
+## Monitoring and Confirmation Failures
+
+Even a technically successful intubation can result in catastrophic harm if tube placement is not promptly and correctly confirmed. Continuous waveform capnography — not a single colorimetric check, not chest rise alone — is the recognized standard for confirming and continuously monitoring correct endotracheal tube position. **An esophageal intubation that goes unrecognized because the team relied on auscultation or a single CO2 color-change strip rather than continuous waveform capnography is one of the most defensible causation stories in this category of case**, because the monitoring standard is unambiguous and the consequence of its absence — unrecognized hypoxia during an otherwise "successful" intubation — is directly traceable.
+
+## Building the Causation Timeline
+
+Airway cases live or die on minutes, which makes a precise, second-by-second timeline the single most important work product an expert produces. That timeline has to establish when the first attempt occurred, when it was recognized as failed, what escalation (if any) followed, when CICO criteria were met if they were met at all, when a rescue airway was established, and what the patient's oxygen saturation and hemodynamics were doing throughout. Anesthesia records, code documentation, and capnography strips — where preserved — often contain more reliable timestamps than narrative nursing or physician notes, and reconciling the two is frequently where a case is won or lost.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential failed-airway case should obtain the pre-procedure airway assessment (or confirm its absence), the anesthesia or procedural record documenting each attempt, device used, and operator, capnography and pulse oximetry tracings if retained by the monitoring system, code and resuscitation records if cardiac arrest occurred, and any difficult-airway cart or equipment-availability documentation for the unit involved. Departmental credentialing records for who was called to assist, and how quickly, frequently matter as much as the primary operator's actions.
+
+## How ApexMedLaw Supports Failed Airway Litigation
+
+Failed airway cases require expert witnesses who have personally managed difficult and failed airways under pressure, not merely read about the algorithm. Our critical care and anesthesiology experts are board-certified physicians with active airway management experience, giving them the standing to evaluate whether a given rescue sequence matched — or departed from — the recognized standard.
+
+We provide detailed reconstruction of the intubation timeline from the available records, assessment of pre-procedure airway risk stratification, evaluation of rescue-device escalation and CICO recognition, and causation opinions connecting specific delays or departures to the patient's neurologic or fatal outcome.
+
+Contact ApexMedLaw to discuss your failed airway management or difficult intubation litigation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
