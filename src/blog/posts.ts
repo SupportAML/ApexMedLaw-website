@@ -3624,6 +3624,61 @@ Contact ApexMedLaw to discuss your failed airway management or difficult intubat
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'loss-of-chance-doctrine-medical-malpractice-causation',
+    title: 'The Loss-of-Chance Doctrine: How Causation Standards Shift When a Patient Already Faced a Poor Prognosis',
+    metaDescription: 'A practical guide for attorneys on the loss-of-chance doctrine — when it applies, how it changes the causation standard for expert opinions, and why it is frequently misapplied in states that reject it.',
+    date: '2026-09-10',
+    author: 'AML Editorial',
+    keywords: [
+      'loss of chance doctrine',
+      'medical malpractice causation standard',
+      'loss of chance expert witness',
+      'preexisting condition causation malpractice',
+      'proportional recovery medical malpractice',
+      'causation opinion terminal diagnosis',
+    ],
+    content: `Some of the hardest medical malpractice cases to evaluate are not the ones where a healthy patient suffered an unambiguous injury from a clear breach. They are the ones where the patient already had a serious, potentially fatal condition — advanced cancer, a failing heart, an aggressive infection — and the claim is that a delay or error reduced the chance of survival or a better outcome, without ever needing to prove that a different result was more likely than not. That is the loss-of-chance doctrine, and whether it applies in the controlling jurisdiction changes what an expert opinion has to establish from the ground up.
+
+## The Problem Traditional Causation Cannot Solve
+
+Under the conventional "more likely than not" causation standard, a plaintiff must show that the breach, more probably than not, caused the injury. That standard works cleanly when the pre-injury odds were favorable. It breaks down when the patient's baseline prognosis was already poor. A patient with a 30% chance of five-year survival who is misdiagnosed and loses that chance entirely has suffered a real, medically significant harm — but under strict but-for causation, the same patient could not prove the malpractice caused death, because even with proper care, death was more likely than not regardless. Traditional causation analysis, applied rigidly, can produce a result where physicians face no liability for negligently destroying a patient's meaningful chance at survival simply because that chance was under 50%.
+
+**The loss-of-chance doctrine exists to close that gap.** Rather than requiring proof that the breach caused the ultimate bad outcome, it treats the lost chance itself — the reduction in probability of survival or a better result — as the compensable injury. An expert's task shifts from "did the breach cause the death" to "what was the patient's chance of a better outcome before the breach, and what was it after."
+
+## Jurisdictional Variation Is the First Thing to Confirm
+
+**Loss-of-chance is not universally recognized, and where it is recognized, it is not applied uniformly.** Roughly three groups of jurisdictions exist: those that have adopted loss-of-chance as a distinct cause of action or damages theory, often with proportional recovery tied to the percentage of chance lost; those that have expressly rejected it and require plaintiffs to meet the traditional more-likely-than-not standard regardless of baseline prognosis; and those where the question remains unsettled or is limited to specific fact patterns, such as cases involving death but not those involving non-fatal injury.
+
+**An expert opinion built without first confirming which category the controlling jurisdiction falls into is an opinion built on the wrong foundation.** In a state that has rejected loss-of-chance, an expert report framed around percentage-of-chance-lost language, rather than traditional but-for causation, invites a motion to exclude or a directed verdict on causation grounds — not because the medicine is wrong, but because the legal theory does not match the jurisdiction's law. Confirming this threshold question belongs at case intake, before the expert drafts a causation section, not after a report is finalized.
+
+## How a Loss-of-Chance Opinion Is Actually Built
+
+Where the doctrine applies, the expert's analytical task is quantitative in a way traditional causation opinions often are not. **The opinion needs two defensible probability estimates: the patient's chance of a materially better outcome absent the breach, and the patient's chance of that same outcome given the breach.** The difference between those two figures — not the ultimate outcome itself — is the injury being valued.
+
+Building those estimates defensibly requires:
+
+- Grounding each probability in published staging, survival, or outcome data specific to the patient's condition, stage, and relevant comorbidities at the time of the breach — not a global average that ignores the patient's individual presentation
+- Explaining why the delay or error moved the patient from one probability category to another (for example, a cancer that progressed from a lower to a higher stage during a diagnostic delay, with corresponding published survival data for each stage)
+- Addressing confounding factors that could independently explain a reduced chance, such as the patient's baseline comorbidities or non-compliance, with the same rigor a differential etiology analysis would require
+- Being explicit about the uncertainty inherent in population-level statistics applied to an individual patient, rather than presenting a percentage as if it were a measured fact
+
+**A loss-of-chance opinion that asserts a percentage without tying it to specific, citable outcome data for the patient's actual clinical scenario is exactly as vulnerable as a traditional causation opinion that asserts causation without differential etiology.** The methodology bar does not drop because the doctrine is more forgiving on the ultimate causation question — it simply moves to a different, still rigorous, quantitative question.
+
+## Where This Doctrine Comes Up Most Often
+
+Loss-of-chance issues surface most frequently in delayed cancer diagnosis cases, where staging progression during the delay has well-documented survival implications; missed or delayed treatment of time-critical conditions such as stroke or myocardial infarction, where functional outcome (not merely survival) may also carry a loss-of-chance analysis in jurisdictions that extend the doctrine beyond death cases; and situations involving a patient with significant pre-existing disease where the defense's central argument is that the outcome was inevitable regardless of care. In each of these fact patterns, the traditional causation framework and the loss-of-chance framework can produce very different case values and very different expert report structures, which is why confirming the applicable doctrine early shapes both litigation strategy and expert selection.
+
+## How ApexMedLaw Supports Loss-of-Chance Analysis
+
+Our physician experts build loss-of-chance opinions grounded in condition-specific, stage-specific outcome data rather than impressionistic percentages, and we coordinate with retaining attorneys early to confirm which causation framework governs before the analysis is drafted. We provide quantitative before-and-after probability assessments tied to published clinical data, explicit treatment of confounding factors and pre-existing disease, and causation opinions structured to match the correct doctrine for the controlling jurisdiction — whether that is traditional but-for causation, a recognized loss-of-chance framework, or an unsettled question that calls for a defensible fallback position.
+
+Contact ApexMedLaw to discuss building a loss-of-chance or traditional causation analysis suited to your case's jurisdiction and clinical facts.
+
+---
+
+*This article is for informational purposes and does not constitute legal advice. Recognition and application of the loss-of-chance doctrine vary significantly by jurisdiction.*`,
+  },
 ];
 
 /**
