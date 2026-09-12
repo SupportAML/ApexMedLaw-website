@@ -3774,6 +3774,57 @@ For attorneys evaluating claims arising from a pancreatitis admission complicate
       },
     ],
   },
+  {
+    slug: 'fre-702-2023-amendment-medical-expert-witness-admissibility',
+    title: 'The 2023 Amendment to FRE 702: What Changed for Medical Expert Witness Admissibility',
+    metaDescription: 'A practical guide for attorneys on the 2023 amendment to Federal Rule of Evidence 702 — the burden-of-proof clarification, the opinion-level reliability standard, and what it means for selecting and preparing a medical expert witness.',
+    date: '2026-09-12',
+    author: 'AML Editorial',
+    keywords: [
+      'FRE 702 amendment',
+      'Rule 702 2023 changes',
+      'medical expert witness admissibility',
+      'Daubert reliability standard',
+      'expert witness gatekeeping',
+      'burden of proof expert testimony',
+    ],
+    content: `Federal Rule of Evidence 702 was amended effective December 1, 2023, and the change did not rewrite the *Daubert* framework attorneys already know — it corrected how many courts had been applying it. For more than two decades, judges were supposed to act as gatekeepers, screening expert testimony for reliability before it ever reached a jury. In practice, a substantial number of courts had drifted from that role, treating reliability objections as matters of weight for the jury to sort out rather than threshold questions of admissibility for the judge to decide. The 2023 amendment was written specifically to close that gap, and for attorneys retaining or opposing a medical expert witness, it changes what a well-prepared expert report and a well-argued admissibility motion now need to show.
+
+## What the Amendment Actually Changed
+
+**The amendment made two textual changes, and both matter.** First, the rule now states explicitly that the proponent of expert testimony must demonstrate to the court, by a preponderance of the evidence, that the admissibility requirements of Rule 702 are satisfied. This was always the technically correct standard under *Daubert* and Rule 104(a), but the Advisory Committee found that many courts were instead asking only whether the proponent's showing was sufficient to permit a reasonable jury to find reliability — a lower bar that effectively pushed the reliability question past the judge and into the jury room. The amendment forecloses that shortcut.
+
+Second, and more consequential for medical causation testimony specifically, Rule 702(d) was rewritten. The prior text asked whether the expert "has reliably applied the principles and methods to the facts of the case." The amended text asks whether "the expert's opinion reflects a reliable application of the principles and methods to the facts of the case." That is not a stylistic edit. Under the old language, a court could find an expert's general methodology reliable in the abstract — a validated diagnostic criterion, a recognized differential etiology approach, a standard causation framework — without separately scrutinizing whether the specific conclusion the expert drew from that methodology was itself adequately supported. The amended rule requires the court to look at the opinion, not just the method, and ask whether the bridge between the two actually holds.
+
+## Why This Matters More in Medical Causation Cases Than Almost Anywhere Else
+
+**Medical malpractice causation opinions are exactly the kind of testimony the amendment was aimed at.** A physician expert routinely relies on a methodology that is, in isolation, unimpeachable — a validated severity score, a published clinical guideline, an accepted differential diagnosis process. The vulnerability was never in the methodology itself; it was in the analytical leap from "this is a recognized way to evaluate this condition" to "and therefore, in this specific patient, the breach caused this specific outcome." Before the amendment, that leap could sometimes survive a reliability challenge by pointing to the pedigree of the underlying methodology and leaving the jury to weigh whether the expert applied it well. After the amendment, the court is expected to examine that application directly, as part of the admissibility determination, not after it.
+
+For attorneys retaining an expert, this raises the practical bar for what a report needs to show its work. An opinion that cites the correct guideline or diagnostic standard but does not walk through, step by step, how the patient's specific facts satisfy each element of that standard is now a more exposed target than it was two years ago. For attorneys opposing an expert, it means a *Daubert* motion can, and often should, focus less on whether the expert's general methodology is accepted in the field and more on whether the expert's report actually applies that methodology to this patient's data with the rigor the rule now demands on its face.
+
+## What This Means for Report Preparation and Motion Practice
+
+**For the retaining attorney, the amendment is a reason to push a testifying physician past a conclusory application of a correct standard.** A report that states a patient met SIRS criteria and therefore should have been escalated is not, standing alone, the kind of opinion-level reliability the amended rule contemplates. A report that identifies the specific vital signs and laboratory values, ties them to the criteria, states when in the record they appeared, and explains why that combination required the response the expert says was missing is. The difference is not medical sophistication — it is documentation of the analytical steps between the general standard and the specific patient.
+
+**For the challenging attorney, the amendment supports a more targeted cross-examination and motion strategy.** Rather than attacking whether a diagnostic tool or guideline is generally reliable — often a losing argument against a well-established clinical standard — the more productive line under the amended rule is testing whether the expert's report shows the work connecting that standard to this patient's actual facts, or whether it asserts the conclusion and expects the methodology's general credibility to carry it.
+
+**Courts are also expected to be more explicit in their own reasoning.** Because the amendment was adopted specifically to correct courts that were deferring reliability questions to the jury, published post-amendment rulings on expert admissibility are a resource worth checking in any jurisdiction where a motion is being briefed — some circuits and districts have been more active than others in applying the amended standard, and citing a court's own post-2023 language back to it is more persuasive than citing the rule text alone.
+
+## How ApexMedLaw Prepares Experts for the Amended Standard
+
+Our physician experts are prepared to build causation opinions that satisfy Rule 702(d) as written today — grounding each conclusion in the specific facts of the patient's record, not only in the general reliability of the underlying clinical standard. We provide:
+
+- Report review and revision to ensure the analytical connection between methodology and conclusion is documented explicitly, not left implicit
+- Coordination with retaining attorneys on where a report's reasoning may need to be strengthened before a *Daubert* motion is filed
+- Deposition and hearing preparation focused on articulating, in real time, the specific facts supporting each step of the opinion
+- Familiarity with how courts in the relevant jurisdiction have applied the amended rule since December 2023
+
+For attorneys preparing to retain, qualify, or challenge a medical expert witness under the current admissibility standard, contact ApexMedLaw to discuss your case.
+
+---
+
+*This article is for informational purposes and does not constitute legal advice. Application of Federal Rule of Evidence 702, including its 2023 amendment, may vary by jurisdiction and by whether state or federal evidentiary rules govern.*`,
+  },
 ];
 
 /**
