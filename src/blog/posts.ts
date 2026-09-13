@@ -3825,6 +3825,57 @@ For attorneys preparing to retain, qualify, or challenge a medical expert witnes
 
 *This article is for informational purposes and does not constitute legal advice. Application of Federal Rule of Evidence 702, including its 2023 amendment, may vary by jurisdiction and by whether state or federal evidentiary rules govern.*`,
   },
+  {
+    slug: 'frye-vs-daubert-state-expert-witness-admissibility',
+    title: 'Frye vs. Daubert: Why the Admissibility Standard Still Depends on the Courthouse',
+    metaDescription: 'A practical guide for attorneys on the continuing split between Frye and Daubert admissibility standards across states, and what it means for vetting and preparing a medical expert witness in each jurisdiction.',
+    date: '2026-09-13',
+    author: 'AML Editorial',
+    keywords: [
+      'Frye standard vs Daubert standard',
+      'expert witness admissibility by state',
+      'general acceptance test',
+      'medical expert witness qualification',
+      'state evidentiary standards',
+      'Daubert challenge preparation',
+    ],
+    content: `Attorneys who work primarily in federal court, or in one of the roughly three dozen states that have adopted a Daubert-style rule, can sometimes forget that the admissibility standard for expert testimony is not uniform nationwide. It is easy to build a mental checklist around *Daubert v. Merrell Dow Pharmaceuticals* — testability, peer review, known error rate, general acceptance — and assume every court applies some version of that same four-factor analysis. A meaningful number of jurisdictions still do not. They apply *Frye v. United States*, the 1923 "general acceptance" test, or a hybrid that borrows language from both. For attorneys retaining or challenging a medical expert witness, knowing which standard governs the courthouse where the case will actually be tried is not a technicality — it changes what the expert's report needs to demonstrate and what a challenge to that report can credibly attack.
+
+## The Two Standards Are Not Interchangeable
+
+**Frye asks a narrower, more binary question: is the methodology the expert relied on generally accepted in the relevant scientific or medical community?** It does not ask a judge to independently evaluate whether the methodology is actually reliable, only whether the relevant field has already reached a consensus that it is. That makes Frye, in practice, more forgiving of an established clinical methodology and less forgiving of a genuinely novel one — a well-recognized diagnostic criterion or treatment guideline clears Frye easily because acceptance in the field is usually not seriously disputed, but an emerging or minority-view methodology can struggle regardless of how sound the underlying science actually is, simply because "general acceptance" has not yet caught up.
+
+**Daubert, and the Rule 702 framework it interprets, asks the judge to do more work.** Rather than deferring to the field's consensus, the court independently assesses reliability using the four-factor framework: whether the method can be and has been tested, whether it has been subjected to peer review and publication, its known or potential error rate, and whether it enjoys general acceptance — general acceptance survives as one factor among several rather than the sole test. This is why a genuinely novel methodology can sometimes succeed under Daubert where it would fail under Frye, provided the proponent can show the underlying reliability directly rather than relying on the field's collective sign-off. It is also why a methodology with a long history of use but a documented high error rate can be more vulnerable under Daubert than it would be under Frye's more deferential standard.
+
+## The Split Is Real and Attorneys Should Not Assume Their Home Jurisdiction's Rule Travels
+
+**A meaningful minority of states still apply Frye or a Frye-derived standard, and several others apply state-specific variants that do not map cleanly onto either federal doctrine.** Some jurisdictions that formally adopted Daubert-style language have nonetheless developed case law that functions closer to Frye in practice, particularly where general acceptance continues to carry outsized weight in how trial courts actually rule. The result is that an attorney accustomed to federal practice, or to practice in a Daubert jurisdiction, can misjudge how much scrutiny a state court will actually apply to a medical expert's methodology — in either direction. Assuming a Frye jurisdiction will rubber-stamp a well-established methodology can leave an attorney under-prepared for a genuine general-acceptance dispute; assuming a Daubert jurisdiction will independently test everything can lead to over-litigating a factor a particular court has historically treated as largely dispositive on its own.
+
+**The practical fix is jurisdiction-specific, not doctrine-specific.** Before retaining an expert or building an admissibility strategy, confirm not just whether the forum state is nominally a Frye or Daubert jurisdiction, but how the state's own appellate courts have actually applied that standard to medical or scientific testimony in recent years. The label on the standard matters less than the pattern of rulings underneath it.
+
+## What This Means for Vetting and Preparing a Medical Expert Witness
+
+**In a Frye jurisdiction, the report and the expert's testimony should affirmatively establish that the methodology relied upon is accepted in the relevant medical community** — not simply applied correctly, but recognized and used by practitioners in the field generally. Citations to published clinical guidelines, professional society position statements, and standard textbooks carry particular weight here, because they speak directly to the question the court is actually asking. An expert whose approach is medically sound but represents a minority or idiosyncratic view within the specialty is a materially riskier witness in a Frye jurisdiction than the same expert would be under Daubert.
+
+**In a Daubert jurisdiction, general acceptance alone will not carry a report that cannot also show testability, a known reliability record, and a documented analytical process connecting methodology to conclusion.** An expert report that leans entirely on "this is how physicians in my field typically evaluate this condition" without addressing the reliability of the underlying method on its own terms is more exposed to a *Daubert* motion than the same report would be to a Frye challenge. This is also where the 2023 amendment to Rule 702 raises the bar further in federal court and Daubert-aligned states, requiring the opinion itself — not just the general methodology — to reflect a reliable application to the specific facts.
+
+**For attorneys litigating in multiple states, or moving a case between state and federal court, the same expert and the same underlying opinion may need two different supporting records.** It is worth building both into the retention and report-drafting process from the outset rather than reworking a report after a venue or forum decision is made.
+
+## How ApexMedLaw Prepares Experts for Either Standard
+
+Our physician experts are prepared to support their opinions under whichever admissibility framework governs the forum, because the underlying medicine does not change but the record needed to get it in front of a jury does. We provide:
+
+- Case intake that identifies the controlling admissibility standard for the specific court and confirms how that state's courts have applied it in recent medical-testimony rulings
+- Report preparation tailored to the governing standard — general-acceptance documentation for Frye jurisdictions, reliability and error-rate documentation for Daubert jurisdictions
+- Coordination with retaining attorneys on jurisdiction-specific admissibility risk before a report is finalized
+- Deposition and hearing preparation focused on the specific line of questioning a Frye or Daubert challenge is likely to take in that forum
+
+For attorneys evaluating a medical expert witness for a case in a jurisdiction whose admissibility standard is unfamiliar, contact ApexMedLaw to discuss your case.
+
+---
+
+*This article is for informational purposes and does not constitute legal advice. The admissibility standard for expert testimony, and how a given state's courts have applied it, varies by jurisdiction and should be confirmed with local counsel.*`,
+  },
 ];
 
 /**
