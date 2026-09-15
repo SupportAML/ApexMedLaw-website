@@ -559,7 +559,7 @@ Dr. Shah is available for medical records review and written expert opinions in 
     role: 'Physical Medicine & Rehabilitation',
     title: 'Ancillary Physician Partner',
     photo: '/team_darshan_shah.jpg',
-    bio: `Dr. Darshan Shah is a physiatrist specializing in Physical Medicine & Rehabilitation, currently practicing as an attending physiatrist at Encompass Health North Tampa, a 60+ bed inpatient rehabilitation hospital, where he oversees medical management and rehabilitation care for complex neurologic and musculoskeletal patients and provides consultative rehab expertise across multiple skilled nursing facilities on mobility, spasticity, pain, and functional restoration.
+    bio: `Dr. Darshan Shah is a physiatrist with medrina, specializing in Physical Medicine & Rehabilitation across inpatient rehabilitation hospitals, skilled nursing facilities, and acute care consults. He currently practices as an attending physiatrist at Encompass Health North Tampa, a 60+ bed inpatient rehabilitation hospital, where he oversees medical management and rehabilitation care for complex neurologic and musculoskeletal patients, and provides consultative rehab expertise across multiple skilled nursing facilities on mobility, spasticity, pain, and functional restoration. He will become Medical Director at Encompass Health Wesley Chapel next year.
 
 He completed his residency in Physical Medicine & Rehabilitation at Penn State Hershey Medical Center, where he served as a departmental Quality Improvement Champion and Wellness Champion. He earned his Doctor of Osteopathic Medicine from the Edward Via College of Osteopathic Medicine and his B.S. in Biology, with Honors and Distinction in Biology Research, from Temple University.
 
