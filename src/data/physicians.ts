@@ -552,6 +552,36 @@ Dr. Shah is available for medical records review and written expert opinions in 
     location: 'New Jersey',
     categories: ['internal-medicine'],
   },
+  {
+    id: '33',
+    slug: 'darshan-shah',
+    name: 'Darshan Shah, DO',
+    role: 'Physical Medicine & Rehabilitation',
+    title: 'Ancillary Physician Partner',
+    photo: '/team_darshan_shah.jpg',
+    bio: `Dr. Darshan Shah is a physiatrist specializing in Physical Medicine & Rehabilitation, currently practicing as an attending physiatrist at Encompass Health North Tampa, a 60+ bed inpatient rehabilitation hospital, where he oversees medical management and rehabilitation care for complex neurologic and musculoskeletal patients and provides consultative rehab expertise across multiple skilled nursing facilities on mobility, spasticity, pain, and functional restoration.
+
+He completed his residency in Physical Medicine & Rehabilitation at Penn State Hershey Medical Center, where he served as a departmental Quality Improvement Champion and Wellness Champion. He earned his Doctor of Osteopathic Medicine from the Edward Via College of Osteopathic Medicine and his B.S. in Biology, with Honors and Distinction in Biology Research, from Temple University.
+
+Dr. Shah has presented case reports and research at national conferences of the Association of Academic Physiatrists and the American Academy of Physical Medicine & Rehabilitation, including work on brain injury, spasticity, and diabetic amyotrophy.`,
+    credentials: ['Penn State Hershey PM&R Residency', 'Edward Via College of Osteopathic Medicine', 'Encompass Health Attending Physiatrist'],
+    location: 'Florida',
+    categories: ['physical-medicine-rehabilitation'],
+  },
+  {
+    id: '34',
+    slug: 'shahdeen-alam',
+    name: 'Shahdeen S. Alam, DO, MBA',
+    role: 'Internal Medicine',
+    title: 'Ancillary Physician Partner',
+    photo: '/team_shahdeen_alam.png',
+    bio: `Dr. Shahdeen S. Alam is a board-certified internal medicine physician practicing in Birmingham, Alabama. Since 2021 he has practiced concurrently as a hospitalist at Grandview Medical Center and Cullman Regional Medical Center, managing adult inpatient admissions, cross-coverage, and discharge planning, alongside an outpatient internal medicine practice in chronic disease management. Since 2025 he has served as Hospice Medical Director for ExpectCare Hospice, leading physician oversight of interdisciplinary teams, certification review, and care planning. He is the founder of Alam Pinnacle Health Services in Cullman, Alabama.
+
+Dr. Alam completed his internal medicine residency at Brookwood Baptist Health in Birmingham, where he served as Administrative Chief Resident, and earned his DO and MBA (magna cum laude) from Lincoln Memorial University. He received the Arnold P. Gold Foundation Humanism and Excellence in Teaching Award in 2020. His medical-legal work centers on hospital medicine standard of care, medical necessity, documentation and care transitions, and hospice and end-of-life care.`,
+    credentials: ['Board Certified — Internal Medicine', 'Brookwood Baptist Health — Administrative Chief Resident', 'Lincoln Memorial University DO/MBA'],
+    location: 'Alabama',
+    categories: ['internal-medicine'],
+  },
 ];
 
 export function getPhysicianBySlug(slug: string): Physician | undefined {
