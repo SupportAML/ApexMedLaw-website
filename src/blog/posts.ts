@@ -4078,6 +4078,55 @@ Contact ApexMedLaw to discuss audit trail analysis for an active case, or to bui
       },
     ],
   },
+  {
+    slug: 'chronic-subdural-hematoma-misdiagnosis-anticoagulation-expert-witness',
+    title: 'Chronic Subdural Hematoma Misdiagnosis: What Attorneys Need to Know About Delayed Diagnosis in Anticoagulated and Elderly Patients',
+    metaDescription: 'A guide for attorneys on chronic subdural hematoma malpractice cases — why anticoagulated and elderly patients are misdiagnosed, the standard of care for head injury workup, and what a neurology expert witness must establish on causation.',
+    date: '2026-09-15',
+    author: 'AML Editorial',
+    keywords: ['chronic subdural hematoma expert witness', 'subdural hematoma misdiagnosis', 'anticoagulation head injury malpractice', 'elderly fall head injury litigation', 'neurosurgery expert witness', 'delayed diagnosis brain bleed'],
+    content: `Chronic subdural hematoma is one of the most quietly dangerous diagnoses in emergency and primary care medicine, precisely because it so rarely announces itself the way a physician expects a brain bleed to announce itself. There is no thunderclap headache, no sudden hemiparesis, no dramatic collapse. Instead there is a slow, days-to-weeks accumulation of subdural blood — most often in an elderly patient on an anticoagulant, following a fall so minor that neither the patient nor the family thought it worth mentioning at the visit that follows. When that presentation is missed, the resulting decline is frequently attributed to dementia, stroke, or "just getting older," and the window for a straightforward burr-hole evacuation closes while the underlying bleed continues to expand.
+
+## Why Chronic Subdural Hematoma Is Systematically Under-Diagnosed
+
+**The mechanism defeats the standard trauma mental model.** Emergency physicians and primary care providers are trained to connect head injury to immediate, acute symptoms. Chronic subdural hematoma inverts that timeline: the trigger event may be a ground-level fall two to six weeks earlier, often with no loss of consciousness and a normal initial exam, followed by an insidious symptom onset that has no obvious temporal link back to the fall in the clinician's mind unless the history is specifically probed for it.
+
+**Anticoagulation and antiplatelet therapy dramatically raise both incidence and stakes.** Patients on warfarin, direct oral anticoagulants, or dual antiplatelet therapy accumulate subdural blood more readily after minor trauma and continue bleeding more slowly and more persistently than patients with normal coagulation. This population — often elderly, often with several other diagnoses competing for a clinician's attention — is also the population most likely to have new cognitive or gait changes dismissed as an exacerbation of a pre-existing condition rather than investigated as a new neurological process.
+
+**The symptoms mimic common, benign diagnoses.** Progressive headache, mild confusion, gait unsteadiness, and personality change are the classic chronic subdural triad-plus, and every one of those findings has a dozen more common explanations in a geriatric patient: urinary tract infection, medication side effect, early dementia, depression, or simple deconditioning after a fall. Without a deliberate index of suspicion, a treating physician can work through several of those alternative explanations before imaging is ever ordered.
+
+## Where the Standard of Care Is Breached
+
+**Failure to obtain head imaging after a reported fall in an anticoagulated patient.** Numerous society guidelines and hospital protocols call for CT head imaging in anticoagulated patients presenting after any head trauma, regardless of how minor the mechanism appears or whether the patient is neurologically intact at the time. A patient sent home from an emergency department or urgent care visit without imaging, solely on the basis of a normal neurological exam and a "minor" fall, is a recurring liability pattern.
+
+**Failure to reconcile a new cognitive or gait complaint against a recent fall history.** When a patient — or, more often, a family member — returns weeks later reporting confusion, headache, or falls, the standard of care requires the treating provider to specifically ask about interval trauma and to have a low threshold for head CT, particularly in a patient on anticoagulation. A visit that treats new confusion as a standalone geriatric or psychiatric complaint, without reconstructing the trauma timeline, frequently reflects a departure worth expert review.
+
+**Delayed reversal of anticoagulation once a subdural is identified.** Once chronic subdural hematoma is diagnosed in an anticoagulated patient, prompt reversal — and coordination with neurosurgery on the timing of any reversal relative to planned evacuation — is central to preventing ongoing expansion. Delay in ordering or administering reversal agents after a known diagnosis is a distinct and separately analyzable standard-of-care issue from the initial missed diagnosis.
+
+**Inadequate outpatient follow-up instructions after a fall.** Many chronic subdural cases begin with a fall visit at which the patient is appropriately cleared at the time, but discharged without explicit "return precautions" instructing the patient and family to seek urgent re-evaluation for any new headache, confusion, or gait change over the following weeks. The absence of that specific guidance — as opposed to generic discharge paperwork — is frequently a documented gap that plaintiff's counsel and defense counsel both scrutinize closely.
+
+## What the Causation Analysis Requires
+
+A chronic subdural hematoma expert must reconstruct two intersecting timelines: the natural history of the bleed itself, and the sequence of missed or delayed clinical opportunities to intervene. Because chronic subdurals expand gradually, the causation question is rarely binary — it is usually a question of how much neurological injury (permanent cognitive deficit, hemiparesis, or death) resulted from each additional interval of delay, and whether earlier surgical evacuation would have prevented that increment of harm. This requires an expert who can speak credibly to both the neurosurgical management of subdural hematoma and the primary care or emergency medicine standard for recognizing it in the first place, since the two specialties are often litigated together in a single case.
+
+**Imaging interpretation is frequently contested.** A CT read as showing a "small" or "stable" chronic subdural at an earlier visit, compared against a later scan showing substantial midline shift, is often the single most important piece of documentary evidence in the case — and an expert must be able to explain, in terms a jury can follow, why the earlier finding should have prompted closer follow-up or specialist referral rather than reassurance.
+
+## How ApexMedLaw Supports Chronic Subdural Hematoma Litigation
+
+Our neurology and neurosurgery experts maintain active clinical practices managing both acute and chronic subdural hematoma, including in anticoagulated and elderly populations where these diagnostic failures most often arise. We provide:
+
+- Case review identifying the specific point at which imaging or referral should have occurred
+- Causation analysis tying each interval of diagnostic delay to the resulting neurological injury
+- Expert review of anticoagulation reversal timing and its relationship to surgical outcome
+- Deposition and trial-ready testimony on both the neurosurgical management and the primary care or emergency medicine standard of care
+- Coordination across specialties when a case implicates both diagnostic and surgical timing issues
+
+If you are evaluating a case involving a missed or delayed chronic subdural hematoma diagnosis, contact ApexMedLaw to discuss your case requirements.
+
+---
+
+*This article is for informational purposes and does not constitute legal advice. Medical-legal standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
