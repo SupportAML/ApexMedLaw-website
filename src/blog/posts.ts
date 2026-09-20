@@ -4344,6 +4344,62 @@ If you are staffing a complex, multi-specialty malpractice case, contact ApexMed
 
 *This article is for informational purposes and does not constitute legal advice. Medical-legal standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'consulting-expert-vs-testifying-expert-witness-designation',
+    title: 'Consulting Expert vs. Testifying Expert: Why the Distinction Matters Before You Designate',
+    metaDescription: 'A guide for attorneys on the strategic and discovery differences between a non-testifying consulting expert and a designated testifying medical expert witness, and when to use each in a malpractice case.',
+    date: '2026-09-20',
+    author: 'AML Editorial',
+    keywords: [
+      'consulting expert vs testifying expert',
+      'non-testifying expert work product',
+      'expert witness designation strategy',
+      'FRCP 26 consulting expert',
+      'medical malpractice expert witness selection',
+      'testifying expert discovery obligations',
+    ],
+    content: `Attorneys evaluating a new medical malpractice matter often retain a physician to look at the record before they have decided whether the case is worth filing, let alone whether that same physician will ever appear at a deposition. That early engagement and a later testifying designation are not the same role, and treating them as interchangeable creates real exposure — both to inadvertent discovery of early, unfavorable case assessments and to a testifying expert whose file contains work product that was never meant to see daylight. The distinction is procedural, but the consequences of ignoring it are strategic.
+
+## The Legal Line Between the Two Roles
+
+**A non-testifying consulting expert's opinions, notes, and communications are generally protected from discovery as work product under Federal Rule of Civil Procedure 26(b)(4)(D), while a testifying expert's opinions and the basis for them must be disclosed in a detailed report under Rule 26(a)(2)(B).** The protection for a consulting expert is not absolute — Rule 26(b)(4)(D) allows discovery on a showing of exceptional circumstances making it impracticable to obtain the same facts or opinions by other means — but in the ordinary malpractice case, a physician retained solely to advise counsel, and never designated to testify, stays out of the discovery record entirely. State analogs to Rule 26 vary in their exact language and in how aggressively courts apply the exceptional-circumstances exception, so attorneys need to confirm the governing rule in the presiding jurisdiction before assuming federal-style protection applies.
+
+## Why Attorneys Use a Consulting Expert First
+
+**The most common and most defensible use of a consulting-only engagement is early case-merit screening.** A physician reviews the medical record before suit is filed or before a testifying expert is designated, and tells counsel candidly whether the standard of care was breached and whether causation is supportable — including, sometimes, that it is not. That candor is only possible because the consultation is protected. An attorney who instead sends every prospective case straight to a designated testifying expert is asking that expert to render a discoverable opinion on a case that may turn out to be unsupportable, and a written record of an expert who once doubted the case surfaces exactly when the defense wants it most.
+
+## The Conversion Risk: Moving a Consultant to Testifying Status
+
+**Converting a consulting expert into the case's testifying expert is common and generally proper, but it carries a specific risk: courts are divided on whether the consultant's pre-conversion opinions, notes, and draft impressions remain protected once that same physician is designated to testify.** Some courts hold that designation waives work-product protection only for the materials the expert actually considered in forming the final testifying opinion — consistent with Rule 26(a)(2)(B)'s requirement to disclose facts or data considered — while others take a broader view that the entire consulting file becomes fair game once the expert crosses into a testifying role. Attorneys planning to convert a consultant should assume the more conservative outcome is possible and manage the file accordingly rather than relying on the jurisdiction's most favorable case law holding up.
+
+## What a Testifying Designation Actually Triggers
+
+Once a physician is designated as a testifying expert, the protections available to a consultant end. The expert's Rule 26(a)(2)(B) report must disclose all opinions and the basis for them, the facts and data considered in forming those opinions, any exhibits to be used, qualifications and publications from the preceding ten years, compensation, and a list of other cases in which the expert has testified in the preceding four years. **The expert becomes subject to deposition, and drafts of the report itself are generally protected under Rule 26(b)(4)(B) and (C), but the underlying facts, data, and opinions the report is built on are not** — a distinction that surprises attorneys who assume the entire drafting process is shielded once a report is in progress.
+
+## Structuring the Engagement to Avoid Ambiguity
+
+**The engagement letter should state explicitly, at the outset, whether the physician is retained as a consulting expert, a testifying expert, or a consultant with the possibility of later conversion to testifying status — and should be updated in writing at the moment any conversion actually happens.** Ambiguity in the retention paperwork is itself a liability: a discovery dispute over whether a physician was "really" a testifying expert from day one, dressed up as a consultant to dodge disclosure, is a fight attorneys should never have to have, and it is avoidable entirely with a clear, contemporaneous written record of the role at each stage of the engagement.
+
+## Practical Documentation Practices
+
+Attorneys should keep a consulting expert's communications and work product in a file segregated from any materials generated once (or if) that physician is redesignated as testifying, note the date of any conversion decision in writing, and avoid folding early, informal consulting impressions into materials the testifying expert later relies on and must therefore disclose. Where the budget allows, using a separate physician for early consulting review and a different physician for the testifying designation removes the conversion question entirely — at the cost of the continuity a single expert across both phases can provide.
+
+## How ApexMedLaw Supports Both Roles
+
+ApexMedLaw physicians take on both consulting and testifying engagements, and we scope each retention in writing at intake so the role — and the discovery exposure that comes with it — is never ambiguous. For attorneys who want early, candid case-merit review before committing to a testifying designation, we can provide a consulting-only physician; for cases ready to move forward, we designate a testifying expert with a clean file built for that role from the start.
+
+We provide:
+- Written engagement letters specifying consulting, testifying, or convertible status at intake
+- Separate consulting and testifying physicians on request, to avoid conversion-discovery risk entirely
+- Guidance on the compensation and prior-testimony disclosures a testifying designation will require
+- Case-merit screening physicians available before a testifying expert is ever named
+
+Contact ApexMedLaw to discuss the right expert engagement structure for your case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
