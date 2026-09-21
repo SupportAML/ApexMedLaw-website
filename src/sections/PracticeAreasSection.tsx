@@ -47,6 +47,7 @@ const specialties = [
   'Orthopedic Surgery',
   'Spine Surgery',
   'Spinal Cord Injury',
+  'Urology',
   'Vascular Surgery',
   'Pediatric Neurology',
   'Internal Medicine',

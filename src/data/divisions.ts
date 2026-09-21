@@ -713,6 +713,38 @@ export const divisions: Division[] = [
     ]
   },
   {
+    slug: 'urology',
+    name: 'Urology',
+    tagline: 'Urology expertise across oncology, robotic surgery, and reconstructive urologic litigation',
+    description: 'Our urology division features board-certified, clinically active urologists with expertise across urologic oncology, robotic and reconstructive surgery, and general urology. Our experts provide testimony on surgical technique and complications, cancer diagnosis and treatment decisions, and the standard of care across the full spectrum of urologic conditions.',
+    practiceAreas: [
+      {
+        title: 'Urologic Oncology',
+        description: 'Prostate, bladder, kidney, and testicular cancer diagnosis, staging, treatment selection, and delayed-diagnosis analysis.'
+      },
+      {
+        title: 'Robotic & Minimally Invasive Surgery',
+        description: 'Robot-assisted prostatectomy, cystectomy, and nephrectomy technique, indication, and complication review.'
+      },
+      {
+        title: 'Reconstructive Urology',
+        description: 'Complex urologic reconstruction, ureteral and urethral injury management, and post-surgical complication analysis.'
+      },
+      {
+        title: 'General Urology Standard of Care',
+        description: 'Benign prostatic hyperplasia management, nephrolithiasis treatment, and general urologic diagnostic and treatment decisions.'
+      },
+      {
+        title: 'Surgical Complications',
+        description: 'Intraoperative and postoperative complication analysis, informed consent, and surgical decision-making review.'
+      },
+      {
+        title: 'Prosthetic & Reconstructive Devices',
+        description: 'Inflatable penile prosthesis and other urologic device complications, patient selection, and management.'
+      }
+    ]
+  },
+  {
     slug: 'vascular-surgery',
     name: 'Vascular Surgery',
     tagline: 'Vascular surgery expertise across peripheral vascular disease, dialysis access, venous disease, and limb salvage litigation',

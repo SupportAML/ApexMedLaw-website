@@ -23,6 +23,7 @@ import {
   HeartPulse,
   Users,
   Cable,
+  Droplet,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -46,6 +47,7 @@ const divisionMeta: Record<string, { icon: typeof Stethoscope; accent: string }>
   'radiology': { icon: Scan, accent: '#4338CA' },
   'spine-surgery': { icon: Spline, accent: '#1D4ED8' },
   'stroke-vascular-neurology': { icon: Waves, accent: '#0369A1' },
+  'urology': { icon: Droplet, accent: '#C2410C' },
   'wilderness-medicine': { icon: Mountain, accent: '#15803D' },
 };
 

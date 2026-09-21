@@ -35,6 +35,7 @@ const PHYSICIAN_SPECIALTIES = [
   'Radiology',
   'Spine Surgery',
   'Stroke and Vascular Neurology',
+  'Urology',
   'Wilderness Medicine',
   'Other',
 ];
