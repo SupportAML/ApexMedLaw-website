@@ -34,6 +34,7 @@ export const SPECIALTIES = [
   { slug: 'spinal-cord-injury', name: 'Spinal Cord Injury' },
   { slug: 'spine-surgery', name: 'Spine Surgery' },
   { slug: 'stroke-vascular-neurology', name: 'Stroke and Vascular Neurology' },
+  { slug: 'urology', name: 'Urology' },
   { slug: 'vascular-surgery', name: 'Vascular Surgery' },
   { slug: 'wilderness-medicine', name: 'Wilderness Medicine' },
 ] as const;
@@ -581,6 +582,27 @@ Dr. Alam completed his internal medicine residency at Brookwood Baptist Health i
     credentials: ['Board Certified — Internal Medicine', 'Brookwood Baptist Health — Administrative Chief Resident', 'Lincoln Memorial University DO/MBA'],
     location: 'Alabama',
     categories: ['internal-medicine'],
+  },
+  {
+    id: '35',
+    slug: 'ankur-shah',
+    name: 'Ankur A. Shah, MD, MBA',
+    role: 'Urology',
+    title: 'Ancillary Physician Partner',
+    photo: '/team_ankur_shah.jpg',
+    bio: `Dr. Ankur Shah is a board-certified urologist practicing as an attending urologist at Florida Urology Partners in Tampa/St. Petersburg, FL, with clinical privileges at Tampa General Hospital, Orlando Health Bayfront Hospital, and St. Anthony's Hospital. His clinical focus spans urologic oncology and complex reconstruction, with comprehensive expertise across general urology, and he holds Surgeon of Excellence in Robotic Surgery accreditation from the Surgical Review Corporation.
+
+Dr. Shah completed his Urologic Surgery residency and General Surgery internship at Penn Medicine, University of Pennsylvania, and earned his MD, Cum Laude with Alpha Omega Alpha honors, from Albany Medical College through the combined 8-year BS/MBA/MD program with Union College and Clarkson University's Wharton-affiliated MBA in Healthcare Management. He serves as Principal Investigator on an active real-world outcomes study for Adstiladrin (Ferring Pharmaceuticals) and has authored numerous peer-reviewed publications and textbook chapters on urologic oncology, reconstruction, and patient safety.
+
+Dr. Shah is available for medical records review and expert opinions in general urology, urologic oncology, and robotic/reconstructive urologic surgery standard-of-care matters.`,
+    credentials: [
+      'Diplomate — American Board of Urology',
+      'Surgeon of Excellence in Robotic Surgery (Surgical Review Corporation)',
+      'Penn Medicine (University of Pennsylvania) — Urologic Surgery Residency',
+      'Albany Medical College, MD, Cum Laude — Alpha Omega Alpha',
+    ],
+    location: 'Florida',
+    categories: ['urology'],
   },
 ];
 
