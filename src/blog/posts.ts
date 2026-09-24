@@ -4628,6 +4628,71 @@ If you are approaching an affidavit of merit or certificate of merit deadline an
 
 *This post is for informational purposes and does not constitute legal advice. Requirements, deadlines, and consequences for noncompliance vary significantly by jurisdiction; attorneys should confirm the applicable rule in the filing court.*`,
   },
+  {
+    slug: 'wernicke-encephalopathy-misdiagnosis-expert-witness',
+    title: 'Wernicke Encephalopathy Misdiagnosis: What Attorneys Need to Know About Missed Thiamine Deficiency Cases',
+    metaDescription: 'A guide for attorneys on Wernicke encephalopathy malpractice claims — why the classic triad is rarely present, when empiric thiamine is required, and how a neurology expert witness builds the reversibility-based causation argument.',
+    date: '2026-09-24',
+    author: 'AML Editorial',
+    keywords: [
+      'Wernicke encephalopathy expert witness',
+      'thiamine deficiency malpractice',
+      'missed Wernicke encephalopathy lawsuit',
+      'Korsakoff syndrome litigation',
+      'neurology expert witness',
+      'delayed thiamine administration malpractice',
+    ],
+    content: `Wernicke encephalopathy is one of the few acute neurological injuries in malpractice litigation where the underlying pathology is, in its earliest stage, fully reversible with a single inexpensive intervention: intravenous thiamine. That same feature is what makes missed cases so consequential. A patient who receives thiamine promptly upon presenting with early signs of thiamine deficiency can recover completely. A patient whose diagnosis is delayed — because the clinical picture was attributed to intoxication, withdrawal, or an unrelated psychiatric cause — can progress within days to permanent Korsakoff syndrome, characterized by irreversible anterograde amnesia and confabulation. For attorneys evaluating a claim involving a patient who developed lasting cognitive impairment after a hospitalization for alcohol use disorder, malnutrition, bariatric surgery, or prolonged vomiting, Wernicke encephalopathy deserves a hard look, because the standard of care for at-risk patients is well defined and the reversibility of the untreated disease creates an unusually direct causation argument.
+
+## Why Wernicke Encephalopathy Is Frequently Missed
+
+The classic triad taught in medical training — confusion, ataxia, and ophthalmoplegia — is present in only a minority of patients at diagnosis, with published estimates suggesting all three findings co-occur in well under a third of confirmed cases. Most patients present with just one or two elements, most commonly confusion alone, and that incomplete picture is where diagnostic error concentrates.
+
+**In patients with known alcohol use disorder, altered mental status is routinely attributed to intoxication or withdrawal rather than to a distinct, treatable nutritional emergency.** A confused patient who is assumed to be simply drunk, and who is observed rather than treated, loses the window in which thiamine administration reliably prevents permanent injury.
+
+**Outside the alcohol-use-disorder population, the diagnosis is often not considered at all.** Thiamine deficiency occurs in bariatric surgery patients with prolonged postoperative vomiting, in hyperemesis gravidarum, in patients on prolonged total parenteral nutrition without adequate supplementation, in cancer patients with poor oral intake, and in older adults with chronic malnutrition. When confusion or ataxia develops in these settings, providers unfamiliar with the nonalcoholic presentation frequently pursue a broad and slower differential — stroke, delirium, psychiatric decompensation — before thiamine deficiency is considered.
+
+**Gaze abnormalities are frequently subtle or absent early in the course.** Nystagmus or a partial sixth-nerve palsy can be easy to overlook on a routine neurological exam, particularly in a patient who is also agitated, sedated, or otherwise difficult to examine.
+
+## The Standard of Care: Empiric Thiamine Before Glucose
+
+The standard of care for at-risk patients does not require waiting for the classic triad, and it does not require waiting for a confirmatory thiamine level, which in practice is rarely available quickly enough to guide acute treatment. **Any patient with a history of alcohol use disorder, malnutrition, prolonged vomiting, bariatric surgery, or comparable risk who presents with new confusion, ataxia, or eye movement abnormalities should receive empiric parenteral thiamine without waiting for laboratory confirmation.** Current guidelines from neurology and emergency medicine societies specifically call for high-dose intravenous thiamine, repeated over multiple days, in any patient where the diagnosis is reasonably suspected — the harm of unnecessary thiamine is negligible, while the harm of withholding it in a true case is a preventable permanent brain injury.
+
+A second, well-established piece of the standard of care governs sequencing: **thiamine should be administered before or simultaneously with intravenous dextrose, never after.** Glucose administration in a thiamine-deficient patient consumes the small remaining thiamine reserve as a cofactor in glucose metabolism, and can acutely precipitate or worsen Wernicke encephalopathy in a patient who was previously only marginally deficient. A chart showing that a hypoglycemic or malnourished at-risk patient received a dextrose bolus without thiamine, followed by new confusion or ataxia, presents a recognizable and well-documented mechanism of injury.
+
+## Common Liability Issues in Wernicke Encephalopathy Cases
+
+**Withholding empiric thiamine while awaiting a level or an alternative workup.** Ordering a thiamine level and treating only if it returns low defeats the purpose of empiric treatment and frequently means treatment arrives after the reversible window has narrowed or closed.
+
+**Administering dextrose before thiamine in an at-risk patient.** This is one of the most citable and objectively documented deviations in this category of case, because both the order of administration and the patient's underlying risk factors are typically clear from the medication administration record.
+
+**Attributing an incomplete triad to intoxication, withdrawal, or a primary psychiatric diagnosis without considering thiamine deficiency.** A patient observed for hours or days for "sobering up" while genuinely undiagnosed and untreated for Wernicke encephalopathy is a recurring fact pattern in these claims.
+
+**Underdosing or under-durationing treatment once the diagnosis is made.** Guideline-concordant treatment calls for repeated high-dose parenteral thiamine over several days, not a single low-dose injection; a patient given inadequate replacement can still progress to Korsakoff syndrome despite technically having been "treated."
+
+## Establishing Causation: The Reversibility Window
+
+The causation analysis in these cases turns on timing in a way that is unusually favorable to reconstruction from the record. **The expert's task is to identify the point at which the patient's presentation should have triggered empiric thiamine, and to compare that point against when thiamine was actually given** — hours, days, or, in some cases, not until the patient had already developed the fixed memory deficits characteristic of Korsakoff syndrome. Because the underlying injury progresses from a reversible metabolic insult in the mammillary bodies and thalamus to fixed neuronal loss over a relatively narrow and clinically documented window, the expert can anchor an opinion to the specific interval between recognized risk and delivered treatment, rather than relying on a more generalized standard-of-care departure.
+
+The expert also addresses the counterfactual: whether the specific deficits the patient now has — persistent anterograde amnesia, confabulation, ataxia — are consistent with established Korsakoff sequelae rather than an alternative cause such as underlying alcohol-related dementia, prior traumatic brain injury, or an unrelated neurodegenerative process. Because these patients often have overlapping risk factors for other cognitive impairment, a rigorous differential is necessary before the causation opinion can be offered with confidence.
+
+## How ApexMedLaw Supports Wernicke Encephalopathy Litigation
+
+These cases require a neurology expert who can walk a jury through why the diagnosis is missed as often as it is, why the timing of thiamine relative to glucose matters, and why the outcome the patient is left with was preventable rather than an inevitable consequence of the underlying alcohol use disorder or malnutrition. Our physician experts maintain active clinical practice and are experienced in reconstructing exactly this kind of timeline-driven causation analysis.
+
+We provide:
+- Rapid case screening for missed or delayed empiric thiamine administration in at-risk patients
+- Analysis of medication administration timing, including glucose-before-thiamine sequencing errors
+- Causation opinions anchored to the documented interval between recognized risk and treatment
+- Differential analysis distinguishing Korsakoff sequelae from other causes of cognitive impairment in patients with overlapping risk factors
+- Deposition and trial-ready testimony from board-certified neurologists
+
+If you are evaluating a case involving a patient who developed lasting cognitive impairment after a hospitalization involving alcohol use disorder, malnutrition, or prolonged vomiting, contact ApexMedLaw to discuss your case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
