@@ -4759,6 +4759,60 @@ Contact ApexMedLaw to discuss expert qualification strategy for your next trial.
 
 *This article is for informational purposes and does not constitute legal advice. Voir dire procedure and qualification standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'delayed-aki-icu-dialysis-timing-expert-witness',
+    title: 'Delayed Recognition of Acute Kidney Injury in the ICU: What Attorneys Need to Know About Dialysis Timing Malpractice',
+    metaDescription: 'A critical care expert witness guide for attorneys on ICU acute kidney injury litigation — delayed recognition, nephrotoxic medication failures, and dialysis timing standard-of-care disputes.',
+    date: '2026-09-26',
+    author: 'AML Editorial',
+    keywords: [
+      'acute kidney injury expert witness',
+      'ICU dialysis timing malpractice',
+      'delayed AKI recognition lawsuit',
+      'nephrotoxic medication malpractice',
+      'critical care expert witness',
+      'renal replacement therapy delay litigation',
+    ],
+    content: `Acute kidney injury is one of the most common complications in the ICU, affecting a substantial share of critically ill patients, and it is also one of the most quietly litigated. Unlike a dramatic code or an obvious procedural injury, AKI often develops incrementally — a creatinine that climbs a few tenths of a point per day, a urine output that trends down without ever fully stopping — which makes it easy for a busy ICU team to under-react to a signal that, viewed in retrospect on the flowsheet, was unmistakable. For attorneys, that gap between what the numbers showed in real time and what the team actually did with them is where a critical care or nephrology expert earns their value.
+
+## Why AKI Cases Are Different From Other ICU Litigation
+
+**AKI litigation rarely turns on a single dramatic error.** It turns on a pattern: an ordered nephrotoxic medication that was never dose-adjusted or re-evaluated as creatinine rose, a urine output trend that should have triggered escalation days before it did, or a nephrology consult that was placed too late to change the trajectory. Building these cases requires reconstructing a timeline from serial lab values and nursing intake-and-output records rather than from a single note, and that reconstruction is exactly the kind of work a critical care expert is positioned to do credibly.
+
+## Recognizing the Standard-of-Care Failures
+
+**Failure to trend creatinine and urine output against recognized staging criteria is the most common fact pattern.** KDIGO criteria define AKI stages using specific creatinine-rise and urine-output thresholds, and most ICUs have protocols built around them. A chart showing daily creatinine values crossing a KDIGO stage threshold without a documented change in management — no nephrology consult, no medication reconciliation, no fluid-balance reassessment — is a strong signal that the trend was not being actively monitored, not merely that the injury was unavoidable.
+
+**Continued nephrotoxic dosing after renal function begins to decline is a second recurring pattern.** Vancomycin, aminoglycosides, certain antifungals, IV contrast for repeated imaging, and NSAIDs are common offenders. **The standard of care requires renal dosing adjustments and, where feasible, discontinuation or substitution as creatinine clearance falls** — and a medication administration record that shows unadjusted dosing continuing after a rising creatinine was already documented is central evidence in these cases.
+
+**Delayed nephrology consultation** is a third pattern attorneys should evaluate closely. Most institutions have either a formal AKI alert built into the EHR or an informal expectation that nephrology is consulted once a patient reaches a defined creatinine or urine-output threshold. A consult placed only after the patient becomes symptomatic — volume overloaded, hyperkalemic, acidotic — rather than at the point the criteria were first met, raises a straightforward question about whether earlier intervention would have changed the outcome.
+
+## The Dialysis Timing Dispute
+
+**Timing of renal replacement therapy initiation is the single most litigated question in ICU AKI cases**, and it is also the most genuinely contested among nephrologists themselves. Large randomized trials have shown mixed results on whether earlier initiation of dialysis improves outcomes compared to a more conservative, indication-driven approach, which means a defense expert will often argue that watchful waiting was itself within the standard of care. Plaintiff-side experts need to be precise about which specific indication was met and ignored — refractory hyperkalemia, refractory acidosis, diuretic-resistant volume overload with respiratory compromise, or uremic complications such as pericarditis or encephalopathy — rather than arguing generically that dialysis should have started sooner. **The strongest cases are built around a documented, unambiguous indication that was met and not acted upon**, not around a general disagreement about optimal timing philosophy.
+
+**Delays in actually delivering ordered dialysis** are a separate and often more straightforward category — a nephrology order for urgent renal replacement therapy that sits unexecuted for hours because of a bed, staffing, or vascular-access bottleneck. These delays are less scientifically contested than the initiation-timing debate itself, because the clinical decision has already been made; the question is simply whether the institution executed it within a reasonable window.
+
+## Building the Causation Argument
+
+Causation in AKI cases has to account for the fact that critically ill patients frequently have significant baseline renal risk from sepsis, hypotension, or pre-existing chronic kidney disease. A credible expert opinion separates the renal injury that was reasonably expected given the underlying critical illness from the incremental injury attributable to a specific failure — continued nephrotoxic dosing after a documented creatinine rise, a nephrology consult placed days after KDIGO criteria were met, or a dialysis order left unexecuted for an extended period — and connects that failure to a measurable consequence: progression to a higher AKI stage, initiation of chronic dialysis, or a metabolic complication such as arrhythmia from unrecognized hyperkalemia.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential ICU AKI case should obtain the complete serial creatinine and urine-output flowsheet, the medication administration record for all nephrotoxic agents with corresponding renal function values at each administration, nephrology consult notes and the timestamp of when the consult was requested versus when it was seen, any EHR-generated AKI alerts and whether they were acknowledged, and dialysis orders with corresponding execution timestamps where renal replacement therapy was initiated.
+
+## How ApexMedLaw Supports AKI Litigation
+
+ICU acute kidney injury cases require an expert who can read a flowsheet the way a bedside intensivist or nephrologist does — spotting the trend before the crisis, not just narrating the crisis itself. Our critical care and nephrology experts bring active clinical experience managing AKI in the ICU, including the medication-dosing and dialysis-timing decisions that sit at the center of these cases.
+
+We provide detailed review of serial renal function trends against recognized staging criteria, evaluation of nephrotoxic medication dosing against evolving renal function, assessment of nephrology consultation and renal replacement therapy timing against documented clinical indications, and causation opinions connecting specific management failures to the patient's renal and overall clinical outcome.
+
+Contact ApexMedLaw to discuss your ICU acute kidney injury litigation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
