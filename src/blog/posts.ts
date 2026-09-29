@@ -4985,6 +4985,73 @@ Contact ApexMedLaw to match your necrotizing fasciitis case to the right clinica
       },
     ],
   },
+  {
+    slug: 'informed-consent-litigation-medical-expert-witness',
+    title: 'Informed Consent Litigation: What Attorneys Need to Know About the Expert Witness\'s Role',
+    metaDescription: 'A practical guide for attorneys on proving or defeating an informed consent claim, the standards that govern it by jurisdiction, and why expert testimony is almost always required.',
+    date: '2026-09-29',
+    author: 'AML Editorial',
+    keywords: [
+      'informed consent litigation',
+      'informed consent expert witness',
+      'lack of informed consent malpractice',
+      'reasonable patient standard informed consent',
+      'informed consent causation',
+      'medical malpractice informed consent claim',
+    ],
+    content: `Informed consent claims occupy an uneasy space in medical malpractice litigation. They are distinct from a straightforward failure-to-diagnose or negligent-treatment theory, but they are frequently pleaded alongside one, and attorneys who treat informed consent as a formality — a signed form somewhere in the chart — misjudge both its evidentiary weight and the specific role a medical expert witness must play in proving, or defeating, the claim. Informed consent litigation rarely turns on whether a form exists. It turns on whether the disclosure a reasonable practitioner would have made under the circumstances would have changed a reasonable patient's decision — a standard that requires expert testimony in nearly every jurisdiction that recognizes the claim.
+
+## Why Informed Consent Is a Distinct Cause of Action
+
+**A lack-of-informed-consent claim can succeed even when the underlying procedure was performed exactly to the standard of care.** A surgeon can execute a procedure flawlessly and still be liable if the patient was never told about a known, material risk that then materialized. Conversely, a physician can disclose every material risk appropriately and still face a negligence claim if the procedure itself was performed below the standard of care. Attorneys evaluating a potential case need to treat these as two separate inquiries from the outset, because they frequently require different experts and different evidence.
+
+The distinction matters most at case selection. A case with a poor negligence theory — the procedure itself was performed competently — can still be a strong case if the disclosure was deficient and the risk that materialized was one a reasonable patient would have wanted to know about before consenting.
+
+## The Two Standards Attorneys Must Identify at Intake
+
+**The professional, or "reasonable physician," standard** asks what risks a reasonably prudent practitioner in the same specialty and community would have disclosed under the circumstances. This standard governs in a meaningful minority of jurisdictions and requires an expert to testify affirmatively about the disclosure practices of the relevant medical community — effectively a standard-of-care opinion applied to the consent conversation itself, rather than to the procedure.
+
+**The patient-centered, or "reasonable patient," standard** — now the majority approach — asks what a reasonable patient in the plaintiff's position would have considered material to the decision to proceed. This standard shifts the expert's role: rather than testifying to what physicians customarily disclose, the expert must establish the nature, frequency, and severity of the risk from a clinical standpoint, so the jury can assess materiality to a layperson without the expert simply substituting their own judgment for the jury's.
+
+Identifying which standard governs is the first task at intake, because it determines the type of expert needed, the scope of that expert's opinion, and how the disclosure conversation itself will need to be reconstructed from the record and from testimony.
+
+## What the Expert Witness Must Establish
+
+An expert in an informed consent case is typically asked to address several distinct elements, and a report that blends them together without addressing each independently is vulnerable on cross-examination and at the admissibility stage:
+
+- **The existence and materiality of the risk.** What was the actual incidence and severity of the complication that occurred, and was it a known, foreseeable risk of the procedure at the time it was performed — as opposed to a genuinely unforeseeable complication?
+- **What disclosure the applicable standard required.** Depending on the jurisdiction, this means either what a reasonable practitioner would have disclosed, or what information a reasonable patient would have found material to the decision.
+- **Causation, analyzed separately from disclosure.** Most jurisdictions require proof that adequate disclosure would have actually changed the treatment decision — applying either an objective "reasonable patient" causation test or, in a minority of jurisdictions, a subjective test turning on what this particular patient would have done. An expert opinion that stops at "the risk should have been disclosed" without addressing what a properly informed patient would plausibly have decided leaves a causation gap the defense will exploit.
+- **The distinction between a disclosed risk and a negligently caused injury.** A complication that was properly disclosed and occurred despite non-negligent care is not malpractice — it is a realized risk the patient accepted. Experts must be precise about which theory their opinion actually supports.
+
+## Common Pitfalls on Both Sides of the Case
+
+**Treating the signed consent form as dispositive.** A signed form documents that a conversation occurred; it does not establish what was actually said. Plaintiffs' counsel should not be deterred by a signed form alone, and defense counsel should not treat it as conclusive — juries are permitted to weigh contemporaneous notes, nursing documentation, and testimony about the actual conversation against the generic language of a printed form.
+
+**Using a generalist expert instead of one active in the specific procedure.** Materiality and customary disclosure practice are procedure-specific and specialty-specific. An expert who has not personally performed or regularly discussed the procedure at issue is exposed to a credibility and, in professional-standard jurisdictions, an admissibility challenge.
+
+**Failing to separately address causation.** This is the single most common gap in informed consent reports on both sides — an opinion that fully addresses materiality and disclosure but never squarely answers whether disclosure would have changed the outcome.
+
+## Documentation That Makes or Breaks These Cases
+
+The strongest evidence in informed consent litigation is rarely the consent form itself. It is contemporaneous clinical documentation that describes the actual conversation: a pre-operative note referencing specific risks discussed, a nursing note documenting a patient's questions or hesitation, or — on the defense side — a detailed office note from a consultation visit predating the day of the procedure, showing the disclosure was not compressed into a rushed pre-operative signature. Attorneys should request the complete record, not just the signed consent document, before evaluating the strength of either side's position.
+
+## How ApexMedLaw Supports Informed Consent Litigation
+
+Our network includes clinically active physicians across the specialties most frequently implicated in informed consent litigation, positioned to address materiality, customary disclosure practice, and causation with opinions grounded in the specific procedure and the specific record — not generic statements about consent practice.
+
+We provide:
+- Physicians actively performing or managing the procedure at issue, matched to the governing jurisdictional standard
+- Separate, clearly delineated opinions on materiality, disclosure, and causation
+- Rapid preliminary case screening to assess whether the disclosure record supports a viable claim or defense
+- Nationwide availability for case review, deposition, and trial
+
+Contact ApexMedLaw to match your informed consent case to the right clinically active expert.
+
+---
+
+*This article is for informational purposes and does not constitute legal advice. Informed consent standards, including the governing standard of disclosure and the applicable causation test, vary by jurisdiction.*`,
+  },
 ];
 
 /**
