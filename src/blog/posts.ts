@@ -5052,6 +5052,61 @@ Contact ApexMedLaw to match your informed consent case to the right clinically a
 
 *This article is for informational purposes and does not constitute legal advice. Informed consent standards, including the governing standard of disclosure and the applicable causation test, vary by jurisdiction.*`,
   },
+  {
+    slug: 'res-ipsa-loquitur-medical-malpractice-expert-witness',
+    title: 'Res Ipsa Loquitur in Medical Malpractice: When an Expert Witness Is Still Required',
+    metaDescription: 'A practical guide for attorneys on the narrow scope of res ipsa loquitur in medical malpractice claims, and why expert testimony remains necessary in nearly every case that invokes it.',
+    date: '2026-09-30',
+    author: 'AML Editorial',
+    keywords: [
+      'res ipsa loquitur medical malpractice',
+      'res ipsa loquitur expert witness',
+      'medical malpractice without expert testimony',
+      'inference of negligence medical malpractice',
+      'res ipsa loquitur elements',
+      'medical expert witness causation',
+    ],
+    content: `Res ipsa loquitur — "the thing speaks for itself" — is one of the most misapplied doctrines in medical malpractice litigation. Attorneys occasionally treat it as a shortcut around the expense and delay of retaining a medical expert, reasoning that if the injury is obviously the kind that does not happen absent negligence, a jury can infer negligence without hearing from a physician at all. That reading is almost always wrong. Courts apply res ipsa loquitur to medical cases narrowly, and in the overwhelming majority of matters where it is raised, expert testimony is still required to establish the foundational premise the doctrine depends on — that the injury does not ordinarily occur in the absence of negligence. Understanding exactly where the doctrine's reach stops, and where the expert's role begins, is essential to case strategy and to avoiding a dismissal on a theory that looked simpler than it is.
+
+## What Res Ipsa Loquitur Actually Requires
+
+Courts applying res ipsa loquitur to a medical malpractice claim generally require the plaintiff to establish three things: the injury is of a type that does not ordinarily occur in the absence of negligence, the instrumentality that caused the injury was within the exclusive control of the defendant, and the plaintiff did not contribute to their own injury. Satisfying all three shifts the practical burden — it permits, but does not compel, a jury to infer negligence from the occurrence of the injury itself, without the plaintiff independently proving what the defendant did wrong or should have done differently.
+
+The doctrine's classic medical fact patterns are narrow by design: a surgical instrument or sponge left inside a patient, an operation performed on the wrong body part or the wrong patient, a burn from equipment placed against a patient under anesthesia. In each, a layperson can understand from ordinary experience that the injury simply should not happen if reasonable care was exercised — no clinical judgment is required to reach that conclusion.
+
+## Why Most Medical Cases Fall Outside It
+
+Medicine is not a layperson's domain, and that is precisely why courts confine res ipsa loquitur to a narrow band of medical cases. Most alleged malpractice — a delayed diagnosis, a medication error, a complication following a properly indicated procedure, a deviation from a clinical protocol — requires a jury to understand what the standard of care actually called for before it can decide whether the defendant departed from it. A jury has no ordinary-experience basis for knowing what a reasonably prudent physician would have done when a patient presented with a particular constellation of symptoms, or whether a given surgical complication reflects negligence or a known, non-negligent risk of an appropriately performed procedure. That is exactly the gap expert testimony exists to fill, and it is why courts routinely reject attempts to stretch res ipsa loquitur beyond its classic fact patterns into ordinary diagnostic or treatment-decision cases.
+
+**Attorneys should not read the availability of res ipsa loquitur in a jurisdiction as license to skip expert retention.** Even within the doctrine's proper scope, defendants frequently offer their own expert testimony to rebut the inference — explaining, for example, a non-negligent explanation for how an instrument was retained, or why a particular complication can occur despite full compliance with the standard of care. A plaintiff who has no expert prepared to respond to that rebuttal testimony is exposed, even in a textbook res ipsa case.
+
+## Where Expert Testimony Remains Necessary Even Within Res Ipsa Cases
+
+- **Causation.** Res ipsa loquitur speaks to the inference of negligence; it does not relieve the plaintiff of proving that the negligence caused the claimed injury and its extent. An expert is almost always needed to connect the retained object, wrong-site error, or equipment malfunction to the specific harm the patient suffered.
+- **Rebutting the defense's non-negligent explanation.** If the defense offers expert testimony that the outcome can occur without negligence, the res ipsa inference can be defeated unless the plaintiff has a qualified expert ready to respond.
+- **Damages and prognosis.** Establishing the extent, permanence, and future course of the injury for damages purposes is a clinical question independent of how negligence was established.
+- **Multiple-defendant cases.** When more than one provider had some degree of control over the instrumentality — a common scenario in surgical retained-object cases involving a surgeon, assistant, and operating room staff — an expert is often needed to help allocate responsibility once negligence is inferred.
+
+## A Practical Screening Question at Intake
+
+The useful intake question is not "does this look like it speaks for itself?" but "can I identify, in one sentence, why a layperson — without any medical background — would know this shouldn't have happened?" If the answer requires explaining a clinical judgment call, a diagnostic pathway, or a treatment alternative, the case is not a res ipsa case, and it needs a conventional standard-of-care expert from the outset. Treating a borderline case as res ipsa and delaying expert retention is a common and costly case-management error — one that often surfaces only when the defense moves for summary judgment on the ground that the plaintiff has no expert to establish either the standard of care or causation.
+
+## How ApexMedLaw Supports These Cases
+
+Whether a case fits the narrow contours of res ipsa loquitur or requires a full standard-of-care and causation opinion, our network includes clinically active physicians positioned to evaluate the record early and identify which theory — and which expert — the case actually needs.
+
+We provide:
+- Rapid preliminary case screening to determine whether res ipsa loquitur genuinely applies or whether standard-of-care testimony is required
+- Physicians prepared to rebut a defense expert's non-negligent explanation in retained-instrument and wrong-site cases
+- Causation and damages opinions independent of how the negligence inference is established
+- Nationwide availability for case review, deposition, and trial
+
+Contact ApexMedLaw to match your case to the right clinically active expert, whether or not res ipsa loquitur is in play.
+
+---
+
+*This article is for informational purposes and does not constitute legal advice. The availability and scope of res ipsa loquitur in medical malpractice claims vary significantly by jurisdiction.*`,
+  },
 ];
 
 /**
