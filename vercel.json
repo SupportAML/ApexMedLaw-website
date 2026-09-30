@@ -2,6 +2,7 @@
   "trailingSlash": false,
   "redirects": [
     { "source": "/registry", "destination": "/experts", "permanent": true },
-    { "source": "/registry/:path*", "destination": "/experts", "permanent": true }
+    { "source": "/registry/:path*", "destination": "/experts", "permanent": true },
+    { "source": "/experts/cecilia-fernandes", "destination": "/experts", "permanent": true }
   ]
 }
