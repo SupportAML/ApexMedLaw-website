@@ -5107,6 +5107,64 @@ Contact ApexMedLaw to match your case to the right clinically active expert, whe
 
 *This article is for informational purposes and does not constitute legal advice. The availability and scope of res ipsa loquitur in medical malpractice claims vary significantly by jurisdiction.*`,
   },
+  {
+    slug: 'tia-misdiagnosis-failure-to-stratify-stroke-risk-expert-witness',
+    title: 'TIA Misdiagnosis: What Attorneys Need to Know About Failure-to-Stratify Stroke Risk Cases',
+    metaDescription: 'A litigation guide for attorneys on transient ischemic attack (TIA) misdiagnosis, covering ABCD2 risk stratification failures, workup standards, and causation when a missed TIA precedes a disabling stroke.',
+    date: '2026-10-01',
+    author: 'AML Editorial',
+    keywords: [
+      'TIA misdiagnosis expert witness',
+      'transient ischemic attack malpractice',
+      'ABCD2 score litigation',
+      'failure to diagnose TIA',
+      'stroke risk stratification malpractice',
+      'neurology expert witness TIA',
+    ],
+    content: `A transient ischemic attack is, by definition, a warning that resolves — and that resolution is exactly what makes it one of the most dangerous diagnoses to get wrong. Roughly one in ten patients who present with TIA symptoms will suffer a completed stroke within ninety days, and nearly half of that risk is concentrated in the first forty-eight hours. When an emergency department or primary care provider discharges a patient whose symptoms have already resolved without appropriate risk stratification and urgent workup, and that patient returns days later with a disabling stroke, the case almost always turns on a single question: would a reasonably prudent provider have recognized the TIA for what it was, and acted on the window it provided.
+
+## Why TIA Is Underestimated at the Point of Care
+
+The core diagnostic hazard is that TIA patients frequently look well by the time they are examined. Symptoms that resolved in the ambulance or the waiting room — transient weakness, speech disturbance, vision loss, numbness — are easy to minimize, especially when the neurological exam is normal and initial imaging is unremarkable. Providers unfamiliar with the natural history of TIA sometimes treat a resolved deficit as reassuring rather than as a completed clinical event that independently predicts a high near-term stroke risk.
+
+**This is the central liability exposure in TIA cases:** a normal exam at the time of evaluation does not change the fact that the patient has already demonstrated cerebrovascular instability. The standard of care requires treating a resolved deficit with a transient-ischemic-attack mechanism as seriously as an active one, because the underlying pathology — large-vessel stenosis, cardioembolic source, or small-vessel disease — has not resolved along with the symptoms.
+
+## Standard-of-Care Elements in TIA Workup
+
+A qualified neurology or emergency medicine expert evaluating a TIA case will typically examine whether the treating provider:
+
+**Applied a validated risk-stratification tool.** The ABCD2 score (age, blood pressure, clinical features, duration, diabetes) remains a widely referenced bedside tool for near-term stroke-risk stratification, though current guidelines favor incorporating it alongside imaging findings rather than relying on it in isolation. A documented low ABCD2 score used to justify discharge without imaging, when imaging was otherwise indicated, is a frequent point of contention.
+
+**Obtained timely vascular and cardiac imaging.** Standard workup for a suspected TIA generally includes neuroimaging (CT or MRI, with MRI preferred when available for its superior sensitivity to acute ischemia), vascular imaging of the carotid and intracranial arteries, and cardiac evaluation to identify an embolic source such as atrial fibrillation. Discharging a patient without initiating this workup, or without ensuring it occurs within an appropriately short window, is a common liability theme.
+
+**Recognized high-risk clinical features.** Crescendo TIAs (multiple episodes in a short period), symptoms referable to the posterior circulation, and known high-grade carotid stenosis all elevate near-term stroke risk and generally warrant same-day evaluation or admission rather than outpatient follow-up.
+
+**Initiated or arranged timely antithrombotic therapy.** For patients without contraindication, prompt initiation of antiplatelet therapy following TIA diagnosis is a guideline-supported intervention associated with meaningfully reduced early stroke recurrence. A delay in starting appropriate secondary prevention is itself a frequently litigated departure.
+
+**Provided an adequate discharge plan when outpatient management was appropriate.** Not every TIA requires admission, but discharge without a clear, time-bound plan for urgent follow-up, imaging, and specialist referral — and without explicit return precautions describing stroke warning signs — can constitute a standard-of-care failure even when the initial decision not to admit was defensible.
+
+## Building the Causation Argument
+
+Because TIA cases involve a true diagnostic gap — the index event resolved, and the injury occurred later — causation analysis requires reconstructing two separate timelines and connecting them. The expert must establish, first, that the index presentation was in fact a TIA with an identifiable high-risk mechanism, and second, that the stroke that followed is attributable to that same mechanism rather than an unrelated or coincidental event. Vascular imaging obtained at the time of the stroke, compared against what workup would have shown had it been performed at the index visit, is often the strongest evidence connecting the two.
+
+**The strength of a TIA causation case frequently rests on whether the missed workup would have changed management.** If timely carotid imaging would have revealed high-grade stenosis warranting urgent endarterectomy or stenting, or if timely cardiac monitoring would have identified atrial fibrillation warranting anticoagulation, the causal chain is direct: the intervention that would have prevented the stroke was never offered because the condition that justified it was never diagnosed.
+
+## How ApexMedLaw Supports TIA Litigation
+
+Our neurology and stroke experts maintain active clinical practices in stroke centers and vascular neurology, giving them direct, current experience with the risk-stratification and workup decisions these cases turn on.
+
+We provide:
+- Rapid case screening to identify whether index-visit workup met current TIA standards
+- Causation analysis connecting a missed or incomplete workup to a subsequent stroke
+- Experts experienced with ABCD2 stratification, vascular imaging interpretation, and antithrombotic timing standards
+- Deposition and trial-ready testimony explaining stroke-risk concepts clearly for a lay jury
+
+If you are evaluating a case involving a missed or undertreated TIA, contact ApexMedLaw to discuss your case requirements.
+
+---
+
+*This article is for informational purposes and does not constitute legal advice. Medical-legal standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
