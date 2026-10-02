@@ -5165,6 +5165,60 @@ If you are evaluating a case involving a missed or undertreated TIA, contact Ape
 
 *This article is for informational purposes and does not constitute legal advice. Medical-legal standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'central-line-placement-complications-pneumothorax-expert-witness',
+    title: 'Central Line Placement Complications: What Attorneys Need to Know About Pneumothorax and Vascular Injury in ICU Malpractice',
+    metaDescription: 'A critical care expert witness guide for attorneys on central venous catheter placement malpractice — pneumothorax, arterial puncture, and the standard-of-care disputes separate from catheter-associated infection cases.',
+    date: '2026-10-02',
+    author: 'AML Editorial',
+    keywords: [
+      'central line placement malpractice',
+      'pneumothorax expert witness',
+      'central venous catheter complications',
+      'arterial puncture lawsuit',
+      'critical care expert witness',
+      'ICU procedural malpractice',
+    ],
+    content: `Central venous catheter placement is one of the most frequently performed invasive procedures in critical care, and it carries a mechanical risk profile that has nothing to do with the catheter-associated bloodstream infections that dominate most ICU malpractice discussion. A misdirected needle during subclavian or internal jugular access can puncture the pleura, lacerate the carotid or subclavian artery, or thread the catheter into the wrong vessel entirely — and because these are procedural injuries rather than infections, the standard-of-care questions turn on technique, site selection, and real-time recognition rather than on bundle compliance or dressing changes. For attorneys evaluating a bad outcome after a line placement, the critical distinction is whether the complication itself is actionable, or whether it is the failure to recognize and respond to it that created the harm.
+
+## Why Placement Complications Are a Different Case Than Catheter Infection
+
+**A known complication is not automatically a deviation from the standard of care.** Pneumothorax and arterial puncture are recognized, disclosed risks of central line placement even when every step is performed correctly — anatomic variation alone can produce an inadvertent arterial puncture in a skilled proceduralist's hands. The litigation question is not "did a pneumothorax occur," but whether the technique used to obtain access, the number of attempts made, and the response once a complication was suspected or confirmed met the standard a reasonably careful intensivist, anesthesiologist, or surgeon would have followed. This is the opposite emphasis from CLABSI litigation, which centers on bundle adherence and maintenance over days; placement complications are adjudicated in minutes.
+
+## Recognizing the Standard-of-Care Failures
+
+**Failure to use ultrasound guidance for internal jugular or subclavian access is an increasingly central issue.** Real-time ultrasound visualization of the target vessel has become the accepted standard at most institutions specifically because it reduces arterial puncture and pneumothorax rates compared to landmark-based technique. A procedure note documenting a landmark approach without ultrasound, particularly for subclavian access where the risk of pneumothorax is highest, invites scrutiny of why a lower-risk, readily available technique was not used.
+
+**Multiple failed attempts without escalation** is a second recurring pattern. Each needle pass through the chest or neck carries independent risk, and a procedure note or nursing record showing several unsuccessful attempts by the same operator — without pausing to reassess landmarks, switch sites, or hand off to a more experienced proceduralist — raises a straightforward question about whether continued attempts were reasonable once early signs of difficulty appeared.
+
+**Delayed recognition of a complication once it occurred** is often the most consequential failure. A patient who becomes acutely hypoxic, hypotensive, or tachycardic during or immediately after line placement should prompt urgent evaluation for pneumothorax or hemothorax — a stat chest X-ray, a bedside ultrasound, or in unstable patients, empiric needle decompression. **The standard of care does not excuse a delay in obtaining or acting on confirmatory imaging once a patient becomes symptomatic during or after the procedure**, and a chart showing a gap of hours between new respiratory distress and a chest X-ray being ordered is central evidence in these cases.
+
+**Catheter malposition that goes unconfirmed** is a related but distinct issue. A post-procedure chest X-ray is the standard method for confirming catheter tip position before the line is used for vesicant medications, vasopressors, or parenteral nutrition — and a line used for these purposes before position was confirmed, or used despite an X-ray showing malposition into a smaller vessel or against a vessel wall, is a separate basis for liability from the placement complication itself.
+
+## The Arterial Injury Dispute
+
+**Inadvertent carotid or subclavian arterial puncture presents its own causation chain**, separate from pneumothorax. A puncture recognized immediately — pulsatile, bright-red return — and managed with simple needle withdrawal and pressure typically resolves without sequelae. The more serious cases arise when the arterial location is not recognized before dilation and catheter placement, converting a needle puncture into a large-bore arterial injury that can cause hemothorax, stroke from embolization, or the need for vascular surgical repair. **Experts in these cases need to evaluate whether the blood return was tested for arterial characteristics — pulsatility, color, or transduced pressure — before the dilator was passed**, since that confirmation step is what separates a recoverable puncture from a preventable large-vessel injury.
+
+## Building the Causation Argument
+
+Causation in these cases has to account for baseline patient factors that increase procedural risk — obesity, coagulopathy, prior central access attempts with resulting scarring, or anatomic variants — and separate the risk that was reasonably disclosed and accepted from the incremental injury attributable to a specific deviation: the absence of ultrasound guidance where it was indicated, continued attempts beyond a reasonable number, or a delayed response once symptoms of a complication appeared. A credible expert opinion connects that deviation to a measurable consequence — a chest tube that would not have been needed, a vascular repair, a hypoxic injury from delayed decompression, or a prolonged ICU stay directly attributable to the complication rather than the underlying critical illness.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential central line placement case should obtain the complete procedure note including technique used, number of attempts, and any documented use of ultrasound guidance; vital sign trends immediately before, during, and after the procedure; the timing of any post-procedure chest imaging relative to the onset of new symptoms; and any documentation of blood return characteristics obtained before dilation, where an arterial injury is at issue.
+
+## How ApexMedLaw Supports Central Line Placement Litigation
+
+Central line complication cases require an expert who has personally performed the procedure under the same time pressure and anatomic uncertainty the defendant faced, not one reconstructing it from a textbook. Our critical care, anesthesiology, and surgical experts bring active procedural experience placing and managing complications from central venous access.
+
+We provide detailed review of procedural technique against current ultrasound-guidance and site-selection standards, evaluation of the timeline between symptom onset and confirmatory imaging or intervention, assessment of catheter position confirmation before line use, and causation opinions connecting specific procedural or recognition failures to the patient's resulting injury.
+
+Contact ApexMedLaw to discuss your central line placement litigation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
