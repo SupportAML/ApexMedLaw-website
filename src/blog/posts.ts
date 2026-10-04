@@ -5269,6 +5269,58 @@ Contact ApexMedLaw to discuss your ischemic colitis litigation case.
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'peripheral-nerve-block-complications-pain-medicine-expert-witness',
+    title: 'Peripheral Nerve Block Complications: What Attorneys Need to Know About Nerve Injury Litigation',
+    metaDescription: 'A pain medicine expert witness guide for attorneys on peripheral nerve block malpractice — distinguishing recognized procedural risk from a technical departure in nerve injury and intraneural injection cases.',
+    date: '2026-10-04',
+    author: 'AML Editorial',
+    keywords: [
+      'peripheral nerve block expert witness',
+      'nerve block malpractice lawsuit',
+      'intraneural injection nerve injury',
+      'regional anesthesia complications litigation',
+      'pain medicine expert witness',
+      'nerve block injury attorney guide',
+    ],
+    content: `Peripheral nerve blocks are a routine part of both surgical anesthesia and chronic pain management, performed daily by anesthesiologists and interventional pain physicians to numb a specific nerve distribution for a procedure or to break a persistent pain cycle. The overwhelming majority resolve without incident. When a block instead leaves a patient with a persistent sensory deficit, motor weakness, or chronic neuropathic pain, the case almost always turns on a narrow technical question: was the needle placed appropriately relative to the nerve, or did the injury result from an injection into or dangerously close to the nerve itself. Attorneys evaluating these claims need an expert who performs image-guided nerve blocks routinely and can speak to what the ultrasound or fluoroscopic image actually showed at the moment of injection.
+
+## How Nerve Blocks Are Supposed to Be Performed
+
+**The modern standard of care for most peripheral nerve blocks is real-time ultrasound guidance, allowing the physician to visualize the needle tip, the target nerve, and the spread of local anesthetic as it is injected.** A properly performed block shows the anesthetic spreading in a donut or halo pattern around the outside of the nerve, confirming a perineural rather than intraneural needle position. Some practices supplement ultrasound with nerve stimulation, where a motor response at low current thresholds can indicate the needle tip is close to or within the nerve fascicle. A case record that documents neither clear ultrasound visualization of the needle-nerve relationship nor an appropriate response to any stimulation testing used leaves a significant gap in establishing that the procedure was performed with reasonable care.
+
+## Intraneural Injection and the Injection Pressure Question
+
+**The injury pattern most directly tied to technique is intraneural injection — needle penetration into the nerve's fascicular bundles rather than the surrounding perineural sheath.** This typically produces high resistance to injection, a finding some practices monitor with in-line injection pressure monitoring devices that alarm above a threshold associated with intrafascicular placement. A sudden, severe, or disproportionate pain response from the patient during injection is also a recognized warning sign that should prompt the physician to stop and reposition rather than continue injecting. Cases where the documentation shows the physician proceeded through a reported sharp pain, or where pressure monitoring was available and unused without explanation, are the strongest fact patterns for a standard-of-care departure.
+
+## Distinguishing Nerve Injury From the Underlying Risk
+
+**Not every post-block neuropathy reflects a technical error.** Mechanical nerve injury can occur even with correct perineural needle placement, from the tourniquet used during the associated surgery, from patient positioning during a prolonged procedure, or from the surgery itself rather than the block. A chemical neurotoxicity component is also recognized with higher concentrations or larger volumes of certain local anesthetics, independent of needle placement accuracy. The expert's task is to work through this differential systematically against the specific nerve distribution injured, the onset and progression of symptoms, and the timing relative to the block versus the surgical procedure, rather than treating any post-block deficit as presumptively caused by the injection itself.
+
+## The Role of Electrodiagnostic Testing in Causation
+
+**Nerve conduction studies and electromyography performed in the weeks following the injury are often the most objective evidence available to characterize the lesion.** Findings can help localize the injury to the specific nerve and segment the block targeted, distinguish a focal conduction block or axonal injury consistent with a needle-related mechanism from a more diffuse pattern suggesting positioning or tourniquet injury, and establish a timeline for expected recovery that bears directly on permanency and damages. An expert building a causation opinion without reviewing the EMG/NCS data, or relying solely on the patient's symptom report, is building a weaker opinion than the available objective testing supports.
+
+## Informed Consent for Nerve Block Procedures
+
+**Nerve injury, including the possibility of permanent sensory or motor deficit, is a recognized risk that should appear in the informed consent discussion for any peripheral nerve block**, particularly blocks performed for chronic pain management where the procedure is elective rather than tied to an unavoidable surgical need. A consent form that is silent on nerve injury risk, or a documented discussion that addresses only common and self-limited side effects like temporary numbness or soreness, can become relevant where the patient's theory includes a failure to adequately disclose the risk actually realized.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential nerve block injury case should obtain the stored ultrasound images or video clips from the procedure if available, any injection pressure monitoring data, the procedure note describing needle approach and the patient's response during injection, the informed consent document, post-procedure nursing and follow-up notes documenting the onset of symptoms, and any electrodiagnostic testing performed to characterize the injury.
+
+## How ApexMedLaw Supports Nerve Block Litigation
+
+Peripheral nerve block litigation requires an expert who performs ultrasound-guided blocks as part of an active anesthesiology or interventional pain practice and can credibly interpret what the procedural images do and do not show. Our pain medicine experts bring that procedural experience to case review.
+
+We provide detailed review of available ultrasound imaging and injection data against the documented outcome, differential analysis distinguishing needle-related nerve injury from other recognized mechanisms, evaluation of informed consent documentation against the risk at issue, and causation opinions incorporating electrodiagnostic findings to support permanency and damages analysis.
+
+Contact ApexMedLaw to discuss your nerve block injury litigation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
