@@ -5444,6 +5444,74 @@ Contact ApexMedLaw to match your acute limb ischemia case to the right clinicall
       },
     ],
   },
+  {
+    slug: 'rule-26e-supplementing-expert-report-medical-malpractice',
+    title: "Supplementing an Expert Report Under Rule 26(e): What Attorneys Need to Know Before It's Too Late",
+    metaDescription: 'A practical guide for attorneys on Rule 26(e) supplementation of medical expert reports — the line between a legitimate correction and an untimely new opinion, and how to avoid exclusion.',
+    date: '2026-10-06',
+    author: 'AML Editorial',
+    keywords: [
+      'Rule 26(e) expert report supplementation',
+      'supplementing medical expert report',
+      'expert witness disclosure deadline',
+      'correcting expert report malpractice case',
+      'untimely expert opinion exclusion',
+      'medical expert report amendment',
+    ],
+    content: `A medical expert's report goes out, discovery grinds forward, and then something changes — a new record surfaces, the expert reviews a deposition transcript and realizes an omission, or opposing counsel's cross-examination exposes a gap the original report never addressed. The attorney's instinct is to fix it. Federal Rule of Civil Procedure 26(e) and its state analogues allow that, but only within a narrow lane. Stray outside it, and what looks like a routine supplementation reads to the court as a disguised new opinion offered after the disclosure deadline — and untimely expert opinions get struck with some regularity, often taking the rest of the case's momentum down with them.
+
+## What Rule 26(e) Actually Permits
+
+Rule 26(e) imposes a duty, not just a right, to supplement or correct a disclosure that the party learns is incomplete or incorrect in some material respect — if the correction has not otherwise been made known during discovery. For expert reports, that duty covers two narrow categories:
+
+- **Correcting an error.** The expert misstated a lab value, cited the wrong date, or transposed a finding from one record to another, and the correction does not change the substance of the opinion.
+- **Filling a gap based on newly available information.** A record that did not exist or was not produced at the time of the original report later becomes available, and the supplement addresses what that new information shows.
+
+**What it does not permit** is a second opportunity to strengthen, broaden, or rethink an opinion that was simply underdeveloped the first time. Courts across jurisdictions have been consistent on this point: supplementation is for correcting what the expert got wrong or filling what was genuinely unknown, not for shoring up an opinion that opposing counsel's deposition questions revealed to be thin.
+
+## The Line Courts Actually Draw
+
+**A "supplement" that adds a new theory of liability or causation is not a supplement.** If the original report opined that a delayed diagnosis caused a specific injury through one mechanism, and the proposed supplement adds an alternative causal mechanism never mentioned before, that is a new opinion subject to the original disclosure deadline — not corrective housekeeping.
+
+**A "supplement" responding to deposition testimony about weaknesses in the original report is closely scrutinized.** Courts recognize the pattern: an expert is deposed, struggles to defend a conclusory statement, and a supplemental report appears weeks later that happens to fill exactly the hole exposed in that deposition. Timing alone does not doom a legitimate supplement, but a supplement that tracks the deposition's critique point-for-point invites a motion to strike and a finding that it was offered for strategic reasons, not because new information came to light.
+
+**Genuinely new records justify a genuinely new analysis of those records — nothing more.** If late-produced records show a finding the expert did not have access to before, the supplement should address what that specific finding shows and how it affects the existing opinion. It should not become a vehicle for revisiting unrelated portions of the original report.
+
+## Timing and the Court's Discretion
+
+Even a substantively proper supplement can be excluded if it comes too close to trial or too long after the triggering information became available. Rule 37(c)(1) gives courts broad discretion to exclude an untimely disclosure unless the failure was harmless or substantially justified, and courts weigh factors including:
+
+- How much time passed between when the triggering information became available and when the supplement was served
+- Whether the opposing party has a meaningful opportunity to re-depose the expert on the new material
+- Whether trial is close enough that the supplement would require reopening discovery or continuing the trial date
+- Whether the delay appears tactical — timed to limit the opposing side's ability to respond
+
+**The practical rule attorneys should build into case management:** supplement as soon as the triggering fact is known, not when it becomes strategically convenient. A six-week delay between discovering an error and disclosing the correction is a far weaker position than disclosing within days, even when the substance of the correction is identical.
+
+## Drafting the Supplemental Report Itself
+
+**State plainly what changed and why.** A supplemental report that clearly identifies the specific correction or the specific new information, and limits itself to addressing that point, is far more defensible than one that reads like a second edition of the original report. Ambiguity about scope is what invites a motion to strike the entire supplement rather than just the improper portions.
+
+**Do not restate or re-argue the unchanged portions of the original opinion.** Repackaging the full original analysis around the one corrected point makes the supplement look like an attempt to get a second bite at the entire report, and gives opposing counsel an argument that the "supplement" is functionally a new report.
+
+**Preserve the original report's conclusions where they remain unchanged.** A correction to one underlying fact does not necessarily change the ultimate opinion. The supplement should say explicitly whether the conclusion changes and, if it does not, why the correction does not alter the analysis.
+
+## How ApexMedLaw Supports Defensible Expert Disclosures
+
+Our physician experts are retained and briefed with disclosure discipline built in from the first draft — a report built on a complete record review the first time is the best protection against needing a contested supplement later. When a legitimate correction or new-information supplement is required, we work with retaining attorneys to scope it narrowly, document the triggering fact clearly, and get it disclosed promptly rather than after it has become a liability.
+
+We provide:
+- Thorough initial record review structured to minimize the need for later correction
+- Prompt identification and disclosure of any error or omission as soon as it is discovered
+- Supplemental reports scoped tightly to the correction or new information at issue
+- Experts prepared to testify clearly about the distinction between a correction and a new opinion if challenged at deposition or in a motion to strike
+
+Contact ApexMedLaw to discuss expert report preparation and disclosure strategy for your case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Supplementation standards vary by jurisdiction and governing procedural rules.*`,
+  },
 ];
 
 /**
