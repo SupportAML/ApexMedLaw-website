@@ -5570,6 +5570,99 @@ If you are evaluating a case involving a missed or delayed-treatment epidural he
 
 *This article is for informational purposes and does not constitute legal advice. Medical-legal standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'hospital-acquired-pressure-injury-icu-expert-witness',
+    title: 'Hospital-Acquired Pressure Injuries in the ICU: What Attorneys Need to Know About Preventable Skin Breakdown Litigation',
+    metaDescription: 'A critical care expert witness guide for attorneys on hospital-acquired pressure injury litigation — NPIAP staging, risk-assessment failures, and the nursing and intensivist standard of care for prevention.',
+    date: '2026-10-08',
+    author: 'AML Editorial',
+    keywords: [
+      'hospital-acquired pressure injury expert witness',
+      'ICU pressure ulcer malpractice',
+      'critical care expert witness',
+      'Braden scale negligence lawsuit',
+      'bedsore malpractice litigation',
+      'nursing standard of care pressure injury',
+    ],
+    content: `A hospital-acquired pressure injury is one of the few ICU complications that courts and juries intuitively understand without extensive medical explanation: a patient was admitted with intact skin, spent days or weeks immobilized in a bed, and left with a wound — sometimes down to bone or tendon — that did not exist on arrival. That intuitive clarity is exactly why these cases are heavily litigated, and exactly why defense teams work hard to reframe a clinical presentation as an unavoidable consequence of critical illness rather than a failure of nursing and physician oversight. For attorneys, the expert's job is to show which of those two stories the chart actually supports.
+
+## Why These Cases Are Framed as Preventable Harm
+
+**Pressure injuries occupy a unique place in healthcare liability because major hospital quality frameworks already classify many of them as preventable.** CMS treats hospital-acquired Stage III and IV pressure injuries as "never events" for reimbursement purposes, and most hospitals' own nursing policies describe pressure injury prevention as a core, continuously monitored safety measure rather than an aspirational goal. That institutional self-classification matters in litigation: an expert does not need to persuade a jury that pressure injuries are generally preventable in the abstract — the hospital's own quality infrastructure has already conceded the premise. The expert's task narrows to the specific question of whether this patient's prevention protocol was actually followed.
+
+**At the same time, not every pressure injury reflects negligence.** Patients with severe hemodynamic instability, vasopressor-dependent shock, or extreme malnutrition can develop skin breakdown despite a meticulously executed prevention protocol, because impaired perfusion to the skin is itself a consequence of the underlying critical illness. A credible expert opinion has to engage honestly with this distinction rather than treating every hospital-acquired wound as automatic proof of a care failure.
+
+## The NPIAP Staging Framework
+
+The **National Pressure Injury Advisory Panel (NPIAP)** staging system is the clinical and legal reference point in these cases:
+
+- **Stage 1:** Non-blanchable erythema of intact skin. Often the first sign documented — or the first sign that should have been documented — in nursing skin assessments.
+- **Stage 2:** Partial-thickness skin loss with exposed dermis, presenting as a shallow open wound or intact or ruptured blister.
+- **Stage 3:** Full-thickness skin loss with visible adipose tissue; granulation tissue and epibole are often present, but bone, tendon, and muscle are not exposed.
+- **Stage 4:** Full-thickness skin and tissue loss with exposed fascia, muscle, tendon, ligament, cartilage, or bone.
+- **Unstageable:** Full-thickness skin and tissue loss obscured by slough or eschar, such that the true depth cannot be determined.
+- **Deep Tissue Pressure Injury (DTPI):** Persistent non-blanchable, deep red, maroon, or purple discoloration indicating damage to underlying soft tissue, even when the overlying skin remains intact.
+
+**The documented progression between stages, not the final stage alone, is usually the most important evidence.** A wound that advances from a documented Stage 1 to a Stage 4 over a period when the nursing record shows repositioning was not performed, or the skin was not reassessed, tells a very different liability story than a wound first identified at Stage 4 with no earlier documentation at all — the latter raises an independent question about whether assessments were being performed and simply not charted, or not performed at all.
+
+## Standard-of-Care Elements Attorneys Should Evaluate
+
+**Admission and ongoing risk assessment.** The standard of care requires a validated risk-assessment tool — most commonly the **Braden Scale**, which scores sensory perception, moisture, activity, mobility, nutrition, and friction/shear — completed on admission and reassessed at a defined interval, typically every shift in the ICU. A low Braden score that was documented but did not trigger escalation to an appropriate prevention protocol is a recurring and highly visible gap in these records.
+
+**Scheduled repositioning.** For immobile ICU patients, the standard of care generally requires repositioning at a defined interval, typically every two hours, with specialty beds or mattresses used for patients at elevated risk. Nursing flowsheets that show gaps of many hours between documented turns — particularly over a weekend or overnight shift — are often central exhibits.
+
+**Device-related pressure injuries.** A distinct and frequently overlooked category involves skin breakdown beneath medical devices rather than from positioning alone: endotracheal tube ties, nasogastric tubes, cervical collars, non-invasive ventilation masks, and pulse oximetry probes can all cause localized pressure injury when not periodically repositioned or padded. These injuries are sometimes missed in a general skin assessment that focuses on the sacrum and heels while overlooking device contact points.
+
+**Nutritional support.** Adequate protein and caloric intake is a recognized component of pressure injury prevention and healing. A malnourished or underfed ICU patient who develops a pressure injury presents a secondary liability theory where nutritional consults were delayed or feeding goals were not met despite a documented deficit.
+
+**Timely wound care consultation.** Once a Stage 2 or higher injury is identified, the standard of care typically requires wound care or plastic surgery consultation to guide debridement, dressing selection, and monitoring for secondary infection, including osteomyelitis in deep wounds.
+
+## Building the Causation Argument
+
+Causation analysis has to separate the baseline risk the patient's critical illness already carried from the incremental injury attributable to a specific prevention failure. An expert connects a documented gap — a missed repositioning interval, an unescalated Braden score, an unpadded device left in place for days — to the wound's progression, using the staging record itself as the timeline. Damages in these cases frequently extend beyond the wound itself to secondary sepsis, osteomyelitis requiring surgical debridement, prolonged hospitalization, and, in severe cases, limb-threatening or fatal infection.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential pressure injury case should obtain the complete nursing skin assessment and repositioning flowsheet from admission forward, all Braden Scale (or equivalent) scores with corresponding dates and times, wound care and plastic surgery consult notes, photographic wound documentation where available, nutrition consult notes and feeding records, and any device-removal or device-repositioning documentation for patients who developed device-related injuries.
+
+## How ApexMedLaw Supports Pressure Injury Litigation
+
+Pressure injury cases require an expert who can read a nursing flowsheet with the same scrutiny a wound care team or bedside intensivist would bring — distinguishing a genuinely unavoidable consequence of critical illness from a documented lapse in a preventable-harm protocol. Our critical care and wound care experts bring active clinical experience with ICU skin assessment, prevention protocols, and staging.
+
+We provide detailed review of risk-assessment and repositioning documentation against institutional and nursing standards, staging analysis connecting documented progression to specific care gaps, evaluation of device-related and nutrition-related contributing factors, and causation opinions linking prevention failures to the patient's wound progression and any resulting infectious complications.
+
+Contact ApexMedLaw to discuss your hospital-acquired pressure injury litigation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'Are hospital-acquired pressure injuries automatically considered malpractice?',
+        answer: 'No. While CMS classifies many hospital-acquired Stage III and IV pressure injuries as reimbursement "never events," and most hospitals treat prevention as a core safety measure, a patient\'s underlying critical illness — severe shock, vasopressor dependence, or extreme malnutrition — can independently impair skin perfusion and contribute to breakdown despite an appropriately executed prevention protocol. An expert must evaluate the specific documentation to determine whether the injury reflects a care gap or an expected consequence of the patient\'s condition.',
+      },
+      {
+        question: 'What is the Braden Scale and why does it matter in pressure injury litigation?',
+        answer: 'The Braden Scale is the validated nursing risk-assessment tool scoring sensory perception, moisture, activity, mobility, nutrition, and friction/shear to identify patients at elevated risk for pressure injury. The standard of care requires completing it on admission and reassessing at a defined interval. A documented low score that did not trigger an escalated prevention protocol — specialty mattress, more frequent repositioning, nutrition consult — is one of the most common and visible gaps in these cases.',
+      },
+      {
+        question: 'How does the NPIAP staging system affect the legal analysis?',
+        answer: 'The staging system (Stage 1 through Stage 4, Unstageable, and Deep Tissue Pressure Injury) provides an objective framework for tracking a wound\'s progression over time. The documented progression between stages — not just the final stage — is typically the most persuasive evidence, since a wound that advances through stages during a period of undocumented or skipped repositioning tells a clearer liability story than a wound first identified at an advanced stage with no earlier record.',
+      },
+      {
+        question: 'Can a pressure injury caused by a medical device support a malpractice claim?',
+        answer: 'Yes. Device-related pressure injuries — from endotracheal tube ties, nasogastric tubes, cervical collars, BiPAP masks, or pulse oximetry probes — are a distinct and often overlooked category. General skin assessments that focus on the sacrum and heels can miss device contact points, so documentation (or the absence of it) showing whether devices were periodically repositioned or padded is important evidence in these cases.',
+      },
+      {
+        question: 'What records should attorneys obtain when evaluating a pressure injury case?',
+        answer: 'Key records include the complete nursing skin assessment and repositioning flowsheet from admission forward, all Braden Scale scores with timestamps, wound care or plastic surgery consult notes, photographic wound documentation, nutrition consult notes and feeding records, and any documentation related to device placement or repositioning for device-related injuries.',
+      },
+      {
+        question: 'What qualifications should a pressure injury expert witness have?',
+        answer: 'A credible expert should have active clinical experience in critical care or wound care, familiarity with NPIAP staging and nursing risk-assessment protocols, and the ability to distinguish a documented prevention failure from skin breakdown attributable to the patient\'s underlying critical illness. ApexMedLaw provides critical care and wound care experts for both plaintiff and defense, with a conflict check and fee schedule typically provided within one business day of inquiry.',
+      },
+    ],
+  },
 ];
 
 /**
