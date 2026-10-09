@@ -5663,6 +5663,93 @@ Contact ApexMedLaw to discuss your hospital-acquired pressure injury litigation 
       },
     ],
   },
+  {
+    slug: 'bile-duct-injury-laparoscopic-cholecystectomy-expert-witness',
+    title: 'Bile Duct Injury in Laparoscopic Cholecystectomy: What Attorneys Need to Know About the Critical View of Safety',
+    metaDescription: 'A gastroenterology and general surgery expert witness guide for attorneys on bile duct injury litigation — Critical View of Safety failures, Strasberg classification, and the standard of care for recognizing and repairing laparoscopic cholecystectomy injuries.',
+    date: '2026-10-09',
+    author: 'AML Editorial',
+    keywords: [
+      'bile duct injury expert witness',
+      'laparoscopic cholecystectomy malpractice',
+      'Critical View of Safety negligence',
+      'Strasberg classification lawsuit',
+      'common bile duct injury litigation',
+      'gastroenterology expert witness',
+    ],
+    content: `Laparoscopic cholecystectomy is one of the most frequently performed operations in the United States, and for most patients it is routine. When it goes wrong, however, it produces some of the most consequential cases in surgical malpractice litigation: an injury to the common bile duct or an adjacent biliary structure can convert a same-day procedure into months of reconstructive surgery, recurrent cholangitis, or end-stage biliary cirrhosis. For attorneys, the central question in these cases is rarely whether an injury occurred — it is almost always documented in the operative report or discovered on re-exploration — but whether the surgeon deviated from the recognized standard for safely identifying biliary anatomy before dividing anything.
+
+## Why These Cases Turn on Process, Not Outcome
+
+**A bile duct injury is not inherently evidence of negligence.** Aberrant biliary anatomy is common, inflammation from acute cholecystitis can obscure normal landmarks, and even surgeons who follow every recognized safety step can occasionally injure a duct in a genuinely difficult gallbladder. Courts and credible experts alike reject the idea that any bile duct injury is automatically malpractice.
+
+**What the standard of care actually requires is a specific, describable process for establishing anatomy before cutting.** That process has a name — the Critical View of Safety — and it gives attorneys an objective, well-published benchmark that does not depend on hindsight. A case built around "the surgeon injured the duct" is weak. A case built around "the operative note does not describe achieving the Critical View of Safety before the cystic duct and artery were clipped and divided" is a case an expert can defend.
+
+## The Critical View of Safety Standard
+
+Published by the Society of American Gastrointestinal and Endoscopic Surgeons (SAGES) and now taught as the dominant safety framework in general surgery residency, the **Critical View of Safety (CVS)** requires three elements be achieved and, ideally, photo-documented before any structure is clipped or divided:
+
+- **The hepatocystic triangle is cleared of fat and fibrous tissue**, exposing the cystic duct and cystic artery clearly.
+- **The lowest one-third of the gallbladder is separated from the cystic plate**, confirming only two structures enter the gallbladder.
+- **Two and only two structures — the cystic duct and cystic artery — are seen entering the gallbladder**, with nothing else connecting it to the porta hepatis.
+
+**An operative note that does not describe these three elements, or that describes proceeding to clip-and-divide based on the "infundibular technique" alone (identifying the cystic duct by following the gallbladder down to its junction, without clearing the triangle), is a meaningful departure from the modern standard most residency-trained surgeons are taught.** The absence of CVS documentation does not prove the surgeon failed to achieve it, but it removes the surgeon's strongest defense and shifts weight to the remaining evidence.
+
+## The Strasberg Classification and Why It Matters
+
+The **Strasberg classification** (Types A through E, with Type E further subdivided E1–E5) describes the location and extent of a bile duct injury and is the common reference point for both the operative repair plan and the litigation record:
+
+- **Type A:** Bile leak from the cystic duct stump or a minor duct in the gallbladder bed — generally the least severe and most often managed without major reconstruction.
+- **Type B/C:** Occlusion or transection of an aberrant right hepatic duct, sometimes missed entirely if it drained a segment rather than the whole liver.
+- **Type D:** A lateral injury to the common bile duct with bile leakage, not a complete transection.
+- **Type E (E1–E5):** Circumferential injury to the common hepatic or common bile duct at varying distances from the hepatic confluence — the most severe category, typically requiring a Roux-en-Y hepaticojejunostomy performed at a specialized hepatobiliary center.
+
+**The Strasberg type matters to liability analysis beyond describing injury severity — it often speaks to mechanism.** A high Type E injury near the hepatic confluence is difficult to produce without a fundamental misidentification of the common duct as the cystic duct, which is harder to reconcile with a properly achieved Critical View of Safety than a lower, more limited injury.
+
+## Standard-of-Care Elements Attorneys Should Evaluate
+
+**Intraoperative recognition and response.** When anatomy is unclear or bleeding obscures the field, the standard of care calls for converting to an open procedure, obtaining an intraoperative cholangiogram, or calling for a second attending — not proceeding on a presumptive identification of the ducts.
+
+**Timeliness of conversion to open surgery.** Persisting laparoscopically for an extended period despite poor visualization, rather than converting early, is a recurring theme in cases involving major ductal injury.
+
+**Delayed postoperative recognition.** A meaningful share of bile duct injuries are not identified intraoperatively at all — the patient instead returns days later with jaundice, fever, or a bile leak on imaging. The standard of care requires prompt recognition of these signs and urgent imaging (ultrasound, MRCP, or HIDA scan) rather than reassurance and discharge.
+
+**Referral to a specialized hepatobiliary center.** Once a major injury (Strasberg D or E) is identified, the standard of care generally requires referral to a surgeon and center experienced in complex biliary reconstruction rather than an immediate repair attempt by the original operating surgeon, whose repair failure rates are documented to be substantially higher than those of specialized centers.
+
+## Building the Causation Argument
+
+Causation analysis connects the specific intraoperative departure — the absent Critical View documentation, the delayed conversion, the misread cholangiogram — to the injury's Strasberg classification and its downstream consequences: recurrent cholangitis, secondary biliary cirrhosis, need for repeat hepaticojejunostomy, or liver transplantation in the most severe, unrecognized cases. Damages frequently extend well beyond the index hospitalization into years of surveillance for anastomotic stricture.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential bile duct injury case should obtain the complete operative report and any operative photographs or video, intraoperative cholangiogram images and radiology reads if performed, postoperative imaging (ultrasound, MRCP, HIDA scan) and the records of how quickly it was ordered after symptom onset, the pathology report on the resected gallbladder, and all records from the reconstructive surgery including the treating hepatobiliary surgeon's description of the injury and its Strasberg classification.
+
+## How ApexMedLaw Supports Bile Duct Injury Litigation
+
+Bile duct injury cases require an expert who can read an operative note the way a hepatobiliary surgeon would — recognizing what a properly documented Critical View of Safety looks like, and what its absence signals. Our general surgery and gastroenterology experts bring active clinical experience with laparoscopic cholecystectomy and complex biliary reconstruction.
+
+We provide detailed review of operative reports and imaging against the Critical View of Safety standard, Strasberg classification analysis connecting injury type to likely mechanism, evaluation of intraoperative and postoperative recognition timelines, and causation opinions linking the standard-of-care departure to the patient's reconstructive course and long-term outcome.
+
+Contact ApexMedLaw to discuss your bile duct injury litigation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'Is every bile duct injury during a laparoscopic cholecystectomy evidence of malpractice?',
+        answer: 'No. Aberrant biliary anatomy and severe inflammation from acute cholecystitis can make injury possible even when a surgeon follows every recognized safety step. The standard-of-care question is not whether an injury occurred but whether the surgeon achieved and documented the Critical View of Safety, or appropriately converted to an open procedure or obtained a cholangiogram when anatomy was unclear, before dividing any structure.',
+      },
+      {
+        question: 'What is the Critical View of Safety and why does its documentation matter?',
+        answer: 'The Critical View of Safety is the SAGES-endorsed, three-element method for confirming the cystic duct and cystic artery before they are clipped and divided: clearing the hepatocystic triangle, separating the lower gallbladder from the cystic plate, and confirming only two structures enter the gallbladder. An operative note that does not describe achieving these elements removes the surgeon\'s strongest evidence of a careful dissection and shifts weight to the remaining circumstantial evidence of how the injury occurred.',
+      },
+      {
+        question: 'Why does the Strasberg classification matter beyond describing the injury?',
+        answer: 'The Strasberg type (A through E) often speaks to mechanism as well as severity. A high Type E injury near the hepatic confluence is difficult to produce without a fundamental misidentification of the common duct as the cystic duct, which is harder to reconcile with a properly achieved Critical View of Safety than a lower, more limited injury such as a Type A cystic duct stump leak.',
+      },
+    ],
+  },
 ];
 
 /**
