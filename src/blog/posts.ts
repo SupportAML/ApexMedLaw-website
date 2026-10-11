@@ -5829,6 +5829,64 @@ Contact ApexMedLaw to discuss how our expert witnesses prepare for trial, includ
       },
     ],
   },
+  {
+    slug: 'locality-rule-vs-national-standard-of-care-expert-witness',
+    title: 'The Locality Rule vs. the National Standard of Care: What Attorneys Need to Know When Vetting a Medical Expert Witness',
+    metaDescription: 'A practice guide for attorneys on the locality rule versus the national standard of care — how the applicable standard varies by jurisdiction and why it determines whether a medical expert witness is even qualified to testify.',
+    date: '2026-10-11',
+    author: 'AML Editorial',
+    keywords: [
+      'locality rule medical malpractice',
+      'national standard of care expert witness',
+      'same specialty rule expert witness',
+      'expert witness qualification requirements',
+      'medical malpractice standard of care jurisdiction',
+      'vetting a medical expert witness',
+    ],
+    content: `Attorneys frequently treat the "standard of care" as a single, fixed medical benchmark that any sufficiently credentialed expert can describe. It is not. Which standard applies — and, just as consequentially, who is legally permitted to testify about it — is a jurisdiction-specific question that can determine whether a case survives a motion to exclude before a jury ever hears the medical facts. An expert who is clinically excellent but was retained under the wrong framework for that state is not a strong witness; they are a vulnerability waiting to be raised in a pretrial motion.
+
+## Two Different Questions Hiding in One Phrase
+
+**"Standard of care" actually bundles two separate legal questions.** The first is substantive: what did a reasonably careful physician in the defendant's position owe this patient? The second is procedural: whose practice is relevant evidence of that duty — physicians anywhere in the country, or physicians in a similar community? Most jurisdictions have moved toward the second framework answering in favor of a national or regional standard, but a meaningful number of states still apply a narrower locality-based test, and several more use a hybrid "similar locality" rule that sits between the two.
+
+**Conflating these two questions is where cases get into trouble.** An attorney who assumes "there's one modern standard, and board certification is enough to testify to it" can retain an expert who is excluded outright in a locality-rule jurisdiction, or whose otherwise solid testimony gets undercut on cross for having no connection to the relevant community of practice.
+
+## How the National Standard Works — and Its Limits
+
+Under a **national (or "same specialty") standard**, a board-certified specialist may testify about the standard of care expected of any physician practicing that specialty, regardless of where the defendant practices. The rationale: board certification, continuing education requirements, and published clinical guidelines create a reasonably uniform baseline of practice across the country for most specialties.
+
+This does not mean geography is irrelevant even in national-standard states. **Resource availability still matters to the underlying medical analysis.** A rural critical access hospital without 24-hour interventional radiology on-site is not held to the exact same timeline standard as a tertiary academic medical center, even where the legal framework nominally applies a national benchmark — the standard adjusts for what resources a similarly situated facility would reasonably be expected to have, not for the individual physician's personal skill level.
+
+## How the Locality Rule Still Operates Where It Survives
+
+In jurisdictions that retain a **strict or "similar locality" rule**, the physician's practice must be measured against the practice of physicians in the same or a genuinely comparable community — not simply any board-certified peer nationwide. The historical justification was that small-town and rural physicians lacked access to the specialists, equipment, and continuing education available in urban academic centers, and should not be judged by an unreachable standard.
+
+**This creates a direct qualification problem for out-of-state experts.** An expert who has never practiced in a comparable community, and who cannot credibly testify to what resources and practices were reasonably available there, may be found unqualified to offer a standard-of-care opinion at all — not merely less persuasive, but inadmissible. Courts in locality-rule states have excluded experts on exactly this basis, independent of any Daubert-style reliability analysis.
+
+**The "similar locality" variant softens this somewhat** by allowing comparison to communities of similar size and resources rather than requiring the identical town, but the underlying vetting obligation is the same: before retaining an expert, counsel must know whether the forum state will accept testimony from someone with no demonstrated familiarity with a comparably resourced practice setting.
+
+## What Attorneys Should Confirm Before Retaining an Expert
+
+**Identify the controlling rule in the forum jurisdiction first, not after the expert is retained.** This is a question for local counsel or the firm's own jurisdictional research, not an assumption carried over from the last state a case was tried in.
+
+**If a locality or similar-locality rule applies, document the expert's familiarity with a comparable practice setting.** This can come from the expert's own clinical history, from published data on the defendant facility's resources and patient population, or from the expert's review of comparable facilities' staffing and equipment — but it needs to be affirmatively built into the retention file, not assumed.
+
+**Anticipate the opposing qualification challenge.** In locality-rule jurisdictions, a motion attacking the expert's foundation for testifying about community practice is one of the most common and successful ways to remove an otherwise strong expert from a case. Building the record for admissibility is as important as building the substantive opinion.
+
+**Watch for hybrid treatment by specialty.** Some jurisdictions apply a national standard to board-certified specialists while retaining a locality-influenced standard for general practitioners or less specialized fields, meaning the same state can require different foundational showings depending on the defendant's specialty.
+
+## How ApexMedLaw Supports Jurisdiction-Sensitive Expert Selection
+
+Retaining a medical expert without first confirming the applicable standard-of-care framework in the forum jurisdiction creates risk that has nothing to do with the expert's clinical credentials. Our experts and case managers work with retaining counsel to identify the relevant legal framework early and match experts whose practice history supports admissibility under it — including, where a locality-sensitive standard applies, experts with direct experience in comparably resourced practice settings.
+
+We provide guidance on jurisdiction-specific standard-of-care frameworks, expert matching that accounts for locality and similar-locality requirements, and documentation of an expert's foundation for testifying to community-specific practice when the forum requires it.
+
+Contact ApexMedLaw to discuss your case and the standard-of-care framework that applies in your jurisdiction.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
