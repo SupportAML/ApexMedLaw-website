@@ -5887,6 +5887,58 @@ Contact ApexMedLaw to discuss your case and the standard-of-care framework that 
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'facet-joint-medial-branch-block-complications-expert-witness',
+    title: 'Facet Joint and Medial Branch Block Complications: What Attorneys Need to Know About Interventional Pain Litigation',
+    metaDescription: 'A pain medicine expert witness guide for attorneys on facet joint and medial branch block malpractice — fluoroscopic technique, intravascular injection, and distinguishing a known risk from a departure from care.',
+    date: '2026-10-12',
+    author: 'AML Editorial',
+    keywords: [
+      'facet joint injection expert witness',
+      'medial branch block malpractice',
+      'radiofrequency ablation lawsuit',
+      'spinal injection malpractice attorney',
+      'pain medicine expert witness',
+      'fluoroscopic guided injection litigation',
+    ],
+    content: `Facet joint injections and medial branch blocks are among the most frequently performed procedures in interventional pain medicine, used both diagnostically to confirm the facet joint as a pain generator and therapeutically to provide relief before proceeding to radiofrequency ablation. The volume alone means a steady stream of malpractice claims arises from them — not because the procedure is unusually dangerous, but because the margin between a correctly placed needle and a serious complication is measured in millimeters near the spinal canal, exiting nerve roots, and segmental arteries. Attorneys evaluating these cases need an expert who performs these blocks under live fluoroscopic or CT guidance routinely and can speak precisely to what the imaging shows at each stage of the procedure.
+
+## The Imaging Record Is the Case
+
+**Unlike many malpractice claims that turn on a physician's narrative recollection, facet and medial branch block cases are usually decided by the stored fluoroscopic images themselves.** A properly performed block documents needle trajectory onto the target bony landmark — the mid-point of the articular pillar for a medial branch block, or the joint space itself for an intra-articular injection — followed by a contrast injection confirming appropriate spread before the therapeutic agent is delivered. A procedure note stating only that the block was "performed without complication," without corresponding saved images showing needle-tip position and contrast flow, leaves the defense with little to show a jury beyond the physician's own characterization of a procedure no one else observed.
+
+## Intravascular Injection and the Contrast Step
+
+**The single most litigated technical failure in this procedure is injecting local anesthetic or steroid directly into a blood vessel rather than the intended tissue plane**, most dangerously when the vessel runs near the vertebral artery or a segmental radicular artery feeding the spinal cord. Real-time contrast injection under live (not static) fluoroscopy before injecting the therapeutic agent is the recognized safeguard — it reveals a vascular uptake pattern distinct from the expected soft-tissue or periarticular spread, prompting the physician to reposition the needle before proceeding. A case record showing the therapeutic injectate was given without a preceding live-contrast check, or where a vascular pattern is visible on the saved image and the physician proceeded regardless, is the strongest fact pattern for a standard-of-care departure. This issue is particularly significant in cervical procedures, where the consequence of unrecognized intravascular steroid injection can include stroke or spinal cord infarction.
+
+## Dural Puncture and Epidural Spread
+
+**A needle advanced too far medially or too deep can enter the epidural space or puncture the thecal sac**, producing a post-dural-puncture headache at minimum and, in more severe presentations, a spinal or epidural hematoma requiring emergent decompression. The expert's review should focus on whether the final needle depth and trajectory shown on the lateral fluoroscopic view were consistent with the target structure, and whether any unexpected fluid return or unusual contrast pattern on injection was recognized and addressed rather than overridden.
+
+## Distinguishing a Known Risk From a Technical Departure
+
+**Not every adverse outcome following a facet or medial branch block reflects negligence.** Transient worsening of pain, localized soreness, and vasovagal reactions are recognized and common, self-limited occurrences that do not by themselves suggest a technical error. The expert's task is to work through the specific complication against the imaging record and procedure note: a transient increase in radicular pain with no imaging abnormality points toward a recognized risk of the procedure itself, while a documented intravascular pattern, an aberrant needle trajectory on final imaging, or a missed contrast step points toward a departure from accepted technique.
+
+## Anticoagulation and Pre-Procedure Screening
+
+**Spinal and epidural hematoma risk is directly tied to a patient's coagulation status**, and current interventional pain society guidelines specify anticoagulant and antiplatelet medication hold times before spinal injections based on the specific agent and the procedure's bleeding risk category. A chart showing the procedure proceeded without documented confirmation that anticoagulants were appropriately held, or without screening for an undisclosed bleeding disorder, becomes relevant where the injury at issue is a hematoma with neurological compromise.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential facet or medial branch block injury case should obtain the stored fluoroscopic or CT images from every stage of the procedure, the procedure note describing needle approach and any contrast findings, pre-procedure anticoagulation and bleeding-risk screening documentation, the informed consent record, and post-procedure notes documenting the onset and progression of any new neurological symptoms.
+
+## How ApexMedLaw Supports Interventional Pain Litigation
+
+Facet joint and medial branch block litigation requires an expert who performs these procedures under live imaging guidance as part of an active interventional pain practice and can credibly interpret what the stored fluoroscopic images do and do not show. Our pain medicine experts bring that procedural experience to case review.
+
+We provide detailed review of available fluoroscopic imaging and contrast findings against the documented outcome, analysis distinguishing a recognized procedural risk from a technical departure, evaluation of pre-procedure anticoagulation screening, and causation opinions supporting damages analysis in interventional pain malpractice claims.
+
+Contact ApexMedLaw to discuss your interventional pain litigation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
