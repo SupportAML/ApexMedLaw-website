@@ -5939,6 +5939,63 @@ Contact ApexMedLaw to discuss your interventional pain litigation case.
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'same-specialty-expert-witness-requirements',
+    title: 'Same-Specialty Expert Witness Requirements: What Attorneys Need to Know Before Designation',
+    metaDescription: 'A practice guide for attorneys on same-specialty expert witness qualification statutes — what counts as a matching specialty, how courts apply the active-practice requirement, and how to avoid a pretrial disqualification.',
+    date: '2026-10-13',
+    author: 'AML Editorial',
+    keywords: [
+      'same specialty expert witness requirement',
+      'expert witness qualification statute',
+      'medical expert witness specialty match',
+      'who can testify as a medical expert witness',
+      'expert witness active practice requirement',
+      'motion to disqualify expert witness',
+    ],
+    content: `A growing number of states require that a medical expert testifying to the standard of care against a defendant physician practice in the same specialty, subspecialty, or a substantially similar field as that defendant at the time of the alleged negligence. These statutes are not a soft credentialing preference — they are a hard admissibility gate, and an expert who fails to clear it does not simply testify with less weight. In most jurisdictions that enforce the rule, the expert is excluded outright, often on a pretrial motion filed well before either side gets near a jury. Attorneys who treat specialty match as a resume detail rather than a threshold legal question are the ones who discover the problem after the report is already written and the designation deadline has passed.
+
+## Why These Statutes Exist
+
+**Same-specialty requirements emerged largely out of tort-reform legislation aimed at a specific complaint: that any sufficiently credentialed physician, regardless of actual clinical overlap with the defendant, could be hired to opine on standards they had no real working familiarity with.** A general surgeon opining on a cardiology dosing decision, or a retired internist opining on a current interventional radiology technique, was the kind of mismatch legislatures intended to foreclose. The statutes function as a gatekeeping mechanism distinct from Daubert or Frye reliability analysis — they ask not whether the expert's methodology is sound, but whether this expert is even the right kind of physician to be answering this question at all.
+
+## What "Same Specialty" Actually Means Varies by State
+
+**No two states define the matching requirement identically, and the exact statutory word choice controls the outcome.** Some jurisdictions require the expert hold the identical board certification as the defendant. Others use softer language — "same or similar specialty" or "substantially similar field" — that gives courts room to qualify an expert whose training overlaps meaningfully even without an identical certification. A handful look past certification entirely and ask what the defendant actually practiced in the years surrounding the incident, which can diverge sharply from what their board certification says.
+
+**The defendant's actual practice, not just their credential, controls in many jurisdictions.** A family medicine physician who spent the preceding decade running an urgent care clinic may need to be matched against an expert with comparable urgent-care or primary-care experience — not simply any board-certified family medicine physician, including one who has spent that same decade in an academic research role with minimal direct patient contact.
+
+**Subspecialty distinctions are where attorneys most often get surprised.** A general neurologist opining on a case that turns specifically on neurocritical care management, or a general surgeon opining on a bariatric-specific technical complication, can be excluded even while holding the broader specialty board certification the statute appears to require on its face. Courts applying these statutes frequently look one level more granular than the certification itself.
+
+## The Active-Practice Requirement Hiding Inside the Statute
+
+**Specialty match alone is often not enough.** Many of these statutes layer on an additional requirement that the expert devoted a defined share of their professional time — commonly measured as a percentage of hours in the year or years preceding the incident — to clinical practice, teaching, or supervision in the relevant specialty. An expert with a perfectly matching board certification who has spent the past several years exclusively in litigation consulting, with no active clinical hours in the specialty during the statutory look-back period, can fail this prong even though the specialty itself lines up on paper.
+
+## Where This Gets Litigated
+
+**The motion to strike or disqualify an expert on specialty-match grounds is one of the most common pretrial motions filed against a plaintiff's designated expert**, and it is frequently filed after the expert's report has already been produced — meaning the window to substitute a better-matched expert can be tight or, depending on the jurisdiction's scheduling order, closed entirely. Defense counsel will typically pull the expert's CV, recent case history, and any prior testimony to build the argument that the expert's actual practice diverges from the defendant's.
+
+**Multi-specialty cases compound the exposure.** A complex case touching hospitalist management, a surgical complication, and a subsequent ICU course may require three distinct experts rather than one generalist asked to stretch across all of them — and designating a single expert to cover territory outside their specialty invites a disqualification motion on the portions of the opinion that exceed their qualified scope, even if other portions survive.
+
+## How Attorneys Should Vet an Expert Before Designation
+
+- Confirm the forum state's exact statutory language early. "Same specialty," "similar specialty," and "substantially similar field" are not interchangeable, and courts enforce whichever phrase the legislature actually chose.
+- Identify what the defendant physician actually practiced at the time of the incident — not only their listed board certification — and match the expert against that practice, not the certificate.
+- Verify the expert's percentage of clinical time in the relevant specialty for whatever period the statute specifies, and document it in the retention file before the report is written.
+- Where a case spans more than one area of care, consider separate experts for each rather than asking a single expert to opine beyond their qualified territory.
+
+## How ApexMedLaw Supports Specialty-Match Analysis
+
+Designating an expert without first confirming that their specialty, subspecialty, and recent practice history satisfy the forum state's qualification statute creates a risk that has nothing to do with how clinically sound the underlying opinion is. Our case managers work with retaining counsel to identify the governing statutory language early and match experts whose board certification and active clinical practice support admissibility under it.
+
+We provide specialty-match screening against the forum state's statutory requirements, verification of an expert's recent active-practice time in the relevant field, and coordinated multi-specialty expert teams when a case spans more than one area of care.
+
+Contact ApexMedLaw to discuss your case and the specialty-match requirements in your jurisdiction.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
