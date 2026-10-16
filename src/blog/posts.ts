@@ -6101,6 +6101,60 @@ Contact ApexMedLaw to coordinate your medical causation expert with your damages
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'medical-expert-witness-conflict-of-interest-vetting',
+    title: 'Vetting a Medical Expert Witness for Conflicts of Interest Before Retention',
+    metaDescription: 'A practical guide for attorneys on screening a medical expert witness for financial, professional, and personal conflicts of interest before retention — and why the screen has to happen before the report, not after.',
+    date: '2026-10-16',
+    author: 'AML Editorial',
+    keywords: [
+      'medical expert witness conflict of interest',
+      'expert witness conflict check',
+      'vetting expert witness before retention',
+      'expert witness bias cross-examination',
+      'expert witness prior relationship disclosure',
+      'disqualifying expert witness conflict',
+    ],
+    content: `A conflict-of-interest problem with a retained medical expert rarely surfaces at retention. It surfaces at deposition, when opposing counsel produces a document the retaining attorney never asked the expert about — a prior consulting relationship with the defendant's insurer, a referral history with the defendant physician's practice group, or a financial stake in the outcome that goes beyond the expert's hourly fee. By the time it surfaces, the damage is not limited to that one case. It follows the expert into every future engagement, and it follows the retaining firm's judgment along with it. A conflict screen is not a courtesy step before retention; it is the one piece of due diligence that, skipped, cannot be repaired later with a better report or a more polished direct examination.
+
+## What Counts as a Conflict Is Broader Than Attorneys Assume
+
+**Most attorneys screen for the obvious disqualifier — has this expert treated the plaintiff, or does this expert have an existing relationship with my firm's adversary — and stop there.** That screen misses the categories that actually surface on cross. A conflict worth identifying before retention includes any current or recent financial relationship with the defendant, the defendant's institution, or the defendant's insurer; any professional relationship with the defendant physician, including shared hospital privileges, a prior co-authorship, or a referral pattern in either direction; any personal relationship with a party or a treating provider in the case; and any prior litigation in which the expert testified against a position they are now being asked to support, or vice versa. None of these automatically disqualifies an expert. All of them need to be on the table before the retention agreement is signed, not discovered afterward.
+
+## The Prior-Testimony Conflict Is the One Attorneys Check Least and Opposing Counsel Checks Most
+
+**An expert who has given deposition or trial testimony in a prior case taking a position inconsistent with the opinion they are now offering is one of the most common and most damaging impeachment tools available to opposing counsel.** This is not limited to a direct contradiction on the same clinical question — it extends to testimony on the governing standard of care, the reliability of a particular diagnostic method, or the acceptable range of clinical judgment in a similar fact pattern. Litigation support services and court reporting databases make this testimony searchable, and defense counsel routinely runs this search before deposition even when plaintiff's counsel has not. An attorney who has not pulled the expert's own prior testimony history is relying on the expert's memory of their own record, which is not a reliable substitute for the search.
+
+## Financial Conflicts Extend Past the Expert's Fee for This Case
+
+**A reasonable hourly fee tied to time spent is not, by itself, a disqualifying conflict — but a broader financial relationship with a party or its affiliated entities is a different question entirely.** An expert who serves on a hospital system's quality committee, holds a consulting contract with the insurer defending the case, or has an equity or employment relationship with a device or pharmaceutical company whose product is at issue needs that relationship disclosed and assessed before retention, not surfaced for the first time when the defense produces the expert's own conflict disclosure form from an unrelated proceeding.
+
+## Professional Proximity to a Party Is Easy to Miss in a Small Specialty
+
+**In specialties with a limited number of practicing physicians in a given region or subspecialty, the retained expert and the defendant physician may have overlapping hospital privileges, have trained together, or have referred patients to one another without either side treating it as significant at the time.** This kind of proximity is rarely intentional concealment — it is simply something the expert did not think to volunteer because it did not feel like a conflict from the inside. The retaining attorney's screening questions need to be specific enough to surface it:
+
+- Have you had any professional, financial, or personal relationship with the defendant, the defendant's practice group, or the defendant's insurer in the past five years?
+- Have you testified in any prior matter on a position inconsistent with the opinion you expect to offer here?
+- Do you have any current consulting, employment, or equity relationship with an institution, device manufacturer, or insurer connected to this case?
+- Have you treated, or are you currently treating, the plaintiff or any party or witness in this case?
+- Is there any professional overlap — shared training, shared privileges, a referral relationship — between you and the defendant physician?
+
+## A Disclosed Conflict Is Manageable; an Undisclosed One Is Not
+
+**Not every relationship that surfaces in this screen is disqualifying, and attorneys should not treat the process as a search for a reason to reject an otherwise well-qualified expert.** A minor, dated, or attenuated connection disclosed upfront and addressed directly on direct examination reads to a jury as candor. The same connection, produced by opposing counsel for the first time at deposition, reads as concealment regardless of how minor it actually was — and the credibility cost attaches to the retaining attorney's judgment as much as to the expert's testimony.
+
+## How ApexMedLaw Supports Conflict Screening
+
+Every expert in our network goes through a conflict check before placement, covering current and recent financial relationships, professional overlap with opposing parties, and prior testimony history, so retaining counsel starts from a documented baseline rather than an expert's own recollection.
+
+We provide a written conflict disclosure at the time of retention, a search of the expert's prior testimony record for inconsistent positions, and ongoing availability to re-screen if new parties or witnesses are added to the case after initial engagement.
+
+Contact ApexMedLaw to discuss conflict screening for your next expert witness engagement.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
