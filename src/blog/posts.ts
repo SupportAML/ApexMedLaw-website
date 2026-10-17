@@ -6155,6 +6155,64 @@ Contact ApexMedLaw to discuss conflict screening for your next expert witness en
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'icu-vte-prophylaxis-failure-pulmonary-embolism-expert-witness',
+    title: 'Failure to Prevent: ICU VTE Prophylaxis Lapses and the Case for Pulmonary Embolism Litigation',
+    metaDescription: 'A critical care expert witness guide for attorneys on ICU venous thromboembolism prophylaxis failures — risk-assessment gaps, contraindication documentation, and building causation when a preventable clot becomes a fatal pulmonary embolism.',
+    date: '2026-10-17',
+    author: 'AML Editorial',
+    keywords: [
+      'ICU VTE prophylaxis expert witness',
+      'venous thromboembolism malpractice',
+      'critical care expert witness',
+      'pulmonary embolism prevention failure lawsuit',
+      'DVT prophylaxis negligence',
+      'ICU anticoagulation standard of care',
+    ],
+    content: `Unlike a missed diagnosis, a venous thromboembolism prophylaxis failure is not a story about a clinician failing to recognize a disease that was already present. It is a story about a known, quantifiable risk that the standard of care requires every ICU team to screen for on admission — and a prevention order that was never written, never administered, or silently discontinued and never restarted. When that gap ends in a fatal or disabling pulmonary embolism, the case does not turn on whether the clot was foreseeable in the abstract. Every critical care unit's own policy already answers that question. It turns on whether this specific patient's chart shows the prevention protocol was actually followed.
+
+## Why VTE Prophylaxis Failures Are a Distinct Liability Theory
+
+**Critically ill patients carry an elevated baseline risk of venous thromboembolism from immobility, mechanical ventilation, central venous catheters, sepsis, and the inflammatory state of critical illness itself.** Because that risk is so well established, nearly every ICU in the country operates under a mandatory VTE risk-assessment and prophylaxis protocol, usually built into the admission order set. That near-universal adoption is precisely what makes these cases different from a standard missed-diagnosis claim: the expert does not need to persuade a jury that prophylaxis was advisable. The hospital's own order set already says so. The dispute is almost always about documentation — was the risk assessed, was prophylaxis ordered, and if it was discontinued, was there a valid clinical reason and a plan to resume it.
+
+**That said, not every ICU-acquired clot reflects negligence.** Patients with active bleeding, recent neurosurgery, severe thrombocytopenia, or other genuine contraindications may appropriately go without pharmacologic prophylaxis, and mechanical prophylaxis alone does not eliminate VTE risk even when applied correctly. A credible expert opinion has to distinguish a documented, clinically justified deviation from a gap that nobody explains.
+
+## The Two Forms of Prophylaxis and Where Each One Fails
+
+**Pharmacologic prophylaxis** — typically subcutaneous low-molecular-weight heparin or unfractionated heparin — is the more effective intervention for most ICU patients and is the default unless a contraindication exists. The recurring failure pattern here is not an absent order; it is a present order that was never administered, held for a procedure and never resumed, or held for a transient contraindication (a planned line placement, a brief coagulopathy) that resolved days before the clot formed, with no one revisiting the hold.
+
+**Mechanical prophylaxis** — intermittent pneumatic compression devices or graduated compression stockings — is used when pharmacologic prophylaxis is contraindicated, or in combination with it for the highest-risk patients. The documentation failure pattern here is different and often more subtle: nursing flowsheets that show the device was ordered but removed for a procedure, physical therapy session, or patient discomfort and never reapplied, sometimes for days. A sequential compression device sitting unplugged or unapplied at the bedside while the chart's medication administration record shows it as "in use" is a recurring and highly visible exhibit in these cases.
+
+## Standard-of-Care Elements Attorneys Should Evaluate
+
+**Admission risk assessment.** The standard of care requires a validated VTE risk score — commonly a Padua or IMPROVE score, or an institution-specific equivalent — completed on ICU admission and reassessed as the patient's condition changes. A completed risk assessment that is never translated into an actual order is a frequent and demonstrable gap.
+
+**Contraindication documentation and reassessment.** When pharmacologic prophylaxis is held, the standard of care requires a documented clinical reason and, critically, a plan or trigger to reassess and resume it once the contraindication resolves. An open-ended hold with no reassessment date is the single most common pattern in these cases — a temporary, appropriate decision that was never revisited and became, functionally, a permanent and undocumented departure from the ordered protocol.
+
+**Mechanical device compliance.** Nursing records should reflect consistent application of compression devices when ordered, and any removal should be time-limited and reapplied promptly. Gaps of many hours or multiple days in device use, without an equivalent increase in monitoring or an escalation to pharmacologic prophylaxis, are a recurring liability theme.
+
+**Escalation after a partial or silent clot.** Some patients develop an early, asymptomatic deep vein thrombosis that is picked up incidentally on imaging ordered for another reason. The standard of care at that point requires therapeutic anticoagulation and a clear plan, not a continuation of prophylactic-dose dosing alone — a distinction that matters enormously if the patient later suffers a pulmonary embolism.
+
+## Building the Causation Argument
+
+Causation analysis in these cases has to connect a specific, identifiable gap in the chart — the unresumed hold, the unapplied device, the risk score that generated no order — to the timeline of clot formation and embolization. Because VTE risk accumulates with each day of unprotected immobility, an expert can often use the gap's duration itself as part of the causal narrative: the longer the undocumented lapse, the stronger the inference that it is the gap, rather than an unavoidable consequence of critical illness, that explains the outcome. Damages in fatal pulmonary embolism cases are often catastrophic and immediate; in non-fatal cases, chronic thromboembolic pulmonary hypertension and post-thrombotic syndrome can produce lasting disability that independently supports significant damages.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential VTE prophylaxis case should obtain the complete admission order set and any VTE risk-assessment scoring, the full medication administration record showing every dose of pharmacologic prophylaxis actually given or held, nursing flowsheets documenting mechanical device application and removal, any notes explaining a prophylaxis hold and whether a resumption plan was documented, and imaging or procedure notes documenting the clot's initial detection and the treatment response that followed.
+
+## How ApexMedLaw Supports VTE Prophylaxis Litigation
+
+These cases require an expert who can reconstruct a prevention timeline from administration records and nursing flowsheets the way a critical care pharmacist or intensivist would during a mortality review — not simply confirm that the patient was, in fact, at risk. Our critical care experts bring active clinical experience with ICU VTE protocols, contraindication management, and the reassessment practices institutions actually expect.
+
+We provide detailed review of risk-assessment and prophylaxis administration records against institutional and published standards, analysis distinguishing a documented clinical hold from an unexplained lapse, and causation opinions connecting specific documentation gaps to clot formation and embolization timing.
+
+Contact ApexMedLaw to discuss your ICU VTE prophylaxis litigation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
