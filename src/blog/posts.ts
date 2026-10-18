@@ -6213,6 +6213,62 @@ Contact ApexMedLaw to discuss your ICU VTE prophylaxis litigation case.
 
 *This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'acute-cholecystitis-delayed-diagnosis-gi-expert-witness',
+    title: 'Acute Cholecystitis: When Delayed Cholecystectomy Becomes a Gastroenterology Malpractice Case',
+    metaDescription: 'A gastroenterology expert witness guide for attorneys on acute cholecystitis malpractice — the Tokyo Guidelines cholecystectomy timeline, the diagnostic pattern litigation turns on, and how delay converts a routine gallbladder case into gangrenous or perforated cholecystitis.',
+    date: '2026-10-18',
+    author: 'AML Editorial',
+    keywords: [
+      'acute cholecystitis expert witness',
+      'cholecystitis malpractice',
+      'delayed cholecystectomy lawsuit',
+      'gangrenous cholecystitis litigation',
+      'GI expert witness',
+      'Tokyo Guidelines cholecystitis',
+    ],
+    content: `Acute cholecystitis is, in the overwhelming majority of cases, a straightforward diagnosis with a straightforward fix: a patient presents with right upper quadrant pain, imaging confirms gallbladder inflammation, and a laparoscopic cholecystectomy resolves it, often within the same hospital stay. The malpractice cases that emerge from this disease are almost never about missing the diagnosis outright. They are about what happens in the interval between diagnosis and surgery — a window during which a gallbladder under pressure from an obstructed cystic duct can progress from simple inflammation to gangrene, perforation, or frank sepsis, and during which "treat with antibiotics and reassess" quietly becomes the default even after the patient stops responding to that plan.
+
+## Why Cholecystectomy Timing Is the Central Liability Question
+
+**The Tokyo Guidelines, the internationally recognized framework for diagnosing and grading acute cholecystitis, recommend early laparoscopic cholecystectomy — generally within 72 hours of symptom onset — for patients who are surgical candidates, rather than a prolonged trial of antibiotics followed by an interval surgery weeks later.** That recommendation matters in litigation because it converts a vague question of clinical judgment into a measurable interval: once the diagnosis is made and the patient is graded, the guidelines specify a window within which surgery should occur, and a hospital's own timestamps can be compared directly against it. A patient whose cholecystectomy is pushed back day after day for reasons that have more to do with OR scheduling or surgeon availability than clinical necessity presents a case where the deviation from guideline-based care is explainable in the hospital's own chart, not a standard an expert has to import from outside it.
+
+**Not every delay is a deviation.** Patients with significant cardiopulmonary comorbidities, those who present late in their disease course with a dense inflammatory phlegmon that makes safe dissection unlikely, and patients who are frankly too unstable for general anesthesia may appropriately be bridged with percutaneous cholecystostomy tube drainage rather than taken to the operating room on the original timeline. The expert's job is to determine whether the delay reflects one of these documented, clinically justified reasons or an unexplained gap in an otherwise straightforward case.
+
+## The Diagnostic Pattern Litigation Turns On
+
+Most cholecystitis litigation does not dispute whether the diagnosis was eventually made correctly — it disputes how long it took to get there and how the patient was managed once it was clear that antibiotics alone were not working. A positive Murphy's sign and right upper quadrant tenderness point clinicians toward the gallbladder, but the diagnosis is confirmed with a right upper quadrant ultrasound, which will typically show gallbladder wall thickening, pericholecystic fluid, or a sonographic Murphy's sign. When ultrasound findings are equivocal in a patient whose clinical picture still points to cholecystitis, the standard of care calls for a hepatobiliary scintigraphy (HIDA) scan to confirm cystic duct obstruction rather than discharging the patient or continuing to treat empirically without a confirmed diagnosis.
+
+The more consequential pattern is what happens after cholecystitis is confirmed and a patient is started on IV antibiotics while awaiting surgery. A patient whose white blood cell count, fever curve, and abdominal exam are trending the wrong direction — rather than improving — on a 24- to 48-hour reassessment is telling the clinical team that medical management has failed and that the gallbladder is progressing toward necrosis. Continuing the same antibiotic regimen on the same schedule without escalating to urgent surgical intervention in that setting is where a defensible "treat and monitor" plan becomes an indefensible failure to rescue.
+
+## Where the Standard of Care Breaks Down
+
+**Failure to reassess after a trial of antibiotics stops working.** The most frequent pattern in these cases is not the initial decision to start antibiotics — it is the absence of a structured reassessment at 24 to 48 hours that would have revealed clinical deterioration and triggered escalation to the operating room.
+
+**Treating a surgical disease as a purely medical one.** Cholecystitis management belongs to a surgical team from the point of diagnosis, even while antibiotics are running. Cases where a general medicine or hospitalist team manages the admission without an early, meaningful surgical consultation — or where surgery is consulted but defers repeatedly without documenting a clinical rationale — are a recurring liability pattern.
+
+**Missing gangrenous or perforated cholecystitis on imaging.** CT and ultrasound findings such as gallbladder wall discontinuity, pericholecystic abscess, intramural gas, or a sloughed mucosal membrane are specific markers of advanced disease that change the urgency calculus entirely. A radiology report or clinical note that characterizes these findings as routine "cholecystitis" without flagging the complication can delay the escalation the patient actually needs.
+
+**Scheduling delays unrelated to clinical necessity.** OR availability, surgeon staffing on nights and weekends, and a hospital's informal practice of treating cholecystectomy as elective rather than urgent surgery are administrative realities that do not excuse a delay once the clinical record shows the patient met criteria for earlier intervention.
+
+## Building the Causation Argument
+
+Causation in cholecystitis cases is built by reconstructing the timeline from symptom onset through diagnosis, through each reassessment point, to the eventual surgery or drainage procedure, and overlaying it against the patient's own trend data — white count, temperature curve, lactate if obtained, and the surgeon's intraoperative description of the gallbladder. A gallbladder described intraoperatively as gangrenous, perforated, or associated with a pericholecystic abscess is strong objective evidence that the disease had progressed well beyond the point where earlier intervention was indicated, and the gap between when deterioration should have been recognized and when surgery actually occurred becomes the causal bridge between the delay and the patient's eventual complications, extended hospitalization, or death.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential cholecystitis case should obtain the emergency department and admission notes documenting the initial presentation and imaging orders, the full right upper quadrant ultrasound and any HIDA scan reports, serial laboratory values and vital signs showing the clinical trajectory during any antibiotic trial, surgical consultation notes including the stated rationale for any delay, and the operative report describing the gallbladder's actual condition at the time of surgery. OR scheduling records can also be useful in cases where the delay appears administrative rather than clinical.
+
+## How ApexMedLaw Supports Acute Cholecystitis Litigation
+
+These cases require an expert who can read a 48-hour reassessment note the way a surgeon on call would — recognizing the moment a non-improving patient should have triggered escalation, rather than simply confirming that cholecystitis was eventually diagnosed and treated. Our gastroenterology and general surgery experts maintain active clinical practice managing acute biliary disease, and they provide detailed timeline reconstruction comparing the actual diagnostic and surgical pathway against guideline-based standards, analysis of whether reassessment points were appropriately acted on, and causation opinions connecting specific delays to gangrenous or perforated outcomes documented in the record.
+
+Contact ApexMedLaw to discuss your acute cholecystitis case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
