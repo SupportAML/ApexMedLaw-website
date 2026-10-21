@@ -6377,6 +6377,64 @@ Contact ApexMedLaw to discuss the medical expert your telemedicine case needs.
 
 *This post is for informational purposes and does not constitute legal advice. Telehealth practice standards and licensure requirements vary by state and continue to evolve.*`,
   },
+  {
+    slug: 'statute-of-limitations-discovery-rule-medical-malpractice',
+    title: 'Statute of Limitations and the Discovery Rule in Medical Malpractice: What Attorneys Need to Know About Triggering Events',
+    metaDescription: 'A practical guide for attorneys on how the discovery rule, continuing treatment doctrine, and statutes of repose interact to set the real filing deadline in a medical malpractice case.',
+    date: '2026-10-21',
+    author: 'AML Editorial',
+    keywords: [
+      'statute of limitations medical malpractice',
+      'discovery rule medical malpractice',
+      'continuing treatment doctrine',
+      'statute of repose medical malpractice',
+      'medical malpractice filing deadline',
+      'accrual date malpractice claim',
+    ],
+    content: `A case can have a devastating injury, overwhelming causation evidence, and a defendant with no credible defense on the merits — and still die on a single page of the complaint if the filing date is wrong. Statute of limitations issues are rarely about ignorance of the deadline; they are about miscalculating when the clock actually started. Attorneys who assume the limitations period runs from the date of the negligent act, without separately analyzing the discovery rule, continuing treatment doctrine, and any applicable statute of repose, are the ones who find out at summary judgment that the case was time-barred before it was ever filed.
+
+## When the Clock Actually Starts Running
+
+**The date of the negligent act and the date the claim accrues are not always the same date.** Most jurisdictions have moved away from a pure "date of injury" rule for medical malpractice, recognizing that a patient often has no way to know an error occurred until well after it happened — a retained surgical instrument that causes no symptoms for months, a missed finding on imaging that is not discovered until a later study, a pathology misread that is only caught on a second opinion. The limitations period in these jurisdictions begins instead on the date the injury was discovered, or reasonably should have been discovered, through the exercise of ordinary diligence.
+
+**"Should have discovered" is an objective standard, and it cuts both ways.** A patient who had clear symptoms, was told by a subsequent provider that something had gone wrong, or had records in hand that would have revealed the error to a reasonably attentive person does not get the benefit of a later actual-discovery date just because they did not read the records closely. Conversely, a patient who had vague, nonspecific symptoms consistent with their underlying condition, and no reason to suspect malpractice until a specific triggering event, can reasonably push the accrual date out considerably. The factual record of what the patient knew, was told, and had access to — not just what ultimately turned out to be true — is what decides this analysis.
+
+## Building the Discovery Record Early
+
+**Identify the triggering event and document it precisely.** This usually means pinning down, to the specific date where possible, the conversation, record, second opinion, or diagnosis that first gave the patient a reasonable basis to suspect that their injury was caused by substandard care — as opposed to being an unavoidable complication or the natural progression of their condition. Treating physician notes, discharge summaries, correspondence, and the client's own contemporaneous account (texts, emails, journal entries) are often the only evidence of exactly when that happened.
+
+**Distinguish "knew they were injured" from "knew the injury was caused by negligence."** A patient can know they have a bad outcome for years without that knowledge triggering the limitations period, if nothing told them the outcome was attributable to a deviation from the standard of care rather than an inherent risk of the procedure or the underlying disease. Defense counsel will routinely argue that any adverse outcome should have prompted the patient to investigate; the discovery rule does not require that level of suspicion from a layperson managing their own medical recovery.
+
+## Continuing Treatment and Continuing Course of Conduct
+
+**The continuing treatment doctrine can toll accrual past the last negligent act, for as long as the same provider's ongoing treatment of the same condition continues.** Where recognized, it rests on the idea that a patient should not be forced to sue a physician they are actively relying on for care, and that the physician has a continuing opportunity to correct a course of treatment that single-visit analysis would miss. This matters most in cases involving a missed diagnosis followed by months or years of a provider continuing to treat the underlying (undiagnosed) condition under a mistaken working diagnosis — the limitations clock in many jurisdictions does not start until that course of treatment ends, not at the first visit where the diagnosis was missed.
+
+**A single follow-up visit, or treatment for an unrelated condition, usually does not restart or extend the doctrine.** Courts look for a genuine, continuous course of treatment directed at the same condition, not sporadic contact with the same practice. Mapping the actual treatment timeline — every visit, who saw the patient, and what was being treated at each one — is necessary before relying on this doctrine to save a claim that looks late on its face.
+
+## Statutes of Repose: The Outer Limit the Discovery Rule Cannot Extend
+
+**A statute of repose is a hard outer deadline that runs from the act of treatment itself, regardless of when the injury was or should have been discovered.** Many jurisdictions pair a discovery-rule-based statute of limitations with a statute of repose — commonly in the range of several years from the date of the negligent act — that extinguishes the claim even if the patient had no way to have discovered the injury within that window. Where a statute of repose applies, it is not tolled by the discovery rule, and in most jurisdictions it is not tolled by the continuing treatment doctrine either; it is a legislative judgment that claims cannot be held open indefinitely, and courts apply it strictly against plaintiffs even in sympathetic fact patterns.
+
+**Repose periods are the reason some clearly meritorious claims cannot be brought at all.** A retained surgical object discovered a decade after the operation, or a congenital-malformation birth injury case where causation is not apparent until years later, can satisfy every element of the discovery rule and still be barred by repose. This is one of the first questions to resolve in any case where the underlying act is more than a few years old — before significant investment goes into developing the merits.
+
+## Minors, Incapacity, and Tolling
+
+**Claims involving minor patients and patients under a legal disability are frequently subject to separate tolling rules**, which can extend the ordinary limitations period until the minor reaches majority or the disability is removed, subject in many jurisdictions to their own repose-style outer limit specific to minors. These provisions vary significantly by jurisdiction and are easy to get wrong by analogy to the adult discovery rule — they require a jurisdiction-specific check, not an assumption that the general rule applies.
+
+## Why This Analysis Cannot Wait
+
+**Limitations and repose issues should be resolved at intake, not discovered during discovery.** Once a case is substantially developed — experts retained, records gathered, a theory of liability built — a late-discovered limitations problem is both a client and a malpractice-exposure issue for the firm itself. The accrual date, any continuing treatment argument, the applicable repose period, and any minority or incapacity tolling should all be mapped against the jurisdiction's specific statutory language before the case consumes significant resources, not after.
+
+## How ApexMedLaw Supports Case Evaluation on Timing Issues
+
+Our physician experts assist retaining counsel in reconstructing the clinical timeline that the limitations analysis depends on — pinpointing when a deviation from the standard of care actually occurred, when its consequences would reasonably have become apparent to the patient, and whether ongoing treatment for the same condition continued past that point. That medical timeline is often the deciding factor in whether a discovery-rule or continuing-treatment argument holds up, and getting it right early protects the case before a limitations motion is ever filed.
+
+Contact ApexMedLaw to discuss the medical timeline analysis your case needs.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Statute of limitations, discovery rule, statute of repose, and tolling provisions vary significantly by jurisdiction.*`,
+  },
 ];
 
 /**
