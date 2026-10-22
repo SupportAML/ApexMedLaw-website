@@ -6435,6 +6435,56 @@ Contact ApexMedLaw to discuss the medical timeline analysis your case needs.
 
 *This post is for informational purposes and does not constitute legal advice. Statute of limitations, discovery rule, statute of repose, and tolling provisions vary significantly by jurisdiction.*`,
   },
+  {
+    slug: 'spoliation-medical-records-malpractice-litigation',
+    title: 'Spoliation of Medical Records: What Attorneys Need to Know About Preserving and Challenging Missing or Altered Evidence',
+    metaDescription: 'A practical guide for attorneys on identifying spoliation of medical records, securing a litigation hold early, and using EHR audit trails to prove when records were altered after the fact.',
+    date: '2026-10-22',
+    author: 'AML Editorial',
+    keywords: [
+      'spoliation of medical records',
+      'medical malpractice evidence preservation',
+      'EHR audit trail spoliation',
+      'adverse inference instruction malpractice',
+      'litigation hold medical records',
+      'altered medical records lawsuit',
+    ],
+    content: `A medical malpractice case can be won or lost before either side's physician expert ever opens the chart, if the chart itself is incomplete, altered, or gone. Spoliation — the destruction, alteration, or failure to preserve evidence a party knew or should have known was relevant to litigation — is one of the few issues in malpractice practice where the remedy can rival the underlying claim in value. An adverse inference instruction telling the jury it may presume a missing record would have been unfavorable to the party that lost it can turn a close standard-of-care fight into a verdict, but only if the spoliation is identified early, documented carefully, and framed correctly for the court.
+
+## Why Medical Records Are Especially Vulnerable to Spoliation Disputes
+
+**Electronic health record systems create and discard data on timelines few litigants understand until it is too late.** Nursing flowsheets, vital-sign monitor feeds, telemetry strips, and system-generated alerts often live on retention schedules measured in days or weeks unless affirmatively preserved, while the narrative note a clinician later signs can look complete on its face. A record that appears intact at the chart-pull stage may already be missing the underlying data that would let an expert evaluate what was actually happening at the bedside.
+
+**EHR systems also make after-the-fact editing easier to do and easier to detect than paper ever was.** Addenda, late entries, and amended notes are a routine and often legitimate part of clinical documentation — but a cluster of edits made to a note after a bad outcome, a lawsuit threat letter, or an internal incident report is exactly the pattern spoliation analysis is built to catch, because the system logging those edits rarely gets altered along with the note itself.
+
+## The Litigation Hold Is the First Document in the Case, Not an Afterthought
+
+**A hold letter sent to the defendant facility the same week a case is opened is the single highest-leverage spoliation-prevention step available to plaintiff's counsel.** It should identify the patient, the dates of care, and specifically demand preservation of the complete native EHR record, the full audit trail, nursing flowsheets, monitor and telemetry data, incident reports, peer review materials to the extent not privileged, and any video or device data tied to the encounter — not just "the medical records," a phrase hospital risk management offices are accustomed to satisfying with a printed chart that omits exactly the metadata a spoliation claim would need.
+
+**Defense counsel should treat an incoming hold letter, or even an informal notice of a potential claim, as triggering an immediate duty to preserve** — in most jurisdictions the duty attaches once litigation is reasonably anticipated, not once a complaint is filed. Facilities that wait for service of process before suspending normal data-retention and auto-deletion policies are frequently the ones later accused of having destroyed evidence through ordinary business practices that should have been paused.
+
+## What to Look for When a Record Looks Wrong
+
+**Compare the printed or PDF chart against the native EHR audit trail before accepting that the record is complete.** The audit trail shows who accessed a note, when, from what device, and whether and when an entry was created, edited, or backdated — information the printed chart typically does not display at all. A note timestamped as written contemporaneously that the audit trail shows was actually created or substantially edited after the fact is direct evidence worth building a motion around, independent of what the note itself says.
+
+**Watch for gaps in continuous data rather than just missing documents.** A cardiac monitor or pulse oximetry trend that should be continuous but has an unexplained interruption spanning exactly the period at issue, a nursing flowsheet with vital signs recorded at inconsistent intervals around the time of deterioration, or an incident report that was generated but never produced in discovery despite being referenced in a risk-management email, are all patterns that surface only when counsel asks for the underlying systems data, not just the clinical narrative.
+
+## Framing the Remedy: Sanctions Are Discretionary and Fact-Specific
+
+**Courts generally require a showing that the party had a duty to preserve, breached that duty, and that the breach prejudiced the opposing party**, with the available remedy scaling to the degree of culpability found — ranging from an order compelling further discovery, to a permissive adverse inference instruction, to in the most severe cases default judgment or dismissal. Negligent loss of evidence through a facility's ordinary (and unsuspended) retention policy is treated very differently by most courts than evidence that disappeared after a preservation duty had already attached and been communicated.
+
+**Prejudice has to be demonstrated, not assumed.** A party seeking spoliation sanctions should be prepared to show specifically what the missing evidence would have shown and why no adequate substitute exists — testimony from the clinicians involved, secondary records that corroborate or contradict the gap, or an expert opinion that the missing data was necessary to evaluate a disputed standard-of-care question. A vague assertion that "the record is incomplete" rarely moves a court; a specific account of what evidence should exist, why it does not, and why its absence genuinely disadvantages the case is what motions for sanctions are won on.
+
+## How ApexMedLaw Supports Case Evaluation on Record Integrity Issues
+
+Our physician experts review the chart with an eye toward whether the documentation is internally consistent with the clinical course it purports to describe — flagging vital-sign trends, nursing entries, and procedure timing that do not add up on their own clinical logic, which is often the first signal that a deeper audit-trail or preservation inquiry is warranted before the case theory is finalized. That clinical read of the record, paired with the audit-trail and discovery work handled by litigation counsel, is frequently what turns a suspicion about a missing or altered record into evidence a court will act on.
+
+Contact ApexMedLaw to discuss the medical record review your case needs.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Spoliation standards, the scope of the duty to preserve, and available sanctions vary significantly by jurisdiction.*`,
+  },
 ];
 
 /**
