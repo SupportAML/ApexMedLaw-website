@@ -6485,6 +6485,64 @@ Contact ApexMedLaw to discuss the medical record review your case needs.
 
 *This post is for informational purposes and does not constitute legal advice. Spoliation standards, the scope of the duty to preserve, and available sanctions vary significantly by jurisdiction.*`,
   },
+  {
+    slug: 'myasthenic-crisis-misdiagnosis-expert-witness',
+    title: 'Myasthenic Crisis Misdiagnosis: What Attorneys Need to Know About Respiratory Failure in Neuromuscular Malpractice Cases',
+    metaDescription: 'A guide for attorneys on how delayed recognition of myasthenic crisis and bulbar weakness leads to preventable respiratory failure, and what a neurology expert witness must establish on standard of care and causation.',
+    date: '2026-10-23',
+    author: 'AML Editorial',
+    keywords: [
+      'myasthenic crisis malpractice',
+      'myasthenia gravis misdiagnosis',
+      'neuromuscular respiratory failure expert witness',
+      'neurology expert witness',
+      'delayed intubation malpractice',
+      'bulbar weakness misdiagnosis',
+    ],
+    content: `Myasthenic crisis is one of the few neurological emergencies where the patient can look deceptively stable right up until they are not. A patient with worsening myasthenia gravis can speak in full sentences, maintain a normal oxygen saturation, and still be hours from a respiratory arrest that pulse oximetry will not predict. When emergency and hospital physicians rely on the wrong vital signs to decide whether a myasthenic patient needs airway support, the result is often a crash intubation under far worse circumstances than a timely, controlled one — and a malpractice case that turns almost entirely on whether the standard of care required bedside respiratory testing the treating team never ordered.
+
+## Why Myasthenic Crisis Is a Monitoring Problem, Not Just a Diagnosis Problem
+
+**Oxygen saturation is normal until it is catastrophic.** Myasthenic crisis causes respiratory failure through progressive neuromuscular weakness of the diaphragm and accessory respiratory muscles, not through a primary gas-exchange problem. A patient can maintain adequate oxygenation on room air by increasing respiratory rate and effort right up until fatigue sets in, at which point decompensation is abrupt. A clinical team that monitors pulse oximetry alone, rather than bedside measures of respiratory mechanics, is monitoring the wrong number for this disease process.
+
+**Bulbar symptoms are the warning sign most often minimized.** Worsening dysphagia, a change in voice quality, difficulty clearing secretions, and a weakening cough are direct markers of the same muscle groups that will fail next in the respiratory chain. These symptoms are frequently documented in nursing notes and then not escalated to the physician, or are attributed to an unrelated cause — a "sore throat," reflux, or anxiety — rather than recognized as bulbar weakness in a patient with known or suspected myasthenia gravis.
+
+**Negative inspiratory force and vital capacity are the tests that actually predict crisis.** Bedside measurement of negative inspiratory force (NIF) and forced vital capacity (FVC) is the standard tool for quantifying respiratory muscle reserve in myasthenic patients, and serial trending of these values — not a single reassuring measurement — is what identifies a patient heading toward crisis while there is still time to intervene electively. A chart that shows worsening bulbar symptoms and increasing respiratory effort with no NIF/FVC ever ordered is the pattern plaintiff's counsel should be looking for.
+
+## Common Patterns Behind Delayed Recognition
+
+**Misattribution to a more common diagnosis.** Myasthenic weakness, fatigue, and dysphagia are frequently misread as stroke, Guillain-Barré syndrome, anxiety, or simple deconditioning, particularly in a patient without a prior myasthenia gravis diagnosis presenting for the first time. The fluctuating, fatigable nature of myasthenic weakness — worse with exertion, better with rest — is the clinical clue most often missed when the history is taken only at a single point in time rather than tracked across the day.
+
+**Triggers that should prompt heightened surveillance, not routine management.** Infection, surgery, certain antibiotics (notably aminoglycosides and fluoroquinolones), and rapid corticosteroid tapering are recognized precipitants of myasthenic crisis in a patient with an established diagnosis. A hospitalized myasthenic patient who develops a febrile illness or is started on a contraindicated medication without a corresponding increase in respiratory monitoring presents a straightforward standard-of-care question.
+
+**Underuse of neurology consultation.** Many myasthenic crisis cases involve a patient managed entirely by a hospitalist or emergency physician without neurology or neurocritical care input until decompensation has already occurred. Whether the standard of care required earlier subspecialty involvement — and whether that involvement would have changed the monitoring plan — is frequently the crux of the liability analysis.
+
+**Delayed escalation after a crash intubation.** Even after a patient is intubated, failure to initiate plasmapheresis or IVIG promptly, or failure to involve neurology in distinguishing myasthenic crisis from cholinergic crisis (which can present similarly but requires opposite management), can prolong ventilator dependence and extend the injury well past the point of the initial monitoring failure.
+
+## What a Neurology Expert Witness Must Establish
+
+**Whether the clinical signs present at the time were sufficient to trigger respiratory monitoring under the standard of care.** This requires a detailed, chronological review of nursing flowsheets, physician progress notes, and vital signs — not just the final events before intubation — to establish when bulbar and respiratory symptoms first became apparent and whether they were adequately communicated up the chain.
+
+**Whether NIF/FVC testing, when ordered, was trended appropriately and acted on.** A single reassuring bedside spirometry value early in a hospitalization does not excuse a failure to repeat testing as the patient's clinical trajectory worsened. The expert's causation opinion typically depends on showing when the trend — not a single data point — would have crossed the threshold a competent clinician should have acted on.
+
+**Whether the timing of intubation, plasmapheresis, or IVIG affected the outcome.** In cases involving prolonged ventilator dependence, aspiration injury during a crash intubation, or anoxic injury from a witnessed arrest, causation analysis must connect the specific delay to the specific downstream injury, distinguishing it from the expected clinical course of a severe crisis managed appropriately from the outset.
+
+## How ApexMedLaw Supports Myasthenic Crisis Litigation
+
+Our neurology and neuromuscular medicine experts bring active clinical experience managing myasthenia gravis across both outpatient and acute crisis settings, which allows them to evaluate the chart against the specific bedside measures — not just vital signs in isolation — that the standard of care actually requires for this disease. We provide:
+
+- Detailed chronological review of nursing and physician documentation to establish when warning signs were apparent
+- Analysis of NIF/FVC trending and respiratory monitoring adequacy
+- Evaluation of medication and infection triggers against the treating team's response
+- Causation analysis connecting delayed escalation to specific downstream injury
+- Deposition and trial-ready testimony distinguishing myasthenic from cholinergic crisis management
+
+Contact ApexMedLaw to discuss the neurology expert support your myasthenic crisis case needs.
+
+---
+
+*This article is for informational purposes and does not constitute legal advice. Medical-legal standards vary by jurisdiction.*`,
+  },
 ];
 
 /**
