@@ -6543,6 +6543,58 @@ Contact ApexMedLaw to discuss the neurology expert support your myasthenic crisi
 
 *This article is for informational purposes and does not constitute legal advice. Medical-legal standards vary by jurisdiction.*`,
   },
+  {
+    slug: 'expert-witness-immunity-medical-malpractice-litigation',
+    title: 'Expert Witness Immunity: What Attorneys Need to Know Before an Adversary Threatens Your Expert',
+    metaDescription: 'A guide for attorneys on the scope and limits of expert witness immunity in medical malpractice litigation, and how to respond when opposing counsel threatens a retained physician expert with a personal lawsuit.',
+    date: '2026-10-24',
+    author: 'AML Editorial',
+    keywords: [
+      'expert witness immunity',
+      'medical expert witness lawsuit',
+      'witness immunity doctrine',
+      'suing an expert witness',
+      'expert witness retaliation claim',
+      'medical malpractice expert witness protection',
+    ],
+    content: `A losing litigant's first instinct is sometimes to go after the expert rather than the verdict. A letter arrives threatening the physician expert personally — with a defamation claim, a board complaint, or a malpractice suit over the opinion they gave — and the implicit message is that testifying for this side carries a personal cost the expert did not sign up for. Most of the time, the threat goes nowhere, because witness immunity is one of the oldest and most consistently applied doctrines in American law. But "most of the time" is not "always," and an attorney who cannot explain to a nervous expert exactly where the immunity line sits — and where it does not — risks losing a good witness to intimidation that the law was specifically designed to prevent.
+
+## What Witness Immunity Actually Protects
+
+**The core rule is absolute immunity for testimony itself.** Courts have long held that a witness — lay or expert — cannot be sued by an opposing party for the content of testimony given in a judicial proceeding, including deposition testimony and, in most jurisdictions, the written report prepared in anticipation of that testimony. The doctrine is not a narrow technicality; it is treated as close to absolute, meaning it typically cannot be defeated by an allegation that the testimony was negligent, biased, or simply wrong.
+
+**The policy rationale is the reason the rule is so strong.** Courts reason that litigation depends on witnesses testifying candidly, without calculating the risk of a retaliatory lawsuit from the side they testified against. An expert who had to weigh "is this opinion defensible enough to avoid being personally sued by the other side" before every answer would be a worse witness, not a more careful one — and the entire adversarial system depends on each side's experts being willing to give their genuine opinion under oath. Immunity exists to protect that candor, not to protect the expert personally.
+
+## Where Immunity Ends: The Claims It Does Not Bar
+
+**Immunity runs against the opposing party, not against the retaining attorney or client.** A claim that the expert breached a professional duty owed to the side that hired them — most often framed as a claim for negligent or incompetent review, rather than for the testimony itself — is analyzed very differently in many jurisdictions, and some courts have allowed such claims to proceed against the expert's own retaining party in a way they would never allow against the opposing party. An expert can generally be sued by the client who retained them over how the engagement was performed; they cannot be sued by the other side over what they ultimately testified to.
+
+**Conduct outside the scope of testimony is not protected simply because it relates to the case.** Immunity covers the testimony and the preparation closely tied to it. It does not extend to independent torts committed in the course of the engagement — fraud in billing the retaining party, a genuine defamatory statement made outside the proceeding (as opposed to within it), or conduct giving rise to a perjury or obstruction referral, which is handled through the criminal process and sanctions motions, not a civil suit against the witness. Distinguishing "this is an attack on my opinion" from "this is an allegation of conduct outside the testimony" is the first question to ask when a threat letter arrives.
+
+**A handful of jurisdictions carve out narrower exceptions for licensed professionals testifying within their own field**, permitting some form of professional liability or licensing board exposure for grossly negligent opinions even where a civil damages suit from the opposing party would be barred. These exceptions are jurisdiction-specific and far from universal — they should never be assumed to apply, and should never be assumed not to apply, without checking the controlling law in the forum state.
+
+## The Threat Opposing Counsel Actually Has Available
+
+**A board complaint is not barred by witness immunity the way a lawsuit is, and opposing counsel knows it.** Licensing boards generally retain jurisdiction to review a physician's conduct regardless of civil immunity doctrines, and a board complaint over expert testimony — however meritless — still requires the physician to respond, often with counsel, and creates a disclosable event in future credentialing and litigation. This is the more realistic pressure tactic in practice, not a civil suit that counsel's own research will tell them is very likely to be dismissed.
+
+**Motions attacking the expert's qualifications or methodology are the legitimate version of this same pressure, and they are not improper.** A Daubert or Frye challenge, a motion to strike testimony as unreliable, or aggressive cross-examination on bias and compensation are the system working as designed — robust testing of the opinion through the adversarial process, not an attack on the expert personally. Attorneys should help their experts distinguish genuine legal challenges to the opinion, which deserve a serious substantive response, from personal threats designed to produce fear rather than to litigate the merits.
+
+## What Retaining Attorneys Should Do When an Adversary Threatens Their Expert
+
+**Document the threat precisely and assess it against the controlling jurisdiction's immunity case law before reacting.** A short, well-supported letter back to opposing counsel citing the forum's own witness immunity precedent often ends the matter immediately, because the threat is usually sent without serious expectation that a suit would survive a motion to dismiss — its purpose is to unsettle the witness before trial, not to actually be litigated.
+
+**Prepare the expert in advance, not after the letter arrives.** An expert who understands the scope and limits of their own immunity before taking the stand is far less likely to be rattled by an intimidation tactic mid-deposition or at trial, and far more likely to give the same candid testimony they would have given without the threat. This is a conversation worth having at the retention stage for any case where the opposing party has a history of aggressive tactics against experts, not something to address for the first time after a threat letter is already in hand.
+
+## How ApexMedLaw Supports Attorneys and Their Retained Experts
+
+Our physician experts are briefed on the scope of witness immunity in the forum jurisdiction as part of case preparation, so they understand precisely what protection the law affords their testimony and are not caught off guard by an opposing party's attempt to use personal threats as a substitute for substantive challenge. That preparation lets the expert focus on the medicine and the opinion, not on a tactic the law was built to neutralize.
+
+Contact ApexMedLaw to discuss the expert witness support your case needs.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Witness immunity doctrines and their exceptions vary significantly by jurisdiction.*`,
+  },
 ];
 
 /**
