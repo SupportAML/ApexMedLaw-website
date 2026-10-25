@@ -6595,6 +6595,52 @@ Contact ApexMedLaw to discuss the expert witness support your case needs.
 
 *This post is for informational purposes and does not constitute legal advice. Witness immunity doctrines and their exceptions vary significantly by jurisdiction.*`,
   },
+  {
+    slug: 'medical-review-panels-pre-suit-screening-malpractice',
+    title: 'Medical Review Panels: What Attorneys Need to Know About Pre-Suit Screening Requirements',
+    metaDescription: 'A guide for attorneys on medical review panel and pre-litigation screening requirements in medical malpractice cases, and how to prepare an expert witness for the panel process before a complaint is ever filed.',
+    date: '2026-10-25',
+    author: 'AML Editorial',
+    keywords: [
+      'medical review panel',
+      'pre-suit screening medical malpractice',
+      'medical malpractice screening panel',
+      'pre-litigation panel medical malpractice',
+      'medical review panel expert witness',
+      'medical malpractice panel requirements',
+    ],
+    content: `In a meaningful number of jurisdictions, an attorney cannot simply file a medical malpractice complaint and proceed straight to discovery. The claim must first pass through a medical review panel, or equivalent pre-suit screening process, before it ever reaches a courtroom. Attorneys who practice primarily in jurisdictions without this requirement sometimes treat it as a formality to be checked off; attorneys who have been through one know that the panel stage can shape the entire trajectory of the case — including whether the defense settles, how the eventual trial record is built, and which expert ends up carrying the most weight with a jury who will later be told what the panel concluded.
+
+## What a Medical Review Panel Actually Is
+
+**The panel is a pre-suit gatekeeper, not a mini-trial, though it can feel like one.** States that use this structure — among them Louisiana, Indiana, Nebraska, and a handful of others with their own variations — generally require the claimant to submit the case to a panel composed of physicians (and sometimes an attorney chair) before a malpractice suit can be filed in court, or require the panel process to run in parallel with a tolled or stayed court filing. The panel reviews the medical records and the parties' submissions and issues an opinion on whether the evidence supports a breach of the standard of care and causation.
+
+**The panel's opinion is advisory, not binding — but it is rarely ignored.** In most of these states, the panel's conclusion does not resolve the case or bar either side from proceeding to trial regardless of the outcome. What it does is create a document that both sides will reference for the rest of the litigation: a panel opinion favorable to the claimant materially increases settlement pressure on the defense, and an opinion favorable to the defense becomes something the plaintiff's trial expert has to explain away, often in front of the same jury that will eventually hear it read into evidence or referenced on cross-examination.
+
+## Why the Expert Chosen for the Panel Stage Matters as Much as the Trial Expert
+
+**Many attorneys reserve their strongest expert for trial and economize on the panel submission — this is usually a mistake.** Because the panel's opinion follows the case and colors how the defense, the court, and eventually the jury perceive its merit, a weak or poorly prepared submission at the panel stage can do lasting damage even if a stronger expert is brought in later for trial. The panel is often the first — and sometimes the only — opportunity to establish the narrative of what went wrong before the defense has fully built its own.
+
+**The written submission has to do more work than a typical expert report, because there is no live testimony to supplement it.** Panel review is frequently conducted on the papers, meaning the physician's written opinion must independently establish standard of care, breach, and causation with the same rigor an attorney would expect from direct examination — without the benefit of a follow-up question if a panel member misreads a point. An expert accustomed to writing reports that anticipate deposition questions needs to adjust for a format where the writing itself is the entire presentation.
+
+**Panel composition rules create their own qualification issues.** Some panel statutes impose specialty-matching or licensure requirements on panel members themselves, and separately on the experts submitting opinions to the panel, that differ from the qualification standard that will later apply at trial under the forum's expert witness rules. An expert who is unquestionably qualified to testify at trial may still need credentials tailored to satisfy the panel's own threshold requirements, and attorneys should confirm this before the submission deadline, not after a panel raises it.
+
+## Timing and Tolling Traps That Catch Unprepared Attorneys
+
+**The statute of limitations rarely stops running simply because a panel review is pending.** Most panel statutes toll the limitations period for filing suit while the panel process is underway, but the tolling mechanics — when the clock stops, when it restarts, and what triggers the restart — vary by state and are a frequent source of malpractice-on-malpractice claims against the filing attorney. Confirming the exact tolling rule in the forum state, in writing, before relying on it is not optional diligence; it is the floor.
+
+**Panel timelines are often longer than attorneys budget for, and delay compounds.** Panel review can take many months, sometimes longer than a year, particularly where panel members must be selected from a pool and the opposing party has input into that selection. An attorney who assumes the panel stage is a brief procedural pause before "the real case begins" risks mismanaging client expectations and, more consequentially, risks under-preparing the expert submission because the deadline felt distant until it was not.
+
+## How ApexMedLaw Supports Attorneys Through the Panel Process
+
+Our physician experts prepare written opinions built to the evidentiary standard a panel process demands — standard of care, breach, and causation stated with the same precision we would bring to a trial report — because we know the panel record follows the case long after the panel itself has issued its opinion. We also confirm, before any submission, that the expert's credentials satisfy the forum's specific panel qualification requirements, not only the trial qualification standard attorneys are more used to checking.
+
+Contact ApexMedLaw to discuss expert witness support for your jurisdiction's pre-suit screening process.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Medical review panel requirements, procedures, and tolling rules vary significantly by jurisdiction and should be confirmed against the controlling statute in the forum state.*`,
+  },
 ];
 
 /**
