@@ -6694,6 +6694,59 @@ Contact ApexMedLaw to discuss expert witness support for a case where hospital q
 
 *This post is for informational purposes and does not constitute legal advice. Peer review privilege statutes, their scope, and their exceptions vary significantly by jurisdiction and should be confirmed against the controlling statute and case law in the forum state.*`,
   },
+  {
+    slug: 'sham-affidavit-doctrine-medical-expert-witness',
+    title: 'The Sham Affidavit Doctrine: What Attorneys Need to Know Before Submitting a Late Expert Affidavit',
+    metaDescription: 'A guide for attorneys on the sham affidavit doctrine in medical malpractice litigation — when a late expert affidavit contradicting prior deposition testimony gets struck, and how to prevent it before summary judgment.',
+    date: '2026-10-27',
+    author: 'AML Editorial',
+    keywords: [
+      'sham affidavit doctrine',
+      'expert witness contradictory affidavit',
+      'summary judgment expert testimony',
+      'sham affidavit medical malpractice',
+      'expert deposition contradiction',
+      'expert witness credibility summary judgment',
+    ],
+    content: `A case can look fully defensible right up until a summary judgment hearing, when opposing counsel produces a transcript excerpt showing the retained expert conceded a point at deposition that the expert's own later affidavit now flatly denies. The instinct on the side that needs the contradiction resolved is to file a clarifying declaration and move on. Courts have a name for that declaration when it exists only to manufacture a fact dispute that the deposition testimony had already closed off: a sham affidavit. Attorneys who do not see the doctrine coming lose the summary judgment motion and, often, the credibility of the expert for whatever is left of the case.
+
+## What the Sham Affidavit Doctrine Actually Does
+
+**The doctrine lets a court disregard an affidavit that contradicts the affiant's own prior sworn testimony without creating a genuine issue of material fact.** Federal courts applying Rule 56, and most state analogs, hold that a party cannot defeat summary judgment by having a witness — expert or otherwise — submit a later affidavit that squarely conflicts with that same witness's earlier deposition answers, where the only apparent purpose is to patch a hole the deposition exposed. The logic is straightforward: if contradictory sworn statements alone were enough to create a triable issue, summary judgment would mean nothing, because a losing party could always generate a fact dispute after the fact.
+
+**Not every change in testimony triggers the doctrine.** Courts distinguish a genuine attempt to explain or clarify an ambiguous or incomplete deposition answer — permissible — from a bald, unexplained reversal offered for the apparent purpose of avoiding an unfavorable ruling — the kind the doctrine exists to catch. An expert who misspoke under the pressure of a long deposition and later supplies a reasoned explanation for the correction stands on different ground than one who simply swaps the answer that is now inconvenient.
+
+## How This Plays Out With Medical Expert Witnesses Specifically
+
+**The fact pattern repeats with some regularity in medical malpractice litigation.** A causation or standard-of-care expert, often months removed from drafting the original report, gives a deposition answer that undercuts a key element of the case — conceding, for example, that the delay at issue probably did not affect outcome, or that the treatment given was within an acceptable range of practice. Counsel on the losing end of that concession, facing a summary judgment motion built on the transcript, submits a new affidavit from the same expert "clarifying" that the earlier answer was taken out of context or incomplete. If the affidavit does not actually explain the inconsistency — it simply restates the position favorable to the case — courts applying the sham affidavit doctrine will strike it and rule on summary judgment as if the deposition testimony stands alone.
+
+**The doctrine cuts the other way just as often, and defense counsel should watch for it too.** A defense expert who concedes a standard-of-care departure at deposition and then submits an affidavit retreating from that concession faces the identical analysis. The doctrine is not a plaintiff's or defendant's tool — it applies to whichever side is trying to undo testimony that already closed a factual question.
+
+## Preventing the Problem Before It Reaches a Motion
+
+**The best defense against a sham affidavit challenge is preparing the expert so the problem never arises.** An expert who is thoroughly familiar with the full record, has reviewed the deposition transcripts of treating providers before being deposed, and understands exactly what the retaining attorney needs the opinion to establish is far less likely to give an answer that later needs to be walked back. Deposition preparation that stress-tests the expert's opinion against the weakest points in the record — rather than only rehearsing the strongest points — surfaces these contradictions while there is still time to supplement the report properly, through the Rule 26(e) process, rather than through an eleventh-hour affidavit.
+
+**When an expert's deposition answer genuinely needs correction, do it the right way and do it early.** If a reasonable basis exists for a correction — new records were produced, the expert misunderstood a question, or additional analysis changed the opinion — the better vehicle is a timely supplemental report or a properly noticed errata sheet, not an affidavit filed in direct response to an impending summary judgment deadline. Courts are far more receptive to a correction that predates the motion and follows the ordinary disclosure rules than to one that appears only once the stakes of the existing testimony become clear.
+
+**Attorneys should read every line of an expert's deposition before deciding how to respond to a motion built on it.** A sham affidavit fight is itself a sign that the deposition was not adequately prepared for or not adequately reviewed afterward. Counsel who catch an ambiguous or damaging answer promptly can sometimes address it through a motion to reopen the deposition for a limited purpose, or through follow-up questions on redirect if the deposition is not yet concluded — options that are far cleaner than an after-the-fact affidavit and do not invite a sham affidavit challenge at all.
+
+## What Courts Look For When Deciding Whether to Strike
+
+- **Whether the affidavit offers a specific, record-based explanation for the change** — ambiguity in the original question, a document the expert had not yet reviewed, a misstatement corrected promptly — rather than a conclusory assertion that the earlier answer was wrong.
+- **The timing of the affidavit relative to the summary judgment motion** — an affidavit submitted in direct response to a motion, with no independent reason for its timing, draws far more scrutiny than one generated through the ordinary course of discovery.
+- **Whether the deposition testimony was actually clear and unambiguous on the point in question** — the doctrine applies with the most force where the prior testimony left no real room for the interpretation the affidavit now offers.
+- **Whether the contradiction goes to a material fact that would otherwise defeat summary judgment** — courts generally reserve the doctrine for contradictions that matter to the outcome, not every inconsistency in a long deposition transcript.
+
+## How ApexMedLaw Supports Attorneys Through Deposition and Beyond
+
+Our physician experts are prepared to withstand close examination on the full record before a deposition ever begins, with particular attention to the weakest points in the case rather than only its strongest arguments. When a correction is genuinely warranted after testimony, we work with retaining counsel to document it through the proper supplemental disclosure process, so the record never invites a sham affidavit challenge in the first place.
+
+Contact ApexMedLaw to discuss expert witness preparation for a case headed toward deposition or summary judgment.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. The sham affidavit doctrine's application, including the standard for what counts as an adequate explanation for a contradiction, varies across federal circuits and state courts and should be confirmed against controlling authority in the forum jurisdiction.*`,
+  },
 ];
 
 /**
