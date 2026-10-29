@@ -34,7 +34,7 @@ export function HomePage() {
   return (
     <>
     <SEO
-      title="Physician-Led Medical-Legal Expert Witness Consulting"
+      title="Medical Expert Witness Services for Attorneys"
       description="ApexMedLaw connects attorneys with Duke-trained, board-certified physician expert witnesses across 20+ specialties — neurology, critical care, gastroenterology, pain medicine, and more. Nationwide coverage, courtroom-ready testimony, and case review within 24 hours."
       path="/"
     />

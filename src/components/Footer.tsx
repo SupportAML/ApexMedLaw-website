@@ -20,7 +20,7 @@ export function Footer() {
           {/* Brand Column */}
           <div className="space-y-4">
             <Link to="/" aria-label="ApexMedLaw home" className="inline-block">
-              <img
+              <img loading="lazy" decoding="async"
                 src="/logo.png"
                 alt="ApexMedLaw"
                 className="h-20 w-auto object-contain bg-white rounded-md p-3"

@@ -18,7 +18,7 @@ import {
   Calendar,
 } from 'lucide-react';
 import { getPhysicianBySlug, getSpecialtyName, type Physician } from '@/data/physicians';
-import { getPostsByDivision, type BlogPost } from '@/blog/posts';
+import { getPostsByDivision, type BlogPostMeta as BlogPost } from '@/blog/meta';
 
 function buildPhysicianDescription(p: Physician): string {
   // Take the first ~200 chars of the bio, then trim back to the nearest sentence end.

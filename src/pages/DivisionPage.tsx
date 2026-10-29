@@ -8,7 +8,7 @@ import { CaseReviewCTA } from '@/components/CaseReviewCTA';
 import { ArrowRight, ExternalLink, Award, FileText, HelpCircle, Scale, ClipboardCheck, Calendar } from 'lucide-react';
 import { getDivisionBySlug } from '@/data/divisions';
 import { getPhysiciansBySpecialty } from '@/data/physicians';
-import { getPostsByDivision } from '@/blog/posts';
+import { getPostsByDivision } from '@/blog/meta';
 import { SEO } from '@/components/SEO';
 import { DivisionSchema, FAQSchema, BreadcrumbSchema } from '@/components/SEOSchemas';
 
@@ -153,7 +153,7 @@ export function DivisionPage() {
                     className="group bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
                   >
                     <div className="aspect-[3/4] overflow-hidden bg-clinical-100">
-                      <img
+                      <img loading="lazy" decoding="async"
                         src={doc.photo}
                         alt={doc.name}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -368,7 +368,7 @@ export function DivisionPage() {
                   >
                     <div className="flex items-center gap-2 text-xs text-slate-500 mb-3">
                       <Calendar size={12} />
-                      {new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+                      {new Date(post.date).toLocaleDateString('en-US', { timeZone: 'UTC', year: 'numeric', month: 'short', day: 'numeric' })}
                     </div>
                     <h3 className="font-display font-bold text-base text-navy mb-2 leading-snug group-hover:text-electric transition-colors">
                       {post.title}

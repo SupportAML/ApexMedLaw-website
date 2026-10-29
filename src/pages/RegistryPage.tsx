@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Navigation } from '@/components/Navigation';
 import { SEO } from '@/components/SEO';
+import { BreadcrumbSchema } from '@/components/SEOSchemas';
 import { Button } from '@/components/ui/button';
 import {
   Phone,
@@ -18,9 +19,10 @@ export function RegistryPage() {
   return (
     <>
       <SEO
-        title="Our Expert Witnesses"
+        title="Physician Expert Witness Directory"
         description="ApexMedLaw's network of board-certified expert witnesses. Browse by specialty: Anesthesiology, Critical Care, Emergency Medicine, Epilepsy, Family Medicine, Gastroenterology, Internal Medicine, Interventional Spine, Neurocritical Care, Neuroimmunology, Neurology, Neuromuscular Medicine, Neurosurgery, Orthopedic Surgery, Pediatric Neurology, Pharmacy, Physical Medicine and Rehabilitation, Radiology, Spinal Cord Injury, Spine Surgery, Stroke and Vascular Neurology, Urology, Vascular Surgery, and Wilderness Medicine."
       />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Experts', url: '/experts' }]} />
       <Navigation />
       <main className="pt-20 lg:pt-24">
         {/* Hero */}
@@ -104,7 +106,7 @@ export function RegistryPage() {
                       className="group bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
                     >
                       <div className="aspect-[3/4] overflow-hidden bg-clinical-100">
-                        <img
+                        <img loading="lazy" decoding="async"
                           src={doc.photo}
                           alt={doc.name}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

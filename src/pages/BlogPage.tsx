@@ -1,9 +1,10 @@
 import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Calendar, Clock, Tag } from 'lucide-react';
-import { blogPosts } from '@/blog/posts';
+import { blogPosts } from '@/blog/meta';
 import { Navigation } from '@/components/Navigation';
 import { SEO } from '@/components/SEO';
+import { BreadcrumbSchema } from '@/components/SEOSchemas';
 
 // Division-keyed gradient palettes for blog card headers
 const categoryGradients: Record<string, string> = {
@@ -32,11 +33,6 @@ function getCategory(keywords: string[]): string {
   return 'General';
 }
 
-function estimateReadTime(content: string): number {
-  const words = content.split(/\s+/).length;
-  return Math.max(1, Math.ceil(words / 230));
-}
-
 const allCategories = ['All', 'Neurology', 'Critical Care', 'Gastroenterology', 'Pain Medicine'];
 
 export function BlogPage() {
@@ -52,10 +48,11 @@ export function BlogPage() {
   return (
     <div className="relative">
       <SEO
-        title="Insights & Resources"
+        title="Medical Expert Witness Insights for Attorneys"
         description="Expert perspectives on medical-legal litigation, expert witness standards, and consulting insights for attorneys."
         path="/blog"
       />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }]} />
       <Navigation />
       <main className="relative pt-24 pb-20 min-h-screen bg-clinical">
         <div className="max-w-6xl mx-auto px-6 lg:px-12">
@@ -110,14 +107,14 @@ export function BlogPage() {
                   <div className="flex items-center gap-4 mb-3 text-sm text-text-secondary">
                     <span className="flex items-center gap-1.5">
                       <Calendar size={14} />
-                      {new Date(featuredPost.date).toLocaleDateString('en-US', {
+                      {new Date(featuredPost.date).toLocaleDateString('en-US', { timeZone: 'UTC',
                         year: 'numeric', month: 'long', day: 'numeric',
                       })}
                     </span>
                     <span>·</span>
                     <span className="flex items-center gap-1">
                       <Clock size={14} />
-                      {estimateReadTime(featuredPost.content)} min read
+                      {featuredPost.readMinutes} min read
                     </span>
                     <span>·</span>
                     <span>{featuredPost.author}</span>
@@ -153,14 +150,14 @@ export function BlogPage() {
                       <div className="flex items-center gap-3 mb-3 text-xs text-text-secondary">
                         <span className="flex items-center gap-1">
                           <Calendar size={12} />
-                          {new Date(post.date).toLocaleDateString('en-US', {
+                          {new Date(post.date).toLocaleDateString('en-US', { timeZone: 'UTC',
                             month: 'short', day: 'numeric', year: 'numeric',
                           })}
                         </span>
                         <span>·</span>
                         <span className="flex items-center gap-1">
                           <Clock size={12} />
-                          {estimateReadTime(post.content)} min
+                          {post.readMinutes} min
                         </span>
                       </div>
                       <h2 className="font-display text-lg font-bold text-foreground mb-2 group-hover:text-electric transition-colors leading-snug">

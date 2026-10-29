@@ -4,13 +4,19 @@ import { defineConfig } from "vite"
 import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 // https://vite.dev/config/
-export default defineConfig(({ isSsrBuild }) => ({
+export default defineConfig(({ command, isSsrBuild }) => ({
   base: '/',
-  plugins: [inspectAttr(), react()],
+  // inspectAttr adds code-path="src/..." attributes for the dev inspector; keep it out of production HTML.
+  plugins: [command === 'serve' && inspectAttr(), react()],
   resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
+    alias: [
+      // Client builds swap the post-body module for one that never imports
+      // src/blog/posts.ts, keeping ~1 MB of post text out of the bundle.
+      ...(isSsrBuild
+        ? []
+        : [{ find: /^@\/blog\/body$/, replacement: path.resolve(__dirname, "./src/blog/body.client.ts") }]),
+      { find: "@", replacement: path.resolve(__dirname, "./src") },
+    ],
   },
   ssr: {
     // react-helmet-async is CJS — bundle it so the SSR ESM build can import its named exports.

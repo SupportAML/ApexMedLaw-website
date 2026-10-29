@@ -5,3 +5,5 @@ dist-ssr
 .env.local
 *.log
 .DS_Store
+src/blog/index.generated.ts
+public/blog-data

@@ -10,9 +10,10 @@
  */
 export const BASE_URL = 'https://www.apexmedlaw.com';
 
-// No dedicated og-image.jpg asset exists in public/; fall back to the site logo
-// so og:image and BlogPosting image always resolve.
 export const LOGO_IMAGE = `${BASE_URL}/logo.png`;
+
+/** 1200x630 social card (public/og-default.jpg) for og:image and article images. */
+export const OG_IMAGE = `${BASE_URL}/og-default.jpg`;
 
 export interface FAQItem {
   question: string;
@@ -82,7 +83,7 @@ export function buildBlogPostingSchema({
     '@type': 'BlogPosting',
     headline: title,
     description,
-    image: image || LOGO_IMAGE,
+    image: image || OG_IMAGE,
     datePublished: date,
     dateModified: dateModified || date,
     author: {

@@ -84,8 +84,8 @@ test('buildBlogPostingSchema produces a BlogPosting with author, dates, image an
   assert.equal(schema.datePublished, '2026-03-27');
   // dateModified defaults to datePublished when not provided.
   assert.equal(schema.dateModified, '2026-03-27');
-  // Falls back to the site logo for posts with no image.
-  assert.equal(schema.image, `${BASE}/logo.png`);
+  // Falls back to the 1200x630 social card for posts with no image.
+  assert.equal(schema.image, `${BASE}/og-default.jpg`);
   assert.equal(schema.url, `${BASE}/blog/my-slug`);
   assert.equal(schema.mainEntityOfPage['@id'], `${BASE}/blog/my-slug`);
   assert.equal(schema.publisher.logo.url, `${BASE}/logo.png`);

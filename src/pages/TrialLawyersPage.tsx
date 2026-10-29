@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { SEO } from '@/components/SEO';
+import { BreadcrumbSchema } from '@/components/SEOSchemas';
 import {
   ArrowRight,
   Phone,
@@ -173,13 +174,14 @@ export function TrialLawyersPage() {
         description="Board-certified, fellowship-trained physician expert witnesses for plaintiff PI and medical-malpractice attorneys. Trial-tested, credible testimony, rapid turnaround. Request a free case review."
         path="/trial-lawyers"
       />
+      <BreadcrumbSchema items={[{ name: 'Home', url: '/' }, { name: 'Trial Lawyers', url: '/trial-lawyers' }]} />
 
       {/* Minimal, distraction-light header: logo + single primary CTA */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100">
         <div className="w-full px-6 lg:px-12">
           <div className="flex items-center justify-between h-20">
             <Link to="/" aria-label="ApexMedLaw home" className="flex items-center shrink-0">
-              <img src="/logo.png" alt="ApexMedLaw" className="h-12 lg:h-14 w-auto object-contain" />
+              <img loading="lazy" decoding="async" src="/logo.png" alt="ApexMedLaw" className="h-12 lg:h-14 w-auto object-contain" />
             </Link>
             <Button
               onClick={scrollToForm}

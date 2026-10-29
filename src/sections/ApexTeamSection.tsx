@@ -87,7 +87,7 @@ export function ApexTeamSection() {
               <div className="flex-shrink-0 md:w-[280px] lg:w-[320px]">
                 <div className="relative overflow-hidden rounded-xl">
                   <div className="aspect-[4/5]">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src={leader.photo}
                       alt={leader.name}
                       className="w-full h-full object-cover object-top"

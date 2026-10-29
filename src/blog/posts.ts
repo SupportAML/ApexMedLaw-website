@@ -1,3 +1,5 @@
+import { inferPostDivisions } from './taxonomy';
+
 export interface BlogPostFAQ {
   question: string;
   answer: string;
@@ -7236,7 +7238,7 @@ export const postFaqs: Record<string, BlogPostFAQ[]> = {
 };
 
 export function getPostFaqs(slug: string): BlogPostFAQ[] {
-  return postFaqs[slug] ?? [];
+  return postFaqs[slug] ?? blogPosts.find((p) => p.slug === slug)?.faqs ?? [];
 }
 
 /**
@@ -7245,7 +7247,7 @@ export function getPostFaqs(slug: string): BlogPostFAQ[] {
  * division page surfaces related reading). Single source of truth so the two
  * directions never drift. Division slugs must match `divisions.ts`.
  */
-export const postDivisions: Record<string, string[]> = {
+const explicitPostDivisions: Record<string, string[]> = {
   'tbi-litigation-neurology-expert-witness': ['neurology', 'neurosurgery', 'neurocritical-care', 'physical-medicine-rehabilitation'],
   'icu-standard-of-care-critical-care-expert': ['critical-care', 'internal-medicine'],
   'endoscopy-complications-gi-expert-witness': ['gastroenterology'],
@@ -7266,6 +7268,11 @@ export const postDivisions: Record<string, string[]> = {
   'acute-compartment-syndrome-expert-witness': ['orthopedic-surgery', 'emergency-medicine', 'vascular-surgery', 'neuromuscular-medicine'],
   'subarachnoid-hemorrhage-misdiagnosis-expert-witness': ['stroke-vascular-neurology', 'neurology', 'emergency-medicine', 'radiology'],
 };
+
+/** Explicit mapping wins; posts the content engine appends without one fall back to inference. */
+export const postDivisions: Record<string, string[]> = Object.fromEntries(
+  blogPosts.map((p) => [p.slug, explicitPostDivisions[p.slug] ?? inferPostDivisions(p)]),
+);
 
 export function getPostDivisions(slug: string): string[] {
   return postDivisions[slug] ?? [];
