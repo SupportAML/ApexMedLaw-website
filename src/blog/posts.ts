@@ -6801,6 +6801,56 @@ Contact ApexMedLaw to discuss your diabetic ketoacidosis litigation case.
 
 *This post is for informational purposes and does not constitute legal advice. DKA treatment protocols vary by institution and standards of care should be confirmed against the specific guidelines in effect at the time of treatment.*`,
   },
+  {
+    slug: 'learned-treatise-exception-medical-literature-expert-witness',
+    title: 'The Learned Treatise Exception: Using Medical Literature to Corroborate or Impeach an Expert Witness',
+    metaDescription: 'A practical guide for attorneys on using the learned treatise exception to hearsay to support a retained expert or cross-examine the opposing medical expert with published literature.',
+    date: '2026-10-29',
+    author: 'AML Editorial',
+    keywords: [
+      'learned treatise exception',
+      'FRE 803(18)',
+      'medical literature evidence',
+      'cross-examining medical expert witness',
+      'impeaching expert witness',
+      'medical malpractice evidentiary strategy',
+    ],
+    content: `Most attorneys know the learned treatise exception exists, fewer use it with any precision, and almost none build it into case strategy before the deposition where it matters most. Under Federal Rule of Evidence 803(18) and its state-law equivalents, a published text, periodical, or pamphlet established as a reliable authority can be read into the record as substantive evidence during an expert's examination — not admitted as an exhibit the jury flips through, but read aloud and left to speak through the testimony it corroborates or contradicts. Used well, it is one of the few tools that lets an attorney put a neutral, peer-reviewed authority directly in tension with a hostile witness's answer, in the witness's own words, in real time.
+
+## What the Exception Actually Permits
+
+The rule has a narrow mechanic that is easy to misstate. A learned treatise cannot simply be handed to the jury as an exhibit — most jurisdictions bar that, out of concern that a jury given a dense medical text unsupervised will misread or overweight it. Instead, the relevant passage is read aloud during direct or cross-examination of a witness, after the foundational requirement is met, and the statement read becomes substantive evidence on the point for which it was offered. The practical effect is that the authority's own words end up in the trial transcript, attributed to the text rather than to either side's expert, carrying whatever credibility the jury assigns to a source neither party is seen as controlling.
+
+## Establishing the Foundation Is the Real Hurdle
+
+**The exception only applies once the treatise is "established as a reliable authority,"** and that single phrase is where most attempts to use it fail. Reliability can be established three ways: by the testimony or admission of the witness being examined, by another expert's testimony, or by judicial notice. In practice, the cleanest path is often the most adversarial one — asking the opposing expert directly, before the substantive cross-examination begins, whether a specific treatise, clinical practice guideline, or journal is authoritative in their field. An expert who concedes the point hands the attorney the foundation needed to use the text against them later in the same examination. An expert who denies that any text in their field is authoritative invites a credibility problem of a different kind, since juries tend to find that answer evasive rather than persuasive.
+
+**Specialty society practice guidelines are frequently the strongest candidates** — documents like consensus statements from a national specialty board carry an institutional authority that is harder for a hostile witness to disclaim than a single journal article, which can always be characterized as one study among many with its own limitations.
+
+## Using the Exception to Corroborate Your Own Expert
+
+The more comfortable use of the exception is defensive: having a retained expert identify, during direct examination, the specific treatise or guideline that supports an opinion already given, and reading the corroborating passage into the record immediately after. This accomplishes two things a jury responds to. It shows the expert's opinion is not idiosyncratic — it tracks a recognized authority the expert did not write and cannot be accused of shading. And it gives the jury a second voice articulating the same standard, which tends to land with more weight on a technical point than one expert's say-so alone, however qualified that expert is.
+
+## Using the Exception to Cross-Examine the Opposing Expert
+
+The sharper use is offensive. Once an opposing expert has conceded that a specific text is authoritative, an attorney can read a passage from that same text that contradicts the expert's trial testimony and ask the expert to reconcile the two. This sequence works because it removes the expert's usual escape routes. The expert cannot dismiss the source as unreliable, having already called it authoritative. And the expert cannot easily dismiss the specific passage without either contradicting the concession just made or conceding that their own opinion departs from the authority they endorsed moments earlier — a position few experts want to defend in front of a jury.
+
+## Where the Strategy Goes Wrong
+
+**Attorneys who wait until trial to identify the controlling treatise are usually too late.** The foundational concession needs to be locked in during deposition, when the opposing expert has less reason to be guarded about which sources they consider authoritative and no immediate sense that the answer will be used against them. Waiting for trial gives a well-prepared witness the chance to qualify or walk back the concession live, which defeats the purpose.
+
+**A second common error is selecting a passage the expert can plausibly distinguish on the specific facts of the case.** The learned treatise exception works best against general statements of principle — a stated standard, a defined threshold, a described complication rate — not against passages that require the witness to apply the text's generalization to the case's specific clinical facts, which gives a prepared expert room to argue the passage simply does not govern this patient.
+
+## How ApexMedLaw Supports This Strategy
+
+Our physician experts work directly with retaining attorneys to identify the specific treatises, clinical practice guidelines, and peer-reviewed literature that are authoritative in the relevant specialty and that support the case's medical theory before deposition, not after. We also help attorneys prepare the foundational questions needed to secure an opposing expert's concession on authoritativeness, and identify the general-principle passages in that same literature best positioned to constrain the opposing expert's testimony at trial.
+
+Contact ApexMedLaw to discuss building a learned-treatise strategy into an active case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. The learned treatise exception's foundational requirements and the rule against admitting the treatise itself as an exhibit vary across federal and state jurisdictions and should be confirmed against controlling authority in the forum.*`,
+  },
 ];
 
 /**
