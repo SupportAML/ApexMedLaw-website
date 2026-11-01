@@ -7004,6 +7004,80 @@ Contact ApexMedLaw to discuss aligning your expert witness strategy with the dam
       },
     ],
   },
+  {
+    slug: 'sacroiliac-joint-fusion-complications-expert-witness',
+    title: 'Sacroiliac Joint Fusion Complications: A Litigation Guide',
+    metaDescription: 'A pain medicine expert witness guide for attorneys on minimally invasive SI joint fusion malpractice — implant malposition, L5 nerve root injury, and patient selection failures.',
+    date: '2026-11-01',
+    author: 'AML Editorial',
+    keywords: [
+      'sacroiliac joint fusion expert witness',
+      'SI joint fusion malpractice',
+      'minimally invasive SI joint surgery lawsuit',
+      'L5 nerve root injury SI fusion',
+      'pain medicine expert witness',
+      'spine implant malpractice attorney',
+    ],
+    content: `Minimally invasive sacroiliac joint fusion has moved from a niche procedure to a routine offering at pain medicine and spine practices treating chronic low back pain traced to the SI joint. The appeal is a short outpatient procedure placing triangular titanium implants across the joint under fluoroscopic guidance, sparing patients an open fusion. But the same features that make the procedure attractive — a percutaneous approach through a narrow, anatomically crowded corridor, guided largely by two-dimensional fluoroscopic images — are what make it unforgiving of imprecise trajectory. Attorneys evaluating a post-SI-fusion injury need an expert who performs the procedure routinely and can speak concretely to what the intraoperative imaging does and does not show about implant placement.
+
+## The Corridor Is Narrower Than the Marketing Suggests
+
+**The SI joint sits adjacent to the L5 nerve root, the S1 neuroforamen, the superior gluteal vessels, and the sacral ala — all within a working corridor often just centimeters wide.** Implant trajectory is planned off lateral and inlet/outlet fluoroscopic views, but these two-dimensional projections can obscure a breach that would be obvious on a true cross-sectional image. A trajectory that reads as acceptable on the lateral view alone can still carry an implant into the sacral foramen or anterior to the ala if the surgeon has not cross-checked the outlet and inlet views at each stage of guidewire and implant advancement. The expert's review should trace whether all required fluoroscopic views were obtained and saved at each step, not merely at final placement.
+
+## L5 Nerve Root Injury and Foraminal Breach
+
+**The most frequently litigated complication is a breach into the L5 nerve root pathway or the S1 foramen, producing new radicular pain, numbness, or motor weakness that did not exist before the procedure.** Postoperative CT is the definitive tool for assessing this: it can show an implant abutting or violating the neuroforamen in a way that intraoperative fluoroscopy alone would not reliably capture. A patient who wakes from a routine outpatient SI fusion with new foot drop or radicular pain down a dermatome inconsistent with the original SI joint symptoms should prompt immediate postoperative CT, and a case record showing that imaging was deferred despite a new neurological deficit is significant to case evaluation.
+
+## Patient Selection Is Litigated as Often as Technique
+
+**A substantial share of SI fusion malpractice exposure has nothing to do with the implant trajectory and everything to do with whether the patient's pain was ever actually coming from the SI joint.** The accepted diagnostic pathway requires a cluster of positive provocative maneuvers on physical exam combined with at least 50 to 75 percent relief of the index pain following a fluoroscopically or CT-guided intra-articular diagnostic injection with local anesthetic — not simply a patient's self-report of "low back pain" or an incidental finding of SI joint degeneration on imaging obtained for an unrelated reason. A chart proceeding directly to fusion without a documented positive diagnostic block, or relying on a block that was not performed under image guidance, is a common and defensible departure to allege when the patient's pain persists unchanged after surgery.
+
+## Implant Malposition Short of Nerve Injury
+
+**Not every malpositioned implant produces a neurological injury, but malposition still matters to case value.** An implant placed too far anteriorly, too shallow across the joint, or failing to achieve adequate purchase across both the ilium and sacrum can leave the joint inadequately stabilized, producing persistent or recurent pain and, in some cases, hardware loosening or migration requiring revision surgery. Postoperative imaging comparing implant position to the planned trajectory, together with any revision operative report, documents whether the original placement met the accepted technical standard independent of whether a nerve was directly injured.
+
+## Distinguishing a Known Risk From a Technical Departure
+
+**SI joint fusion carries recognized risks that do not, by themselves, indicate negligence** — transient buttock or leg discomfort from guidewire or instrument passage, a small and self-limited hematoma, or persistent pain in a patient whose joint was appropriately selected but who simply does not respond to fusion as most patients do. The expert's task is to separate these known outcomes from a documented foraminal breach, an implant trajectory inconsistent with the saved fluoroscopic views, or a fusion performed without an adequate diagnostic workup confirming the SI joint as the actual pain source.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential SI joint fusion injury case should obtain the pre-operative diagnostic injection records including imaging guidance and the documented percentage of pain relief, all intraoperative fluoroscopic images saved at each stage of guidewire and implant placement, the operative report describing implant count and trajectory, postoperative CT imaging where obtained, and any subsequent revision surgery records.
+
+## How ApexMedLaw Supports SI Joint Fusion Litigation
+
+SI joint fusion litigation requires an expert who performs the procedure as part of an active interventional pain or spine practice and can credibly assess both the diagnostic workup that preceded the decision to fuse and the technical adequacy of the implant placement itself. Our pain medicine experts bring that procedural experience to case review.
+
+We provide detailed review of pre-operative diagnostic injection documentation against accepted selection criteria, analysis of intraoperative fluoroscopic imaging and implant trajectory, evaluation of postoperative imaging for foraminal breach or malposition, and causation opinions supporting damages analysis in SI joint fusion malpractice claims.
+
+Contact ApexMedLaw to discuss your interventional pain or spine litigation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'What makes a strong SI joint fusion malpractice case?',
+        answer: 'The strongest cases involve a documented foraminal or neuroforaminal breach visible on postoperative CT, corresponding to a new radicular deficit that did not exist before surgery, where the intraoperative fluoroscopic images show a trajectory inconsistent with accepted anatomic landmarks across the required views.',
+      },
+      {
+        question: 'Can a patient sue over SI joint fusion even without a nerve injury?',
+        answer: 'Yes. A common and separate theory of liability is that the patient never had SI-joint-origin pain to begin with, because the procedure was performed without a documented positive diagnostic block showing adequate pain relief, making the fusion itself an unnecessary surgery regardless of how technically well it was executed.',
+      },
+      {
+        question: 'What imaging should attorneys request in an SI fusion case?',
+        answer: 'Request the pre-operative diagnostic injection images and relief documentation, every saved intraoperative fluoroscopic view (not only the final placement image), and any postoperative CT, which is the most reliable study for assessing implant position relative to the L5 nerve root and S1 foramen.',
+      },
+      {
+        question: 'How do experts distinguish a known SI fusion complication from negligence?',
+        answer: 'Transient buttock or leg discomfort from instrument passage and a persistent pain patient whose joint was correctly selected but who simply does not respond to fusion are recognized outcomes. A documented foraminal breach, a trajectory inconsistent with the saved imaging, or fusion performed without an adequate diagnostic workup point instead toward a standard-of-care departure.',
+      },
+      {
+        question: 'Why does patient selection matter so much in these cases?',
+        answer: 'The accepted diagnostic pathway requires a cluster of positive provocative exam findings plus 50 to 75 percent relief from an image-guided diagnostic block. Proceeding to fusion based on incidental imaging findings or a patient\'s general back pain complaint, without that documented diagnostic block, is a frequently litigated departure independent of surgical technique.',
+      },
+    ],
+  },
 ];
 
 /**
