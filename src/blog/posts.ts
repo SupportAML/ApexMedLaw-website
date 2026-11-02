@@ -7078,6 +7078,79 @@ Contact ApexMedLaw to discuss your interventional pain or spine litigation case.
       },
     ],
   },
+  {
+    slug: 'joint-and-several-liability-medical-malpractice-expert-witness',
+    title: 'Joint and Several Liability in Medical Malpractice',
+    metaDescription: 'An attorney\'s guide to joint and several liability vs. apportioned fault in multi-defendant malpractice cases and the expert testimony each requires.',
+    date: '2026-11-02',
+    author: 'AML Editorial',
+    keywords: [
+      'joint and several liability medical malpractice',
+      'apportionment of fault malpractice',
+      'several liability medical malpractice',
+      'multi-defendant malpractice litigation',
+      'medical expert witness causation apportionment',
+    ],
+    content: `A multi-defendant malpractice case can look identical on the medical chart and resolve completely differently at verdict, depending entirely on which liability rule the forum applies. Two hospitalists, a consulting specialist, and a nursing staff each contributed to a delayed diagnosis — but whether the plaintiff can collect the full judgment from whichever defendant has the deepest pockets, or only the percentage share a jury assigns to each, is a question of state law that has nothing to do with the strength of the medical evidence. Attorneys who build causation testimony without first confirming which rule governs the forum risk commissioning exactly the wrong kind of expert opinion.
+
+## Two Rules, One Looking Identical on the Chart
+
+**Joint and several liability allows a plaintiff to recover the entire judgment from any one defendant found liable, regardless of that defendant's individual share of fault, leaving the paying defendant to seek contribution from the others.** Several liability — sometimes called proportionate or several-only liability — instead limits each defendant's exposure to the percentage of fault a jury assigns that defendant specifically, so a defendant found 15 percent at fault pays only 15 percent of the judgment even if every other defendant is insolvent, judgment-proof, or settled out before trial. A substantial number of states have moved toward several-only liability for noneconomic damages over the past several decades, often while retaining joint and several liability for economic damages, and a smaller number apply joint and several liability only once a defendant's assigned fault crosses a statutory threshold. The controlling rule is purely a function of the forum, and it does not track the medical facts in any way.
+
+## Why This Changes What the Expert Needs to Opine On
+
+**In a joint and several jurisdiction, causation testimony can often remain holistic — establishing that the combined departures from the standard of care caused the injury is enough, because any one liable defendant can be made to pay the full judgment.** The expert does not need to parse precisely how much of the harm came from the delayed radiology read versus the hospitalist's failure to escalate, because the apportionment question matters far less to ultimate recovery.
+
+**In a several-liability jurisdiction, by contrast, the expert's causation analysis has to do real apportionment work, not just establish that negligence occurred.** A jury that is asked to assign a specific percentage of fault to each defendant needs an expert opinion that distinguishes, with some degree of medical specificity, how each provider's individual departure contributed to the outcome — because a vague, undifferentiated causation opinion leaves the jury to apportion fault with no medical guidance, and juries in several-liability states often apportion unevenly in ways that can leave a plaintiff substantially under-compensated if one defendant turns out to be uninsured or has settled for policy limits.
+
+## The Collectability Problem Several Liability Creates
+
+**Several liability means a plaintiff's actual recovery can depend heavily on which defendants are solvent and insured, independent of how negligent any of them were.** A case with a clearly negligent but uninsured nurse practitioner and a marginally negligent but well-insured hospital can produce a far smaller actual recovery in a several-liability state than the medical facts alone would suggest, because the jury's percentage allocation to the uninsured defendant is simply unrecoverable. This makes early insurance and asset investigation into every named and potential defendant materially more important in several-liability forums than it is in joint and several ones, where a single solvent defendant can make the plaintiff whole regardless of how fault is ultimately divided among the rest.
+
+## Settlement Timing and the Empty Chair Problem
+
+**Settling with one defendant before trial does not resolve the apportionment question in a several-liability state — it can create an "empty chair" that the remaining defendants will try to fill with fault.** Remaining defendants in several-liability jurisdictions frequently argue at trial that a settled or dismissed party bears a significant share of responsibility, attempting to shift the jury's percentage allocation away from themselves and onto a defendant no longer present to respond. An expert retained after an early settlement should be prepared to address the settled party's conduct directly in the causation opinion, rather than leaving that share of fault to be argued without medical rebuttal from the plaintiff's side.
+
+## Common Attorney Mistakes
+
+**Assuming the liability rule without checking the current statute.** Several states have amended their apportionment statutes within the past decade, and some have revisited joint and several liability through ballot initiative or legislative reform; the rule that governed a case filed several years ago may not be the rule that governs one filed today in the same state.
+
+**Retaining a single expert to opine generally on "negligence" in a several-liability, multi-defendant case without asking that expert to address apportionment directly.** A causation opinion that never differentiates among defendants' contributions leaves the jury's percentage allocation effectively undefended from the plaintiff's side.
+
+**Underinvesting in insurance and asset discovery on co-defendants in several-liability states.** Because collectability tracks each defendant's individual share rather than the whole judgment, a plaintiff's attorney who skips early due diligence on every defendant's coverage can be surprised post-verdict by an uncollectable allocation.
+
+## How ApexMedLaw Supports Multi-Defendant Litigation
+
+Our physician experts build causation opinions calibrated to the apportionment rule actually governing the forum — holistic where joint and several liability applies, and specifically differentiated among each defendant's contribution where several liability requires a jury to allocate fault by percentage.
+
+Contact ApexMedLaw to discuss expert witness strategy for a multi-defendant medical malpractice case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Joint and several liability, several liability, and the statutory thresholds and exceptions governing each vary significantly by jurisdiction and are subject to legislative change; attorneys should confirm the current, controlling rule in the forum before structuring expert testimony or settlement strategy.*`,
+    faqs: [
+      {
+        question: 'What is the difference between joint and several liability and several liability in medical malpractice?',
+        answer: 'Joint and several liability lets a plaintiff recover the full judgment from any one liable defendant regardless of that defendant\'s individual fault share, who then seeks contribution from co-defendants. Several liability limits each defendant\'s payment obligation to their own assigned percentage of fault, so an insolvent or uninsured defendant\'s share may simply go uncollected.',
+      },
+      {
+        question: 'How does the liability rule change what a medical expert should opine on?',
+        answer: 'In joint and several jurisdictions, a holistic causation opinion establishing that combined departures caused the injury is often sufficient. In several-liability jurisdictions, the expert needs to differentiate how each defendant\'s individual departure contributed to the outcome, since a jury must assign specific fault percentages to each defendant.',
+      },
+      {
+        question: 'Why does defendant solvency matter more in several-liability states?',
+        answer: 'Because each defendant only owes their individually assigned percentage of the judgment, a plaintiff\'s actual recovery depends heavily on whether every named defendant is insured and solvent — an uninsured defendant\'s allocated share is typically unrecoverable, unlike in joint and several states where any one solvent defendant can satisfy the full judgment.',
+      },
+      {
+        question: 'What is the "empty chair" problem in several-liability cases?',
+        answer: 'When a defendant settles or is dismissed before trial in a several-liability state, remaining defendants often argue that the absent party bears significant fault, shifting the jury\'s percentage allocation away from themselves. Plaintiff\'s experts should be prepared to address the settled party\'s conduct directly in the causation opinion.',
+      },
+      {
+        question: 'How does ApexMedLaw tailor expert testimony for multi-defendant cases?',
+        answer: 'ApexMedLaw\'s physician experts calibrate causation opinions to the apportionment rule actually governing the forum, providing holistic causation analysis where joint and several liability applies and specifically differentiated, defendant-by-defendant causation analysis where several liability requires a jury to allocate fault by percentage.',
+      },
+    ],
+  },
 ];
 
 /**
