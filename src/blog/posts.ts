@@ -7228,6 +7228,166 @@ Contact ApexMedLaw to discuss expert witness strategy for a case involving a pla
       },
     ],
   },
+  {
+    slug: 'intracerebral-hemorrhage-blood-pressure-surgical-timing-expert-witness',
+    title: 'Intracerebral Hemorrhage: Blood Pressure and Surgical Timing',
+    metaDescription: 'A neurology expert witness guide for attorneys on intracerebral hemorrhage litigation, blood pressure targets, and hematoma evacuation timing.',
+    date: '2026-11-05',
+    author: 'AML Editorial',
+    keywords: [
+      'intracerebral hemorrhage expert witness',
+      'ICH blood pressure management malpractice',
+      'hemorrhagic stroke litigation',
+      'hematoma evacuation timing',
+      'neurology expert witness',
+      'spontaneous ICH malpractice',
+    ],
+    content: `Spontaneous intracerebral hemorrhage is unlike the ischemic strokes that dominate most attorneys' mental model of stroke litigation: there is no single thrombolytic window, no one device that either opens a vessel or does not. The hematoma itself continues to expand for hours after the first scan, and expansion — not the initial bleed — is what converts a survivable hemorrhage into a devastating one. That makes ICH litigation turn on two separate clocks running in parallel: how quickly blood pressure was brought under control, and how quickly a surgical decision was made and, where indicated, carried out. A chart that shows either clock running without anyone watching it is usually where the case is won or lost.
+
+## Why Blood Pressure Control Is the First Battleground
+
+**Hematoma expansion is the dominant driver of early neurological decline, and elevated systolic blood pressure is the single most modifiable factor driving it.** The 2022 AHA/ASA guideline for the management of spontaneous ICH, built substantially on the INTERACT2 and later INTERACT3 trial data, supports acute lowering of systolic blood pressure into the range of roughly 130 to 150 mmHg, with INTERACT2 specifically demonstrating that a target near 140 mmHg achieved within the first hour is both safe and associated with better functional outcomes than more permissive management. The guideline is explicit that lowering should begin promptly after presentation rather than waiting for a definitive diagnosis to settle or for a neurosurgery consult to arrive — every hour a severely hypertensive patient spends untreated is an hour the hematoma has to grow.
+
+**Overcorrection carries its own, separate risk.** The same guideline cautions against dropping systolic pressure too far, too fast, or below roughly 130 mmHg, out of concern for perihematomal ischemia in the setting of disrupted cerebral autoregulation. An expert reviewing a BP-management case has to assess both failure modes — the record showing sustained severe hypertension with no titrated infusion ordered, and the opposite record showing an aggressive drop that itself tracks with new deficits.
+
+## The Second Clock: Anticoagulation Reversal
+
+A large share of ICH cases involve a patient on warfarin or a direct oral anticoagulant, and reversal timing is frequently the more clear-cut deviation of the two. Guidelines call for reversal to begin as soon as the hemorrhage is identified, using four-factor prothrombin complex concentrate for warfarin-associated ICH rather than waiting on fresh frozen plasma to thaw, and using the specific reversal agent — idarucizumab for dabigatran, andexanet alfa or four-factor PCC for factor Xa inhibitors — for DOAC-associated bleeds. A chart showing hours between identification of anticoagulant use and the order for a reversal agent, with hematoma growth documented on a repeat scan in that interval, is one of the more direct causation stories available in this area of litigation.
+
+## Surgical Timing and the Lobar Exception
+
+**For decades, the STICH and STICH II trials were read as establishing that early surgical evacuation offered no overall benefit over initial medical management for most supratentorial ICH**, and that reading still shapes how many cases are defended — a claim that surgery was appropriately deferred because "surgery doesn't help" draws directly on that literature. What that defense often omits is the nuance the same trials, and the subsequent MISTIE III and 2024 ENRICH trial data, actually support: patients with superficial lobar hemorrhage without significant intraventricular extension, and patients treated with minimally invasive evacuation techniques within a defined early window, show a meaningfully different risk-benefit profile than the trial population as a whole. A case involving a lobar bleed accessible to minimally invasive evacuation cannot be defended on STICH alone without engaging the more recent trial data specific to that hemorrhage location.
+
+**Infratentorial and intraventricular hemorrhage follow different, less ambiguous rules.** Cerebellar hemorrhages above roughly 3 cm in diameter, or any posterior fossa bleed causing brainstem compression or obstructive hydrocephalus, call for prompt surgical evacuation under long-settled neurosurgical consensus — this is not the contested territory that supratentorial ICH surgical timing occupies, and a cerebellar bleed with brainstem compression managed expectantly presents a comparatively straightforward deviation.
+
+## Where the Standard of Care Breaks Down
+
+**No defined blood pressure target ordered, or a target ordered but not actually achieved.** An order for "SBP goal < 150" that nursing flowsheets show was never reached, with no escalation of the antihypertensive infusion, is functionally the same failure as never ordering a target at all.
+
+**Repeat imaging not obtained to assess for expansion.** The standard of care generally calls for a follow-up CT within the first several hours in a patient with ongoing BP elevation, coagulopathy, or early neurological change — a single admission scan, treated as the final word on hematoma size, misses the window in which growth is still occurring and still potentially modifiable.
+
+**Reversal of anticoagulation delayed pending confirmatory labs or pharmacy turnaround.** A documented anticoagulant history should trigger reversal ordering in parallel with, not after, the imaging workup.
+
+**Neurosurgical consultation deferred in a lobar hemorrhage with a GCS decline.** Failing to engage neurosurgery promptly when a potentially operable lesion is deteriorating closes off a treatment option the patient may have had earlier in the course.
+
+## Building the Causation Argument
+
+Causation analysis in ICH cases is built around the serial CT comparison — admission scan against the earliest repeat scan — read alongside the vital-sign flowsheet and the medication administration record for both antihypertensives and any reversal agent. A documented increase in hematoma volume, midline shift, or new intraventricular extension between scans, occurring during a window in which blood pressure was recorded well above the ordered target or anticoagulation remained unreversed, gives an expert a specific, measurable interval to connect to the extent of neurological injury. The admission GCS and NIHSS, compared against the same scores at the point surgery was performed or ultimately declined, anchor the argument that an earlier intervention point existed and was missed.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential ICH case should obtain the EMS and ED records documenting the initial presentation and vital signs, the admission CT and all repeat imaging with radiology reports, the medication administration record for antihypertensive infusions and any anticoagulation reversal agents, anticoagulation and antiplatelet history from pharmacy and outpatient records, neurosurgical consultation notes including any documented rationale for deferring surgery, and serial neurological exam documentation (GCS, NIHSS) through the hospital course.
+
+## How ApexMedLaw Supports Intracerebral Hemorrhage Litigation
+
+ICH cases require an expert fluent in both the blood-pressure-management literature and the surgical-timing literature, and able to explain why a defense built on an older trial does not necessarily resolve a case involving a different hemorrhage location or a minimally invasive technique. Our neurology and neurosurgery experts maintain active clinical practice managing spontaneous ICH, and they provide serial-imaging comparison, analysis of whether BP and reversal targets were actually achieved and not merely ordered, and causation opinions connecting specific intervals of uncontrolled pressure or delayed reversal to the extent of hematoma growth and neurological injury.
+
+Contact ApexMedLaw to discuss your intracerebral hemorrhage case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'What blood pressure target applies in acute intracerebral hemorrhage?',
+        answer: 'The 2022 AHA/ASA guideline, informed by the INTERACT2 and INTERACT3 trials, supports acutely lowering systolic blood pressure into roughly the 130 to 150 mmHg range, with INTERACT2 specifically supporting a target near 140 mmHg achieved within the first hour. Guidelines also caution against dropping systolic pressure below roughly 130 mmHg given the risk of perihematomal ischemia.',
+      },
+      {
+        question: 'Why does hematoma expansion matter so much in ICH malpractice cases?',
+        answer: 'Hematoma expansion in the hours after the initial bleed, not the original hemorrhage volume, is the dominant driver of neurological decline in many cases. A serial CT scan showing growth during a period of uncontrolled blood pressure or unreversed anticoagulation gives an expert a specific, measurable window to connect a documented delay to the resulting injury.',
+      },
+      {
+        question: 'Does the STICH trial mean surgery is never indicated for intracerebral hemorrhage?',
+        answer: 'No. STICH and STICH II are often read as showing no overall benefit from early surgery, but later data from MISTIE III and the 2024 ENRICH trial support a meaningfully different risk-benefit profile for superficial lobar hemorrhages without significant intraventricular extension, particularly with minimally invasive evacuation techniques. A defense resting on STICH alone has to engage that more recent, location-specific evidence.',
+      },
+      {
+        question: 'How quickly should anticoagulation be reversed in an ICH patient?',
+        answer: 'Guidelines call for reversal to begin as soon as the hemorrhage is identified and the anticoagulant history is known, using four-factor prothrombin complex concentrate for warfarin rather than waiting on fresh frozen plasma, and the specific reversal agent for direct oral anticoagulants. Reversal should proceed in parallel with imaging and stabilization, not after it.',
+      },
+      {
+        question: 'What records should attorneys obtain when evaluating an ICH malpractice case?',
+        answer: 'Key records include EMS and ED notes with timestamped vital signs, the admission CT and all repeat imaging with radiology reports, the medication administration record for antihypertensives and any reversal agents, anticoagulation history, neurosurgical consultation notes with any stated rationale for deferring surgery, and serial GCS and NIHSS documentation through the hospital course.',
+      },
+    ],
+  },
+  {
+    slug: 'small-bowel-obstruction-delayed-diagnosis-expert-witness',
+    title: 'Small Bowel Obstruction: When Delay Becomes Malpractice',
+    metaDescription: 'A gastroenterology expert witness guide for attorneys on small bowel obstruction malpractice and the strangulation findings that set surgical timing.',
+    date: '2026-11-04',
+    author: 'AML Editorial',
+    keywords: [
+      'small bowel obstruction expert witness',
+      'bowel obstruction malpractice',
+      'closed-loop obstruction litigation',
+      'strangulated bowel delayed diagnosis',
+      'GI expert witness',
+      'adhesive SBO malpractice',
+    ],
+    content: `Small bowel obstruction is one of the most common reasons a patient with a prior abdominal surgery ends up back in the emergency department, and in the large majority of cases it resolves with nasogastric decompression, bowel rest, and time. That ordinariness is exactly what makes the malpractice cases that do arise so dangerous to miss: a condition that is correctly managed nonoperatively nine times out of ten can, in the tenth case, be a closed-loop obstruction quietly strangulating a segment of bowel while the chart keeps recording "improving" on the strength of a decompressed NG tube and a patient who has not yet decompensated. The litigation in these cases almost never turns on whether obstruction was diagnosed — it turns on whether the record shows anyone was watching for the findings that distinguish a bowel that is safe to continue observing from one that needs to be in an operating room within hours.
+
+## Why the Closed-Loop Distinction Drives the Timeline
+
+**Not all small bowel obstructions carry the same urgency, and the standard of care treats them differently from the outset.** A simple, partial adhesive obstruction without signs of vascular compromise is appropriately managed with a trial of nasogastric decompression, IV fluids, and serial reassessment — surgery is not automatically indicated on day one. A closed-loop obstruction, by contrast, where a bowel segment is occluded at two points along its length, cannot decompress proximally the way a simple obstruction can, and the trapped, distending segment progresses toward ischemia on its own clock regardless of how the patient looks clinically in the first hours. Guidance from the World Society of Emergency Surgery's Bologna framework for adhesive small bowel obstruction is widely cited in this analysis: a trial of nonoperative management is reasonable for a patient without signs of strangulation, but that trial should not be allowed to run indefinitely — most formulations call for surgical exploration if there is no clinical or radiographic improvement within roughly 48 to 72 hours, and for immediate exploration regardless of trial duration once strangulation or closed-loop features are identified. That distinction converts "we were still watching him" from a vague clinical judgment call into a measurable question an expert can test against the chart's own timestamps.
+
+**Age of the obstruction and the patient's distance from a prior laparotomy also shape the risk calculus.** A patient with multiple prior abdominal surgeries and dense adhesions carries a different closed-loop risk profile than one with a single remote surgery, and that history should inform how aggressively a treating team looks for early signs of compromise rather than defaulting to the same generic 48-hour window for every patient.
+
+## The Diagnostic Pattern Litigation Turns On
+
+The diagnosis of small bowel obstruction itself is rarely contested — dilated loops with air-fluid levels on plain film or CT, a history of prior abdominal surgery, and the classic triad of abdominal pain, distension, and vomiting make the initial diagnosis straightforward in most cases. What the record has to show is whether the treating team looked for, and acted on, the specific findings that indicate the bowel has stopped being merely obstructed and started becoming ischemic: a CT demonstrating reduced or absent bowel wall enhancement, pneumatosis intestinalis, mesenteric edema or the "whirl" or "beak" sign suggesting a closed loop, and free fluid out of proportion to simple obstruction. Clinically, a rising lactate, a climbing white count, a fever, or the emergence of localized or rebound tenderness on serial exam are each, individually, reasons to escalate rather than continue the same decompression plan on the same schedule. Any one of these findings appearing on top of a nonoperative trial is the point at which "continue to observe" stops being a defensible plan.
+
+## Where the Standard of Care Breaks Down
+
+**Relying on plain films when a CT with IV contrast is indicated.** Plain abdominal films can confirm obstruction but cannot reliably characterize bowel wall viability or identify a closed-loop configuration. A patient with a convincing obstruction picture and any atypical feature — disproportionate pain, early fever, an elevated lactate — should not be managed on plain-film findings alone.
+
+**No structured reassessment during the nonoperative trial.** The most frequent liability pattern in these cases is the absence of a defined reassessment interval with its own documented exam, labs, and decision point — rather than a trial that simply continues by default until someone happens to notice the patient has deteriorated.
+
+**Anchoring on "this is probably just adhesions" and discounting disproportionate pain.** Pain that is more severe than the degree of distension would suggest, or pain that persists or worsens despite adequate NG decompression, is a recognized red flag for strangulation that is easy to explain away in a patient with a long adhesion history — and easy, in hindsight, to see was explained away incorrectly.
+
+**Surgical consultation delayed or deferred without a documented rationale.** Cases where general surgery is not consulted until clinical deterioration is already obvious, or is consulted but defers operative intervention repeatedly without a stated clinical reason, present the same liability pattern seen across other surgical-disease-managed-medically cases.
+
+**OR delays once strangulation is suspected.** Once imaging or clinical findings raise concern for closed-loop obstruction or ischemia, scheduling an operation around elective caseload or waiting for a more convenient time is difficult to defend against a bowel that is actively losing viability.
+
+## Building the Causation Argument
+
+Causation in these cases is built by laying the timeline — symptom onset, presentation, initial imaging, each reassessment point, and the eventual decision to operate — against the objective trend data available at each step: lactate, white count, exam findings, and any follow-up imaging. The operative report and the pathology on any resected bowel are the strongest objective evidence available: a segment described intraoperatively as frankly necrotic, requiring resection, tells a different causal story than one described as edematous but viable. The gap between when the record first shows a finding consistent with strangulation and when the patient actually reached the operating room is the interval an expert uses to connect a specific, identifiable delay to the extent of bowel loss, the length of remaining bowel, and any resulting short bowel syndrome or prolonged ICU course.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential small bowel obstruction case should obtain the emergency department and admission notes documenting the initial presentation and imaging orders, the CT report and, where possible, the actual images for independent radiologic review, serial nursing and physician exam notes with vital signs and pain assessments through the observation period, surgical consultation notes including any stated rationale for delay, the operative report, and the pathology report on any resected specimen.
+
+## How ApexMedLaw Supports Small Bowel Obstruction Litigation
+
+These cases require an expert who can distinguish a genuinely reasonable trial of conservative management from one that continued past the point the chart itself was signaling trouble. Our gastroenterology and general surgery experts maintain active clinical practice managing adhesive and closed-loop obstructions, and they provide detailed timeline reconstruction against the Bologna framework and comparable standards, analysis of whether reassessment points were appropriately acted on, and causation opinions connecting specific delays to the extent of bowel loss documented at surgery.
+
+Contact ApexMedLaw to discuss your small bowel obstruction case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'What makes small bowel obstruction litigation different from a missed diagnosis case?',
+        answer: 'The diagnosis of obstruction itself is rarely disputed. These cases turn on whether the treating team recognized and acted on findings — a rising lactate, disproportionate pain, CT signs of reduced bowel wall enhancement or a closed-loop configuration — indicating the bowel had progressed from simply obstructed to ischemic, and whether surgery followed quickly enough once those findings appeared.',
+      },
+      {
+        question: 'How long is a nonoperative trial for small bowel obstruction considered appropriate?',
+        answer: 'Frameworks such as the World Society of Emergency Surgery Bologna guidelines support a trial of nasogastric decompression and observation for a patient without signs of strangulation, but generally call for surgical exploration if there is no clinical or radiographic improvement within roughly 48 to 72 hours — and for immediate surgery regardless of trial duration once strangulation or closed-loop features are present.',
+      },
+      {
+        question: 'What CT findings indicate a small bowel obstruction has become a surgical emergency?',
+        answer: 'Reduced or absent bowel wall enhancement, pneumatosis intestinalis, mesenteric edema, a whirl or beak sign suggesting a closed loop, and disproportionate free fluid are each findings that should prompt urgent surgical evaluation rather than continuation of a nonoperative trial.',
+      },
+      {
+        question: 'What records should attorneys obtain when evaluating a small bowel obstruction malpractice case?',
+        answer: 'Key records include the ED and admission notes with imaging orders, the CT report and underlying images, serial nursing and physician exam notes and vital signs through the observation period, surgical consultation notes with any documented rationale for delay, the operative report, and the pathology report on any resected bowel.',
+      },
+      {
+        question: 'What expert is needed for a small bowel obstruction malpractice case?',
+        answer: 'A general surgeon or gastroenterologist with active experience managing adhesive and closed-loop obstructions is typically the lead expert, reconstructing the clinical timeline and opining on when the standard of care required escalation to surgery. A radiology expert is often needed where the CT interpretation itself is disputed.',
+      },
+    ],
+  },
 ];
 
 /**
