@@ -7535,6 +7535,86 @@ Contact ApexMedLaw to discuss how our experts can frame the standard-of-care ana
       },
     ],
   },
+  {
+    slug: 'abdominal-compartment-syndrome-expert-witness',
+    title: 'Abdominal Compartment Syndrome: A Litigation Guide',
+    metaDescription: 'A critical care expert witness guide for attorneys on abdominal compartment syndrome — the IAP measurement standard, the decompression threshold, and the missed-diagnosis pattern litigation turns on.',
+    date: '2026-11-08',
+    author: 'AML Editorial',
+    keywords: [
+      'abdominal compartment syndrome expert witness',
+      'intra-abdominal hypertension malpractice',
+      'ICU malpractice litigation',
+      'decompressive laparotomy delay',
+      'critical care expert witness',
+      'intra-abdominal pressure monitoring',
+    ],
+    content: `Abdominal compartment syndrome is one of the few ICU complications with a bright-line, guideline-defined threshold for intervention — and one of the most frequently missed, because nothing about the patient's abdomen needs to look dramatic for the pressure inside it to be killing their kidneys, lungs, and bowel. A distended abdomen in a sedated, mechanically ventilated patient is easy to write off as expected post-operative ileus or routine fluid overload. The malpractice exposure is not in failing to recognize an obvious catastrophe — it is in failing to measure a number that the standard of care requires measuring in exactly this patient, and then failing to act once that number crosses a defined line.
+
+## What Abdominal Compartment Syndrome Actually Is
+
+**Intra-abdominal hypertension is a sustained rise in intra-abdominal pressure, and abdominal compartment syndrome is what happens when that pressure gets high enough to cause new organ dysfunction.** The World Society of the Abdominal Compartment Syndrome (WSACS) defines intra-abdominal hypertension in four grades — roughly 12-15, 16-20, 21-25, and above 25 mmHg — and defines abdominal compartment syndrome itself as a sustained intra-abdominal pressure above 20 mmHg associated with new organ failure. That organ failure follows a predictable mechanical logic: elevated intra-abdominal pressure reduces venous return and cardiac preload, pushes up against the diaphragm to raise intrathoracic pressure and worsen lung compliance, collapses the pressure gradient the kidneys need to filter (directly producing oliguria and rising creatinine), and chokes off mesenteric blood flow to the bowel itself.
+
+**The patients who develop it are identifiable before the fact, not after.** Large-volume crystalloid resuscitation — the kind routinely given in trauma, burns, and septic shock — is the single biggest driver, because bowel wall edema and ascites accumulate in direct proportion to the fluid given. Damage-control laparotomy, retroperitoneal hemorrhage, and an abdomen closed under tension after surgery are the other classic setups. None of this is subtle or hard to anticipate; it is the exact patient population intensivists are trained to watch.
+
+## The Measurement Standard Litigation Turns On
+
+**Intra-abdominal pressure is measured indirectly through a bladder (intravesical) catheter, and the standard of care for a patient with two or more risk factors — recent large-volume resuscitation, damage-control surgery, or a tightly closed abdomen — calls for serial measurement, not a one-time check or clinical guesswork.** This is what separates these cases from many other ICU malpractice fact patterns: there is rarely a dispute over what the correct threshold is or what the correct monitoring interval should be, because the WSACS consensus guidelines spell both out. The dispute is almost always over whether the measurement was taken at all, and if it was, whether anyone acted once it crossed 20 mmHg with accompanying organ dysfunction.
+
+A chart that shows rising peak airway pressures, falling urine output, and a visibly tense, distended abdomen — with no bladder pressure ever measured — is not a case of an unforeseeable complication. It is a case where the monitoring the patient's own risk profile required was simply never ordered.
+
+## Where the Standard of Care Breaks Down
+
+**Never measuring intra-abdominal pressure in an at-risk patient.** The most common pattern is not a missed reading — it is the absence of any measurement in a patient who received the large-volume resuscitation or damage-control surgery that should have triggered serial monitoring from the outset.
+
+**Attributing organ dysfunction to the wrong cause.** Rising creatinine, falling urine output, and worsening ventilator mechanics in a post-operative or heavily resuscitated patient are frequently charted as "expected" acute kidney injury or ARDS without intra-abdominal pressure ever being considered or ruled out as the actual driver.
+
+**Delaying medical management once intra-abdominal hypertension is identified.** Sedation and neuromuscular blockade, nasogastric decompression, and fluid removal through diuresis or renal replacement therapy are first-line measures once pressure is elevated; a patient left on an unchanged plan while pressure continues to climb represents a missed opportunity to avoid surgery altogether.
+
+**Failing to escalate to decompressive laparotomy once thresholds are met.** When intra-abdominal pressure remains above 20-25 mmHg with ongoing organ dysfunction despite medical measures, the guidelines call for surgical decompression. A delay here, measured in hours, is where multi-organ failure becomes difficult to defend as anything other than a failure to act on data the team already had.
+
+**Closing the abdomen too tightly after damage-control surgery.** Primary fascial closure in a patient with significant bowel edema or ongoing resuscitation needs can itself precipitate secondary abdominal compartment syndrome — a self-inflicted complication that a temporary closure technique would have avoided.
+
+## Building the Causation Argument
+
+Causation in these cases is built from the intra-abdominal pressure trend line itself, overlaid against the organ dysfunction markers that tracked it — urine output and creatinine, ventilator peak pressures and oxygenation, and any lactate or mesenteric ischemia findings. Because the WSACS thresholds are explicit and widely adopted, an expert does not need to argue for what the trigger point should have been; the argument is simply that the trigger point was crossed and documented, and that the gap between that moment and either escalated medical management or decompressive laparotomy is the causal bridge to the patient's renal failure, prolonged ventilator dependence, bowel ischemia, or death.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential abdominal compartment syndrome case should obtain the nursing flowsheets and any bladder pressure measurements that were recorded, the fluid balance and resuscitation volumes administered in the 24-72 hours before deterioration, serial creatinine and urine output trends, ventilator settings and peak airway pressures, operative and progress notes describing the abdominal exam and any closure technique used, and the timeline from first signs of organ dysfunction to any surgical consultation or decompression.
+
+## How ApexMedLaw Supports Abdominal Compartment Syndrome Litigation
+
+These cases require an expert who can identify, from the resuscitation volumes and risk factors alone, that a patient should have been on a monitoring protocol the chart never shows was started. Our critical care and general surgery experts maintain active ICU practice, apply the WSACS consensus thresholds directly to the medical record, and provide causation analysis connecting a documented delay in measurement or escalation to the patient's eventual organ failure.
+
+Contact ApexMedLaw to discuss your abdominal compartment syndrome case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'What intra-abdominal pressure defines abdominal compartment syndrome?',
+        answer: 'The WSACS consensus guidelines define abdominal compartment syndrome as a sustained intra-abdominal pressure above 20 mmHg accompanied by new organ dysfunction. Intra-abdominal hypertension below that level is graded on a four-tier scale and warrants monitoring but not necessarily the same escalation.',
+      },
+      {
+        question: 'Which patients should be monitored for abdominal compartment syndrome?',
+        answer: 'Patients who received large-volume crystalloid resuscitation, underwent damage-control laparotomy, had retroperitoneal hemorrhage, or had their abdomen closed under tension are considered at-risk. The standard of care for these patients calls for serial bladder pressure measurement, not a single check or reliance on physical exam alone.',
+      },
+      {
+        question: 'How is intra-abdominal pressure actually measured?',
+        answer: 'It is measured indirectly through a bladder catheter connected to a pressure transducer, with the patient supine and the transducer zeroed at the level of the iliac crest. This is a bedside, low-cost measurement, which is part of why its absence in an at-risk patient is difficult to justify.',
+      },
+      {
+        question: 'What is the difference between medical management and decompressive laparotomy?',
+        answer: 'Medical management — sedation, neuromuscular blockade, nasogastric decompression, and fluid removal through diuresis or renal replacement therapy — is the first-line response to intra-abdominal hypertension. Decompressive laparotomy is reserved for sustained pressures above roughly 20-25 mmHg with ongoing organ dysfunction despite those medical measures.',
+      },
+      {
+        question: 'Can closing the abdomen during surgery cause abdominal compartment syndrome?',
+        answer: 'Yes. Primary fascial closure in a patient with significant bowel edema or ongoing resuscitation needs can itself precipitate secondary abdominal compartment syndrome. A temporary abdominal closure technique is often the appropriate alternative in these patients, and its absence is a recurring feature in these cases.',
+      },
+    ],
+  },
 ];
 
 /**
