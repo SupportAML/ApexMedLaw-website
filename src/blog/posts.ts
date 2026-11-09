@@ -7615,6 +7615,80 @@ Contact ApexMedLaw to discuss your abdominal compartment syndrome case.
       },
     ],
   },
+  {
+    slug: 'herpes-simplex-encephalitis-delayed-acyclovir-expert-witness',
+    title: 'Herpes Simplex Encephalitis: A Litigation Guide',
+    metaDescription: 'A neurology expert witness guide for attorneys on HSV encephalitis malpractice: empiric acyclovir timing, PCR delay, and the resulting brain injury.',
+    date: '2026-11-09',
+    author: 'AML Editorial',
+    keywords: [
+      'herpes simplex encephalitis expert witness',
+      'HSV encephalitis malpractice',
+      'delayed acyclovir lawsuit',
+      'encephalitis misdiagnosis attorney',
+      'neurology expert witness',
+      'CSF PCR delay malpractice',
+    ],
+    content: `Herpes simplex encephalitis is one of the rare neurological emergencies where the standard of care requires treating before the diagnosis is confirmed, not after. Empiric intravenous acyclovir is supposed to start the moment the diagnosis is reasonably suspected, because the causative organism is already destroying temporal lobe tissue while the confirmatory CSF PCR result is still hours to days away. When a patient presents with fever, headache, and a change in behavior or cognition, and the treating team waits for lab confirmation before starting antiviral therapy, the resulting injury is frequently a matter of a documented delay rather than an unavoidable consequence of the disease itself. Attorneys evaluating these cases need an expert who has managed HSV encephalitis in an acute neurology or neurocritical care setting and can speak precisely to when empiric treatment should have started and what the patient's outcome would likely have been with earlier therapy.
+
+## Why the Presentation Is Mistaken for Something Benign
+
+**Early HSV encephalitis commonly presents with fever, headache, and subtle personality or behavioral change — a picture that is routinely misread as a viral syndrome, psychiatric decompensation, or intoxication**, particularly when the patient's language is disorganized rather than clearly confused. Focal neurological deficits, seizures, and the classic temporal lobe findings that make the diagnosis obvious typically appear only after the virus has already caused substantial necrosis. A record that shows a patient sent home, admitted to a psychiatric unit, or observed without neurological workup despite fever and a new behavioral change is a record that should be scrutinized for whether an infectious encephalitis was adequately considered and excluded, rather than assumed away.
+
+## The Standard of Care Does Not Wait for Confirmation
+
+**Once HSV encephalitis is a reasonable differential diagnosis — generally once a patient has fever and altered mental status without a clear alternative explanation — the standard of care calls for immediate empiric intravenous acyclovir, started before CSF PCR results return and before MRI findings are even obtained.** This is the central fact pattern that distinguishes these cases from most other delayed-diagnosis litigation: the treating team is not expected to have made the correct diagnosis at the first encounter, but it is expected to have started treatment for the diagnosis on the differential while the workup was still pending. A chart showing lumbar puncture and MRI ordered, with acyclovir withheld until the PCR result returns, reflects a sequencing error that the guidelines were written specifically to prevent.
+
+## Why Waiting for Imaging Is Also a Departure
+
+**MRI findings in HSV encephalitis — asymmetric temporal lobe and insular cortex signal change — can take 48 to 72 hours to become apparent, and a normal or nonspecific early MRI is not a reason to withhold or discontinue empiric acyclovir.** Some cases show a pattern where antiviral therapy was appropriately started, then stopped after an early MRI read as unremarkable, only for the diagnosis to be confirmed days later once repeat imaging or PCR turned positive. The interruption in treatment during that interval is frequently where the most severe, avoidable injury occurs, and it is a distinct standard-of-care question from whether treatment was started in the first place.
+
+## The CSF PCR Itself Can Mislead Early
+
+**HSV PCR on CSF obtained very early in the illness — within the first 24 to 72 hours of symptom onset — carries a meaningful false-negative rate, and a negative early PCR does not rule out the diagnosis if the clinical picture remains consistent with encephalitis.** The standard of care in that circumstance calls for continuing empiric treatment and repeating the lumbar puncture, rather than discontinuing acyclovir on the strength of a single early negative result. A case where antiviral therapy was stopped after one early negative PCR, with no repeat testing performed before the patient's neurological status deteriorated, presents a clear point of departure for expert analysis.
+
+## Building the Causation Argument
+
+Outcome in HSV encephalitis correlates closely with the interval between symptom onset and the start of acyclovir — patients treated before the onset of significant alteration in consciousness have measurably better survival and functional outcomes than those treated after. A causation opinion in these cases is built from the timeline of symptom onset, the point at which encephalitis became a reasonable differential diagnosis, the point at which acyclovir was actually started or interrupted, and serial neurological examination and imaging findings documenting the progression of temporal lobe injury during any gap in treatment. Because the disease's natural history and the treatment-timing relationship are well characterized in the literature, the expert does not need to speculate about causation in the abstract — the argument is built directly from the record's own timestamps.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential HSV encephalitis case should obtain the timeline from symptom onset to presentation, all documentation of fever, headache, and mental status or behavioral change at each encounter, the time acyclovir was ordered relative to the time it was actually administered, any interval during which antiviral therapy was withheld or discontinued, all CSF PCR and MRI results in chronological order, and serial neurological examinations documenting the evolution of deficits.
+
+## How ApexMedLaw Supports HSV Encephalitis Litigation
+
+These cases require an expert who has managed suspected encephalitis in real time, under the uncertainty of a pending workup, and can speak credibly to when empiric treatment should have started and what a delay or interruption likely cost the patient. Our neurology and neurocritical care experts bring that direct clinical experience to case review.
+
+We provide detailed review of the treatment timeline against the standard of care for empiric antiviral therapy, analysis of whether early imaging or PCR results were appropriately interpreted, and causation opinions correlating treatment delay with the patient's neurological outcome.
+
+Contact ApexMedLaw to discuss your HSV encephalitis litigation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'When does the standard of care require starting acyclovir for suspected HSV encephalitis?',
+        answer: 'Empiric intravenous acyclovir should begin as soon as HSV encephalitis is a reasonable differential diagnosis — generally once a patient presents with fever and altered mental status without a clear alternative explanation — rather than waiting for CSF PCR or MRI confirmation. The disease causes ongoing tissue necrosis during any delay, so treatment is expected to precede, not follow, diagnostic certainty.',
+      },
+      {
+        question: 'Can a normal early MRI justify withholding or stopping acyclovir?',
+        answer: 'No. The characteristic temporal lobe and insular cortex findings on MRI can take 48 to 72 hours to appear, so a normal or nonspecific early MRI does not rule out the diagnosis. Discontinuing empiric acyclovir based on an early negative MRI, when the clinical picture otherwise remains consistent with encephalitis, is a frequent point of departure from the standard of care.',
+      },
+      {
+        question: 'Does a negative CSF PCR rule out HSV encephalitis?',
+        answer: 'Not necessarily. PCR performed within the first 24 to 72 hours of symptom onset carries a meaningful false-negative rate. The standard of care in that setting calls for continuing empiric treatment and repeating the lumbar puncture rather than discontinuing acyclovir on the strength of a single early negative result.',
+      },
+      {
+        question: 'Why is HSV encephalitis often initially misdiagnosed?',
+        answer: 'Early symptoms — fever, headache, and subtle behavioral or language change — closely resemble a viral syndrome or psychiatric decompensation. The focal deficits and seizures that make the diagnosis obvious typically emerge only after the virus has already caused substantial temporal lobe injury, which is why clinical suspicion alone, not waiting for hallmark findings, should trigger empiric treatment.',
+      },
+      {
+        question: 'How is causation established in a delayed-treatment HSV encephalitis case?',
+        answer: 'Causation is built from the documented timeline: when symptoms began, when encephalitis became a reasonable differential, when acyclovir was actually started or interrupted, and how neurological findings and imaging evolved during any treatment gap. Because the relationship between treatment timing and outcome is well established in the literature, the analysis follows directly from the record\\'s own timestamps rather than abstract speculation.',
+      },
+    ],
+  },
 ];
 
 /**
