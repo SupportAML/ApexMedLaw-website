@@ -7689,6 +7689,80 @@ Contact ApexMedLaw to discuss your HSV encephalitis litigation case.
       },
     ],
   },
+  {
+    slug: 'negligent-credentialing-hospital-liability-expert-witness',
+    title: 'Negligent Credentialing: A Litigation Guide for Attorneys',
+    metaDescription: 'A litigation guide to negligent credentialing claims: how attorneys prove a hospital\\'s own duty to vet physician competence was breached.',
+    date: '2026-11-10',
+    author: 'AML Editorial',
+    keywords: [
+      'negligent credentialing expert witness',
+      'hospital credentialing malpractice',
+      'negligent credentialing lawsuit',
+      'direct corporate negligence hospital',
+      'medical staff bylaws litigation',
+      'credentialing committee liability',
+    ],
+    content: `Most hospital liability theories in medical malpractice litigation run through a physician's conduct at the bedside, with the hospital answering only vicariously for someone else's negligence. Negligent credentialing is different. It is a direct claim against the hospital itself, resting on the hospital's own duty to investigate a physician's competence before granting privileges and to continue monitoring that competence afterward. When a hospital grants or renews privileges to a physician it knew or should have known was not qualified to perform a given procedure, and that physician's incompetence injures a patient, the hospital can be independently liable regardless of whether the treating physician was an employee or an independent contractor. Attorneys who overlook this theory because a case looks like a straightforward treatment-error claim are frequently leaving a viable, separately insured cause of action on the table.
+
+## Why This Claim Exists Apart from the Underlying Malpractice
+
+**A negligent credentialing claim does not depend on proving the treating physician committed malpractice through ordinary carelessness — it depends on proving the hospital placed an unqualified physician in a position to cause harm.** The underlying malpractice claim and the credentialing claim are analytically distinct, even though they often arise from the same bad outcome. A hospital can be found independently negligent for credentialing a surgeon with a documented pattern of complications, a lapsed or restricted license in another state, or training inadequate for the specific procedure performed, even where the individual act that injured the patient might otherwise be defensible as a judgment call. The claim targets the institution's gatekeeping failure, not just the moment of treatment.
+
+## What the Hospital Was Required to Investigate
+
+**The credentialing process is governed by the hospital's own bylaws and, in most jurisdictions, by accreditation standards that require verification of licensure, board certification status, malpractice history, prior disciplinary action, and privilege-specific training or case-volume thresholds before privileges are granted.** A hospital that skips this verification, accepts a physician's self-reported history without independent confirmation, or grants privileges broader than the physician's documented training supports has departed from its own credentialing standards. The strongest negligent credentialing cases are built on a gap between what the bylaws required and what the credentialing file actually contains.
+
+## Ongoing Monitoring Is a Separate Duty
+
+**Credentialing is not a one-time gate — hospitals have a continuing duty to monitor physician performance through peer review, morbidity and mortality conferences, and periodic reappointment, and to act on red flags that emerge after privileges are initially granted.** A physician who accumulates a pattern of adverse outcomes, complaints, or peer review findings after being credentialed, without the hospital restricting privileges or requiring additional oversight, presents a failure-to-monitor theory distinct from the initial credentialing decision. Attorneys should request the full credentialing and recredentialing file, not just the file from the time of initial privileging, because the strongest evidence of institutional knowledge often postdates the physician's first appointment.
+
+## The Peer Review Privilege Problem
+
+**Most of the records that would most clearly establish what the hospital knew — peer review committee minutes, morbidity and mortality discussions, incident reports — are protected in nearly every state by a peer review privilege designed to encourage candid self-assessment.** This privilege is the single biggest practical obstacle in negligent credentialing litigation, and it is rarely absolute. Many jurisdictions carve out exceptions for the underlying facts considered by a peer review committee even where the committee's deliberations and conclusions remain privileged, and some recognize a crime-fraud-style exception where the credentialing process itself was a sham. An expert who has sat on credentialing and peer review committees can help identify which categories of information are realistically discoverable in a given jurisdiction and frame discovery requests around the underlying facts rather than the privileged deliberations.
+
+## What an Expert Adds to This Theory
+
+An expert in hospital credentialing and medical staff governance evaluates the credentialing file against the hospital's own bylaws and applicable accreditation standards, opines on whether a reasonably prudent credentialing committee would have granted or continued the privileges at issue given the information available or reasonably discoverable, and distinguishes an institutional gatekeeping failure from an individual physician's isolated error in judgment. This testimony typically needs to withstand the same admissibility scrutiny as any other standard-of-care opinion, so the expert should be someone who has functioned inside a credentialing or medical executive committee, not simply a clinician opining on institutional process from the outside.
+
+## Building the Case
+
+Attorneys evaluating a potential negligent credentialing claim should obtain the physician's complete credentialing and recredentialing files, the hospital's medical staff bylaws in effect at the relevant time, the physician's privilege list against the procedure actually performed, any prior malpractice history, licensing actions, or peer review findings that predate the index event, and — where discoverable — the underlying facts considered in any post-event peer review of the case.
+
+## How ApexMedLaw Supports Negligent Credentialing Litigation
+
+Negligent credentialing claims require an expert who understands hospital medical staff governance from the inside — how credentialing committees actually evaluate an application, what a bylaws departure looks like on paper, and how to frame an opinion that survives both peer review privilege challenges and Daubert scrutiny.
+
+We provide credentialing file review against the hospital's own bylaws and applicable accreditation standards, analysis of the gap between a physician's documented qualifications and the privileges actually granted, and expert opinions on institutional gatekeeping failures distinct from the underlying treatment claim.
+
+Contact ApexMedLaw to discuss your negligent credentialing litigation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'What is negligent credentialing, and how is it different from ordinary medical malpractice?',
+        answer: 'Negligent credentialing is a direct claim against a hospital for granting or continuing a physician\\'s privileges when it knew or should have known the physician was not qualified. It is independent of the treating physician\\'s own negligence — the hospital can be liable for its gatekeeping failure even where the individual act of treatment is separately defensible.',
+      },
+      {
+        question: 'Does it matter whether the physician was a hospital employee or an independent contractor?',
+        answer: 'No. Unlike vicarious liability theories that depend on an employment or agency relationship, negligent credentialing is based on the hospital\\'s own duty to vet and monitor anyone it grants privileges to, regardless of employment status.',
+      },
+      {
+        question: 'What records should attorneys request to build a negligent credentialing case?',
+        answer: 'The physician\\'s full credentialing and recredentialing files, the hospital\\'s medical staff bylaws in effect at the relevant time, the physician\\'s privilege list measured against the procedure performed, and any prior malpractice history, licensing actions, or peer review findings that predate the event at issue.',
+      },
+      {
+        question: 'How does the peer review privilege affect these cases?',
+        answer: 'Peer review privilege protects committee deliberations and conclusions in nearly every state, which is the biggest obstacle in this litigation. Many jurisdictions still allow discovery of the underlying facts a committee considered, even when its deliberations stay privileged, so discovery should be framed around those facts rather than the committee\\'s internal discussion.',
+      },
+      {
+        question: 'What kind of expert supports a negligent credentialing claim?',
+        answer: 'An expert who has served on hospital credentialing or medical executive committees, not simply a clinician commenting on institutional process from the outside. That experience lets the expert opine credibly on whether a reasonably prudent committee would have granted or continued the privileges given the information available.',
+      },
+    ],
+  },
 ];
 
 /**
