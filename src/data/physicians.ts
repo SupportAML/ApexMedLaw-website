@@ -592,6 +592,27 @@ Dr. Shah is available for medical records review and expert opinions in general 
     location: 'Florida',
     categories: ['urology'],
   },
+  {
+    id: '36',
+    slug: 'dalia-saha',
+    name: 'Dalia Saha, MD',
+    role: 'Internal Medicine',
+    title: 'Ancillary Physician Partner',
+    photo: '/team_dalia_saha.png',
+    bio: `Dr. Dalia Saha is a board-certified internal medicine physician and hospitalist practicing in the Washington, DC/Maryland region. Since 2018 she has served as a hospitalist at St. Agnes Hospital in Baltimore, with prior hospitalist and nocturnist roles at Anne Arundel Medical Center, Johnston Memorial Hospital, and Sibley Memorial Hospital/Johns Hopkins, providing inpatient care, consultation, and resident and medical student instruction across general medicine, chronic disease management, and inpatient emergency procedures. She has held a Hospice Medical Director Certification since 2024 and brings extensive experience in hospice, palliative, and pain management care and regulatory compliance.
+
+Dr. Saha also has over a decade of experience in chart auditing, peer review, and medical-legal consulting. Since 2013 she has served as a Medical Consultant for Maximus Federal Consulting, performing independent case file review and arbitration for Medicare and Medicaid appeals, including Medicare Part D and Part B determinations, VAMC mediation, and California Medical Appeals insurance casework. She is President of ARAV Enterprises, PLLC, overseeing remote medical services, licensing, and medical writing for a nationwide group of physicians.
+
+Dr. Saha earned her MD from Brown University Medical School and completed her internal medicine residency at Georgetown University Hospital. She holds active medical licenses across eleven states, including DC, MD, VA, PA, NC, SC, GA, CA, RI, MA, and NM, and has been named a Washington DC Top Doctor annually since 2021. Her medical-legal work centers on hospital medicine standard of care, chart auditing and peer review, Medicare/Medicaid appeals, and hospice and end-of-life care.`,
+    credentials: [
+      'Board Certified — Internal Medicine (ABIM)',
+      'Brown University Medical School, MD',
+      'Georgetown University Hospital — Internal Medicine Residency',
+      'Hospice Medical Director Certification',
+    ],
+    location: 'Washington, DC',
+    categories: ['internal-medicine'],
+  },
 ];
 
 export function getPhysicianBySlug(slug: string): Physician | undefined {
