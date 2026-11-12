@@ -7685,7 +7685,7 @@ Contact ApexMedLaw to discuss your HSV encephalitis litigation case.
       },
       {
         question: 'How is causation established in a delayed-treatment HSV encephalitis case?',
-        answer: 'Causation is built from the documented timeline: when symptoms began, when encephalitis became a reasonable differential, when acyclovir was actually started or interrupted, and how neurological findings and imaging evolved during any treatment gap. Because the relationship between treatment timing and outcome is well established in the literature, the analysis follows directly from the record\\'s own timestamps rather than abstract speculation.',
+        answer: 'Causation is built from the documented timeline: when symptoms began, when encephalitis became a reasonable differential, when acyclovir was actually started or interrupted, and how neurological findings and imaging evolved during any treatment gap. Because the relationship between treatment timing and outcome is well established in the literature, the analysis follows directly from the record\'s own timestamps rather than abstract speculation.',
       },
     ],
   },
@@ -7754,11 +7754,11 @@ Contact ApexMedLaw to discuss your buprenorphine induction litigation case.
       },
       {
         question: 'What should the record show before a buprenorphine induction dose is given?',
-        answer: 'The accepted protocol calls for confirming the patient is already in mild-to-moderate objective withdrawal, typically documented with a validated scale such as the COWS, before the first dose. Relying solely on the patient\\'s self-report that "enough time has passed" since their last opioid dose, without an objective assessment, is a departure from how induction is supposed to be performed.',
+        answer: 'The accepted protocol calls for confirming the patient is already in mild-to-moderate objective withdrawal, typically documented with a validated scale such as the COWS, before the first dose. Relying solely on the patient\'s self-report that "enough time has passed" since their last opioid dose, without an objective assessment, is a departure from how induction is supposed to be performed.',
       },
       {
         question: 'Why does the washout window matter more for methadone or long-acting opioids?',
-        answer: 'Methadone and other long-acting formulations have extended half-lives, so a washout window appropriate for a short-acting opioid is inadequate for them. A practice that applies the same fixed waiting period across all opioid types without adjusting for the specific agent\\'s half-life is a frequent point of departure from the standard of care.',
+        answer: 'Methadone and other long-acting formulations have extended half-lives, so a washout window appropriate for a short-acting opioid is inadequate for them. A practice that applies the same fixed waiting period across all opioid types without adjusting for the specific agent\'s half-life is a frequent point of departure from the standard of care.',
       },
       {
         question: 'Is it a separate failure if a practice has no plan for managing a precipitated reaction?',
@@ -7766,14 +7766,14 @@ Contact ApexMedLaw to discuss your buprenorphine induction litigation case.
       },
       {
         question: 'How is causation established in a buprenorphine induction case?',
-        answer: 'Causation is built from the timeline of the patient\\'s last full-agonist use, the interval before buprenorphine was given, any objective withdrawal assessment performed, the patient\\'s reported symptoms afterward, and how the practice responded. Because the pharmacology of receptor displacement and the expected timeline of a reaction are well characterized, the opinion follows directly from matching the record against known pharmacokinetics.',
+        answer: 'Causation is built from the timeline of the patient\'s last full-agonist use, the interval before buprenorphine was given, any objective withdrawal assessment performed, the patient\'s reported symptoms afterward, and how the practice responded. Because the pharmacology of receptor displacement and the expected timeline of a reaction are well characterized, the opinion follows directly from matching the record against known pharmacokinetics.',
       },
     ],
   },
   {
     slug: 'negligent-credentialing-hospital-liability-expert-witness',
     title: 'Negligent Credentialing: A Litigation Guide for Attorneys',
-    metaDescription: 'A litigation guide to negligent credentialing claims: how attorneys prove a hospital\\'s own duty to vet physician competence was breached.',
+    metaDescription: 'A litigation guide to negligent credentialing claims: how attorneys prove a hospital\'s own duty to vet physician competence was breached.',
     date: '2026-11-10',
     author: 'AML Editorial',
     keywords: [
@@ -7824,19 +7824,19 @@ Contact ApexMedLaw to discuss your negligent credentialing litigation case.
     faqs: [
       {
         question: 'What is negligent credentialing, and how is it different from ordinary medical malpractice?',
-        answer: 'Negligent credentialing is a direct claim against a hospital for granting or continuing a physician\\'s privileges when it knew or should have known the physician was not qualified. It is independent of the treating physician\\'s own negligence — the hospital can be liable for its gatekeeping failure even where the individual act of treatment is separately defensible.',
+        answer: 'Negligent credentialing is a direct claim against a hospital for granting or continuing a physician\'s privileges when it knew or should have known the physician was not qualified. It is independent of the treating physician\'s own negligence — the hospital can be liable for its gatekeeping failure even where the individual act of treatment is separately defensible.',
       },
       {
         question: 'Does it matter whether the physician was a hospital employee or an independent contractor?',
-        answer: 'No. Unlike vicarious liability theories that depend on an employment or agency relationship, negligent credentialing is based on the hospital\\'s own duty to vet and monitor anyone it grants privileges to, regardless of employment status.',
+        answer: 'No. Unlike vicarious liability theories that depend on an employment or agency relationship, negligent credentialing is based on the hospital\'s own duty to vet and monitor anyone it grants privileges to, regardless of employment status.',
       },
       {
         question: 'What records should attorneys request to build a negligent credentialing case?',
-        answer: 'The physician\\'s full credentialing and recredentialing files, the hospital\\'s medical staff bylaws in effect at the relevant time, the physician\\'s privilege list measured against the procedure performed, and any prior malpractice history, licensing actions, or peer review findings that predate the event at issue.',
+        answer: 'The physician\'s full credentialing and recredentialing files, the hospital\'s medical staff bylaws in effect at the relevant time, the physician\'s privilege list measured against the procedure performed, and any prior malpractice history, licensing actions, or peer review findings that predate the event at issue.',
       },
       {
         question: 'How does the peer review privilege affect these cases?',
-        answer: 'Peer review privilege protects committee deliberations and conclusions in nearly every state, which is the biggest obstacle in this litigation. Many jurisdictions still allow discovery of the underlying facts a committee considered, even when its deliberations stay privileged, so discovery should be framed around those facts rather than the committee\\'s internal discussion.',
+        answer: 'Peer review privilege protects committee deliberations and conclusions in nearly every state, which is the biggest obstacle in this litigation. Many jurisdictions still allow discovery of the underlying facts a committee considered, even when its deliberations stay privileged, so discovery should be framed around those facts rather than the committee\'s internal discussion.',
       },
       {
         question: 'What kind of expert supports a negligent credentialing claim?',
