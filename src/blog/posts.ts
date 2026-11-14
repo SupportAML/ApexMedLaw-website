@@ -7990,6 +7990,90 @@ Contact ApexMedLaw to discuss your ICU delirium and sedation litigation case.
       },
     ],
   },
+  {
+    slug: 'cervical-artery-dissection-misdiagnosis-expert-witness',
+    title: 'Cervical Artery Dissection: The Overlooked Stroke Cause',
+    metaDescription: 'A guide for attorneys on cervical artery dissection: why headache or neck pain in young patients is missed before a preventable stroke.',
+    date: '2026-11-14',
+    author: 'AML Editorial',
+    keywords: [
+      'cervical artery dissection expert witness',
+      'vertebral artery dissection misdiagnosis',
+      'carotid artery dissection malpractice',
+      'stroke in young adults litigation',
+      'chiropractic stroke malpractice',
+      'missed stroke expert witness',
+    ],
+    content: `A healthy 34-year-old presents to the emergency department with a new, severe headache and neck pain. There is no history of hypertension, diabetes, or atrial fibrillation — none of the risk factors that typically prompt a stroke workup. The provider diagnoses a tension headache or cervical strain, prescribes an analgesic, and discharges the patient. Days later, that same patient returns with slurred speech and arm weakness: a completed ischemic stroke caused by a cervical artery dissection that was never imaged. For attorneys evaluating these cases, cervical artery dissection is one of the most litigable missed-stroke diagnoses precisely because the patient's youth and absence of cardiovascular risk factors — the features that caused the provider to dismiss stroke as a concern — are themselves the clinical signature of the condition.
+
+## Why Cervical Artery Dissection Is Routinely Missed
+
+**Age and risk-factor anchoring work against these patients.** Carotid and vertebral artery dissection is a leading cause of ischemic stroke in adults under 50, and it disproportionately strikes patients who have no conventional vascular risk factors at all. A provider trained to associate stroke risk with hypertension, diabetes, and advanced age may not consider a vascular diagnosis in a young patient presenting with headache, neck pain, or dizziness — and that reflexive dismissal is precisely the failure that recurs across these cases.
+
+**The presenting symptoms overlap with common, benign complaints.** Unilateral headache and neck pain, sometimes with a pulsatile quality, is the hallmark presentation of cervical artery dissection — and it is indistinguishable on history alone from migraine, cervicogenic headache, or a pulled neck muscle. Without a structured neurological exam looking for the subtler accompanying signs, the dissection is invisible on the chart.
+
+**Horner syndrome is frequently present and frequently missed.** Carotid dissection classically produces a partial Horner syndrome — mild ptosis and miosis on the affected side, without anhidrosis — that is easy to overlook unless the examiner specifically compares the pupils and eyelids side by side. A documented pupillary or eyelid asymmetry in a patient with new headache and neck pain is one of the strongest objective findings an expert can point to as a missed red flag.
+
+**A history of minor cervical trauma is the connection providers fail to make.** A substantial share of cervical artery dissections follow trivial mechanical trauma to the neck — a chiropractic adjustment, a sudden turn of the head, vigorous coughing, vomiting, or a minor sports injury — events patients often do not volunteer unless specifically asked, and that many providers do not think to ask about when evaluating a headache.
+
+## The Diagnostic Standard of Care
+
+Clinical guidelines from the American Heart Association/American Stroke Association identify a defined set of triggers that should prompt vascular imaging of the neck: new headache or neck pain accompanied by any focal neurological deficit, a new Horner syndrome, or a temporal association with recent cervical trauma or manipulation — even in a patient who appears otherwise neurologically intact. **CT angiography or MR angiography of the head and neck is the recommended first-line imaging study** once dissection is suspected; catheter angiography is reserved for cases where the noninvasive studies are equivocal. A chart in which none of these studies was ordered despite a qualifying presentation reflects a workup that never reached the standard the guidelines describe.
+
+Once dissection is confirmed, **prompt initiation of antithrombotic therapy — antiplatelet agents or anticoagulation, depending on the clinical picture — is the time-sensitive intervention that reduces the risk of a thromboembolic stroke arising from the dissected vessel.** The treatment itself is not surgically complex; the liability exposure in these cases centers almost entirely on the delay in recognizing that treatment was needed at all.
+
+## Common Patterns of Negligence
+
+**Discharging a young patient with headache and neck pain without any vascular workup** is the most common fact pattern, particularly when the chart shows no documented neurological exam beyond a cursory assessment and no inquiry into recent neck trauma or manipulation.
+
+**Failing to examine for or document Horner syndrome** when a patient presents with unilateral head or neck pain removes one of the most readily available objective findings from the record, and its absence from the chart is often read by experts as evidence the exam was not performed rather than that the finding was absent.
+
+**Treating a reported chiropractic adjustment or minor neck injury as irrelevant history** rather than as the temporal trigger the guidelines specifically flag is a recurring omission that experts highlight when reconstructing what a reasonably careful provider would have asked.
+
+**Attributing new neurological symptoms in a young patient to migraine without considering the atypical features** — first-ever severe headache, a different quality or location than a patient's prior migraines, or any accompanying motor or sensory complaint — reflects a failure to apply the "worst headache of my life" or first-presentation scrutiny that any new, severe headache warrants regardless of the patient's age.
+
+## Establishing Causation
+
+Causation in these cases turns on the interval between the missed presentation and the eventual stroke. A qualified expert reconstructs the clinical picture at the time of the missed diagnosis — the specific findings present on exam, what vascular imaging would have shown had it been ordered, and what the published literature on antithrombotic therapy for confirmed cervical artery dissection demonstrates about the reduction in subsequent stroke risk. Where the patient returned with a completed stroke within days of a dismissed presentation, that timeline is powerful evidence that earlier imaging and treatment would have intervened before the thromboembolic event occurred.
+
+## A Distinct Theory: Chiropractic Liability
+
+Separate from the medical misdiagnosis theory, cervical artery dissection litigation sometimes runs directly against a chiropractor who performed a high-velocity cervical manipulation. These cases turn on whether the practitioner screened for contraindications and vascular risk factors before the adjustment, whether the manipulation technique itself departed from accepted practice, and whether informed consent adequately disclosed the recognized, if rare, risk of vertebral artery injury from cervical spinal manipulation.
+
+## How ApexMedLaw Supports Cervical Artery Dissection Litigation
+
+These cases require experts who can speak credibly to both the stroke-neurology standard of care and the subtle exam findings — Horner syndrome, mechanism of injury, atypical headache features — that separate a defensible miss from a documented departure from guideline-driven practice. Our neurology and stroke-vascular neurology experts maintain active clinical practices evaluating exactly these presentations.
+
+We provide detailed chart review identifying whether AHA/ASA-recognized triggers for vascular imaging were present and acted upon, causation analysis connecting a delayed diagnosis to the resulting stroke, and credible, trial-ready testimony explaining these mechanisms to a jury unfamiliar with cerebrovascular anatomy.
+
+Contact ApexMedLaw to discuss your cervical artery dissection litigation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'Why is cervical artery dissection so often missed in young, healthy patients?',
+        answer: 'It is a leading cause of stroke in adults under 50, but providers trained to associate stroke risk with hypertension, diabetes, and age may not consider a vascular diagnosis in a young patient with no conventional risk factors. The presenting symptoms — headache and neck pain — also overlap heavily with migraine and musculoskeletal strain, making the diagnosis easy to dismiss without a structured exam.',
+      },
+      {
+        question: 'What is Horner syndrome and why does it matter in these cases?',
+        answer: 'Horner syndrome is a partial ptosis (drooping eyelid) and miosis (constricted pupil) on one side, classically seen in carotid artery dissection. It is an objective, examinable finding that is easy to miss unless the provider specifically compares the pupils and eyelids. Its documented presence — or its absence from a chart that shows no exam for it — is often central to the standard-of-care analysis.',
+      },
+      {
+        question: 'Does a chiropractic adjustment or minor neck injury really matter to the diagnosis?',
+        answer: 'Yes. A substantial share of cervical artery dissections follow trivial mechanical trauma to the neck, including chiropractic manipulation, sudden head turns, vigorous coughing, or minor sports injuries. Clinical guidelines specifically identify a temporal association with recent cervical trauma or manipulation as a trigger for vascular imaging, yet providers frequently fail to ask about it when evaluating a headache.',
+      },
+      {
+        question: 'What imaging and treatment does the standard of care require once dissection is suspected?',
+        answer: 'CT angiography or MR angiography of the head and neck is the recommended first-line imaging study. Once dissection is confirmed, prompt initiation of antiplatelet or anticoagulant therapy is the time-sensitive intervention that reduces the risk of a subsequent thromboembolic stroke from the dissected vessel.',
+      },
+      {
+        question: 'Can a chiropractor be independently liable in a cervical artery dissection case?',
+        answer: 'Yes, as a distinct theory from medical misdiagnosis. These claims examine whether the practitioner screened for contraindications before a high-velocity cervical manipulation, whether the technique departed from accepted practice, and whether informed consent adequately disclosed the recognized risk of vertebral artery injury from cervical spinal manipulation.',
+      },
+    ],
+  },
 ];
 
 /**
