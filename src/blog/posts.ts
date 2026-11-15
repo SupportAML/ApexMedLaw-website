@@ -8074,6 +8074,76 @@ Contact ApexMedLaw to discuss your cervical artery dissection litigation case.
       },
     ],
   },
+  {
+    slug: 'subsequent-remedial-measures-rule-407-medical-malpractice',
+    title: 'Subsequent Remedial Measures: What Rule 407 Blocks',
+    metaDescription: 'A guide for attorneys on FRE 407 and its state analogs in medical malpractice: when post-incident policy changes are excluded, and when they are not.',
+    date: '2026-11-15',
+    author: 'AML Editorial',
+    keywords: [
+      'subsequent remedial measures medical malpractice',
+      'FRE 407 hospital policy change',
+      'rule 407 exception medical malpractice',
+      'feasibility exception subsequent remedial measures',
+      'hospital policy change after adverse event litigation',
+      'impeachment subsequent remedial measures expert witness',
+    ],
+    content: `A hospital investigates a bad outcome, revises its protocol within weeks, retrains the unit, and quietly updates the order set so the same gap cannot recur. For the attorney building a malpractice case, that revision can look like the hospital's own admission that the prior protocol was inadequate — exactly the kind of evidence a jury would want to hear. Federal Rule of Evidence 407, and the nearly identical rules in most states, generally keep that evidence out. Understanding exactly what the rule excludes, and the real exceptions that survive it, determines whether a policy-change document becomes a dead end in discovery or a live tool at trial.
+
+## What Rule 407 Actually Excludes
+
+**The rule bars using a subsequent measure to prove negligence or culpable conduct — not to prove that the measure happened.** Evidence that a hospital revised a protocol, retrained staff, replaced equipment, or updated an order set after the incident at issue is inadmissible when offered to show that the earlier conduct was negligent. The policy rationale is institutional, not case-specific: courts do not want hospitals and physicians to forgo safety improvements out of fear that the improvement itself will be used against them in litigation. **The rule protects the act of fixing the problem, not the underlying facts about what the problem was.**
+
+**The measure must be genuinely "subsequent" and genuinely "remedial" to qualify.** A protocol revision adopted before the incident, or one adopted for reasons unrelated to the incident (a scheduled accreditation update, for example), falls outside the rule's protection entirely and may be fully discoverable and admissible. Attorneys evaluating a potential Rule 407 objection should pin down the precise date the measure was adopted and the stated reason for adopting it before assuming the rule applies.
+
+## The Exceptions That Keep This Evidence Alive
+
+**Impeachment is the exception most frequently used by plaintiffs' counsel.** If a defendant physician or hospital representative testifies that the prior protocol was adequate, or that nothing could have been done differently, a subsequent policy change directly contradicting that testimony becomes admissible — not to prove negligence, but to impeach the witness's credibility on that specific point. This is why deposition questions probing whether "anything changed after this incident" are standard practice: the answer either locks in testimony that forecloses the impeachment exception or sets up the contradiction that triggers it.
+
+**Feasibility of precautionary measures is the second major exception, and it is frequently contested.** If the defense argues that an earlier intervention — additional monitoring, a different staffing ratio, an earlier imaging study — was not feasible under the circumstances, evidence that the hospital implemented exactly that measure shortly afterward is admissible to rebut the feasibility argument. Defense counsel often tries to avoid triggering this exception by stipulating that the measure was feasible, which removes feasibility from dispute and keeps the subsequent change out of evidence — attorneys should recognize this stipulation for what it is and weigh whether to accept it.
+
+**Ownership or control, when genuinely disputed, is a narrower third exception.** Where a defendant denies owning or controlling the instrumentality or premises involved, evidence of subsequent repairs or changes made by that defendant can be offered to establish control — again, not to prove the underlying conduct was negligent.
+
+## Practical Discovery Strategy
+
+**Request the policy-change documents regardless of admissibility at trial.** Rule 407 governs admissibility, not discoverability — the two are frequently conflated. Quality-improvement committee minutes, revised protocols, incident-review findings, and retraining records are often discoverable even when a later motion in limine keeps the finished documents away from the jury, and they remain essential for shaping deposition questions, informing expert opinions about the standard of care, and identifying the impeachment openings described above. Where peer review or quality-assurance privilege is separately asserted over these same records, that is a distinct privilege fight — see our companion guide on peer review privilege — and attorneys should not assume a Rule 407 exclusion and a privilege assertion rise or fall together.
+
+**Build the deposition record before the motion in limine, not after.** The impeachment exception only works if the contradictory testimony is on the record. Asking the treating physician or a hospital risk-management witness directly whether any practice, protocol, or training changed as a result of this patient's case — and getting a denial or a minimization on the record — is what converts an otherwise-excluded document into live impeachment evidence months later.
+
+**Anticipate the defense motion in limine and brief the exceptions early.** Defense counsel will move to exclude subsequent remedial measures as a matter of course. The response is strongest when the attorney has already identified, before the motion is filed, which specific deposition testimony the subsequent measure would impeach or which specific feasibility argument it would rebut — a general relevance argument will not overcome the rule's default exclusion.
+
+## How ApexMedLaw Supports This Analysis
+
+Our physician experts regularly review the clinical substance behind a hospital's post-incident protocol change — what specifically was revised, why, and whether the revision reflects an institutional acknowledgment that the prior practice fell below an accepted standard. That clinical read is what tells counsel whether a given policy change is worth the discovery fight and how to frame deposition questions that preserve the impeachment exception.
+
+Contact ApexMedLaw to discuss the clinical and causation analysis behind your case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Rule 407 and its state analogs vary in exact text and interpretation by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'Does Rule 407 mean a hospital policy change after an incident is never admissible?',
+        answer: 'No. Rule 407 only bars using the subsequent measure to prove that the prior conduct was negligent. It remains admissible for other purposes, most commonly impeachment of testimony that nothing could have been done differently, or to rebut a feasibility argument the defense has raised.',
+      },
+      {
+        question: 'Can plaintiffs still obtain hospital policy-change documents in discovery even if they are excluded at trial?',
+        answer: 'Often yes. Rule 407 governs admissibility, not discoverability. Protocol revisions, quality-improvement findings, and retraining records are frequently discoverable and useful for shaping expert opinions and deposition strategy even when a later motion in limine keeps the documents from the jury.',
+      },
+      {
+        question: 'How does the impeachment exception to Rule 407 actually work in practice?',
+        answer: 'If a defense witness testifies that the prior protocol was adequate or that nothing could have been done differently, a subsequent policy change that contradicts that testimony becomes admissible to impeach the witness on that specific point. This is why deposition questions asking whether anything changed after the incident are standard practice.',
+      },
+      {
+        question: 'What is the feasibility exception to Rule 407?',
+        answer: 'If the defense argues that an earlier intervention was not feasible under the circumstances, evidence that the defendant implemented that exact measure shortly after the incident is admissible to rebut the feasibility claim. Defense counsel sometimes stipulates that the measure was feasible specifically to avoid triggering this exception.',
+      },
+      {
+        question: 'Is a Rule 407 exclusion the same as a peer review or quality-assurance privilege?',
+        answer: 'No. Rule 407 is an evidentiary admissibility rule; peer review and quality-assurance privilege is a separate, independent protection that may or may not also apply to the same documents. Attorneys should evaluate each protection separately rather than assuming one determines the other.',
+      },
+    ],
+  },
 ];
 
 /**
