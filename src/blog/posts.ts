@@ -8144,6 +8144,93 @@ Contact ApexMedLaw to discuss the clinical and causation analysis behind your ca
       },
     ],
   },
+  {
+    slug: 'celiac-plexus-block-complications-expert-witness',
+    title: 'Celiac Plexus Block Complications: A Litigation Guide',
+    metaDescription: 'A pain medicine expert witness guide to celiac plexus block litigation: retroperitoneal hemorrhage, paraplegia, and failure-to-screen claims.',
+    date: '2026-11-16',
+    author: 'AML Editorial',
+    keywords: [
+      'celiac plexus block expert witness',
+      'celiac plexus block malpractice',
+      'paraplegia interventional pain lawsuit',
+      'retroperitoneal hemorrhage malpractice',
+      'splanchnic nerve block complications',
+      'interventional pain medicine expert witness',
+    ],
+    content: `A patient with chronic pancreatic cancer pain or refractory abdominal pain from chronic pancreatitis is referred for a celiac plexus block — a procedure that deposits neurolytic agent or local anesthetic around the celiac ganglia to interrupt visceral pain signaling from the upper abdominal organs. For most patients the procedure provides meaningful relief with a manageable risk profile. But the celiac plexus sits immediately adjacent to the aorta, the inferior vena cava, and a dense network of lumbar segmental arteries that feed the spinal cord, and a needle placed even slightly off target can produce catastrophic injury: retroperitoneal hemorrhage, bowel or renal injury, and — in the rare but devastating cases that drive this litigation — paraplegia from injury to the artery of Adamkiewicz or another critical spinal feeder vessel. Attorneys evaluating these cases need an expert who has performed celiac plexus blocks under fluoroscopic or CT guidance and can speak precisely to where a specific needle trajectory and injectate pattern departed from accepted technique.
+
+## Why This Procedure Carries Outsized Risk
+
+**The celiac plexus lies in a crowded retroperitoneal space immediately anterior to the aorta at approximately the T12–L1 vertebral level, surrounded by structures a misplaced needle or a poorly controlled spread of neurolytic agent can injure.** The classic posterior approaches pass the needle within millimeters of the aorta and vena cava; an anterior transabdominal approach crosses through bowel and solid organs to reach the target. Even a technically correct needle position does not eliminate risk, because the injected volume itself can track along fascial planes toward vascular structures the operator did not intend to reach.
+
+**Anterior spinal artery syndrome from injury to a lumbar segmental artery is the injury that defines the most severe cases in this area.** The artery of Adamkiewicz — the dominant arterial supply to the lower two-thirds of the spinal cord in most patients — arises from a lumbar segmental artery whose exact level varies between individuals and is not reliably identifiable on standard fluoroscopy. Direct injury to this vessel, or vasospasm and thrombosis triggered by neurolytic agent or particulate steroid reaching it, can produce an acute, often irreversible paraplegia with no surgical remedy once it occurs.
+
+## The Diagnostic and Procedural Standard of Care
+
+**Image guidance — fluoroscopy, CT, or increasingly endoscopic ultrasound — is the baseline requirement for a defensible celiac plexus block; the procedure should not be performed by anatomic landmarks alone.** Within image-guided technique, contrast injection to confirm appropriate retrocrural or antecrural spread, and specifically to rule out intravascular uptake, before the therapeutic agent is injected, is the accepted safeguard against inadvertent vascular injection. **A record showing neurolytic agent or steroid injected without a preceding contrast study documenting the spread pattern is a significant deviation from accepted interventional pain practice.**
+
+**A test dose or small-volume local anesthetic injection before the full therapeutic volume is administered allows the operator to observe for an adverse response — a drop in blood pressure, a change in motor or sensory function, or signs of intravascular injection — while the effect is still reversible.** Proceeding directly to full-volume neurolytic injection without this incremental approach removes the safety margin the standard of care is built around, particularly for neurolytic (as opposed to purely diagnostic local anesthetic) blocks, where the injury is often not reversible once delivered.
+
+## Common Patterns of Negligence
+
+**Performing the block without image guidance, or without contrast confirmation of needle position and injectate spread, before administering a neurolytic agent** removes the principal safeguards against vascular and visceral injury and is the fact pattern most frequently at the center of this litigation.
+
+**Failing to recognize and respond to intraprocedural warning signs** — a sudden blood pressure drop, new leg weakness or numbness reported by an awake patient, or blood return on aspiration — and proceeding with the injection anyway converts a recoverable near-miss into a completed injury.
+
+**Inadequate post-procedure neurological monitoring** in a setting where paraplegia from a vascular injury may not be immediately obvious under sedation is a distinct failure from the procedural technique itself: a patient discharged or left unmonitored without a documented motor and sensory exam in the recovery period loses the window in which an evolving spinal cord injury might still have been addressed.
+
+**Using a neurolytic agent for a diagnostic or short-term indication** where a reversible local anesthetic block would have accomplished the same diagnostic purpose with a materially lower risk profile is a judgment departure attorneys should have a pain medicine expert evaluate against the specific clinical indication documented in the record.
+
+## Establishing Causation
+
+Causation analysis in these cases reconstructs the procedural record in close detail: the imaging modality used, whether contrast confirmation preceded injection, the documented needle position and approach (posterior retrocrural, posterior antecrural, or anterior), the agent and volume injected, and the timing of any neurological symptoms relative to the injection. Because anterior spinal artery syndrome typically presents acutely — within minutes to hours of the inciting injection — a tight temporal correlation between the procedure and the onset of lower-extremity weakness or sensory loss is often the strongest available evidence connecting the injury to the specific injection rather than to an unrelated cause such as the patient's underlying cancer or pre-existing neuropathy, which defense experts will routinely raise as alternative explanations.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential celiac plexus block case should obtain:
+
+- Pre-procedure imaging and the documented indication, including why a neurolytic versus a diagnostic local anesthetic approach was chosen
+- Fluoroscopic or CT images from the procedure itself, including any contrast injection confirming needle position and spread pattern
+- The procedural note documenting approach, needle trajectory, agent, volume, and any test dose given before full injection
+- Vital sign and neurological status documentation throughout the procedure, including any response to a test dose
+- Post-procedure monitoring records, including the timing and findings of any motor and sensory examination
+- The timeline of onset of any neurological symptoms relative to the procedure, and all subsequent imaging (MRI of the spine) performed to evaluate the cause
+
+## How ApexMedLaw Supports Celiac Plexus Block Litigation
+
+These cases require an expert who has personally performed image-guided celiac plexus blocks and can speak credibly to the specific technical safeguards — contrast confirmation, test dosing, intraprocedural monitoring — that separate an accepted but unfortunate complication from a documented departure from practice. Our interventional pain medicine and anesthesiology experts bring that direct procedural experience to case review.
+
+We provide detailed review of the procedural record against accepted interventional technique, causation analysis correlating the injection timeline with the onset of neurological injury, and credible, trial-ready testimony explaining the anatomy and mechanism of injury to a jury unfamiliar with retroperitoneal vascular anatomy.
+
+Contact ApexMedLaw to discuss your celiac plexus block litigation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'Why can a celiac plexus block cause paraplegia?',
+        answer: 'The celiac plexus sits near lumbar segmental arteries that can give rise to the artery of Adamkiewicz, the dominant blood supply to the lower spinal cord in most patients. Direct injury to this vessel, or vasospasm and thrombosis triggered by neurolytic agent reaching it, can cause acute and often irreversible paraplegia — a rare but well-recognized complication that is not reliably predictable before the procedure.',
+      },
+      {
+        question: 'What imaging safeguards does the standard of care require before injecting neurolytic agent?',
+        answer: 'Image guidance (fluoroscopy, CT, or endoscopic ultrasound) is required rather than performing the block by anatomic landmarks alone, and contrast injection to confirm the spread pattern and rule out intravascular uptake should precede the therapeutic injection. A record showing neurolytic agent injected without a preceding contrast study is a significant deviation from accepted practice.',
+      },
+      {
+        question: 'What is a test dose and why does skipping it matter?',
+        answer: 'A test dose is a small-volume injection of local anesthetic given before the full therapeutic volume, allowing the operator to observe for an adverse response — blood pressure changes, new weakness, or signs of intravascular injection — while still reversible. Proceeding directly to a full-volume neurolytic injection without this step removes the safety margin the standard of care relies on.',
+      },
+      {
+        question: 'How soon after the procedure do spinal cord injury symptoms typically appear?',
+        answer: 'Anterior spinal artery syndrome from a celiac plexus block typically presents acutely, within minutes to hours of the injection. This tight temporal correlation is often the strongest evidence connecting the injury to the specific procedure, countering defense arguments that the weakness stemmed from the patient\'s underlying cancer or a pre-existing neuropathy.',
+      },
+      {
+        question: 'What records are essential to evaluating a celiac plexus block malpractice case?',
+        answer: 'Key records include the pre-procedure imaging and documented indication, fluoroscopic or CT images showing contrast confirmation of needle position, the procedural note detailing approach and any test dose, intraprocedural vital sign and neurological monitoring, post-procedure examination records, and the timeline of any neurological symptoms relative to the injection.',
+      },
+    ],
+  },
 ];
 
 /**
