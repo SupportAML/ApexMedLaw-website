@@ -8411,6 +8411,100 @@ Contact ApexMedLaw to discuss your delirium tremens or alcohol withdrawal litiga
       },
     ],
   },
+  {
+    slug: 'anti-nmda-receptor-encephalitis-misdiagnosis-expert-witness',
+    title: 'Anti-NMDA Receptor Encephalitis: A Litigation Guide',
+    metaDescription: 'A neurology expert witness guide to anti-NMDA receptor encephalitis litigation: psychiatric misattribution, tumor workup, and immunotherapy timing.',
+    date: '2026-11-19',
+    author: 'AML Editorial',
+    keywords: [
+      'anti-NMDA receptor encephalitis expert witness',
+      'autoimmune encephalitis malpractice',
+      'psychiatric misdiagnosis encephalitis litigation',
+      'ovarian teratoma NMDA encephalitis',
+      'neurology expert witness',
+      'delayed immunotherapy malpractice',
+    ],
+    content: `A young woman in her twenties or thirties develops a strange constellation of symptoms over one to two weeks: anxiety, insomnia, and paranoia that look like a first psychotic break, followed by memory problems, disorganized speech, and then seizures or abnormal, repetitive movements. She is admitted to a psychiatric unit, started on antipsychotics, and treated as a primary psychiatric emergency for days or weeks before anyone orders the test that would have identified anti-NMDA receptor encephalitis — an autoimmune disease that is highly treatable when caught early and devastating or fatal when it is not. Attorneys evaluating these cases need a neurologist who can speak precisely to when the psychiatric presentation should have triggered an organic workup, when the paraneoplastic evaluation should have started, and how much of the resulting injury was preventable with timely immunotherapy.
+
+## Why Anti-NMDA Receptor Encephalitis Is Missed
+
+**The presentation is built to be misread as psychiatric illness.** Anti-NMDA receptor encephalitis classically begins with prodromal fever or headache, then rapidly progressing psychiatric symptoms — agitation, hallucinations, bizarre behavior — that closely mimic a first-episode psychotic disorder, especially in young adults with no prior psychiatric history. A psychiatry team working from the presenting symptoms alone, without a neurologic consultation, has every incentive to treat the case as primary psychiatric disease rather than suspect an underlying autoimmune or paraneoplastic process.
+
+**The disease has a recognizable, multistage course that distinguishes it from a typical psychotic break — if someone is looking for it.** After the psychiatric prodrome, the classic evolution adds memory deficits, decreased level of consciousness, seizures, and a characteristic movement disorder (orofacial dyskinesias, choreoathetoid movements) along with autonomic instability — hyperthermia, blood pressure swings, cardiac arrhythmias, and hypoventilation that can require ventilatory support. A chart showing new seizures, abnormal movements, or autonomic instability in a patient on a psychiatric unit, without a neurology consult or further workup, is a significant red flag for a missed diagnosis.
+
+**The confirmatory test is specific but easy to never order.** Anti-NMDA receptor antibody testing of cerebrospinal fluid (more sensitive than serum alone) is the standard diagnostic test, but it is not part of a routine psychiatric admission workup and will not be obtained unless a treating provider specifically suspects autoimmune encephalitis and orders a lumbar puncture. Supportive findings — a lymphocytic pleocytosis on routine CSF studies, nonspecific EEG abnormalities, or MRI findings that are often normal or subtle — are easy to overlook or discount when no one is affirmatively considering the diagnosis.
+
+## The Standard of Care: Red Flags That Should Trigger Workup
+
+**The accepted standard is that a young patient presenting with acute or subacute psychiatric symptoms plus any neurologic feature — seizure, abnormal movement, altered consciousness, autonomic instability, or a rapid, atypical progression inconsistent with a primary psychiatric disorder — should prompt neurologic evaluation and consideration of autoimmune encephalitis**, not an assumption that escalating antipsychotic doses will control an organic, antibody-mediated process. Published diagnostic criteria for probable autoimmune encephalitis call for exactly this kind of structured consideration of neurologic "red flags" in a patient with new psychiatric symptoms, rather than treating the psychiatric presentation in isolation.
+
+**Once autoimmune encephalitis is suspected, the standard of care requires prompt lumbar puncture for CSF antibody testing, MRI brain, EEG, and — critically — a paraneoplastic tumor workup**, because anti-NMDA receptor encephalitis in women is frequently associated with an ovarian teratoma, and tumor removal is a core part of treatment. Pelvic imaging (ultrasound, CT, or MRI) to evaluate for teratoma should be obtained as part of the initial workup in female patients, not deferred until after a prolonged psychiatric hospitalization has failed to improve the patient.
+
+**First-line immunotherapy — high-dose corticosteroids, IVIG, or plasma exchange, started promptly once the diagnosis is suspected or confirmed — is the accepted treatment, with escalation to second-line agents such as rituximab or cyclophosphamide for patients who do not respond.** The literature is consistent that earlier treatment initiation is associated with better functional outcomes and a shorter, less severe disease course; delayed recognition translates directly into delayed treatment and a materially worse trajectory.
+
+## Common Patterns of Negligence
+
+**Treating a first psychotic break in a young adult as purely psychiatric without considering or ruling out an organic cause**, particularly when the presentation is atypical for primary psychiatric disease — unusually rapid progression, prominent fever, or lack of a prior psychiatric history.
+
+**Failure to obtain neurology consultation once neurologic features emerge** — new seizures, abnormal movements, autonomic instability, or a fluctuating level of consciousness — on a patient admitted to a psychiatric unit, with these findings instead documented and managed as agitation or medication side effects.
+
+**Omitting or delaying CSF antibody testing and the associated tumor workup** in a patient who meets criteria for probable autoimmune encephalitis, leaving the diagnosis unconfirmed while the patient's neurologic status continues to deteriorate.
+
+**Delayed initiation of first-line immunotherapy after the diagnosis is suspected or confirmed**, whether from diagnostic hesitation, inter-service coordination failures between psychiatry and neurology, or simply failing to escalate therapy when the patient does not improve on an inadequate regimen.
+
+**Failure to identify and remove an associated ovarian teratoma**, which both drives the underlying immune process and, left in place, undermines the response to immunotherapy and increases the risk of relapse.
+
+## Establishing Causation
+
+Causation in anti-NMDA receptor encephalitis litigation turns on the same timeline-based analysis used across other delayed-diagnosis neurology cases: when did the psychiatric-plus-neurologic presentation first meet the threshold that should have triggered a workup, when was CSF antibody testing and tumor imaging actually obtained, and when was immunotherapy started relative to that point. Because the published literature correlates earlier treatment with meaningfully better functional recovery and a lower relapse rate, an expert can reconstruct the specific interval of avoidable delay — the gap between when the red flags were present in the record and when the correct workup and treatment actually began — and tie it to the patient's residual cognitive, behavioral, or neurologic deficits.
+
+## Critical Documentation for Case Evaluation
+
+Attorneys evaluating a potential anti-NMDA receptor encephalitis malpractice case should obtain:
+
+- The psychiatric admission history and physical, including prior psychiatric history (or its absence) and the documented onset and progression of symptoms
+- Nursing flowsheets documenting seizures, abnormal movements, autonomic instability, and level of consciousness over the admission
+- Records of any neurology consultation request, including when it was requested and when it was performed
+- CSF studies, including whether and when anti-NMDA receptor antibody testing was ordered, along with MRI and EEG reports
+- Pelvic or abdominal imaging ordered to evaluate for an ovarian teratoma or other tumor
+- Medication administration records showing immunotherapy timing and any escalation to second-line agents
+- Discharge summaries and follow-up records documenting the patient's functional and cognitive trajectory
+
+## How ApexMedLaw Supports Anti-NMDA Receptor Encephalitis Litigation
+
+These cases require an expert who can explain, credibly and clearly, why a patient's "first psychotic break" was in fact a treatable autoimmune disease — and why the neurologic red flags that distinguish the two were present in the chart all along. Our neurology experts bring active clinical experience diagnosing and managing autoimmune encephalitis to case review, including the interface between psychiatric and neurologic presentations that these cases often turn on.
+
+We provide detailed review of the psychiatric and neurologic record against accepted autoimmune encephalitis diagnostic criteria, causation analysis grounded in the published relationship between treatment timing and functional outcome, and credible, trial-ready testimony that makes the preventability of the outcome clear.
+
+Contact ApexMedLaw to discuss your anti-NMDA receptor encephalitis or autoimmune encephalitis litigation case.
+
+---
+
+*This post is for informational purposes and does not constitute legal advice. Standards vary by jurisdiction.*`,
+    faqs: [
+      {
+        question: 'Why is anti-NMDA receptor encephalitis often misdiagnosed as a psychiatric disorder?',
+        answer: 'The disease classically begins with rapidly progressing psychiatric symptoms — agitation, hallucinations, paranoia — in young adults who often have no prior psychiatric history, closely mimicking a first psychotic break. Without a neurology consultation or consideration of an organic cause, treating teams can manage the case purely as psychiatric illness for days or weeks before neurologic features prompt further workup.',
+      },
+      {
+        question: 'What neurologic "red flags" should prompt a workup for autoimmune encephalitis?',
+        answer: 'New seizures, abnormal or repetitive movements (orofacial dyskinesias, choreoathetoid movements), autonomic instability such as hyperthermia or cardiac arrhythmias, and a fluctuating or declining level of consciousness in a patient with acute psychiatric symptoms should prompt neurologic evaluation and consideration of autoimmune encephalitis rather than escalating psychiatric treatment alone.',
+      },
+      {
+        question: 'Why does an ovarian teratoma matter in these cases?',
+        answer: 'Anti-NMDA receptor encephalitis in women is frequently associated with an ovarian teratoma, which drives the underlying immune process. The standard of care includes pelvic imaging to evaluate for a teratoma as part of the initial workup, and failure to identify and remove an associated tumor can undermine the response to immunotherapy and increase relapse risk.',
+      },
+      {
+        question: 'How does treatment timing affect outcomes in anti-NMDA receptor encephalitis?',
+        answer: 'Published outcome data consistently associate earlier initiation of first-line immunotherapy — corticosteroids, IVIG, or plasma exchange — with better functional recovery and a shorter, less severe disease course. This relationship gives experts a defensible framework for calculating the harm attributable to a specific, documented delay in diagnosis and treatment.',
+      },
+      {
+        question: 'What records are essential to evaluating an anti-NMDA receptor encephalitis malpractice case?',
+        answer: 'Key records include the psychiatric admission history, nursing flowsheets documenting neurologic and autonomic findings over the admission, neurology consultation timing, CSF antibody testing and MRI/EEG results, pelvic or abdominal imaging for tumor evaluation, medication administration records for immunotherapy timing, and discharge and follow-up records showing the patient\'s functional trajectory.',
+      },
+    ],
+  },
 ];
 
 /**
